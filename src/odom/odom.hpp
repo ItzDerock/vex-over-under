@@ -34,4 +34,9 @@ void reset();
  */
 void init();
 
+/**
+ * The odometry mutex. Use whenever you are reading values.
+ */
+extern pros::Mutex mutex;
+
 } // namespace odom

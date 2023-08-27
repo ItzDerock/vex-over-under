@@ -4,6 +4,7 @@
 
 // Task to update the odom
 pros::Task *odomTask = nullptr;
+pros::Mutex odom::mutex;
 
 struct {
   double left, right, center, theta;
@@ -16,12 +17,15 @@ struct {
 odom::RobotPosition state = {0, 0, 0};
 
 void odom::update() {
+  // lock mutex
+  mutex.take();
+
   // skip runs when all sensors are not initialized
 
   // 1. Store the current encoder values
-  auto left = left_tracking_wheel->get_position();
-  auto right = right_tracking_wheel->get_position();
-  auto center = middle_tracking_wheel->get_position();
+  auto left = odom_left.sensor->get_position();
+  auto right = odom_right.sensor->get_position();
+  auto center = odom_middle.sensor->get_position();
 
   // 2. Calculate delta values
   auto dL = left - prevSensors.left;
@@ -38,9 +42,8 @@ void odom::update() {
   // auto deltaRr = right - resetValues.right;
 
   // 5. Calculate new orientation
-  auto newTheta =
-      resetValues.theta + (left - right) / (left_tracking_wheel.getOffset() +
-                                            right_tracking_wheel.getOffset());
+  auto newTheta = resetValues.theta +
+                  (left - right) / (odom_left.offset + odom_right.offset);
 
   printf("newTheta: %f\n", newTheta);
 
@@ -55,18 +58,17 @@ void odom::update() {
     localOffset.y = dR;
   } else {
     // 8. Otherwise, calculate local offset with formula.
-    localOffset.x = 2 * sin(dTheta / 2) *
-                    (dC / dTheta + (middle_tracking_wheel.getOffset()));
-    localOffset.y = 2 * sin(dTheta / 2) *
-                    (dR / dTheta + (right_tracking_wheel.getOffset()));
+    localOffset.x = 2 * sin(dTheta / 2) * (dC / dTheta + (odom_middle.offset));
+    localOffset.y = 2 * sin(dTheta / 2) * (dR / dTheta + (odom_right.offset));
   }
 
   // 9. Calculate the average orientation
   auto thetam = state.theta + dTheta / 2;
 
   // 10. Calculate the global offset
-  int globalOffsetX = 0;
-  int globalOffsetY = 0;
+  RobotPosition globalOffset = {0, 0, 0};
+  // int globalOffsetX = 0;
+  // int globalOffsetY = 0;
 
   // convert local offset to polar coordinates
   double r =
@@ -77,14 +79,17 @@ void odom::update() {
   theta -= thetam;
 
   // convert back to Cartesian coordinates
-  globalOffsetX = r * cos(theta);
-  globalOffsetY = r * sin(theta);
+  globalOffset.x = r * cos(theta);
+  globalOffset.y = r * sin(theta);
 
   // 11. Update the global position
-  state.x += globalOffsetX;
-  state.y += globalOffsetY;
+  state.x += globalOffset.x;
+  state.y += globalOffset.y;
 
   state.theta = newTheta;
+
+  // unlock mutex
+  mutex.give();
 }
 
 void odom::init() {
@@ -99,6 +104,9 @@ void odom::init() {
 }
 
 void odom::reset(odom::RobotPosition startState) {
+  // aquire mutex
+  mutex.take();
+
   // stop task
   if (odomTask != nullptr) {
     odomTask->remove();
@@ -106,9 +114,9 @@ void odom::reset(odom::RobotPosition startState) {
   }
 
   // reset encoders
-  left_tracking_wheel.reset();
-  right_tracking_wheel.reset();
-  middle_tracking_wheel.reset();
+  odom_left.sensor->reset();
+  odom_right.sensor->reset();
+  odom_middle.sensor->reset();
 
   // reset state
   // state = startState;
@@ -122,6 +130,9 @@ void odom::reset(odom::RobotPosition startState) {
 
   // restart task
   init();
+
+  // release mutex
+  mutex.give();
 }
 
 void odom::reset() {
@@ -130,10 +141,19 @@ void odom::reset() {
 }
 
 odom::RobotPosition odom::getPosition(bool degrees) {
-  if (!degrees)
-    return state;
+  // aquire mutex
+  mutex.take();
 
-  return {state.x, state.y, state.theta * (180 / M_PI)};
+  // get the state
+  RobotPosition returnState =
+      degrees ? RobotPosition(state.x, state.y, state.theta * (180 / M_PI))
+              : state;
+
+  // release mutex
+  mutex.give();
+
+  // return the state
+  return returnState;
 }
 
 odom::RobotPosition odom::getPosition() { return getPosition(false); }
