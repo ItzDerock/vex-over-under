@@ -93,14 +93,18 @@ void odom::update() {
 }
 
 void odom::init() {
-  if (odomTask == nullptr) {
-    odomTask = new pros::Task([]() {
-      while (true) {
-        update();
-        pros::delay(10);
-      }
-    });
+  if (odomTask != nullptr) {
+    std::cout << "WARNING: odom::init() called when odomTask is not null"
+              << std::endl;
+    return;
   }
+
+  odomTask = new pros::Task([]() {
+    while (true) {
+      update();
+      pros::delay(10);
+    }
+  });
 }
 
 void odom::reset(odom::RobotPosition startState) {
