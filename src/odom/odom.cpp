@@ -48,7 +48,7 @@ void odom::update() {
   auto dTheta = newTheta - state.theta;
 
   // 7. Calculate local offset for dTheta = 0
-  odom::XY localOffset = {0, 0};
+  RobotPosition localOffset = {0, 0, 0};
 
   if (dTheta == 0) {
     localOffset.x = dC;
@@ -65,8 +65,8 @@ void odom::update() {
   auto thetam = state.theta + dTheta / 2;
 
   // 10. Calculate the global offset
-  // 10. Calculate global offset
-  auto globalOffset = {0, 0};
+  int globalOffsetX = 0;
+  int globalOffsetY = 0;
 
   // convert local offset to polar coordinates
   double r =
@@ -77,12 +77,12 @@ void odom::update() {
   theta -= thetam;
 
   // convert back to Cartesian coordinates
-  globalOffset.x = r * cos(theta);
-  globalOffset.y = r * sin(theta);
+  globalOffsetX = r * cos(theta);
+  globalOffsetY = r * sin(theta);
 
   // 11. Update the global position
-  state.x += globalOffset.x;
-  state.y += globalOffset.y;
+  state.x += globalOffsetX;
+  state.y += globalOffsetY;
 
   state.theta = newTheta;
 }
