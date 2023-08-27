@@ -13,11 +13,11 @@
  *************************/
 
 // useful macro for quickly defining a shared_ptr
-#define SHARED(type, name) std::shared_ptr<type> name
+#define SHARED(type, name) extern std::shared_ptr<type> name
 
 // odometry sensors
-extern SHARED(pros::Rotation, left_tracking_wheel);
-extern SHARED(pros::Rotation, middle_tracking_wheel);
-extern SHARED(pros::Rotation, right_tracking_wheel);
+SHARED(pros::Rotation, left_tracking_wheel);
+SHARED(pros::Rotation, middle_tracking_wheel);
+SHARED(pros::Rotation, right_tracking_wheel);
 
 #undef SHARED
