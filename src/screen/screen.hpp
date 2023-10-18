@@ -1,5 +1,5 @@
 #pragma once
-#include "display/lv_core/lv_obj.h"
+#include "liblvgl/core/lv_obj.h"
 #include "main.h"
 
 namespace screen {

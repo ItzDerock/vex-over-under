@@ -25,10 +25,10 @@ inline double inchesToPixels(double inches, double imageWidth) {
 
 void screen::FieldWindow::init() {
   // create the images
-  fieldImage = lv_img_create(this->lvObj, NULL);
+  fieldImage = lv_img_create(this->lvObj);
   lv_img_set_src(fieldImage, &FIELD_BACKGROUND);
 
-  robotImage = lv_img_create(this->lvObj, NULL);
+  robotImage = lv_img_create(this->lvObj);
   lv_img_set_src(robotImage, &ROBOT_IMAGE);
 
   // set the size of the images

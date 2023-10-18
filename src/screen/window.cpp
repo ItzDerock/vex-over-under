@@ -1,4 +1,4 @@
-#include "display/lv_core/lv_obj.h"
+#include "liblvgl/core/lv_disp.h"
 #include "main.h"
 #include "screen.hpp"
 
@@ -14,7 +14,7 @@ Window::Window(int width, int height, lv_obj_t *parent) {
   this->width = width;
   this->height = height;
   this->active = true;
-  this->lvObj = lv_obj_create(parent, NULL);
+  this->lvObj = lv_obj_create(parent);
   lv_obj_set_size(this->lvObj, width, height);
 }
 
@@ -59,14 +59,14 @@ void Window::startTask() {
  *
  * @return The width of the window.
  */
-int Window::getWidth() { return this->width; }
+int Window::getWidth() const { return this->width; }
 
 /**
  * Gets the height of the window.
  *
  * @return The height of the window.
  */
-int Window::getHeight() { return this->height; }
+int Window::getHeight() const { return this->height; }
 
 /**
  * Gets the LVGL object that represents this window.
@@ -78,7 +78,7 @@ lv_obj_t *Window::getLvObj() { return this->lvObj; }
 /**
  * Gets if this window is active
  */
-bool Window::isActive() { return this->active; }
+bool Window::isActive() const { return this->active; }
 
 /**
  * Sets if this window is active
@@ -98,7 +98,7 @@ bool Window::toggleActive() {
  * Gets the pros task handle for this window.
  * nullptr if the task is not running.
  */
-pros::Task *Window::getTask() { return this->task; }
+pros::Task *Window::getTask() const { return this->task; }
 
 // stub
 void Window::tick(){};

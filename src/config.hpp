@@ -8,6 +8,14 @@
 #define ODOM_MIDDLE_PORT 9
 #define ODOM_RIGHT_PORT 10
 
+// DRIVETRAIN
+#define DRIVE_LEFT_FRONT 1
+#define DRIVE_LEFT_BACK 2
+#define DRIVE_LEFT_PTO 3
+#define DRIVE_RIGHT_FRONT 4
+#define DRIVE_RIGHT_BACK 5
+#define DRIVE_RIGHT_PTO 6
+
 /*************************
  * VARIABLE DECLARATIONS *
  *************************/
@@ -27,5 +35,16 @@ struct OdomSensor {
 extern OdomSensor odom_left;
 extern OdomSensor odom_right;
 extern OdomSensor odom_middle;
+
+//// Drivetrain
+extern SHARED(pros::Motor, drive_left_front);
+extern SHARED(pros::Motor, drive_left_back);
+extern SHARED(pros::Motor, drive_left_pto);
+extern SHARED(pros::Motor, drive_right_front);
+extern SHARED(pros::Motor, drive_right_back);
+extern SHARED(pros::Motor, drive_right_pto);
+
+extern pros::MotorGroup drive_left;
+extern pros::MotorGroup drive_right;
 
 #undef SHARED
