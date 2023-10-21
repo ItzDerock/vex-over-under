@@ -1,5 +1,6 @@
 #pragma once
 #include "liblvgl/core/lv_obj.h"
+#include "liblvgl/widgets/lv_img.h"
 #include "main.h"
 
 namespace screen {
