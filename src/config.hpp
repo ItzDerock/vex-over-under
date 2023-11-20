@@ -1,6 +1,5 @@
 #pragma once
 #include "main.h"
-#include "pros/rotation.hpp"
 
 // ODOMETRY
 #define ODOMETRY_WHEEL_DIAMETER 2.75 // inches
