@@ -1,6 +1,8 @@
 #include "main.h"
 #include "config.hpp"
+#include "pros/misc.h"
 #include "screen/screen.hpp"
+#include "subsystems/subsystems.hpp"
 
 /**
  * Runs initialization code. This occurs as soon as the program is started.
@@ -8,7 +10,7 @@
  * All other competition modes are blocked by initialize; it is recommended
  * to keep execution time for this mode under a few seconds.
  */
-void initialize() {}
+void initialize() { catapult::initialize(); }
 
 /**
  * Runs while the robot is in the disabled state of Field Management System or
@@ -70,6 +72,19 @@ void opcontrol() {
     drive_right_front->move(rightJoystick);
     drive_right_pto->move(rightJoystick);
 
-    pros::delay(20); // Run for 20 ms then update
+    // if single press, fire once
+    if (master.get_digital_new_press(DIGITAL_R1)) {
+      catapult::fire();
+    }
+    // if held, rapid fire
+    else if (master.get_digital(DIGITAL_R1)) {
+      catapult::rapidFire = true;
+    }
+    // if released, stop rapid fire
+    else {
+      catapult::rapidFire = false;
+    }
+
+    pros::delay(10);
   }
 }

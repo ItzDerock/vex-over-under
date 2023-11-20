@@ -16,6 +16,10 @@
 #define DRIVE_RIGHT_BACK 5
 #define DRIVE_RIGHT_PTO 6
 
+// CATAPULT
+#define CATAPULT_PORT 7
+#define CATAPULT_ROT_PORT 11
+
 /*************************
  * VARIABLE DECLARATIONS *
  *************************/
@@ -46,5 +50,9 @@ extern SHARED(pros::Motor, drive_right_pto);
 
 extern pros::MotorGroup drive_left;
 extern pros::MotorGroup drive_right;
+
+//// Catapult
+extern SHARED(pros::Motor, catapult_motor);
+extern SHARED(pros::Rotation, catapult_position);
 
 #undef SHARED

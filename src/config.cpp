@@ -1,7 +1,7 @@
 #include "config.hpp"
-#include "pros/abstract_motor.hpp"
 #include "pros/motor_group.hpp"
 #include "pros/motors.h"
+#include "pros/rotation.hpp"
 #define SHARED(type, name) std::shared_ptr<type> name
 
 SHARED(pros::Rotation,
@@ -45,6 +45,12 @@ std::vector<pros::Motor> drive_left_v = {*drive_left_front, *drive_left_back};
 
 std::vector<pros::Motor> drive_right_v = {*drive_right_front,
                                           *drive_right_back};
+
+SHARED(pros::Motor, catapult_motor) =
+    std::make_shared<pros::Motor>(CATAPULT_PORT, pros::v5::MotorGear::red);
+
+SHARED(pros::Rotation,
+       catapult_position) = std::make_shared<pros::Rotation>(CATAPULT_ROT_PORT);
 
 // pros::MotorGroup drive_left(drive_left_v);
 
