@@ -4,6 +4,10 @@
 #include "pros/rtos.hpp"
 
 #include <memory>
+
+/**
+ * Catapult-related subsystem functions
+ */
 namespace catapult {
 
 #define CATAPULT_ALLOWED_ERROR 10
@@ -39,3 +43,8 @@ void initialize();
 void fire();
 
 } // namespace catapult
+
+/**
+ * Wings-related subsystem functions
+ */
+namespace wings {}

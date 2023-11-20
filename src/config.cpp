@@ -1,6 +1,9 @@
+/**
+ * This file just defines the global variables declared in config.hpp.
+ * Please edit config.hpp instead of this file for port changes.
+ */
+
 #include "config.hpp"
-#include "pros/motor_group.hpp"
-#include "pros/motors.h"
 #include "pros/rotation.hpp"
 #define SHARED(type, name) std::shared_ptr<type> name
 
