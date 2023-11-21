@@ -84,6 +84,11 @@ void opcontrol() {
       catapult::rapidFire = false;
     }
 
+    // wings
+    if (master.get_digital_new_press(DIGITAL_L1)) {
+      wings->toggle();
+    }
+
     pros::delay(10);
   }
 }

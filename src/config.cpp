@@ -4,6 +4,7 @@
  */
 
 #include "config.hpp"
+#include "pros/adi.hpp"
 #include "pros/rotation.hpp"
 #define SHARED(type, name) std::shared_ptr<type> name
 
@@ -55,12 +56,7 @@ SHARED(pros::Motor, catapult_motor) =
 SHARED(pros::Rotation,
        catapult_position) = std::make_shared<pros::Rotation>(CATAPULT_ROT_PORT);
 
-// pros::MotorGroup drive_left(drive_left_v);
-
-// pros::MotorGroup drive_left({*drive_bottom_right, *drive_bottom_right});
-// pros::MotorGroup drive_right({*drive_right_front, *drive_right_back});
-
-// auto drive_left = pros::MotorGroup({*drive_left_front, *drive_left_back});
-// SHARED(pros::MotorGroup, drive_right) = std::make_shared<pros::MotorGroup>(
+SHARED(pros::adi::Pneumatics,
+       wings) = std::make_shared<pros::adi::Pneumatics>(WINGS_PORT, false);
 
 #undef SHARED

@@ -1,11 +1,12 @@
 #pragma once
 #include "main.h"
+#include "pros/adi.hpp"
 
 // ODOMETRY
 #define ODOMETRY_WHEEL_DIAMETER 2.75 // inches
 #define ODOM_LEFT_PORT 8
 #define ODOM_MIDDLE_PORT 9
-#define ODOM_RIGHT_PORT 10
+#define ODOM_RIGHT_PORT 11
 
 // DRIVETRAIN
 #define DRIVE_LEFT_FRONT 1
@@ -16,8 +17,11 @@
 #define DRIVE_RIGHT_PTO 6
 
 // CATAPULT
-#define CATAPULT_PORT 7
-#define CATAPULT_ROT_PORT 11
+#define CATAPULT_PORT 15
+#define CATAPULT_ROT_PORT 10
+
+// WINGS
+#define WINGS_PORT 'a'
 
 /*************************
  * VARIABLE DECLARATIONS *
@@ -53,5 +57,8 @@ extern pros::MotorGroup drive_right;
 //// Catapult
 extern SHARED(pros::Motor, catapult_motor);
 extern SHARED(pros::Rotation, catapult_position);
+
+///// Wings
+extern SHARED(pros::adi::Pneumatics, wings);
 
 #undef SHARED
