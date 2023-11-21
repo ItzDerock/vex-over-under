@@ -43,8 +43,3 @@ void initialize();
 void fire();
 
 } // namespace catapult
-
-/**
- * Wings-related subsystem functions
- */
-namespace wings {}

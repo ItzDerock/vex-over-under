@@ -38,7 +38,12 @@ void catapult::update() {
   if (error > 30 && catapultState == FIRING)
     catapultState = RELOADING;
 
-  double output = catapultPID->update(error);
+  double output = 100;
+
+  // debug log the state, error, and output
+  printf("[debug] catapult state: %d, error: %f, output: %f\n", catapultState,
+         error, output);
+
   catapult_motor->move_velocity(output);
 }
 
