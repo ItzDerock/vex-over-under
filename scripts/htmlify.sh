@@ -14,6 +14,7 @@ FILES=(
 EXT_OVERRIDES=(
   "hpp:cpp"
   "sh:bash"
+  "h:c"
 )
 
 # Output file
