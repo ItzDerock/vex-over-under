@@ -1,5 +1,0 @@
-CompileFlags:
-  Add: [-std=c++20, -I/home/derock/Documents/Code/vex-over-under/include]
-
-Diagnostics:
-  Suppress: 'pp_including_mainfile_in_preamble'

@@ -122,4 +122,22 @@ private:
   lv_obj_t *robotImage;
 };
 
+/**
+ * Game GIF window class.
+ */
+class GameGifWindow : public Window {
+public:
+  using Window::Window;
+
+  // overridden functions
+  void init() override;
+
+protected:
+  // overridden functions
+  void tick() override;
+
+private:
+  lv_obj_t *gifImage;
+};
+
 } // namespace screen

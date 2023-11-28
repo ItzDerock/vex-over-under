@@ -1,6 +1,7 @@
+#include <memory>
+
 #include "../config.hpp"
 #include "subsystems.hpp"
-#include <memory>
 
 // simple PD controller for the catapult
 std::shared_ptr<PIDController> catapult::catapultPID =
@@ -35,14 +36,9 @@ void catapult::update() {
   }
 
   // reload if error > 20deg
-  if (error > 30 && catapultState == FIRING)
-    catapultState = RELOADING;
+  if (error > 30 && catapultState == FIRING) catapultState = RELOADING;
 
   double output = 100;
-
-  // debug log the state, error, and output
-  printf("[debug] catapult state: %d, error: %f, output: %f\n", catapultState,
-         error, output);
 
   catapult_motor->move_velocity(output);
 }
@@ -65,6 +61,5 @@ void catapult::updateLoop() {
 }
 
 void catapult::initialize() {
-  if (catapultTask == nullptr)
-    catapultTask = new pros::Task(updateLoop);
+  if (catapultTask == nullptr) catapultTask = new pros::Task(updateLoop);
 }

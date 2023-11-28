@@ -1,6 +1,9 @@
 #include "main.h"
+
 #include "config.hpp"
+#include "gif-pros/gifclass.hpp"
 #include "pros/misc.h"
+#include "screen/screen.hpp"
 #include "subsystems/subsystems.hpp"
 
 /**
@@ -9,7 +12,10 @@
  * All other competition modes are blocked by initialize; it is recommended
  * to keep execution time for this mode under a few seconds.
  */
-void initialize() { catapult::initialize(); }
+void initialize() {
+  catapult::initialize();
+  static Gif gif("/usd/game.gif", lv_scr_act());
+}
 
 /**
  * Runs while the robot is in the disabled state of Field Management System or
@@ -60,8 +66,8 @@ void opcontrol() {
 
   while (true) {
     // get the joystick values
-    int leftJoystick = master.get_analog(ANALOG_LEFT_Y);
-    int rightJoystick = master.get_analog(ANALOG_RIGHT_Y);
+    int leftJoystick = master.get_analog(ANALOG_RIGHT_Y);
+    int rightJoystick = master.get_analog(ANALOG_LEFT_Y);
 
     // update drive
     drive_left_back->move(leftJoystick);
