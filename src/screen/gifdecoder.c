@@ -1,3 +1,9 @@
+/**
+ * gifdec.c - GIF decoder
+ * Source: https://github.com/lecram/gifdec/blob/master/gifdec.c
+ * Last commit: f9c683b - 2 years ago - Check key_size range (MichielP1807)
+ */
+
 #include <fcntl.h>
 #include <stdio.h>
 #include <stdlib.h>

@@ -4,7 +4,7 @@
 
 # List of files to convert (glob)
 FILES=(
-  # "README.md"
+  "./README.md"
   "./src/*"
   "./src/**/*"
   "./scripts/*"
@@ -81,10 +81,16 @@ for FILE in ${FILES[@]}; do
 
   FILE_EXT="${FILE##*.}"
 
-  # Convert header files to C++ files
-  # if [ "$FILE_EXT" = "hpp" ]; then
-  #   FILE_EXT="cpp"
-  # fi
+  # if markdown, convert to html
+  if [ "$FILE_EXT" = "md" ]; then
+    FILE_EXT="html"
+    FILE="$FILE"
+    pandoc -f markdown -t html $FILE >> $OUTPUT
+    echo "<hr>" >> $OUTPUT
+
+    continue
+  fi
+
   # Check if the file extension is overridden
   for OVERRIDE in ${EXT_OVERRIDES[@]}; do
     EXT=${OVERRIDE%:*}

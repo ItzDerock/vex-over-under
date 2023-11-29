@@ -134,11 +134,15 @@ void Gif::_render() {
 
       lv_obj_invalidate(_canvas);  // force canvas redraw
 
-      auto delay = _gif->gce.delay * 10;
+      auto delay = (int)_gif->gce.delay;
       auto delta = pros::millis() - now;
       delay -= delta;
 
-      if (delay > 0) pros::delay(delay);
+      // std::cerr << "Gif::_render - frame render took " << delta << "ms"
+      //           << "delay is " << delay << "ms" << std::endl;
+
+      pros::delay(delay > 0 ? delay : 10);
+      // if (delay > 0) pros::delay(delay);
     }
 
     if (looped == _gif->loop_count) {
