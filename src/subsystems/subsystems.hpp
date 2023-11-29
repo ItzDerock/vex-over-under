@@ -1,18 +1,18 @@
 #pragma once
 
+#include <memory>
+
 #include "../algorithms/PID.hpp"
 #include "pros/rtos.hpp"
-
-#include <memory>
 
 /**
  * Catapult-related subsystem functions
  */
 namespace catapult {
 
-#define CATAPULT_ALLOWED_ERROR 10
+#define CATAPULT_ALLOWED_ERROR 5
 #define CATAPULT_ZERO_ANGLE 262
-#define CATAPULT_READY_STATE CATAPULT_ZERO_ANGLE - 30
+#define CATAPULT_READY_STATE 220
 
 enum CatapultState { READY, RELOADING, FIRING };
 extern CatapultState catapultState;
@@ -42,4 +42,4 @@ void initialize();
  */
 void fire();
 
-} // namespace catapult
+}  // namespace catapult

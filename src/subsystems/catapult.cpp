@@ -46,7 +46,12 @@ void catapult::update() {
 void catapult::fire() {
   // if we're ready, fire
   if (catapultState == READY) {
-    catapultState = FIRING;
+    catapult_motor->move_velocity(100);
+
+    pros::Task([] {
+      pros::delay(300);
+      catapultState = FIRING;
+    });
   }
 
   printf("[warn] catapult is not ready to fire! Current state: %d\n",
@@ -56,7 +61,7 @@ void catapult::fire() {
 void catapult::updateLoop() {
   while (true) {
     update();
-    pros::delay(10);
+    pros::delay(20);
   }
 }
 
