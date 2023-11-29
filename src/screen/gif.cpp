@@ -7,6 +7,7 @@
  *
  * Heavily modified to support a newer version of gifdec.h
  * by Derock X. (derock@derock.dev)
+ * https://github.com/ItzDerock/gif-pros
  */
 
 /**
@@ -100,12 +101,12 @@ void Gif::_cleanup() {
 void Gif::_render() {
   for (size_t looped = 1;; looped++) {
     while (gd_get_frame(_gif)) {
-      pros::delay(5000);
       auto now = pros::millis();
 
       gd_render_frame(_gif, _buffer);
 
-      if (pros::millis() - now > 10) {
+      auto renderdone = pros::millis();
+      if (renderdone - now > 10) {
         std::cerr << "Gif::_render - frame render took longer than 10ms. Took "
                   << pros::millis() - now << "ms" << std::endl;
       }
@@ -124,6 +125,12 @@ void Gif::_render() {
         _cbuf[i].ch.green = *color++;
         _cbuf[i].ch.blue = *color++;
       };
+
+      if (pros::millis() - renderdone > 10) {
+        std::cerr << "Gif::_render - frame conversion took longer than 10ms. "
+                  << "Took " << pros::millis() - renderdone << "ms"
+                  << std::endl;
+      }
 
       lv_obj_invalidate(_canvas);  // force canvas redraw
 

@@ -416,9 +416,6 @@ static void render_frame_rect(gd_GIF *gif, uint8_t *buffer) {
       index = gif->frame[(gif->fy + j) * gif->width + gif->fx + k];
       color = &gif->palette->colors[index * 3];
 
-      fprintf(stdout, "index: %d\n", (i + k) * 3);
-      fflush(stdout);
-
       if (!gif->gce.transparency || index != gif->gce.tindex)
         memcpy(&buffer[(i + k) * 3], color, 3);
     }
@@ -449,16 +446,8 @@ static void dispose(gd_GIF *gif) {
 
 /* Return 1 if got a frame; 0 if got GIF trailer; -1 if error. */
 int gd_get_frame(gd_GIF *gif) {
-  fprintf(stdout, "got called");
-  fflush(stdout);
-  return 1;
   char sep;
 
-  fprintf(stdout, "disposing gif");
-  fflush(stdout);
-  dispose(gif);
-  fprintf(stdout, "reading gif");
-  fflush(stdout);
   read(gif->fd, &sep, 1);
   while (sep != ',') {
     if (sep == ';') return 0;
