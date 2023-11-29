@@ -3,12 +3,12 @@
 #include "pros/adi.hpp"
 
 // ODOMETRY
-#define ODOMETRY_WHEEL_DIAMETER 2.75 // inches
-#define ODOM_LEFT_PORT 8
-#define ODOM_MIDDLE_PORT 9
-#define ODOM_RIGHT_PORT 11
+#define ODOMETRY_TICKS_PER_INCH 360.0  // ticks per inch
+#define ODOMETRY_WHEEL_DIAMETER 2.75   // inches
+#define ODOM_MIDDLE_PORT 'b', 'c'
 
 // DRIVETRAIN
+#define DRIVETRAIN_GEAR_RATIO /* input 32 -> output 72 */ 0.5
 #define DRIVE_LEFT_FRONT 1
 #define DRIVE_LEFT_BACK 2
 #define DRIVE_LEFT_PTO 3
@@ -33,14 +33,20 @@
 //// Odometry
 
 struct OdomSensor {
-  SHARED(pros::Rotation, sensor);
+  SHARED(pros::adi::Encoder, sensor);
   double offset;
+};
+
+struct OdomIntegratedSensor {
+  SHARED(pros::Motor, sensor);
+  double offset;
+  double gear_ratio;
 };
 
 // odometry sensors
 // no need to use shared pointers
-extern OdomSensor odom_left;
-extern OdomSensor odom_right;
+extern OdomIntegratedSensor odom_left;
+extern OdomIntegratedSensor odom_right;
 extern OdomSensor odom_middle;
 
 //// Drivetrain
@@ -61,4 +67,5 @@ extern SHARED(pros::Rotation, catapult_position);
 ///// Wings
 extern SHARED(pros::adi::Pneumatics, wings);
 
+// undefine SHARED macro to prevent accidental use
 #undef SHARED

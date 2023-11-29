@@ -1,6 +1,21 @@
 #include "./odom.hpp"
+
+#include <math.h>
+
 #include "../config.hpp"
 #include "main.h"
+
+/**
+ * Odometry implementation is based on the following paper:
+ * http://thepilons.ca/wp-content/uploads/2018/10/Tracking.pdf
+ *
+ * Movement functions are not based on that paper.
+ */
+
+std::shared_ptr<PIDController> odom::turnPID =
+    std::make_shared<PIDController>(0.2, 0.01, 0.001);
+std::shared_ptr<PIDController> odom::drivePID =
+    std::make_shared<PIDController>(0.5, 0.01, 0.001);
 
 // Task to update the odom
 pros::Task *odomTask = nullptr;
@@ -16,16 +31,27 @@ struct {
 
 odom::RobotPosition state = {0, 0, 0};
 
+/**
+ * Since part of our odometry is based on internal sensors in the motors,
+ * we need to normalize the data to account for different gear ratios.
+ *
+ * @param sensor The sensor to normalize
+ */
+double normalizeSensorData(OdomIntegratedSensor sensor) {
+  // return sensor.sensor->get_position() * (1/sensor.gear_ratio) * 600 / 360;
+  return sensor.sensor->get_position() * sensor.gear_ratio * 4 * M_PI;
+}
+
 void odom::update() {
   // lock mutex
   mutex.take();
 
-  // skip runs when all sensors are not initialized
-
   // 1. Store the current encoder values
   auto left = odom_left.sensor->get_position();
   auto right = odom_right.sensor->get_position();
-  auto center = odom_middle.sensor->get_position();
+  auto center = odom_middle.sensor->get_value() * 2.75 * M_PI;
+
+  std::cout << "left: " << left << std::endl;
 
   // 2. Calculate delta values
   auto dL = left - prevSensors.left;
@@ -44,8 +70,6 @@ void odom::update() {
   // 5. Calculate new orientation
   auto newTheta = resetValues.theta +
                   (left - right) / (odom_left.offset + odom_right.offset);
-
-  printf("newTheta: %f\n", newTheta);
 
   // 6. Calculate change in orientation
   auto dTheta = newTheta - state.theta;
@@ -88,6 +112,10 @@ void odom::update() {
 
   state.theta = newTheta;
 
+  std::cout << "x: " << state.x << std::endl;
+  std::cout << "y: " << state.y << std::endl;
+  std::cout << "theta: " << state.theta << std::endl;
+
   // unlock mutex
   mutex.give();
 }
@@ -102,7 +130,7 @@ void odom::init() {
   odomTask = new pros::Task([]() {
     while (true) {
       update();
-      pros::delay(10);
+      pros::delay(20);
     }
   });
 }
@@ -118,8 +146,9 @@ void odom::reset(odom::RobotPosition startState) {
   }
 
   // reset encoders
-  odom_left.sensor->reset();
-  odom_right.sensor->reset();
+  // TODO: fix
+  // odom_left.sensor->reset();
+  // odom_right.sensor->reset();
   odom_middle.sensor->reset();
 
   // reset state
@@ -161,3 +190,66 @@ odom::RobotPosition odom::getPosition(bool degrees) {
 }
 
 odom::RobotPosition odom::getPosition() { return getPosition(false); }
+
+void odom::turnTo(double theta) {
+  // aquire mutex
+  mutex.take();
+
+  // get the current theta
+  double currentTheta = state.theta;
+
+  // release mutex
+  mutex.give();
+
+  // calculate the error
+  double error = theta - currentTheta;
+
+  // if error is greater than 180, subtract 360
+  if (error > 180) error -= 360;
+  // if error is less than -180, add 360
+  else if (error < -180)
+    error += 360;
+
+  // while the error is greater than the allowed error
+  while (fabs(error) > 0.5) {
+    // aquire mutex
+    mutex.take();
+
+    // get the current theta
+    currentTheta = state.theta;
+
+    // release mutex
+    mutex.give();
+
+    // calculate the error
+    error = theta - currentTheta;
+
+    // if error is greater than 180, subtract 360
+    if (error > 180) error -= 360;
+    // if error is less than -180, add 360
+    else if (error < -180)
+      error += 360;
+
+    // calculate the output
+    double output = odom::turnPID->update(error);
+
+    // set the motors
+    drive_left_back->move(output);
+    drive_left_front->move(output);
+    drive_left_pto->move(output);
+    drive_right_back->move(-output);
+    drive_right_front->move(-output);
+    drive_right_pto->move(-output);
+
+    // wait
+    pros::delay(20);
+  }
+
+  // stop the motors
+  drive_left_back->move(0);
+  drive_left_front->move(0);
+  drive_left_pto->move(0);
+  drive_right_back->move(0);
+  drive_right_front->move(0);
+  drive_right_pto->move(0);
+}

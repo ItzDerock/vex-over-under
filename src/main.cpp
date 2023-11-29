@@ -2,6 +2,7 @@
 
 #include "config.hpp"
 #include "gif-pros/gifclass.hpp"
+#include "odom/odom.hpp"
 #include "pros/misc.h"
 #include "screen/screen.hpp"
 #include "subsystems/subsystems.hpp"
@@ -14,6 +15,7 @@
  */
 void initialize() {
   catapult::initialize();
+  odom::init();
   static Gif gif("/usd/game.gif", lv_scr_act());
 }
 

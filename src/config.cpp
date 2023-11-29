@@ -4,59 +4,47 @@
  */
 
 #include "config.hpp"
+
 #include "pros/adi.hpp"
 #include "pros/rotation.hpp"
-#define SHARED(type, name) std::shared_ptr<type> name
 
-SHARED(pros::Rotation,
-       odom_left_sensor) = std::make_shared<pros::Rotation>(ODOM_LEFT_PORT);
+#define SHARED(type, name, ...) \
+  std::shared_ptr<type> name = std::make_shared<type>(__VA_ARGS__)
 
-SHARED(pros::Rotation,
-       odom_right_sensor) = std::make_shared<pros::Rotation>(ODOM_RIGHT_PORT);
+SHARED(pros::Motor, drive_left_front, DRIVE_LEFT_FRONT,
+       pros::v5::MotorGear::blue);
+SHARED(pros::Motor, drive_left_back, DRIVE_LEFT_BACK,
+       pros::v5::MotorGear::blue);
+SHARED(pros::Motor, drive_left_pto, -DRIVE_LEFT_PTO, pros::v5::MotorGear::blue);
+SHARED(pros::Motor, drive_right_front, -DRIVE_RIGHT_FRONT,
+       pros::v5::MotorGear::blue);
+SHARED(pros::Motor, drive_right_back, -DRIVE_RIGHT_BACK,
+       pros::v5::MotorGear::blue);
+SHARED(pros::Motor, drive_right_pto, DRIVE_RIGHT_PTO,
+       pros::v5::MotorGear::blue);
 
-SHARED(pros::Rotation,
-       odom_middle_sensor) = std::make_shared<pros::Rotation>(ODOM_MIDDLE_PORT);
-
-OdomSensor odom_left = {
-    .sensor = odom_left_sensor,
+OdomIntegratedSensor odom_left = {
+    .sensor = drive_left_back,
     .offset = 0,
 };
 
-OdomSensor odom_right = {
-    .sensor = odom_right_sensor,
+OdomIntegratedSensor odom_right = {
+    .sensor = drive_right_back,
     .offset = 0,
 };
 
 OdomSensor odom_middle = {
-    .sensor = odom_middle_sensor,
+    .sensor = std::make_shared<pros::adi::Encoder>(ODOM_MIDDLE_PORT),
     .offset = 0,
 };
-
-SHARED(pros::Motor, drive_left_front) =
-    std::make_shared<pros::Motor>(DRIVE_LEFT_FRONT, pros::v5::MotorGear::blue);
-SHARED(pros::Motor, drive_left_back) =
-    std::make_shared<pros::Motor>(DRIVE_LEFT_BACK, pros::v5::MotorGear::blue);
-SHARED(pros::Motor, drive_left_pto) =
-    std::make_shared<pros::Motor>(-DRIVE_LEFT_PTO, pros::v5::MotorGear::blue);
-SHARED(pros::Motor, drive_right_front) = std::make_shared<pros::Motor>(
-    -DRIVE_RIGHT_FRONT, pros::v5::MotorGear::blue);
-SHARED(pros::Motor, drive_right_back) =
-    std::make_shared<pros::Motor>(-DRIVE_RIGHT_BACK, pros::v5::MotorGear::blue);
-SHARED(pros::Motor, drive_right_pto) =
-    std::make_shared<pros::Motor>(DRIVE_RIGHT_PTO, pros::v5::MotorGear::blue);
 
 std::vector<pros::Motor> drive_left_v = {*drive_left_front, *drive_left_back};
 
 std::vector<pros::Motor> drive_right_v = {*drive_right_front,
                                           *drive_right_back};
 
-SHARED(pros::Motor, catapult_motor) =
-    std::make_shared<pros::Motor>(CATAPULT_PORT, pros::v5::MotorGear::red);
-
-SHARED(pros::Rotation,
-       catapult_position) = std::make_shared<pros::Rotation>(CATAPULT_ROT_PORT);
-
-SHARED(pros::adi::Pneumatics,
-       wings) = std::make_shared<pros::adi::Pneumatics>(WINGS_PORT, false);
+SHARED(pros::Motor, catapult_motor, CATAPULT_PORT, pros::v5::MotorGear::red);
+SHARED(pros::Rotation, catapult_position, CATAPULT_ROT_PORT);
+SHARED(pros::adi::Pneumatics, wings, WINGS_PORT, false);
 
 #undef SHARED

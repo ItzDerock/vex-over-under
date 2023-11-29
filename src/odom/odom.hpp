@@ -1,4 +1,5 @@
 #pragma once
+#include "../algorithms/PID.hpp"
 #include "main.h"
 
 namespace odom {
@@ -11,6 +12,12 @@ struct RobotPosition {
   int getDegrees() { return (int)(theta * 180 / M_PI); }
   RobotPosition(double x, double y, double theta) : x(x), y(y), theta(theta) {}
 };
+
+/**
+ * PID controller for odom-related tasks.
+ */
+extern std::shared_ptr<PIDController> turnPID;
+extern std::shared_ptr<PIDController> drivePID;
 
 /**
  * Returns the current robot location, by default in radians.
@@ -35,8 +42,13 @@ void reset();
 void init();
 
 /**
+ * turn to a given angle
+ */
+void turnTo(double theta);
+
+/**
  * The odometry mutex. Use whenever you are reading values.
  */
 extern pros::Mutex mutex;
 
-} // namespace odom
+}  // namespace odom
