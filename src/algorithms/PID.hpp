@@ -1,6 +1,7 @@
 #pragma once
 
-class PIDController {
+class PIDController
+{
 public:
   PIDController(double kP, double kI, double kD);
   PIDController(double kP, double kI, double kD, bool debug);

@@ -3,8 +3,8 @@
 #include "pros/adi.hpp"
 
 // ODOMETRY
-#define ODOMETRY_TICKS_PER_INCH 360.0  // ticks per inch
-#define ODOMETRY_WHEEL_DIAMETER 2.75   // inches
+#define ODOMETRY_TICKS_PER_INCH 360.0 // ticks per inch
+#define ODOMETRY_WHEEL_DIAMETER 2.75  // inches
 #define ODOM_MIDDLE_PORT 'b', 'c'
 
 // DRIVETRAIN
@@ -32,12 +32,14 @@
 
 //// Odometry
 
-struct OdomSensor {
+struct OdomSensor
+{
   SHARED(pros::adi::Encoder, sensor);
   double offset;
 };
 
-struct OdomIntegratedSensor {
+struct OdomIntegratedSensor
+{
   SHARED(pros::Motor, sensor);
   double offset;
   double gear_ratio;

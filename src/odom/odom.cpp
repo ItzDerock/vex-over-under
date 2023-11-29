@@ -21,11 +21,13 @@ std::shared_ptr<PIDController> odom::drivePID =
 pros::Task *odomTask = nullptr;
 pros::Mutex odom::mutex;
 
-struct {
+struct
+{
   double left, right, center, theta;
 } prevSensors = {0, 0, 0, 0};
 
-struct {
+struct
+{
   double left, right, theta;
 } resetValues = {0, 0, 0};
 
@@ -37,12 +39,14 @@ odom::RobotPosition state = {0, 0, 0};
  *
  * @param sensor The sensor to normalize
  */
-double normalizeSensorData(OdomIntegratedSensor sensor) {
+double normalizeSensorData(OdomIntegratedSensor sensor)
+{
   // return sensor.sensor->get_position() * (1/sensor.gear_ratio) * 600 / 360;
   return sensor.sensor->get_position() * sensor.gear_ratio * 4 * M_PI;
 }
 
-void odom::update() {
+void odom::update()
+{
   // lock mutex
   mutex.take();
 
@@ -77,10 +81,13 @@ void odom::update() {
   // 7. Calculate local offset for dTheta = 0
   RobotPosition localOffset = {0, 0, 0};
 
-  if (dTheta == 0) {
+  if (dTheta == 0)
+  {
     localOffset.x = dC;
     localOffset.y = dR;
-  } else {
+  }
+  else
+  {
     // 8. Otherwise, calculate local offset with formula.
     localOffset.x = 2 * sin(dTheta / 2) * (dC / dTheta + (odom_middle.offset));
     localOffset.y = 2 * sin(dTheta / 2) * (dR / dTheta + (odom_right.offset));
@@ -120,27 +127,31 @@ void odom::update() {
   mutex.give();
 }
 
-void odom::init() {
-  if (odomTask != nullptr) {
+void odom::init()
+{
+  if (odomTask != nullptr)
+  {
     std::cout << "WARNING: odom::init() called when odomTask is not null"
               << std::endl;
     return;
   }
 
-  odomTask = new pros::Task([]() {
+  odomTask = new pros::Task([]()
+                            {
     while (true) {
       update();
       pros::delay(20);
-    }
-  });
+    } });
 }
 
-void odom::reset(odom::RobotPosition startState) {
+void odom::reset(odom::RobotPosition startState)
+{
   // aquire mutex
   mutex.take();
 
   // stop task
-  if (odomTask != nullptr) {
+  if (odomTask != nullptr)
+  {
     odomTask->remove();
     odomTask = nullptr;
   }
@@ -168,12 +179,14 @@ void odom::reset(odom::RobotPosition startState) {
   mutex.give();
 }
 
-void odom::reset() {
+void odom::reset()
+{
   // default to 0, 0, 0
   reset({0, 0, 0});
 }
 
-odom::RobotPosition odom::getPosition(bool degrees) {
+odom::RobotPosition odom::getPosition(bool degrees)
+{
   // aquire mutex
   mutex.take();
 
@@ -191,7 +204,8 @@ odom::RobotPosition odom::getPosition(bool degrees) {
 
 odom::RobotPosition odom::getPosition() { return getPosition(false); }
 
-void odom::turnTo(double theta) {
+void odom::turnTo(double theta)
+{
   // aquire mutex
   mutex.take();
 
@@ -205,13 +219,15 @@ void odom::turnTo(double theta) {
   double error = theta - currentTheta;
 
   // if error is greater than 180, subtract 360
-  if (error > 180) error -= 360;
+  if (error > 180)
+    error -= 360;
   // if error is less than -180, add 360
   else if (error < -180)
     error += 360;
 
   // while the error is greater than the allowed error
-  while (fabs(error) > 0.5) {
+  while (fabs(error) > 0.5)
+  {
     // aquire mutex
     mutex.take();
 
@@ -225,7 +241,8 @@ void odom::turnTo(double theta) {
     error = theta - currentTheta;
 
     // if error is greater than 180, subtract 360
-    if (error > 180) error -= 360;
+    if (error > 180)
+      error -= 360;
     // if error is less than -180, add 360
     else if (error < -180)
       error += 360;
