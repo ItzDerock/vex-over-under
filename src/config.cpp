@@ -25,17 +25,19 @@ SHARED(pros::Motor, drive_right_pto, DRIVE_RIGHT_PTO,
 
 OdomIntegratedSensor odom_left = {
     .sensor = drive_left_back,
-    .offset = 0,
+    .offset = 7.5,
+    .gear_ratio = 0.5,
 };
 
 OdomIntegratedSensor odom_right = {
     .sensor = drive_right_back,
-    .offset = 0,
+    .offset = 7.5,
+    .gear_ratio = 0.5,
 };
 
 OdomSensor odom_middle = {
-    .sensor = std::make_shared<pros::adi::Encoder>(ODOM_MIDDLE_PORT),
-    .offset = 0,
+    .sensor = std::make_shared<pros::adi::Encoder>('c', 'd'),
+    .offset = 5,
 };
 
 std::vector<pros::Motor> drive_left_v = {*drive_left_front, *drive_left_back};

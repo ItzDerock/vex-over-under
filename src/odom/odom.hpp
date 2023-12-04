@@ -29,6 +29,7 @@ RobotPosition getPosition();
  * Updates the odoemtry position
  */
 void update();
+void updateLoop();
 
 /**
  * Resets the odometry to a given position.
@@ -39,12 +40,17 @@ void reset();
 /**
  * Initializes the odometry task.
  */
-void init();
+void initalize();
 
 /**
- * turn to a given angle
+ * turn to a given angle (in degrees)
  */
 void turnTo(double theta);
+
+/**
+ * Drive a certain distance (in inches)
+ */
+void moveDistance(double distance);
 
 /**
  * The odometry mutex. Use whenever you are reading values.

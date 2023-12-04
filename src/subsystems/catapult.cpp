@@ -61,10 +61,28 @@ void catapult::fire() {
 void catapult::updateLoop() {
   while (true) {
     update();
-    pros::delay(20);
+    pros::delay(10);
   }
 }
 
 void catapult::initialize() {
-  if (catapultTask == nullptr) catapultTask = new pros::Task(updateLoop);
+  if (catapultTask == nullptr) {
+    catapultTask = new pros::Task(updateLoop);
+    catapultTask->resume();
+  }
+}
+
+void catapult::ensureTask() {
+  if (catapultTask == nullptr) {
+    printf("[warn] catapult task is null, initializing\n");
+    initialize();
+  }
+
+  auto state = catapultTask->get_state();
+
+  if (state == pros::E_TASK_STATE_SUSPENDED ||
+      state == pros::E_TASK_STATE_INVALID) {
+    printf("[warn] catapult task is not running, currently is %d\n", state);
+    catapultTask->resume();
+  }
 }

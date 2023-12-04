@@ -14,8 +14,11 @@
  * to keep execution time for this mode under a few seconds.
  */
 void initialize() {
+  std::cout << odom_middle.sensor->get_value() << std::endl;
+
   catapult::initialize();
-  odom::init();
+  odom::initalize();
+  odom::reset();
   static Gif gif("/usd/game.gif", lv_scr_act());
 }
 
@@ -96,6 +99,8 @@ void opcontrol() {
     if (master.get_digital_new_press(DIGITAL_L1)) {
       wings->toggle();
     }
+
+    catapult::ensureTask();
 
     pros::delay(10);
   }

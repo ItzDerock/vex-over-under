@@ -38,8 +38,7 @@ odom::RobotPosition state = {0, 0, 0};
  * @param sensor The sensor to normalize
  */
 double normalizeSensorData(OdomIntegratedSensor sensor) {
-  // return sensor.sensor->get_position() * (1/sensor.gear_ratio) * 600 / 360;
-  return sensor.sensor->get_position() * sensor.gear_ratio * 4 * M_PI;
+  return (sensor.sensor->get_position() * sensor.gear_ratio) / 360 * 4 * M_PI;
 }
 
 void odom::update() {
@@ -47,11 +46,14 @@ void odom::update() {
   mutex.take();
 
   // 1. Store the current encoder values
-  auto left = odom_left.sensor->get_position();
-  auto right = odom_right.sensor->get_position();
-  auto center = odom_middle.sensor->get_value() * 2.75 * M_PI;
+  auto left = normalizeSensorData(odom_left);
+  auto right = normalizeSensorData(odom_right);
+  auto center = odom_middle.sensor->get_value() / 360 * (2.75 * M_PI);
 
-  std::cout << "left: " << left << std::endl;
+  std::cerr << "odom update" << std::endl
+            << "left: " << left << std::endl
+            << "right: " << right << std::endl
+            << "center: " << center << std::endl;
 
   // 2. Calculate delta values
   auto dL = left - prevSensors.left;
@@ -91,8 +93,6 @@ void odom::update() {
 
   // 10. Calculate the global offset
   RobotPosition globalOffset = {0, 0, 0};
-  // int globalOffsetX = 0;
-  // int globalOffsetY = 0;
 
   // convert local offset to polar coordinates
   double r =
@@ -120,19 +120,21 @@ void odom::update() {
   mutex.give();
 }
 
-void odom::init() {
+void odom::updateLoop() {
+  while (true) {
+    update();
+    pros::delay(20);
+  }
+}
+
+void odom::initalize() {
   if (odomTask != nullptr) {
     std::cout << "WARNING: odom::init() called when odomTask is not null"
               << std::endl;
     return;
   }
 
-  odomTask = new pros::Task([]() {
-    while (true) {
-      update();
-      pros::delay(20);
-    }
-  });
+  odomTask = new pros::Task(updateLoop, TASK_PRIORITY_DEFAULT - 1);
 }
 
 void odom::reset(odom::RobotPosition startState) {
@@ -147,8 +149,8 @@ void odom::reset(odom::RobotPosition startState) {
 
   // reset encoders
   // TODO: fix
-  // odom_left.sensor->reset();
-  // odom_right.sensor->reset();
+  odom_left.sensor->set_zero_position(0);
+  odom_right.sensor->set_zero_position(0);
   odom_middle.sensor->reset();
 
   // reset state
@@ -162,7 +164,7 @@ void odom::reset(odom::RobotPosition startState) {
   prevSensors = {0, 0, 0, 0};
 
   // restart task
-  init();
+  initalize();
 
   // release mutex
   mutex.give();
