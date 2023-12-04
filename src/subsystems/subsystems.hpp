@@ -10,7 +10,7 @@
  */
 namespace catapult {
 
-#define CATAPULT_ALLOWED_ERROR 5
+#define CATAPULT_ALLOWED_ERROR 8
 #define CATAPULT_ZERO_ANGLE 262
 #define CATAPULT_READY_STATE 220
 
@@ -36,6 +36,7 @@ void updateLoop();
  * Starts the catapult subsystem.
  */
 void initialize();
+void ensureTask();
 
 /**
  * Fires the catapult. Queues if the catapult is not ready.
