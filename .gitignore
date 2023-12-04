@@ -15,3 +15,7 @@ temp.log
 temp.errors
 *.ini
 .d/
+
+# tmp
+index.html
+logs.txt
