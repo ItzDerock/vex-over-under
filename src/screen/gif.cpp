@@ -134,7 +134,7 @@ void Gif::_render() {
 
       lv_obj_invalidate(_canvas);  // force canvas redraw
 
-      auto delay = (int)_gif->gce.delay;
+      auto delay = _gif->gce.delay * 10;
       auto delta = pros::millis() - now;
       delay -= delta;
 
