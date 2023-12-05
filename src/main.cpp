@@ -17,8 +17,8 @@ void initialize() {
   std::cout << odom_middle.sensor->get_value() << std::endl;
 
   catapult::initialize();
-  odom::initalize();
   odom::reset();
+  odom::initalize();
   static Gif gif("/usd/game.gif", lv_scr_act());
 }
 
@@ -51,7 +51,13 @@ void competition_initialize() {}
  * will be stopped. Re-enabling the robot will restart the task, not re-start it
  * from where it left off.
  */
-void autonomous() {}
+void autonomous() {
+  // wings->toggle();
+  odom::moveDistance(15);
+  odom::turnTo(odom::getPosition().theta + M_PI / 4);
+  odom::moveDistance(20);
+  odom::moveDistance(-20);
+}
 
 /**
  * Runs the operator control code. This function will be started in its own task
@@ -98,6 +104,15 @@ void opcontrol() {
     // wings
     if (master.get_digital_new_press(DIGITAL_L1)) {
       wings->toggle();
+    }
+
+    // blocker
+    if (master.get_digital(DIGITAL_UP)) {
+      blocker->move(127);
+    } else if (master.get_digital(DIGITAL_DOWN)) {
+      blocker->move(-127);
+    } else {
+      blocker->move(0);
     }
 
     catapult::ensureTask();

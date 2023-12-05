@@ -48,5 +48,6 @@ std::vector<pros::Motor> drive_right_v = {*drive_right_front,
 SHARED(pros::Motor, catapult_motor, CATAPULT_PORT, pros::v5::MotorGear::red);
 SHARED(pros::Rotation, catapult_position, CATAPULT_ROT_PORT);
 SHARED(pros::adi::Pneumatics, wings, WINGS_PORT, false);
+SHARED(pros::Motor, blocker, BLOCKER_PORT, pros::v5::MotorGear::green);
 
 #undef SHARED

@@ -13,9 +13,9 @@
  */
 
 std::shared_ptr<PIDController> odom::turnPID =
-    std::make_shared<PIDController>(0.2, 0.01, 0.001);
+    std::make_shared<PIDController>(50, 0.01, 0.001);
 std::shared_ptr<PIDController> odom::drivePID =
-    std::make_shared<PIDController>(0.5, 0.01, 0.001);
+    std::make_shared<PIDController>(30, 0.01, 0.001);
 
 // Task to update the odom
 pros::Task *odomTask = nullptr;
@@ -48,12 +48,7 @@ void odom::update() {
   // 1. Store the current encoder values
   auto left = normalizeSensorData(odom_left);
   auto right = normalizeSensorData(odom_right);
-  auto center = odom_middle.sensor->get_value() / 360 * (2.75 * M_PI);
-
-  std::cerr << "odom update" << std::endl
-            << "left: " << left << std::endl
-            << "right: " << right << std::endl
-            << "center: " << center << std::endl;
+  auto center = (double)odom_middle.sensor->get_value() / 360 * (2.75 * M_PI);
 
   // 2. Calculate delta values
   auto dL = left - prevSensors.left;
@@ -123,7 +118,7 @@ void odom::update() {
 void odom::updateLoop() {
   while (true) {
     update();
-    pros::delay(20);
+    pros::delay(10);
   }
 }
 
@@ -148,7 +143,6 @@ void odom::reset(odom::RobotPosition startState) {
   }
 
   // reset encoders
-  // TODO: fix
   odom_left.sensor->set_zero_position(0);
   odom_right.sensor->set_zero_position(0);
   odom_middle.sensor->reset();
@@ -171,7 +165,7 @@ void odom::reset(odom::RobotPosition startState) {
 }
 
 void odom::reset() {
-  // default to 0, 0, 0
+  // default to 0, 0, 90deg
   reset({0, 0, 0});
 }
 
@@ -226,6 +220,8 @@ void odom::turnTo(double theta) {
     // calculate the error
     error = theta - currentTheta;
 
+    std::cout << "error: " << error << std::endl;
+
     // if error is greater than 180, subtract 360
     if (error > 180) error -= 360;
     // if error is less than -180, add 360
@@ -236,12 +232,12 @@ void odom::turnTo(double theta) {
     double output = odom::turnPID->update(error);
 
     // set the motors
-    drive_left_back->move(output);
-    drive_left_front->move(output);
-    drive_left_pto->move(output);
-    drive_right_back->move(-output);
-    drive_right_front->move(-output);
-    drive_right_pto->move(-output);
+    drive_left_back->move_velocity(output);
+    drive_left_front->move_velocity(output);
+    drive_left_pto->move_velocity(output);
+    drive_right_back->move_velocity(-output);
+    drive_right_front->move_velocity(-output);
+    drive_right_pto->move_velocity(-output);
 
     // wait
     pros::delay(20);
