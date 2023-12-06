@@ -40,6 +40,8 @@ OdomSensor odom_middle = {
     .offset = 5,
 };
 
+SHARED(pros::Imu, inertial, ODOM_INERTIAL);
+
 std::vector<pros::Motor> drive_left_v = {*drive_left_front, *drive_left_back};
 
 std::vector<pros::Motor> drive_right_v = {*drive_right_front,

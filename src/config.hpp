@@ -6,6 +6,7 @@
 #define ODOMETRY_TICKS_PER_INCH 360.0  // ticks per inch
 #define ODOMETRY_WHEEL_DIAMETER 2.75   // inches
 #define ODOM_MIDDLE_PORT 'b', 'c'
+#define ODOM_INERTIAL 16
 
 // DRIVETRAIN
 #define DRIVETRAIN_GEAR_RATIO /* input 32 -> output 72 */ 0.5
@@ -51,6 +52,7 @@ struct OdomIntegratedSensor {
 extern OdomIntegratedSensor odom_left;
 extern OdomIntegratedSensor odom_right;
 extern OdomSensor odom_middle;
+extern SHARED(pros::Imu, inertial);
 
 //// Drivetrain
 extern SHARED(pros::Motor, drive_left_front);

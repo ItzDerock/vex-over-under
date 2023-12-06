@@ -65,11 +65,12 @@ void odom::update() {
   // auto deltaRr = right - resetValues.right;
 
   // 5. Calculate new orientation
-  auto newTheta = resetValues.theta +
-                  (left - right) / (odom_left.offset + odom_right.offset);
+  double newTheta = inertial->get_heading() * M_PI / 180;
+  // auto newTheta = resetValues.theta +
+  //                 (left - right) / (odom_left.offset + odom_right.offset);
 
   // 6. Calculate change in orientation
-  auto dTheta = newTheta - state.theta;
+  double dTheta = newTheta - state.theta;
 
   // 7. Calculate local offset for dTheta = 0
   RobotPosition localOffset = {0, 0, 0};
@@ -132,20 +133,30 @@ void odom::initalize() {
   odomTask = new pros::Task(updateLoop, TASK_PRIORITY_DEFAULT - 1);
 }
 
+// macro to handle errors properly
+#define CHECK_SUCCESS(fn, name)                           \
+  if (fn != 1) {                                          \
+    std::cerr << "FAILED TO RESET ODOMETRY!" << std::endl \
+              << "errorno: " << errno << std::endl        \
+              << "at: " << name << std::endl;             \
+  }
+
 void odom::reset(odom::RobotPosition startState) {
   // aquire mutex
   mutex.take();
 
   // stop task
-  if (odomTask != nullptr) {
+  bool taskRunning = odomTask == nullptr;
+  if (!taskRunning) {
     odomTask->remove();
     odomTask = nullptr;
   }
 
   // reset encoders
-  odom_left.sensor->set_zero_position(0);
-  odom_right.sensor->set_zero_position(0);
-  odom_middle.sensor->reset();
+  CHECK_SUCCESS(odom_left.sensor->set_zero_position(0), "odom_left");
+  CHECK_SUCCESS(odom_right.sensor->set_zero_position(0), "odom_right");
+  CHECK_SUCCESS(odom_middle.sensor->reset(), "odom_middle");
+  CHECK_SUCCESS(inertial->reset(true), "odom_imu");
 
   // reset state
   // state = startState;
@@ -158,7 +169,7 @@ void odom::reset(odom::RobotPosition startState) {
   prevSensors = {0, 0, 0, 0};
 
   // restart task
-  initalize();
+  if (taskRunning) initalize();
 
   // release mutex
   mutex.give();
