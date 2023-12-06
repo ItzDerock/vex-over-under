@@ -80,24 +80,34 @@ void odom::moveDistance(double dist, double timeout) {
   move(0, 0);
 }
 
+// utility functions for turning
+/**
+ * Calculates the error between two angles.
+ * Expects angles in RADIANS!
+ */
+double angleError(double angle1, double angle2) {
+  return std::remainder(angle1 - angle2, 2 * M_PI);
+}
+
+/**
+ * Returns the angle in the range [0, 2PI]
+ */
+double angleSquish(double angle) { return fmod(angle, 2 * M_PI); }
+
 void odom::turnTo(double theta) { odom::turnTo(theta, 5); }
 
 void odom::turnTo(double theta, double timeout) {
+  // "fix" the inputs
+  timeout = timeout * 1000;
+  theta = angleSquish(theta);
+
   unsigned int settledTime = 0;
   uint32_t start = pros::millis();
-  timeout = timeout * 1000;
-
-  // fix theta if <0 >2M_PI
-  if (theta < 0) theta += 2 * M_PI;
-  if (theta > 2 * M_PI) theta -= 2 * M_PI;
 
   while (settledTime < SETTLED_TIME && (pros::millis() - start) < timeout) {
     RobotPosition position = getPosition();
 
-    // double error = position.theta > theta ? position.theta - theta
-    //                                       : theta - position.theta;
-
-    double error = theta - position.theta;
+    double error = angleError(theta, position.theta);
 
     std::cout << "angular error: " << error << std::endl;
     double output = turnPID->update(error);
@@ -112,55 +122,3 @@ void odom::turnTo(double theta, double timeout) {
 
   move(0, 0);
 }
-
-// void odom::turnTo(double theta) {
-//   // get the current theta
-//   double currentTheta = getPosition().theta;
-
-//   // calculate the error
-//   double error = theta - currentTheta;
-
-//   // if error is greater than 180, subtract 360
-//   if (error > M_PI) error -= 2 * M_PI;
-//   // if error is less than -180, add 360
-//   else if (error < -M_PI)
-//     error += 2 * M_PI;
-
-//   // while the error is greater than the allowed error
-//   while (fabs(error) > 0.02) {
-//     currentTheta = getPosition().theta;
-
-//     // calculate the error
-//     error = theta - currentTheta;
-
-//     std::cout << "error: " << error << std::endl;
-
-//     // if error is greater than 180, subtract 360
-//     if (error > M_PI) error -= 2 * M_PI;
-//     // if error is less than -180, add 360
-//     else if (error < -M_PI)
-//       error += 2 * M_PI;
-
-//     // calculate the output
-//     double output = odom::turnPID->update(error);
-
-//     // set the motors
-//     drive_left_back->move_velocity(output);
-//     drive_left_front->move_velocity(output);
-//     drive_left_pto->move_velocity(output);
-//     drive_right_back->move_velocity(-output);
-//     drive_right_front->move_velocity(-output);
-//     drive_right_pto->move_velocity(-output);
-
-//     // wait
-//     pros::delay(20);
-//   }
-
-//   // stop the motors
-//   drive_left_back->move(0);
-//   drive_left_front->move(0);
-//   drive_left_pto->move(0);
-//   drive_right_back->move(0);
-//   drive_right_front->move(0);
-//   drive_right_pto->move(0);
-// }
