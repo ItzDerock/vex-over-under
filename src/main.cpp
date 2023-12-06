@@ -61,6 +61,15 @@ void autonomous() {
   odom::turnTo(start.theta - M_PI / 2);
 }
 
+const double CURVE_SCALE = 4.0;
+
+double driveCurve(double input) {
+  return (powf(2.718, -(CURVE_SCALE / 10)) +
+          powf(2.718, (fabs(input) - 127) / 10) *
+              (1 - powf(2.718, -(CURVE_SCALE / 10)))) *
+         input;
+}
+
 /**
  * Runs the operator control code. This function will be started in its own task
  * with the default priority and stack size whenever the robot is enabled via
@@ -81,6 +90,10 @@ void opcontrol() {
     // get the joystick values
     int leftJoystick = master.get_analog(ANALOG_RIGHT_Y);
     int rightJoystick = master.get_analog(ANALOG_LEFT_Y);
+
+    // apply the curve
+    leftJoystick = driveCurve(leftJoystick);
+    rightJoystick = driveCurve(rightJoystick);
 
     // update drive
     drive_left_back->move(leftJoystick);
