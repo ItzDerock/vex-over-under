@@ -52,11 +52,13 @@ void competition_initialize() {}
  * from where it left off.
  */
 void autonomous() {
+  odom::RobotPosition start = odom::getPosition();
   // wings->toggle();
-  odom::moveDistance(15);
-  odom::turnTo(odom::getPosition().theta + M_PI / 4);
-  odom::moveDistance(20);
-  odom::moveDistance(-20);
+  odom::moveDistance(32, 3);
+  odom::turnTo(start.theta - M_PI / 4);
+  odom::moveDistance(10, 3);
+  odom::moveDistance(-5, 3);
+  odom::turnTo(start.theta - M_PI / 2);
 }
 
 /**

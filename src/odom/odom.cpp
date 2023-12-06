@@ -13,7 +13,7 @@
  */
 
 std::shared_ptr<PIDController> odom::turnPID =
-    std::make_shared<PIDController>(50, 0.01, 0.001);
+    std::make_shared<PIDController>(90, 0.5, 0.05);
 std::shared_ptr<PIDController> odom::drivePID =
     std::make_shared<PIDController>(30, 0.01, 0.001);
 
@@ -186,68 +186,3 @@ odom::RobotPosition odom::getPosition(bool degrees) {
 }
 
 odom::RobotPosition odom::getPosition() { return getPosition(false); }
-
-void odom::turnTo(double theta) {
-  // aquire mutex
-  mutex.take();
-
-  // get the current theta
-  double currentTheta = state.theta;
-
-  // release mutex
-  mutex.give();
-
-  // calculate the error
-  double error = theta - currentTheta;
-
-  // if error is greater than 180, subtract 360
-  if (error > 180) error -= 360;
-  // if error is less than -180, add 360
-  else if (error < -180)
-    error += 360;
-
-  // while the error is greater than the allowed error
-  while (fabs(error) > 0.5) {
-    // aquire mutex
-    mutex.take();
-
-    // get the current theta
-    currentTheta = state.theta;
-
-    // release mutex
-    mutex.give();
-
-    // calculate the error
-    error = theta - currentTheta;
-
-    std::cout << "error: " << error << std::endl;
-
-    // if error is greater than 180, subtract 360
-    if (error > 180) error -= 360;
-    // if error is less than -180, add 360
-    else if (error < -180)
-      error += 360;
-
-    // calculate the output
-    double output = odom::turnPID->update(error);
-
-    // set the motors
-    drive_left_back->move_velocity(output);
-    drive_left_front->move_velocity(output);
-    drive_left_pto->move_velocity(output);
-    drive_right_back->move_velocity(-output);
-    drive_right_front->move_velocity(-output);
-    drive_right_pto->move_velocity(-output);
-
-    // wait
-    pros::delay(20);
-  }
-
-  // stop the motors
-  drive_left_back->move(0);
-  drive_left_front->move(0);
-  drive_left_pto->move(0);
-  drive_right_back->move(0);
-  drive_right_front->move(0);
-  drive_right_pto->move(0);
-}

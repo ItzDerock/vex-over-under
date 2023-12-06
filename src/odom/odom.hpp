@@ -46,11 +46,13 @@ void initalize();
  * turn to a given angle (in degrees)
  */
 void turnTo(double theta);
+void turnTo(double theta, double timeout);
 
 /**
  * Drive a certain distance (in inches)
  */
 void moveDistance(double distance);
+void moveDistance(double distance, double timeout);
 
 /**
  * The odometry mutex. Use whenever you are reading values.
