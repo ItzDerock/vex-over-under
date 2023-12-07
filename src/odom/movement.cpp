@@ -10,7 +10,7 @@ double distance(odom::RobotPosition a, odom::RobotPosition b) {
   return sqrt(pow(a.x - b.x, 2) + pow(a.y - b.y, 2));
 }
 
-void move(double left, double right) {
+void odom::move(double left, double right) {
   drive_left_back->move_velocity(left);
   drive_left_front->move_velocity(left);
   drive_left_pto->move_velocity(left);
@@ -107,7 +107,7 @@ void odom::turnTo(double theta, double timeout) {
   while (settledTime < SETTLED_TIME && (pros::millis() - start) < timeout) {
     RobotPosition position = getPosition();
 
-    double error = angleError(theta, position.theta);
+    double error = angleError(theta, position.theta) * 180 / M_PI;
 
     std::cout << "angular error: " << error << std::endl;
     double output = turnPID->update(error);
@@ -116,7 +116,7 @@ void odom::turnTo(double theta, double timeout) {
       settledTime += 10;
     }
 
-    move(output, -output);
+    move(-output, output);
     pros::delay(10);
   }
 
