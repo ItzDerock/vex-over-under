@@ -25,7 +25,7 @@
 #define WINGS_PORT 'a'
 
 // BLOCKER
-#define BLOCKER_PORT 14
+#define BLOCKER_PORT 7
 
 /*************************
  * VARIABLE DECLARATIONS *
