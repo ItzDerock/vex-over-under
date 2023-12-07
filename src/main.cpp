@@ -14,12 +14,11 @@
  * to keep execution time for this mode under a few seconds.
  */
 void initialize() {
-  std::cout << odom_middle.sensor->get_value() << std::endl;
-
   catapult::initialize();
   odom::reset();
   odom::initalize();
   static Gif gif("/usd/game.gif", lv_scr_act());
+  screen::initAutonSelector(&gif);
 }
 
 /**
@@ -53,21 +52,53 @@ void competition_initialize() {}
  */
 void autonomous() {
   odom::RobotPosition start = odom::getPosition();
-  // wings->toggle();
-  odom::moveDistance(32, 3);
-  odom::turnTo(start.theta - M_PI / 4);
-  odom::moveDistance(10, 3);
-  odom::moveDistance(-5, 3);
+
+  // SKILLS
+  odom::moveDistance(-8, 5);
   odom::turnTo(start.theta - M_PI / 2);
+  odom::moveDistance(-11, 10);
+
+  pros::delay(5'000);
+
+  odom::moveDistance(9, 10);
+  odom::turnTo(start.theta);
+  odom::moveDistance(8, 10);
+  odom::turnTo(start.theta - M_PI / 4);
+  odom::moveDistance(76, 15);
+
+  odom::turnTo(start.theta - M_PI / 2);
+  wings->extend();
+  odom::moveDistance(30, 10);
+
+  pros::delay(1'000);
+
+  odom::moveDistance(-5, 10);
+
+  // wings->toggle();
+  // odom::moveDistance(32, 3);
+  // odom::turnTo(start.theta - M_PI / 4);
+  // odom::moveDistance(10, 3);
+  // odom::moveDistance(-5, 3);
+  // odom::turnTo(start.theta - M_PI / 2);
 }
 
-const double CURVE_SCALE = 4.0;
+const double CURVE_SCALE = 6.0;
 
 double driveCurve(double input) {
+  // return input;
   return (powf(2.718, -(CURVE_SCALE / 10)) +
           powf(2.718, (fabs(input) - 127) / 10) *
               (1 - powf(2.718, -(CURVE_SCALE / 10)))) *
          input;
+}
+
+void move(double left, double right) {
+  drive_left_back->move(left);
+  drive_left_front->move(left);
+  drive_left_pto->move(left);
+  drive_right_back->move(right);
+  drive_right_front->move(right);
+  drive_right_pto->move(right);
 }
 
 /**
@@ -88,32 +119,41 @@ void opcontrol() {
 
   while (true) {
     // get the joystick values
-    int leftJoystick = master.get_analog(ANALOG_RIGHT_Y);
-    int rightJoystick = master.get_analog(ANALOG_LEFT_Y);
+    double throttle = master.get_analog(ANALOG_RIGHT_Y);
+    double turn = -1 * master.get_analog(ANALOG_LEFT_X);
 
-    // apply the curve
-    leftJoystick = driveCurve(leftJoystick);
-    rightJoystick = driveCurve(rightJoystick);
+    if (throttle == 0) {
+      move(driveCurve(throttle + turn), driveCurve(throttle - turn));
+    } else {
+      double leftPower = throttle + (std::abs(throttle) * turn) / 127.0;
+      double rightPower = throttle - (std::abs(throttle) * turn) / 127.0;
 
-    // update drive
-    drive_left_back->move(leftJoystick);
-    drive_left_front->move(leftJoystick);
-    drive_left_pto->move(leftJoystick);
-    drive_right_back->move(rightJoystick);
-    drive_right_front->move(rightJoystick);
-    drive_right_pto->move(rightJoystick);
+      leftPower = driveCurve(leftPower);
+      rightPower = driveCurve(rightPower);
+
+      move(leftPower, rightPower);
+    }
+
+    // int left = master.get_analog(ANALOG_RIGHT_Y);
+    // int right = master.get_analog(ANALOG_LEFT_X);
+
+    // // apply the curve
+    // left = driveCurve(left);
+    // right = driveCurve(right);
+
+    // // update drive
+    // drive_left_back->move(left);
+    // drive_left_front->move(left);
+    // drive_left_pto->move(left);
+    // drive_right_back->move(right);
+    // drive_right_front->move(right);
+    // drive_right_pto->move(right);
 
     // if single press, fire once
     if (master.get_digital_new_press(DIGITAL_R1)) {
       catapult::fire();
-    }
-    // if held, rapid fire
-    else if (master.get_digital(DIGITAL_R1)) {
-      catapult::rapidFire = true;
-    }
-    // if released, stop rapid fire
-    else {
-      catapult::rapidFire = false;
+    } else {
+      catapult::rapidFire = master.get_digital(DIGITAL_R1);
     }
 
     // wings
