@@ -59,4 +59,13 @@ void moveDistance(double distance, double timeout);
  */
 extern pros::Mutex mutex;
 
+void move(double left, double right);
+
+/**
+ * Autonomous enum
+ */
+enum class Autonomous { Red, Blue, Skills, None };
+
+extern Autonomous autonomous;
+
 }  // namespace odom

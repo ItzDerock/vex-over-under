@@ -38,6 +38,11 @@ class Gif {
    */
   void clean();
 
+  /**
+   * Returns the LVGL canvas object
+   */
+  lv_obj_t* getCanvas() const;
+
  private:
   gd_GIF* _gif = nullptr;      // gif decoder object
   void* _gifmem = nullptr;     // gif file loaded from SD into memory

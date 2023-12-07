@@ -12,11 +12,6 @@
  * Movement functions are not based on that paper.
  */
 
-std::shared_ptr<PIDController> odom::turnPID =
-    std::make_shared<PIDController>(90, 0.5, 0.05);
-std::shared_ptr<PIDController> odom::drivePID =
-    std::make_shared<PIDController>(30, 0.01, 0.001);
-
 // Task to update the odom
 pros::Task *odomTask = nullptr;
 pros::Mutex odom::mutex;
@@ -108,9 +103,9 @@ void odom::update() {
 
   state.theta = newTheta;
 
-  std::cout << "x: " << state.x << std::endl;
-  std::cout << "y: " << state.y << std::endl;
-  std::cout << "theta: " << state.theta << std::endl;
+  // std::cout << "x: " << state.x << std::endl;
+  // std::cout << "y: " << state.y << std::endl;
+  // std::cout << "theta: " << state.theta << std::endl;
 
   // unlock mutex
   mutex.give();

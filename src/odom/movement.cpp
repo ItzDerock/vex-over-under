@@ -1,8 +1,14 @@
 #include "../config.hpp"
 #include "odom.hpp"
 
-#define SETTLED_TIME 1500  // milliseconds
+#define SETTLED_TIME 800  // milliseconds
 
+odom::Autonomous odom::autonomous = odom::Autonomous::Skills;
+
+std::shared_ptr<PIDController> odom::turnPID =
+    std::make_shared<PIDController>(2, 0.01, 0.05);
+std::shared_ptr<PIDController> odom::drivePID =
+    std::make_shared<PIDController>(40, 0.01, 0.001);
 /**
  * Returns the distance between two points
  */
@@ -61,7 +67,9 @@ void odom::moveDistance(double dist, double timeout) {
 
     // calculate the output
     double output = drivePID->update(distanceError);
-    double angularOutput = turnPID->update(angularError);
+    double angularOutput = -1 * turnPID->update(angularError);
+
+    std::cout << "output: " << output << std::endl;
 
     // set the motors
     // double left = output + angularOutput;
@@ -104,6 +112,8 @@ void odom::turnTo(double theta, double timeout) {
   unsigned int settledTime = 0;
   uint32_t start = pros::millis();
 
+  std::cout << "theta: " << theta << std::endl;
+
   while (settledTime < SETTLED_TIME && (pros::millis() - start) < timeout) {
     RobotPosition position = getPosition();
 
@@ -111,6 +121,7 @@ void odom::turnTo(double theta, double timeout) {
 
     std::cout << "angular error: " << error << std::endl;
     double output = turnPID->update(error);
+    std::cout << "output: " << output << std::endl;
 
     if (error < 0.02) {
       settledTime += 10;
