@@ -40,8 +40,6 @@ Gif::Gif(const char *fname, lv_obj_t *parent) {
   lv_canvas_set_buffer(_canvas, _cbuf, _gif->width, _gif->height,
                        LV_IMG_CF_TRUE_COLOR_ALPHA);
 
-  std::cout << "  canvas: " << _canvas << std::endl;
-
   // 3. Create task to render gif
   _task = pros::c::task_create(
       _render_task, this, TASK_PRIORITY_DEFAULT - 2, TASK_STACK_DEPTH_DEFAULT,
@@ -67,6 +65,11 @@ void Gif::resume() { pros::c::task_resume(_task); }
  * Deletes GIF and frees all allocated memory
  */
 void Gif::clean() { _cleanup(); }
+
+/**
+ * Returns the LVGL object pointer
+ */
+lv_obj_t *Gif::getCanvas() const { return _canvas; }
 
 /**
  * Cleans and frees all allocated memory
