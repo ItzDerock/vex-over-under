@@ -22,6 +22,18 @@ See [src/config.hpp] for the port configuration. Can be easily edited to accomod
 PROSv5 - C++ API to interface with the VEX hardware
 LVGL - C library for graphics rendering on the brain screen
 gifdec - C library for decoding gifs
+GoogleTests - C++ library for unit testing
+
+## Testing:
+To run the tests, run the following command:
+```sh
+# Generate configuration
+cmake -S . -B build
+
+# Build and run tests
+cmake --build build
+./build/Robot
+```
 
 ## Utility Programs:
 - `scripts/htmlify.sh` - Converts all source files (controlled by a list containing glob patterns) to one large HTML file so you can export and paste into your design notebook.

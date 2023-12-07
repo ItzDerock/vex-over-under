@@ -19,3 +19,6 @@ temp.errors
 # tmp
 index.html
 logs.txt
+
+#   
+build/
