@@ -46,8 +46,11 @@ void screen::initAutonSelector(Gif *gif) {
   original_screen = lv_scr_act();
 
   // register the gif event callback
-  lv_obj_add_event_cb(gif->getCanvas(), switch_screen_event_cb,
-                      LV_EVENT_CLICKED, NULL);
+  lv_obj_t *autoselect = lv_btn_create(original_screen);
+  lv_obj_set_pos(autoselect, lv_obj_get_width(lv_scr_act()) - 80, 10);
+  lv_label_set_text(lv_label_create(autoselect), "Menu");
+  lv_obj_add_event_cb(autoselect, switch_screen_event_cb, LV_EVENT_CLICKED,
+                      NULL);
 
   // create the buttons for the auton selector
   lv_obj_t *back = lv_btn_create(screen::auton_selector_screen);
@@ -58,20 +61,14 @@ void screen::initAutonSelector(Gif *gif) {
   lv_obj_add_event_cb(back, switch_screen_event_cb, LV_EVENT_CLICKED, NULL);
 
   // set the position of the back button
-  lv_obj_set_pos(back, 0, 0);
-  lv_obj_set_size(back, 100, 50);
+  lv_obj_set_pos(back, lv_obj_get_width(lv_scr_act()) - 80, 10);
 
   // create dropdown for auton selector
   lv_obj_t *dropdown = lv_dropdown_create(screen::auton_selector_screen);
-  lv_obj_set_pos(dropdown, 0, 50);
-  lv_obj_set_size(dropdown, 100, 50);
+  lv_obj_set_pos(dropdown, 10, 10);
 
   // create the options for the dropdown
   lv_dropdown_set_options(dropdown, "Red\nBlue\nSkills\nNone");
   lv_obj_add_event_cb(dropdown, auto_dropdown_select, LV_EVENT_VALUE_CHANGED,
                       NULL);
-
-  // create the label for the dropdown
-  lv_obj_t *dropdown_label = lv_label_create(dropdown);
-  lv_label_set_text(dropdown_label, "Autonomous");
 }

@@ -54,32 +54,36 @@ void autonomous() {
   odom::RobotPosition start = odom::getPosition();
 
   // SKILLS
-  odom::moveDistance(-8, 5);
-  odom::turnTo(start.theta - M_PI / 2);
-  odom::moveDistance(-11, 10);
+  if (odom::autonomous == odom::Autonomous::Skills) {
+    odom::moveDistance(-8, 5);
+    odom::turnTo(start.theta - M_PI / 2);
+    odom::moveDistance(-11, 10);
 
-  pros::delay(5'000);
+    pros::delay(5'000);
 
-  odom::moveDistance(9, 10);
-  odom::turnTo(start.theta);
-  odom::moveDistance(8, 10);
-  odom::turnTo(start.theta - M_PI / 4);
-  odom::moveDistance(76, 15);
+    odom::moveDistance(9, 10);
+    odom::turnTo(start.theta);
+    odom::moveDistance(8, 10);
+    odom::turnTo(start.theta - M_PI / 4);
+    odom::moveDistance(76, 15);
 
-  odom::turnTo(start.theta - M_PI / 2);
-  wings->extend();
-  odom::moveDistance(30, 10);
+    odom::turnTo(start.theta - M_PI / 2);
+    wings->extend();
+    odom::moveDistance(30, 10);
 
-  pros::delay(1'000);
+    pros::delay(1'000);
 
-  odom::moveDistance(-5, 10);
+    odom::moveDistance(-5, 10);
+  } else if (odom::autonomous == odom::Autonomous::Red) {
+    wings->toggle();
+    odom::moveDistance(32, 3);
+    odom::turnTo(start.theta - M_PI / 4);
+    odom::moveDistance(10, 3);
+    odom::moveDistance(-5, 3);
+    odom::turnTo(start.theta - M_PI / 2);
+  }
 
-  // wings->toggle();
-  // odom::moveDistance(32, 3);
-  // odom::turnTo(start.theta - M_PI / 4);
-  // odom::moveDistance(10, 3);
-  // odom::moveDistance(-5, 3);
-  // odom::turnTo(start.theta - M_PI / 2);
+  std::cout << "finished" << std::endl;
 }
 
 const double CURVE_SCALE = 6.0;
