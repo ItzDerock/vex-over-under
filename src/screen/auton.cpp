@@ -13,11 +13,16 @@ static void switch_screen_event_cb(lv_event_t *event) {
   lv_event_code_t code = lv_event_get_code(event);
   lv_obj_t *obj = lv_event_get_target(event);
 
+  Gif *gif = (Gif *)lv_event_get_user_data(event);
+
   if (code == LV_EVENT_CLICKED) {
-    if (lv_scr_act() == screen::auton_selector_screen)
+    if (lv_scr_act() == screen::auton_selector_screen) {
+      if (gif != NULL) gif->resume();
       lv_scr_load(original_screen);
-    else
+    } else {
+      if (gif != NULL) gif->pause();
       lv_scr_load(screen::auton_selector_screen);
+    }
   }
 }
 
@@ -50,7 +55,7 @@ void screen::initAutonSelector(Gif *gif) {
   lv_obj_set_pos(autoselect, lv_obj_get_width(lv_scr_act()) - 80, 10);
   lv_label_set_text(lv_label_create(autoselect), "Menu");
   lv_obj_add_event_cb(autoselect, switch_screen_event_cb, LV_EVENT_CLICKED,
-                      NULL);
+                      gif);
 
   // create the buttons for the auton selector
   lv_obj_t *back = lv_btn_create(screen::auton_selector_screen);
@@ -58,7 +63,7 @@ void screen::initAutonSelector(Gif *gif) {
 
   // set the text of the back button
   lv_label_set_text(back_label, "Back");
-  lv_obj_add_event_cb(back, switch_screen_event_cb, LV_EVENT_CLICKED, NULL);
+  lv_obj_add_event_cb(back, switch_screen_event_cb, LV_EVENT_CLICKED, gif);
 
   // set the position of the back button
   lv_obj_set_pos(back, lv_obj_get_width(lv_scr_act()) - 80, 10);
