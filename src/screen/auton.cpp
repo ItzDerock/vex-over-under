@@ -34,15 +34,16 @@ static void auto_dropdown_select(lv_event_t *event) {
   if (code == LV_EVENT_VALUE_CHANGED) {
     // std::string value = lv_dropdown_get_selected_str(obj);
     int value = lv_dropdown_get_selected(obj);
-    if (value == 0) {
-      odom::autonomous = odom::Autonomous::Red;
-    } else if (value == 1) {
-      odom::autonomous = odom::Autonomous::Blue;
-    } else if (value == 2) {
-      odom::autonomous = odom::Autonomous::Skills;
-    } else {
-      odom::autonomous = odom::Autonomous::None;
-    }
+    odom::autonomous = (odom::Autonomous)value;
+    // if (value == 0) {
+    //   odom::autonomous = odom::Autonomous::ScoreLeft;
+    // } else if (value == 1) {
+    //   odom::autonomous = odom::Autonomous::ScoreSimple;
+    // } else if (value == 2) {
+    //   odom::autonomous = odom::Autonomous::Skills;
+    // } else {
+    //   odom::autonomous = odom::Autonomous::None;
+    // }
   }
 }
 
@@ -73,7 +74,8 @@ void screen::initAutonSelector(Gif *gif) {
   lv_obj_set_pos(dropdown, 10, 10);
 
   // create the options for the dropdown
-  lv_dropdown_set_options(dropdown, "Red\nBlue\nSkills\nNone");
+  lv_dropdown_set_options(dropdown,
+                          "Score Left\nScore Simple\nTouch Bar\nSkills\nNone");
   lv_obj_add_event_cb(dropdown, auto_dropdown_select, LV_EVENT_VALUE_CHANGED,
                       NULL);
 }

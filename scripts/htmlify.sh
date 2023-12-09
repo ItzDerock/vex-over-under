@@ -8,6 +8,8 @@ FILES=(
   "./src/*"
   "./src/**/*"
   "./scripts/*"
+  "./include/gif-pros/*"
+  "./include/robot/*"
 )
 
 # Ext override map

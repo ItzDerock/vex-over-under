@@ -59,28 +59,50 @@ void autonomous() {
     odom::turnTo(start.theta - M_PI / 2);
     odom::moveDistance(-11, 10);
 
-    pros::delay(5'000);
+    catapult::ensureTask();
+    catapult::fire();
+    catapult::rapidFire = true;
 
-    odom::moveDistance(9, 10);
-    odom::turnTo(start.theta);
-    odom::moveDistance(8, 10);
-    odom::turnTo(start.theta - M_PI / 4);
-    odom::moveDistance(76, 15);
+    while (pros::competition::is_autonomous()) {
+      catapult::ensureTask();
 
-    odom::turnTo(start.theta - M_PI / 2);
-    wings->extend();
-    odom::moveDistance(30, 10);
+      odom::move(-10, -10);
+      pros::delay(2'000);
+      odom::move(-1, -1);
+      pros::delay(5'000);
+    }
 
-    pros::delay(1'000);
+    return;
 
-    odom::moveDistance(-5, 10);
-  } else if (odom::autonomous == odom::Autonomous::Red) {
-    wings->toggle();
+    // odom::moveDistance(9, 10);
+    // odom::turnTo(start.theta);
+    // odom::moveDistance(8, 10);
+    // odom::turnTo(start.theta - M_PI / 4);
+    // odom::moveDistance(76, 15);
+
+    // odom::turnTo(start.theta - M_PI / 2);
+    // wings->extend();
+    // odom::moveDistance(30, 10);
+
+    // pros::delay(1'000);
+
+    // odom::moveDistance(-5, 10);
+  } else if (odom::autonomous == odom::Autonomous::ScoreLeft) {
+    // wings->toggle();
     odom::moveDistance(32, 3);
     odom::turnTo(start.theta - M_PI / 4);
-    odom::moveDistance(10, 3);
-    odom::moveDistance(-5, 3);
-    odom::turnTo(start.theta - M_PI / 2);
+    for (int i = 0; i < 3; i++) {
+      odom::moveDistance(10, 10);
+      odom::moveDistance(-10, 10);
+    }
+    // odom::turnTo(start.theta - M_PI / 2);
+  } else if (odom::autonomous == odom::Autonomous::ScoreSimple) {
+    odom::moveDistance(64, 5);
+    odom::moveDistance(-8, 5);
+  } else if (odom::autonomous == odom::Autonomous::TouchBar) {
+    blocker->toggle();
+    odom::moveDistance(-15, 5);
+    blocker->toggle();
   }
 
   std::cout << "finished" << std::endl;

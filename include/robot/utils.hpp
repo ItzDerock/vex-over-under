@@ -13,4 +13,9 @@ double angleError(double angle1, double angle2);
  */
 double angleSquish(double angle);
 
+template <typename T>
+constexpr T sgn(T value) {
+  return value < 0 ? -1 : 1;
+}
+
 }  // namespace utils

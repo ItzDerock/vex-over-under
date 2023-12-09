@@ -3,7 +3,7 @@
 
 #define SETTLED_TIME 800  // milliseconds
 
-odom::Autonomous odom::autonomous = odom::Autonomous::Skills;
+odom::Autonomous odom::autonomous = odom::Autonomous::None;
 
 std::shared_ptr<PIDController> odom::turnPID =
     std::make_shared<PIDController>(2, 0.01, 0.05);
