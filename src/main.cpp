@@ -168,13 +168,18 @@ void opcontrol() {
     }
 
     // blocker
-    if (master.get_digital(DIGITAL_UP)) {
-      blocker->move(127);
-    } else if (master.get_digital(DIGITAL_DOWN)) {
-      blocker->move(-127);
-    } else {
-      blocker->move(0);
+    if (master.get_digital_new_press(DIGITAL_R2)) {
+      blocker->toggle();
     }
+
+    // blocker
+    // if (master.get_digital(DIGITAL_UP)) {
+    //   blocker->move(127);
+    // } else if (master.get_digital(DIGITAL_DOWN)) {
+    //   blocker->move(-127);
+    // } else {
+    //   blocker->move(0);
+    // }
 
     catapult::ensureTask();
 

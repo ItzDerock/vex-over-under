@@ -25,7 +25,7 @@
 #define WINGS_PORT 'a'
 
 // BLOCKER
-#define BLOCKER_PORT 7
+#define BLOCKER_PORT 'e'
 
 /*************************
  * VARIABLE DECLARATIONS *
@@ -73,7 +73,7 @@ extern SHARED(pros::Rotation, catapult_position);
 extern SHARED(pros::adi::Pneumatics, wings);
 
 ///// Blocker
-extern SHARED(pros::Motor, blocker);
+extern SHARED(pros::adi::Pneumatics, blocker);
 
 // undefine SHARED macro to prevent accidental use
 #undef SHARED
