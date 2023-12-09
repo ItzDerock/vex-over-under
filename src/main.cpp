@@ -127,7 +127,9 @@ void opcontrol() {
     double turn = -1 * master.get_analog(ANALOG_LEFT_X);
 
     if (throttle == 0) {
-      move(driveCurve(throttle + turn), driveCurve(throttle - turn));
+      double leftPower = driveCurve(turn);
+
+      move(leftPower, -leftPower);
     } else {
       double leftPower = throttle + (std::abs(throttle) * turn) / 127.0;
       double rightPower = throttle - (std::abs(throttle) * turn) / 127.0;
