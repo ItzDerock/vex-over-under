@@ -8,7 +8,7 @@ odom::Autonomous odom::autonomous = odom::Autonomous::None;
 std::shared_ptr<PIDController> odom::turnPID =
     std::make_shared<PIDController>(2, 0.01, 0.05);
 std::shared_ptr<PIDController> odom::drivePID =
-    std::make_shared<PIDController>(40, 0.01, 0.001);
+    std::make_shared<PIDController>(35, 0.01, 0.001);
 /**
  * Returns the distance between two points
  */

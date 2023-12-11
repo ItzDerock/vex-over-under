@@ -56,7 +56,7 @@ void autonomous() {
   // SKILLS
   if (odom::autonomous == odom::Autonomous::Skills) {
     odom::moveDistance(-8, 5);
-    odom::turnTo(start.theta - M_PI / 2);
+    odom::turnTo(start.theta - M_PI / 2 + (M_PI / 16));
     odom::moveDistance(-11, 10);
 
     catapult::ensureTask();
@@ -65,8 +65,7 @@ void autonomous() {
 
     while (pros::competition::is_autonomous()) {
       catapult::ensureTask();
-
-      odom::move(-10, -10);
+      odom::move(-10, -8);
       pros::delay(2'000);
       odom::move(-1, -1);
       pros::delay(5'000);
@@ -101,7 +100,7 @@ void autonomous() {
     odom::moveDistance(-8, 5);
   } else if (odom::autonomous == odom::Autonomous::TouchBar) {
     blocker->toggle();
-    odom::moveDistance(-15, 5);
+    odom::moveDistance(-21, 5);
     blocker->toggle();
   }
 
