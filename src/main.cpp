@@ -18,6 +18,9 @@ void initialize() {
   odom::reset();
   odom::initalize();
 
+  // load pure pursuit paths
+  pros::Task([]() { odom::loadPaths({"/usd/path.txt"}); });
+
   // offload gif initialization to a separate task
   pros::Task([]() {
     static Gif gif("/usd/game.gif", lv_scr_act());
@@ -64,38 +67,7 @@ void autonomous() {
 
   // SKILLS
   if (odom::autonomous == odom::Autonomous::Skills) {
-    odom::follow("/usd/path.txt", 10, 15'000, true, false);
-    // odom::moveDistance(-8, 5);
-    // odom::turnTo(start.theta - M_PI / 2 + (M_PI / 16));
-    // odom::moveDistance(-11, 10);
-
-    // catapult::ensureTask();
-    // catapult::fire();
-    // catapult::rapidFire = true;
-
-    // while (pros::competition::is_autonomous()) {
-    //   catapult::ensureTask();
-    //   odom::moveVelocity(-10, -8);
-    //   pros::delay(2'000);
-    //   odom::moveVelocity(-1, -1);
-    //   pros::delay(5'000);
-    // }
-
-    // return;
-
-    // odom::moveDistance(9, 10);
-    // odom::turnTo(start.theta);
-    // odom::moveDistance(8, 10);
-    // odom::turnTo(start.theta - M_PI / 4);
-    // odom::moveDistance(76, 15);
-
-    // odom::turnTo(start.theta - M_PI / 2);
-    // wings->extend();
-    // odom::moveDistance(30, 10);
-
-    // pros::delay(1'000);
-
-    // odom::moveDistance(-5, 10);
+    odom::follow(odom::getPath("/usd/path.txt"), 10, 15'000, true, false);
   } else if (odom::autonomous == odom::Autonomous::ScoreLeft) {
     // wings->toggle();
     odom::moveDistance(32, 3);

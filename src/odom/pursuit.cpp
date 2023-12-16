@@ -22,82 +22,6 @@
 #include "robot/utils.hpp"
 
 /**
- * @brief function that returns elements in a file line, separated by a
- * delimeter
- *
- * @param input the raw string
- * @param delimeter string separating the elements in the line
- * @return std::vector<std::string> array of elements read from the file
- */
-static std::vector<std::string> readElement(const std::string& input,
-                                            std::string delimiter) {
-  std::string token;
-  std::string s = input;
-  std::vector<std::string> output;
-  size_t pos = 0;
-
-  // main loop
-  while ((pos = s.find(delimiter)) !=
-         std::string::npos) {  // while there are still delimiters in the string
-    token = s.substr(0, pos);  // processed substring
-    output.push_back(token);
-    s.erase(0, pos + delimiter.length());  // remove the read substring
-  }
-
-  output.push_back(s);  // add the last element to the returned string
-
-  return output;
-}
-
-/**
- * @brief Get a path from the sd card
- *
- * @param filePath The file to read from
- * @return std::vector<odom::RobotPosition> vector of points on the path
- */
-static std::vector<odom::RobotPosition> getData(const std::string& path) {
-  std::vector<odom::RobotPosition> robotPath;
-  std::string line;
-  std::vector<std::string> pointInput;
-  odom::RobotPosition pathPoint(0, 0, 0);
-
-  // read path
-  std::ostringstream buf;
-  std::ifstream input(path);
-  buf << input.rdbuf();
-  std::string data = buf.str();
-
-  // format data from the asset
-  std::vector<std::string> dataLines = readElement(data, "\n");
-
-#if PURE_PURSUIT_DEBUG
-  std::cout << "dataLines.size(): " << dataLines.size() << std::endl;
-  uint32_t start = pros::millis();
-#endif
-
-  // read the points until 'endData' is read
-  for (std::string line : dataLines) {
-    if (line == "endData" || line == "endData\r") break;
-    if (line.rfind("#", 0) == 0) continue;          // ignore comments
-    if (line == "") continue;                       // ignore empty lines
-    pointInput = readElement(line, ",");            // parse line
-    pathPoint.x = std::stof(pointInput.at(0));      // x position
-    pathPoint.y = std::stof(pointInput.at(1));      // y position
-    pathPoint.theta = std::stof(pointInput.at(2));  // velocity
-    robotPath.push_back(pathPoint);                 // save data
-  }
-
-  // close file
-  input.close();
-
-#if PURE_PURSUIT_DEBUG
-  std::cout << "getData took " << pros::millis() - start << "ms" << std::endl;
-#endif
-
-  return robotPath;
-}
-
-/**
  * @brief find the closest point on the path to the robot
  *
  * @param pose the current pose of the robot
@@ -105,14 +29,14 @@ static std::vector<odom::RobotPosition> getData(const std::string& path) {
  * @return int index to the closest point
  */
 int findClosest(odom::RobotPosition pose,
-                std::vector<odom::RobotPosition> path) {
+                std::shared_ptr<std::vector<odom::RobotPosition>> path) {
   int closestPoint;
   float closestDist = 1000000;
   float dist;
 
   // loop through all path points
-  for (int i = 0; i < path.size(); i++) {
-    dist = pose.distance(path.at(i));
+  for (int i = 0; i < path->size(); i++) {
+    dist = pose.distance(path->at(i));
     if (dist < closestDist) {  // new closest point
       closestDist = dist;
       closestPoint = i;
@@ -131,8 +55,9 @@ int findClosest(odom::RobotPosition pose,
  * @param path the path to follow
  * @return float how far along the line the
  */
-float circleIntersect(odom::RobotPosition p1, odom::RobotPosition p2,
-                      odom::RobotPosition pose, float lookaheadDist) {
+float circleIntersect(const odom::RobotPosition& p1,
+                      const odom::RobotPosition& p2,
+                      const odom::RobotPosition& pose, float lookaheadDist) {
   // calculations
   // uses the quadratic formula to calculate intersection points
   odom::RobotPosition d = p2 - p1;
@@ -167,8 +92,8 @@ float circleIntersect(odom::RobotPosition p1, odom::RobotPosition p2,
  * @param path - the path to follow
  * @param lookaheadDist - the lookahead distance of the algorithm
  */
-odom::RobotPosition lookaheadPoint(odom::RobotPosition lastLookahead,
-                                   odom::RobotPosition pose,
+odom::RobotPosition lookaheadPoint(const odom::RobotPosition& lastLookahead,
+                                   const odom::RobotPosition& pose,
                                    std::vector<odom::RobotPosition> path,
                                    float lookaheadDist) {
   // find the furthest lookahead point on the path
@@ -208,8 +133,8 @@ odom::RobotPosition lookaheadPoint(odom::RobotPosition lastLookahead,
  * @param lookahead the lookahead point
  * @return float curvature
  */
-float findLookaheadCurvature(odom::RobotPosition pose, float heading,
-                             odom::RobotPosition lookahead) {
+float findLookaheadCurvature(const odom::RobotPosition& pose, float heading,
+                             const odom::RobotPosition& lookahead) {
   // calculate whether the robot is on the left or right side of the circle
   float side = utils::sgn(std::sin(heading) * (lookahead.x - pose.x) -
                           std::cos(heading) * (lookahead.y - pose.y));
@@ -236,8 +161,8 @@ float findLookaheadCurvature(odom::RobotPosition pose, float heading,
  * @param async whether the function should be run asynchronously. true by
  * default
  */
-void odom::follow(std::vector<odom::RobotPosition>& pathPoints, float lookahead,
-                  int timeout, bool forwards, bool async) {
+void odom::follow(std::shared_ptr<std::vector<odom::RobotPosition>> pathPoints,
+                  float lookahead, int timeout, bool forwards, bool async) {
   if (async) {
     pros::Task task(
         [&]() { follow(pathPoints, lookahead, timeout, forwards, false); });
@@ -246,12 +171,12 @@ void odom::follow(std::vector<odom::RobotPosition>& pathPoints, float lookahead,
   }
 
 #if PURE_PURSUIT_DEBUG
-  std::cout << "pathPoints.size(): " << pathPoints.size() << std::endl;
+  std::cout << "pathPoints.size(): " << pathPoints->size() << std::endl;
 #endif
 
   odom::RobotPosition pose = getPosition();
   odom::RobotPosition lookaheadPose(0, 0, 0);
-  odom::RobotPosition lastLookahead = pathPoints.at(0);
+  odom::RobotPosition lastLookahead = pathPoints->at(0);
   lastLookahead.theta = 0;
 
   // variables for the loop
@@ -280,10 +205,10 @@ void odom::follow(std::vector<odom::RobotPosition>& pathPoints, float lookahead,
     // find the closest point on the path to the robot
     closestPoint = findClosest(pose, pathPoints);
     // if the robot is at the end of the path, then stop
-    if (pathPoints.at(closestPoint).theta == 0) break;
+    if (pathPoints->at(closestPoint).theta == 0) break;
 
     // find the lookahead point
-    lookaheadPose = lookaheadPoint(lastLookahead, pose, pathPoints, lookahead);
+    lookaheadPose = lookaheadPoint(lastLookahead, pose, *pathPoints, lookahead);
     lastLookahead = lookaheadPose;  // update last lookahead position
 
     // get the curvature of the arc between the robot and the lookahead point
@@ -291,7 +216,7 @@ void odom::follow(std::vector<odom::RobotPosition>& pathPoints, float lookahead,
     curvature = findLookaheadCurvature(pose, curvatureHeading, lookaheadPose);
 
     // get the target velocity of the robot
-    targetVel = pathPoints.at(closestPoint).theta;
+    targetVel = pathPoints->at(closestPoint).theta;
 
     // calculate target left and right velocities
     float targetLeftVel = targetVel * (2 + curvature * DRIVE_TRACK_WIDTH) / 2;

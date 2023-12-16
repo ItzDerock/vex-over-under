@@ -62,8 +62,19 @@ enum class Autonomous { ScoreLeft, ScoreSimple, TouchBar, Skills, None };
 /**
  * follow pure pursuit path
  */
-void follow(cstd::vector<odom::RobotPosition>& pathPoints, float lookahead,
-            int timeout, bool forwards, bool async);
+void follow(std::shared_ptr<std::vector<odom::RobotPosition>> pathPoints,
+            float lookahead, int timeout, bool forwards, bool async);
+
+/**
+ * Loads the given paths into the cache.
+ */
+void loadPaths(std::vector<std::string> const& files);
+
+/**
+ * Returns a path from the cache.
+ */
+std::shared_ptr<std::vector<odom::RobotPosition>> getPath(
+    std::string const& path);
 
 extern Autonomous autonomous;
 
