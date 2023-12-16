@@ -7,18 +7,19 @@
 // slight modifications made to optimize performance and make it work with our
 // custom lib
 
+// set DEBUG to true to enable debug logging
+#define PURE_PURSUIT_DEBUG true
+
 #include <cmath>
 #include <fstream>
 #include <string>
 #include <vector>
 
-#include "./odom.hpp"
+#include "../config.hpp"
 #include "main.h"
 #include "pros/misc.hpp"
+#include "robot/odom.hpp"
 #include "robot/utils.hpp"
-
-int distTraveled = 0;
-pros::Mutex mutex();
 
 /**
  * @brief function that returns elements in a file line, separated by a
@@ -69,15 +70,29 @@ static std::vector<odom::RobotPosition> getData(const std::string& path) {
   // format data from the asset
   std::vector<std::string> dataLines = readElement(data, "\n");
 
+#if PURE_PURSUIT_DEBUG
+  std::cout << "dataLines.size(): " << dataLines.size() << std::endl;
+  uint32_t start = pros::millis();
+#endif
+
   // read the points until 'endData' is read
   for (std::string line : dataLines) {
     if (line == "endData" || line == "endData\r") break;
-    pointInput = readElement(line, ", ");           // parse line
+    if (line.rfind("#", 0) == 0) continue;          // ignore comments
+    if (line == "") continue;                       // ignore empty lines
+    pointInput = readElement(line, ",");            // parse line
     pathPoint.x = std::stof(pointInput.at(0));      // x position
     pathPoint.y = std::stof(pointInput.at(1));      // y position
     pathPoint.theta = std::stof(pointInput.at(2));  // velocity
     robotPath.push_back(pathPoint);                 // save data
   }
+
+  // close file
+  input.close();
+
+#if PURE_PURSUIT_DEBUG
+  std::cout << "getData took " << pros::millis() - start << "ms" << std::endl;
+#endif
 
   return robotPath;
 }
@@ -212,55 +227,55 @@ float findLookaheadCurvature(odom::RobotPosition pose, float heading,
 /**
  * @brief Move the chassis along a path
  *
- * @param path the path asset to follow
+ * @param pathPoints list of points to follow
  * @param lookahead the lookahead distance. Units in inches. Larger values will
  * make the robot move faster but will follow the path less accurately
- * @param timeout the maximum time the robot can spend moving
+ * @param timeout the maximum time the robot can spend moving in milliseconds.
  * @param forwards whether the robot should follow the path going forwards. true
  * by default
  * @param async whether the function should be run asynchronously. true by
  * default
  */
-void odom::follow(const std::string& path, float lookahead, int timeout,
-                  bool forwards, bool async) {
-  // take the mutex
-  mutex.take(TIMEOUT_MAX);
-  // if the function is async, run it in a new task
+void odom::follow(std::vector<odom::RobotPosition>& pathPoints, float lookahead,
+                  int timeout, bool forwards, bool async) {
   if (async) {
     pros::Task task(
-        [&]() { follow(path, lookahead, timeout, forwards, false); });
-    mutex.give();
+        [&]() { follow(pathPoints, lookahead, timeout, forwards, false); });
     pros::delay(10);  // delay to give the task time to start
     return;
   }
 
-  std::vector<odom::RobotPosition> pathPoints =
-      getData(path);  // get list of path points
+#if PURE_PURSUIT_DEBUG
+  std::cout << "pathPoints.size(): " << pathPoints.size() << std::endl;
+#endif
+
   odom::RobotPosition pose = getPosition();
-  odom::RobotPosition lastPose = pose;
   odom::RobotPosition lookaheadPose(0, 0, 0);
   odom::RobotPosition lastLookahead = pathPoints.at(0);
   lastLookahead.theta = 0;
-  float curvature;
-  float targetVel;
-  float prevLeftVel = 0;
-  float prevRightVel = 0;
+
+  // variables for the loop
+  float curvature, targetVel, prevLeftVel = 0, prevRightVel = 0, leftInput = 0,
+                              rightInput = 0;
   int closestPoint;
-  float leftInput = 0;
-  float rightInput = 0;
   int compState = pros::competition::get_status();
-  distTravelled = 0;
+
+  // set the timeout
+  int timeoutTime = pros::millis() + timeout;
 
   // loop until the robot is within the end tolerance
-  for (int i = 0;
-       i < timeout / 10 && pros::competition::get_status() == compState; i++) {
+  while (pros::competition::get_status() == compState) {
+    // check if the timeout has been reached
+    if (timeout != 0 && pros::millis() > timeoutTime) {
+#if PURE_PURSUIT_DEBUG
+      std::cout << "pure pursuit timed out" << std::endl;
+#endif
+      break;
+    }
+
     // get the current position of the robot
     pose = getPosition();
     if (!forwards) pose.theta -= M_PI;
-
-    // update completion vars
-    distTravelled += pose.distance(lastPose);
-    lastPose = pose;
 
     // find the closest point on the path to the robot
     closestPoint = findClosest(pose, pathPoints);
@@ -279,14 +294,15 @@ void odom::follow(const std::string& path, float lookahead, int timeout,
     targetVel = pathPoints.at(closestPoint).theta;
 
     // calculate target left and right velocities
-    float targetLeftVel =
-        targetVel * (2 + curvature * drivetrain.trackWidth) / 2;
-    float targetRightVel =
-        targetVel * (2 - curvature * drivetrain.trackWidth) / 2;
+    float targetLeftVel = targetVel * (2 + curvature * DRIVE_TRACK_WIDTH) / 2;
+    float targetRightVel = targetVel * (2 - curvature * DRIVE_TRACK_WIDTH) / 2;
+
+    // MAYBE?: add a feedforward term to the target velocities
 
     // ratio the speeds to respect the max speed
     float ratio =
         std::max(std::fabs(targetLeftVel), std::fabs(targetRightVel)) / 127;
+
     if (ratio > 1) {
       targetLeftVel /= ratio;
       targetRightVel /= ratio;
@@ -298,21 +314,39 @@ void odom::follow(const std::string& path, float lookahead, int timeout,
 
     // move the drivetrain
     if (forwards) {
-      drivetrain.leftMotors->move(targetLeftVel);
-      drivetrain.rightMotors->move(targetRightVel);
+      odom::move(targetLeftVel, targetRightVel);
+
+#if PURE_PURSUIT_DEBUG
+      std::cout << "targetLeftVel: " << targetLeftVel << std::endl;
+      std::cout << "targetRightVel: " << targetRightVel << std::endl;
+#endif
     } else {
-      drivetrain.leftMotors->move(-targetRightVel);
-      drivetrain.rightMotors->move(-targetLeftVel);
+      odom::move(-targetRightVel, -targetLeftVel);
+
+#if PURE_PURSUIT_DEBUG
+      std::cout << "targetLeftVel: " << -targetRightVel << std::endl;
+      std::cout << "targetRightVel: " << -targetLeftVel << std::endl;
+#endif
     }
+
+#if PURE_PURSUIT_DEBUG
+    std::cout << "pose: " << pose.x << ", " << pose.y << ", " << pose.theta
+              << std::endl;
+    std::cout << "lookaheadPose: " << lookaheadPose.x << ", " << lookaheadPose.y
+              << ", " << lookaheadPose.theta << std::endl;
+    std::cout << "curvature: " << curvature << std::endl;
+    std::cout << "targetVel: " << targetVel << std::endl;
+
+    // actual
+    std::cout << "actualLeftVel: " << drive_left_back->get_actual_velocity()
+              << std::endl;
+    std::cout << "actualRightVel: " << drive_right_back->get_actual_velocity()
+              << std::endl;
+#endif
 
     pros::delay(10);
   }
 
-  // stop the robot
-  drivetrain.leftMotors->move(0);
-  drivetrain.rightMotors->move(0);
-  // set distTravelled to -1 to indicate that the function has finished
-  distTravelled = -1;
-  // give the mutex back
-  mutex.give();
+  // stop the drivetrain
+  odom::move(0, 0);
 }

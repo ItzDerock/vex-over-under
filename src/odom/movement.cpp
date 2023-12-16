@@ -1,12 +1,12 @@
 #include "../config.hpp"
-#include "odom.hpp"
+#include "robot/odom.hpp"
 
 #define SETTLED_TIME 800  // milliseconds
 
 odom::Autonomous odom::autonomous = odom::Autonomous::None;
 
 std::shared_ptr<PIDController> odom::turnPID =
-    std::make_shared<PIDController>(2, 0.01, 0.05);
+    std::make_shared<PIDController>(6, 0.01, 0.05);
 std::shared_ptr<PIDController> odom::drivePID =
     std::make_shared<PIDController>(35, 0.01, 0.001);
 /**
@@ -16,13 +16,22 @@ double distance(odom::RobotPosition a, odom::RobotPosition b) {
   return sqrt(pow(a.x - b.x, 2) + pow(a.y - b.y, 2));
 }
 
-void odom::move(double left, double right) {
+void odom::moveVelocity(double left, double right) {
   drive_left_back->move_velocity(left);
   drive_left_front->move_velocity(left);
   drive_left_pto->move_velocity(left);
   drive_right_back->move_velocity(right);
   drive_right_front->move_velocity(right);
   drive_right_pto->move_velocity(right);
+}
+
+void odom::move(double left, double right) {
+  drive_left_back->move(left);
+  drive_left_front->move(left);
+  drive_left_pto->move(left);
+  drive_right_back->move(right);
+  drive_right_front->move(right);
+  drive_right_pto->move(right);
 }
 
 void odom::moveDistance(double dist, double timeout) {
@@ -78,14 +87,14 @@ void odom::moveDistance(double dist, double timeout) {
     double left = sign * output + angularError;
     double right = sign * output - angularError;
 
-    move(left, right);
+    moveVelocity(left, right);
 
     // wait 10 milliseconds
     pros::delay(10);
   }
 
   // stop the motors
-  move(0, 0);
+  moveVelocity(0, 0);
 }
 
 // utility functions for turning
@@ -127,9 +136,9 @@ void odom::turnTo(double theta, double timeout) {
       settledTime += 10;
     }
 
-    move(-output, output);
+    moveVelocity(-output, output);
     pros::delay(10);
   }
 
-  move(0, 0);
+  moveVelocity(0, 0);
 }

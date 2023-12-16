@@ -1,7 +1,7 @@
 #include <memory>
 
 #include "../config.hpp"
-#include "subsystems.hpp"
+#include "robot/subsystems.hpp"
 
 // simple PD controller for the catapult
 std::shared_ptr<PIDController> catapult::catapultPID =

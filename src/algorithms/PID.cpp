@@ -1,4 +1,5 @@
-#include "PID.hpp"
+#include "robot/PID.hpp"
+
 #include <cstdio>
 
 PIDController::PIDController(double kP, double kI, double kD)
@@ -29,6 +30,5 @@ void PIDController::reset() {
   _previousError = 0;
   _integral = 0;
 
-  if (debug)
-    printf("PID reset");
+  if (debug) printf("PID reset");
 }

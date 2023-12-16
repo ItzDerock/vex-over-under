@@ -2,10 +2,10 @@
 
 #include "config.hpp"
 #include "gif-pros/gifclass.hpp"
-#include "odom/odom.hpp"
 #include "pros/misc.h"
-#include "screen/screen.hpp"
-#include "subsystems/subsystems.hpp"
+#include "robot/odom.hpp"
+#include "robot/screen.hpp"
+#include "robot/subsystems.hpp"
 
 /**
  * Runs initialization code. This occurs as soon as the program is started.
@@ -17,8 +17,12 @@ void initialize() {
   catapult::initialize();
   odom::reset();
   odom::initalize();
-  static Gif gif("/usd/game.gif", lv_scr_act());
-  screen::initAutonSelector(&gif);
+
+  // offload gif initialization to a separate task
+  pros::Task([]() {
+    static Gif gif("/usd/game.gif", lv_scr_act());
+    screen::initAutonSelector(&gif);
+  });
 }
 
 /**
@@ -53,25 +57,31 @@ void competition_initialize() {}
 void autonomous() {
   odom::RobotPosition start = odom::getPosition();
 
+  std::cout << "starting" << std::endl;
+
+  odom::reset({31, -60, 0});
+  odom::autonomous = odom::Autonomous::Skills;
+
   // SKILLS
   if (odom::autonomous == odom::Autonomous::Skills) {
-    odom::moveDistance(-8, 5);
-    odom::turnTo(start.theta - M_PI / 2 + (M_PI / 16));
-    odom::moveDistance(-11, 10);
+    odom::follow("/usd/path.txt", 10, 15'000, true, false);
+    // odom::moveDistance(-8, 5);
+    // odom::turnTo(start.theta - M_PI / 2 + (M_PI / 16));
+    // odom::moveDistance(-11, 10);
 
-    catapult::ensureTask();
-    catapult::fire();
-    catapult::rapidFire = true;
+    // catapult::ensureTask();
+    // catapult::fire();
+    // catapult::rapidFire = true;
 
-    while (pros::competition::is_autonomous()) {
-      catapult::ensureTask();
-      odom::move(-10, -8);
-      pros::delay(2'000);
-      odom::move(-1, -1);
-      pros::delay(5'000);
-    }
+    // while (pros::competition::is_autonomous()) {
+    //   catapult::ensureTask();
+    //   odom::moveVelocity(-10, -8);
+    //   pros::delay(2'000);
+    //   odom::moveVelocity(-1, -1);
+    //   pros::delay(5'000);
+    // }
 
-    return;
+    // return;
 
     // odom::moveDistance(9, 10);
     // odom::turnTo(start.theta);

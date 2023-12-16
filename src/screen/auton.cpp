@@ -1,6 +1,6 @@
-#include "../odom/odom.hpp"
-#include "./screen.hpp"
 #include "main.h"
+#include "robot/odom.hpp"
+#include "robot/screen.hpp"
 
 // current screen
 lv_obj_t *original_screen = nullptr;
@@ -47,6 +47,25 @@ static void auto_dropdown_select(lv_event_t *event) {
   }
 }
 
+// handle test auton button
+static void test_auton_cb(lv_event_t *event) {
+  lv_event_code_t code = lv_event_get_code(event);
+  // lv_obj_t *obj = lv_event_get_target(event);
+
+  if (code == LV_EVENT_VALUE_CHANGED) {
+    autonomous();
+  }
+}
+
+static void reset_position_event_cb(lv_event_t *event) {
+  lv_event_code_t code = lv_event_get_code(event);
+  // lv_obj_t *obj = lv_event_get_target(event);
+
+  if (code == LV_EVENT_CLICKED) {
+    odom::reset({31, -60, 0});
+  }
+}
+
 void screen::initAutonSelector(Gif *gif) {
   // get current active screen
   original_screen = lv_scr_act();
@@ -78,4 +97,27 @@ void screen::initAutonSelector(Gif *gif) {
                           "Score Left\nScore Simple\nTouch Bar\nSkills\nNone");
   lv_obj_add_event_cb(dropdown, auto_dropdown_select, LV_EVENT_VALUE_CHANGED,
                       NULL);
+
+  // reset position button
+  lv_obj_t *reset_position = lv_btn_create(screen::auton_selector_screen);
+  lv_obj_t *reset_position_label = lv_label_create(reset_position);
+
+  // set the text of the reset position button
+  lv_label_set_text(reset_position_label, "Reset Position");
+  lv_obj_add_event_cb(reset_position, reset_position_event_cb, LV_EVENT_CLICKED,
+                      NULL);
+
+  // set the position of the reset position button
+  lv_obj_set_pos(reset_position, 10, 50);
+
+  // test auton button
+  lv_obj_t *test_auton = lv_btn_create(screen::auton_selector_screen);
+  lv_obj_t *test_auton_label = lv_label_create(test_auton);
+
+  // set the text of the test auton button
+  lv_label_set_text(test_auton_label, "Test Auton");
+  lv_obj_add_event_cb(test_auton, test_auton_cb, LV_EVENT_CLICKED, gif);
+
+  // set the position of the test auton button
+  lv_obj_set_pos(test_auton, 10, 90);
 }

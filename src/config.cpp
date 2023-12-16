@@ -52,4 +52,6 @@ SHARED(pros::Rotation, catapult_position, CATAPULT_ROT_PORT);
 SHARED(pros::adi::Pneumatics, wings, WINGS_PORT, false);
 SHARED(pros::adi::Pneumatics, blocker, BLOCKER_PORT, false);
 
+// extern const double DRIVE_TRACK_WIDTH = DRIVE_TRACK_WIDTH_IN;
+
 #undef SHARED

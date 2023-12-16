@@ -2,7 +2,7 @@
 
 #include <memory>
 
-#include "../algorithms/PID.hpp"
+#include "PID.hpp"
 #include "pros/rtos.hpp"
 
 /**
