@@ -10,12 +10,12 @@
 
 // DRIVETRAIN
 #define DRIVETRAIN_GEAR_RATIO /* input 32 -> output 72 */ 0.5
-#define DRIVE_LEFT_FRONT 1
-#define DRIVE_LEFT_BACK 2
-#define DRIVE_LEFT_PTO 3
-#define DRIVE_RIGHT_FRONT 4
-#define DRIVE_RIGHT_BACK 5
-#define DRIVE_RIGHT_PTO 6
+#define DRIVE_LEFT_FRONT 4
+#define DRIVE_LEFT_BACK 5
+#define DRIVE_LEFT_PTO 6
+#define DRIVE_RIGHT_FRONT 1
+#define DRIVE_RIGHT_BACK 2
+#define DRIVE_RIGHT_PTO 3
 #define DRIVE_TRACK_WIDTH 10.5  // inches
 
 // CATAPULT
@@ -37,15 +37,28 @@
 
 //// Odometry
 
-struct OdomSensor {
-  SHARED(pros::adi::Encoder, sensor);
-  double offset;
-};
-
-struct OdomIntegratedSensor {
-  SHARED(pros::Motor, sensor);
+struct BasicOdomSensor {
   double offset;
   double gear_ratio;
+  double wheel_size;
+};
+
+struct OdomSensor : BasicOdomSensor {
+  SHARED(pros::adi::Encoder, sensor);
+
+  // weird inheritance thing
+  // need to redefine a constructor
+  OdomSensor(SHARED(pros::adi::Encoder, sensor), double offset,
+             double gear_ratio, double wheel_size)
+      : BasicOdomSensor{offset, gear_ratio, wheel_size}, sensor(sensor) {}
+};
+
+struct OdomIntegratedSensor : BasicOdomSensor {
+  SHARED(pros::Motor, sensor);
+
+  OdomIntegratedSensor(SHARED(pros::Motor, sensor), double offset,
+                       double gear_ratio, double wheel_size)
+      : BasicOdomSensor{offset, gear_ratio, wheel_size}, sensor(sensor) {}
 };
 
 // odometry sensors

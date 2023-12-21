@@ -4,6 +4,7 @@
 
 #include "../config.hpp"
 #include "main.h"
+#include "robot/utils.hpp"
 
 /**
  * Odometry implementation is based on the following paper:
@@ -30,10 +31,14 @@ odom::RobotPosition state = {0, 0, 0};
  * Since part of our odometry is based on internal sensors in the motors,
  * we need to normalize the data to account for different gear ratios.
  *
+ * @note - marked inline to reduce overhead of function calls
+ *       - marked static so only accessible in odom.cpp
+ *
  * @param sensor The sensor to normalize
  */
-double normalizeSensorData(OdomIntegratedSensor sensor) {
-  return (sensor.sensor->get_position() * sensor.gear_ratio) / 360 * 4 * M_PI;
+inline static double normalizeSensorData(double position,
+                                         BasicOdomSensor sensor) {
+  return (position * sensor.gear_ratio) / 360 * sensor.wheel_size * M_PI;
 }
 
 void odom::update() {
@@ -41,14 +46,15 @@ void odom::update() {
   mutex.take();
 
   // 1. Store the current encoder values
-  auto left = normalizeSensorData(odom_left);
-  auto right = normalizeSensorData(odom_right);
-  auto center = (double)odom_middle.sensor->get_value() / 360 * (2.75 * M_PI);
+  double left = odom_left.sensor->get_position();
+  double right = odom_right.sensor->get_position();
+  double center = (double)odom_middle.sensor->get_value();
 
   // 2. Calculate delta values
-  auto dL = left - prevSensors.left;
-  auto dR = right - prevSensors.right;
-  auto dC = center - prevSensors.center;
+  //  (2.1) Conver tto distance of wheel travel (inches)
+  double dL = normalizeSensorData(left - prevSensors.left, odom_left);
+  double dR = normalizeSensorData(right - prevSensors.right, odom_right);
+  double dC = normalizeSensorData(center - prevSensors.center, odom_middle);
 
   // 3. Update the previous values
   prevSensors.left = left;
@@ -60,7 +66,9 @@ void odom::update() {
   // auto deltaRr = right - resetValues.right;
 
   // 5. Calculate new orientation
-  double newTheta = inertial->get_heading() * M_PI / 180;
+  double newTheta = resetValues.theta + inertial->get_heading() * M_PI / 180;
+  if (newTheta > 2 * M_PI) newTheta -= 2 * M_PI;
+  // newTheta = utils::angleSquish(newTheta);
   // auto newTheta = resetValues.theta +
   //                 (left - right) / (odom_left.offset + odom_right.offset);
 
@@ -71,16 +79,16 @@ void odom::update() {
   RobotPosition localOffset = {0, 0, 0};
 
   if (dTheta == 0) {
-    localOffset.x = dC;
-    localOffset.y = dR;
+    localOffset.x = dR;
+    localOffset.y = dC;
   } else {
     // 8. Otherwise, calculate local offset with formula.
-    localOffset.x = 2 * sin(dTheta / 2) * (dC / dTheta + (odom_middle.offset));
-    localOffset.y = 2 * sin(dTheta / 2) * (dR / dTheta + (odom_right.offset));
+    localOffset.x = 2 * sin(dTheta / 2) * (dR / dTheta + (odom_right.offset));
+    localOffset.y = 2 * sin(dTheta / 2) * (dC / dTheta + (odom_middle.offset));
   }
 
   // 9. Calculate the average orientation
-  auto thetam = state.theta + dTheta / 2;
+  double thetam = state.theta + dTheta / 2;
 
   // 10. Calculate the global offset
   RobotPosition globalOffset = {0, 0, 0};
@@ -101,11 +109,12 @@ void odom::update() {
   state.x += globalOffset.x;
   state.y += globalOffset.y;
 
-  state.theta = newTheta;
+  // state.x += localOffset.y * sin(thetam);
+  // state.y += localOffset.y * cos(thetam);
+  // state.x += localOffset.x * -cos(thetam);
+  // state.y += localOffset.x * sin(thetam);
 
-  // std::cout << "x: " << state.x << std::endl;
-  // std::cout << "y: " << state.y << std::endl;
-  // std::cout << "theta: " << state.theta << std::endl;
+  state.theta = newTheta;
 
   // unlock mutex
   mutex.give();
@@ -125,7 +134,7 @@ void odom::initalize() {
     return;
   }
 
-  odomTask = new pros::Task(updateLoop, TASK_PRIORITY_DEFAULT - 1);
+  odomTask = new pros::Task(updateLoop);
 }
 
 // macro to handle errors properly
@@ -141,8 +150,8 @@ void odom::reset(odom::RobotPosition startState) {
   mutex.take();
 
   // stop task
-  bool taskRunning = odomTask == nullptr;
-  if (!taskRunning) {
+  bool taskRunning = odomTask != nullptr;
+  if (taskRunning) {
     odomTask->remove();
     odomTask = nullptr;
   }
@@ -172,7 +181,7 @@ void odom::reset(odom::RobotPosition startState) {
 
 void odom::reset() {
   // default to 0, 0, 90deg
-  reset({0, 0, 0});
+  reset({0, 0, M_PI / 2});
 }
 
 odom::RobotPosition odom::getPosition(bool degrees) {

@@ -1,0 +1,7887 @@
+Established terminal connection
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+
+
+
+  _____  _____   ____   _____ 
+ |  __ \|  __ \ / __ \ / ____|          Powered by PROS for VEX V5
+ | |__) | |__) | |  | | (___      Version:                          4.0.6
+ |  ___/|  _  /| |  | |\___ \     Uptime:                       258.684 s
+ | |    | | \ \| |__| |____) |    Compiled:          Dec 20 2023 17:41:21
+ |_|    |_|  \_\\____/|_____/     Directory:                             
+
+
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0009
+y: -62.9994
+theta: 179.993
+>> odom update done
+waiting for mutex
+x: 40.0015
+y: -62.999
+theta: 179.988
+>> odom update done
+waiting for mutex
+x: 40.0018
+y: -62.9988
+theta: 179.986
+>> odom update done
+waiting for mutex
+x: 40.002
+y: -62.9986
+theta: 179.984
+>> odom update done
+waiting for mutex
+x: 40.002
+y: -62.9986
+theta: 179.984
+>> odom update done
+waiting for mutex
+x: 40.0021
+y: -62.9986
+theta: 179.984
+>> odom update done
+waiting for mutex
+x: 40.0021
+y: -62.9986
+theta: 179.984
+>> odom update done
+waiting for mutex
+x: 40.002
+y: -62.9987
+theta: 179.985
+>> odom update done
+waiting for mutex
+x: 40.0018
+y: -62.9988
+theta: 179.986
+>> odom update done
+waiting for mutex
+x: 40.0019
+y: -62.9987
+theta: 179.985
+>> odom update done
+waiting for mutex
+x: 40.0022
+y: -62.9985
+theta: 179.983
+>> odom update done
+waiting for mutex
+x: 40.0023
+y: -62.9985
+theta: 179.983
+>> odom update done
+waiting for mutex
+x: 40.0022
+y: -62.9986
+theta: 179.984
+>> odom update done
+waiting for mutex
+x: 40.002
+y: -62.9987
+theta: 179.985
+>> odom update done
+waiting for mutex
+x: 40.0018
+y: -62.9988
+theta: 179.986
+>> odom update done
+waiting for mutex
+x: 40.002
+y: -62.9987
+theta: 179.985
+>> odom update done
+waiting for mutex
+x: 40.0021
+y: -62.9986
+theta: 179.984
+>> odom update done
+waiting for mutex
+x: 40.0023
+y: -62.9985
+theta: 179.982
+>> odom update done
+waiting for mutex
+x: 40.0021
+y: -62.9986
+theta: 179.984
+>> odom update done
+waiting for mutex
+x: 40.002
+y: -62.9987
+theta: 179.985
+>> odom update done
+waiting for mutex
+x: 40.0021
+y: -62.9986
+theta: 179.984
+>> odom update done
+waiting for mutex
+x: 40.0023
+y: -62.9985
+theta: 179.982
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40
+y: -63
+theta: 180
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -63
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -63
+theta: 180
+>> odom update done
+waiting for mutex
+x: 40
+y: -63
+theta: 180
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0005
+y: -62.9997
+theta: 179.996
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9999
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0001
+y: -62.9999
+theta: 179.999
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0002
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0004
+y: -62.9997
+theta: 179.997
+>> odom update done
+starting
+pathPoints.size(): 73
+targetLeftVel: 41.6579
+targetRightVel: 127
+pose: 40.0004, -62.9997, 3.14154
+lookaheadPose: 56.253, -54.449, 0
+curvature: -0.0963823
+targetVel: 146.759
+actualLeftVel: -0 / 192
+actualRightVel: 0 / 600
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+waiting for mutex
+x: 40.0003
+y: -62.9998
+theta: 179.998
+>> odom update done
+targetLeftVel: 41.6588
+targetRightVel: 127
+pose: 40.0003, -62.9998, 3.14155
+lookaheadPose: 56.253, -54.449, 0
+curvature: -0.0963809
+targetVel: 146.759
+actualLeftVel: -0 / 192
+actualRightVel: 0 / 600
+waiting for mutex
+x: 39.9374
+y: -62.9999
+theta: 179.999
+>> odom update done
+targetLeftVel: 41.7836
+targetRightVel: 127
+pose: 39.9374, -62.9999, 3.14157
+lookaheadPose: 56.253, -54.449, 0
+curvature: -0.0961686
+targetVel: 146.759
+actualLeftVel: 121.2 / 192
+actualRightVel: 197 / 600
+waiting for mutex
+x: 39.7696
+y: -63
+theta: 180
+>> odom update done
+waiting for mutex
+x: 39.4554
+y: -63
+theta: 180
+>> odom update done
+targetLeftVel: 42.7362
+targetRightVel: 127
+pose: 39.4554, -63, 3.1416
+lookaheadPose: 56.253, -54.449, 0
+curvature: -0.09456
+targetVel: 144.098
+actualLeftVel: 132 / 198
+actualRightVel: 338.2 / 600
+waiting for mutex
+x: 39.1472
+y: -62.9959
+theta: 179.955
+>> odom update done
+targetLeftVel: 43.3106
+targetRightVel: 127
+pose: 39.1472, -62.9959, 3.1408
+lookaheadPose: 56.253, -54.449, 0
+curvature: -0.0935986
+targetVel: 144.098
+actualLeftVel: 158 / 198
+actualRightVel: 246.4 / 600
+waiting for mutex
+x: 38.9488
+y: -62.9741
+theta: 179.711
+>> odom update done
+waiting for mutex
+x: 38.6212
+y: -63.008
+theta: 179.331
+>> odom update done
+targetLeftVel: 44.0846
+targetRightVel: 127
+pose: 38.6212, -63.008, 3.12992
+lookaheadPose: 56.253, -54.449, 0
+curvature: -0.0923135
+targetVel: 144.098
+actualLeftVel: 161.4 / 204
+actualRightVel: 384.6 / 600
+waiting for mutex
+x: 38.2721
+y: -62.9219
+theta: 178.809
+>> odom update done
+targetLeftVel: 44.3407
+targetRightVel: 127
+pose: 38.2721, -62.9219, 3.12081
+lookaheadPose: 56.253, -54.449, 0
+curvature: -0.0918908
+targetVel: 144.098
+actualLeftVel: 91.2 / 204
+actualRightVel: 383.6 / 600
+waiting for mutex
+x: 37.976
+y: -62.8268
+theta: 178.209
+>> odom update done
+waiting for mutex
+x: 37.6161
+y: -62.7959
+theta: 177.605
+>> odom update done
+targetLeftVel: 44.8954
+targetRightVel: 127
+pose: 37.6161, -62.7959, 3.09979
+lookaheadPose: 56.253, -54.449, 0
+curvature: -0.0909795
+targetVel: 144.098
+actualLeftVel: 99.2 / 204
+actualRightVel: 431.2 / 600
+waiting for mutex
+x: 37.2594
+y: -62.7256
+theta: 176.993
+>> odom update done
+targetLeftVel: 45.2525
+targetRightVel: 127
+pose: 37.2594, -62.7256, 3.08911
+lookaheadPose: 56.253, -54.449, 0
+curvature: -0.0903961
+targetVel: 144.098
+actualLeftVel: 126.4 / 210
+actualRightVel: 413 / 600
+waiting for mutex
+x: 36.9125
+y: -62.6123
+theta: 176.329
+>> odom update done
+waiting for mutex
+x: 36.5767
+y: -62.5227
+theta: 175.576
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 0.895508
+pose: 36.5767, -62.5227, 3.06437
+lookaheadPose: 33.8955, -58.3023, 13
+curvature: 0.187809
+targetVel: 141.359
+actualLeftVel: 141 / 600
+actualRightVel: 439.6 / 0
+waiting for mutex
+x: 36.2111
+y: -62.4522
+theta: 174.725
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 7.06137
+pose: 36.2111, -62.4522, 3.04952
+lookaheadPose: 33.8955, -58.3023, 13
+curvature: 0.17041
+targetVel: 141.359
+actualLeftVel: 248.6 / 600
+actualRightVel: 375.2 / 30
+waiting for mutex
+x: 35.8964
+y: -62.4087
+theta: 173.79
+>> odom update done
+waiting for mutex
+x: 35.6996
+y: -62.3328
+theta: 172.79
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -12.8285
+pose: 35.6996, -62.3328, 3.01576
+lookaheadPose: 32.2969, -58.6693, 14
+curvature: 0.233281
+targetVel: 141.359
+actualLeftVel: 370.8 / 600
+actualRightVel: 319.8 / -54
+waiting for mutex
+x: 35.5401
+y: -62.372
+theta: 171.879
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -9.66446
+pose: 35.5401, -62.372, 2.99985
+lookaheadPose: 32.2969, -58.6693, 14
+curvature: 0.221854
+targetVel: 141.359
+actualLeftVel: 367.8 / 600
+actualRightVel: 143.4 / -42
+waiting for mutex
+x: 35.4826
+y: -62.3734
+theta: 171.192
+>> odom update done
+waiting for mutex
+x: 35.4815
+y: -62.3675
+theta: 170.726
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -7.34811
+pose: 35.4815, -62.3675, 2.97974
+lookaheadPose: 32.2969, -58.6693, 14
+curvature: 0.213871
+targetVel: 141.359
+actualLeftVel: 440.4 / 600
+actualRightVel: 80.4 / -30
+waiting for mutex
+x: 35.4966
+y: -62.3479
+theta: 170.477
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -7.47497
+pose: 35.4966, -62.3479, 2.97539
+lookaheadPose: 32.2969, -58.6693, 14
+curvature: 0.214301
+targetVel: 141.359
+actualLeftVel: 419.2 / 594
+actualRightVel: 37.4 / -30
+waiting for mutex
+x: 35.4313
+y: -62.339
+theta: 170.5
+>> odom update done
+waiting for mutex
+x: 35.3143
+y: -62.3538
+theta: 170.884
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -6.56529
+pose: 35.3143, -62.3538, 2.98249
+lookaheadPose: 32.2969, -58.6693, 14
+curvature: 0.211243
+targetVel: 141.359
+actualLeftVel: 442.8 / 600
+actualRightVel: 51.8 / -24
+waiting for mutex
+x: 35.1873
+y: -62.3551
+theta: 171.521
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -6.5129
+pose: 35.1873, -62.3551, 2.99361
+lookaheadPose: 32.2969, -58.6693, 14
+curvature: 0.211068
+targetVel: 141.359
+actualLeftVel: 393 / 600
+actualRightVel: 43.2 / -24
+waiting for mutex
+x: 35.0111
+y: -62.4141
+theta: 172.472
+>> odom update done
+waiting for mutex
+x: 34.7841
+y: -62.4894
+theta: 173.644
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -2.20451
+pose: 34.7841, -62.4894, 3.03065
+lookaheadPose: 32.2969, -58.6693, 14
+curvature: 0.197206
+targetVel: 141.359
+actualLeftVel: 414.6 / 600
+actualRightVel: 63.2 / -6
+waiting for mutex
+x: 34.563
+y: -62.5149
+theta: 174.985
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -0.788443
+pose: 34.563, -62.5149, 3.05407
+lookaheadPose: 32.2969, -58.6693, 14
+curvature: 0.192856
+targetVel: 138.536
+actualLeftVel: 548.2 / 594
+actualRightVel: 43.8 / 0
+waiting for mutex
+x: 34.2986
+y: -62.6239
+theta: 176.457
+>> odom update done
+waiting for mutex
+x: 34.0385
+y: -62.7191
+theta: 178.088
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 9.01747
+pose: 34.0385, -62.7191, 3.10822
+lookaheadPose: 32.2969, -58.6693, 14
+curvature: 0.16522
+targetVel: 138.536
+actualLeftVel: 602.2 / 600
+actualRightVel: 50.4 / 42
+waiting for mutex
+x: 33.7456
+y: -62.7618
+theta: 179.839
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -19.7508
+pose: 33.7456, -62.7618, 3.13878
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.260632
+targetVel: 138.536
+actualLeftVel: 476.2 / 600
+actualRightVel: 56.6 / -84
+waiting for mutex
+x: 33.4454
+y: -62.8902
+theta: 181.665
+>> odom update done
+waiting for mutex
+x: 33.171
+y: -63.0628
+theta: 183.498
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -16.0141
+pose: 33.171, -63.0628, 3.20265
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.245444
+targetVel: 138.536
+actualLeftVel: 482.2 / 600
+actualRightVel: 56.8 / -72
+waiting for mutex
+x: 32.9373
+y: -63.2093
+theta: 185.365
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -13.9627
+pose: 32.9373, -63.2093, 3.23523
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.237533
+targetVel: 138.536
+actualLeftVel: 548 / 594
+actualRightVel: 56.8 / -60
+waiting for mutex
+x: 32.7148
+y: -63.4339
+theta: 187.243
+>> odom update done
+waiting for mutex
+x: 32.484
+y: -63.6019
+theta: 189.172
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -7.37968
+pose: 32.484, -63.6019, 3.30167
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.213978
+targetVel: 135.62
+actualLeftVel: 544.4 / 594
+actualRightVel: 56.8 / -30
+waiting for mutex
+x: 32.2563
+y: -63.8208
+theta: 191.179
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -3.63609
+pose: 32.2563, -63.8208, 3.33671
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.201705
+targetVel: 135.62
+actualLeftVel: 513 / 600
+actualRightVel: 61.8 / -12
+waiting for mutex
+x: 32.032
+y: -64.0522
+theta: 193.228
+>> odom update done
+waiting for mutex
+x: 31.8135
+y: -64.2944
+theta: 195.301
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 3.88192
+pose: 31.8135, -64.2944, 3.40865
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.179177
+targetVel: 135.62
+actualLeftVel: 520.4 / 600
+actualRightVel: 61.8 / 12
+waiting for mutex
+x: 31.6039
+y: -64.5445
+theta: 197.376
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 7.30278
+pose: 31.6039, -64.5445, 3.44485
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.169762
+targetVel: 135.62
+actualLeftVel: 540.2 / 600
+actualRightVel: 56.4 / 30
+waiting for mutex
+x: 31.4023
+y: -64.8036
+theta: 199.463
+>> odom update done
+waiting for mutex
+x: 31.2108
+y: -65.069
+theta: 201.543
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 12.9947
+pose: 31.2108, -65.069, 3.5176
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.155115
+targetVel: 135.62
+actualLeftVel: 539.2 / 600
+actualRightVel: 56.4 / 54
+waiting for mutex
+x: 31.0086
+y: -65.351
+theta: 203.637
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 15.6122
+pose: 31.0086, -65.351, 3.55413
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.148772
+targetVel: 135.62
+actualLeftVel: 526.2 / 600
+actualRightVel: 12 / 66
+waiting for mutex
+x: 30.817
+y: -65.6399
+theta: 205.728
+>> odom update done
+waiting for mutex
+x: 30.6346
+y: -65.9385
+theta: 207.841
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 19.4545
+pose: 30.6346, -65.9385, 3.6275
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.139872
+targetVel: 135.62
+actualLeftVel: 557.6 / 594
+actualRightVel: 13.6 / 84
+waiting for mutex
+x: 30.4445
+y: -66.2545
+theta: 209.959
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 21.1041
+pose: 30.4445, -66.2545, 3.66447
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.136192
+targetVel: 132.601
+actualLeftVel: 527.2 / 600
+actualRightVel: 39 / 96
+waiting for mutex
+x: 30.267
+y: -66.5759
+theta: 212.066
+>> odom update done
+waiting for mutex
+x: 30.0833
+y: -66.916
+theta: 214.181
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 23.5468
+pose: 30.0833, -66.916, 3.73817
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.130892
+targetVel: 132.601
+actualLeftVel: 532.8 / 600
+actualRightVel: 49.4 / 108
+waiting for mutex
+x: 29.9135
+y: -67.2596
+theta: 216.275
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 24.4181
+pose: 29.9135, -67.2596, 3.77472
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.129043
+targetVel: 132.601
+actualLeftVel: 534.4 / 600
+actualRightVel: 75 / 108
+waiting for mutex
+x: 29.7401
+y: -67.6207
+theta: 218.362
+>> odom update done
+waiting for mutex
+x: 29.5656
+y: -67.9948
+theta: 220.405
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 26.1545
+pose: 29.5656, -67.9948, 3.8468
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.12542
+targetVel: 132.601
+actualLeftVel: 551 / 600
+actualRightVel: 90 / 120
+waiting for mutex
+x: 29.3967
+y: -68.3363
+theta: 222.459
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 26.6447
+pose: 29.3967, -68.3363, 3.88265
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.124412
+targetVel: 132.601
+actualLeftVel: 542.6 / 600
+actualRightVel: 101 / 120
+waiting for mutex
+x: 29.2338
+y: -68.7377
+theta: 224.513
+>> odom update done
+waiting for mutex
+x: 29.0751
+y: -69.1062
+theta: 226.571
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 27.6948
+pose: 29.0751, -69.1062, 3.95441
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.122275
+targetVel: 132.601
+actualLeftVel: 551 / 600
+actualRightVel: 106.6 / 126
+waiting for mutex
+x: 28.9815
+y: -69.5246
+theta: 228.614
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 27.8084
+pose: 28.9815, -69.5246, 3.99006
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.122045
+targetVel: 132.601
+actualLeftVel: 552.8 / 600
+actualRightVel: 110.2 / 126
+waiting for mutex
+x: 28.8364
+y: -69.9146
+theta: 230.641
+>> odom update done
+waiting for mutex
+x: 28.7458
+y: -70.3113
+theta: 232.648
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 28.278
+pose: 28.7458, -70.3113, 4.06047
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.1211
+targetVel: 132.601
+actualLeftVel: 557 / 600
+actualRightVel: 110.8 / 132
+waiting for mutex
+x: 28.6691
+y: -70.708
+theta: 234.635
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 28.3474
+pose: 28.6691, -70.708, 4.09516
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.120961
+targetVel: 132.601
+actualLeftVel: 557.4 / 600
+actualRightVel: 80.2 / 132
+waiting for mutex
+x: 28.6181
+y: -71.0818
+theta: 236.573
+>> odom update done
+waiting for mutex
+x: 28.5791
+y: -71.4446
+theta: 238.43
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 28.2816
+pose: 28.5791, -71.4446, 4.16138
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.121093
+targetVel: 132.601
+actualLeftVel: 556.8 / 600
+actualRightVel: 87.8 / 132
+waiting for mutex
+x: 28.5408
+y: -71.8191
+theta: 240.241
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 28.4246
+pose: 28.5408, -71.8191, 4.19299
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.120806
+targetVel: 129.466
+actualLeftVel: 569.4 / 600
+actualRightVel: 93.8 / 132
+waiting for mutex
+x: 28.5135
+y: -72.1877
+theta: 242.007
+>> odom update done
+waiting for mutex
+x: 28.5068
+y: -72.5353
+theta: 243.754
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 28.6817
+pose: 28.5068, -72.5353, 4.25431
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.120292
+targetVel: 129.466
+actualLeftVel: 557.8 / 600
+actualRightVel: 98.2 / 132
+waiting for mutex
+x: 28.4925
+y: -72.9197
+theta: 245.494
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 29.0098
+pose: 28.4925, -72.9197, 4.28468
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.119639
+targetVel: 129.466
+actualLeftVel: 572.6 / 600
+actualRightVel: 110.2 / 132
+waiting for mutex
+x: 28.4975
+y: -73.2809
+theta: 247.206
+>> odom update done
+waiting for mutex
+x: 28.4996
+y: -73.6358
+theta: 248.754
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 29.6613
+pose: 28.4996, -73.6358, 4.34158
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.118349
+targetVel: 129.466
+actualLeftVel: 534.4 / 600
+actualRightVel: 114.2 / 132
+waiting for mutex
+x: 28.4602
+y: -73.8543
+theta: 249.621
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 30.0824
+pose: 28.4602, -73.8543, 4.35671
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.117521
+targetVel: 129.466
+actualLeftVel: 495.6 / 600
+actualRightVel: 113.2 / 138
+waiting for mutex
+x: 28.428
+y: -74.0193
+theta: 249.929
+>> odom update done
+waiting for mutex
+x: 28.3659
+y: -74.0595
+theta: 249.422
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 31.1889
+pose: 28.3659, -74.0595, 4.35323
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.115367
+targetVel: 129.466
+actualLeftVel: 538.4 / 600
+actualRightVel: 117.4 / 144
+waiting for mutex
+x: 28.3189
+y: -74.0354
+theta: 248.419
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 31.8118
+pose: 28.3189, -74.0354, 4.33574
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.114167
+targetVel: 129.466
+actualLeftVel: 514 / 600
+actualRightVel: 133.4 / 144
+waiting for mutex
+x: 28.2324
+y: -74.0186
+theta: 247.429
+>> odom update done
+waiting for mutex
+x: 28.1153
+y: -73.993
+theta: 246.479
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 33.4666
+pose: 28.1153, -73.993, 4.30188
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.111025
+targetVel: 129.466
+actualLeftVel: 504 / 600
+actualRightVel: 136.6 / 150
+waiting for mutex
+x: 28.0423
+y: -73.9799
+theta: 245.654
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 34.2003
+pose: 28.0423, -73.9799, 4.28746
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.109653
+targetVel: 129.466
+actualLeftVel: 373.8 / 600
+actualRightVel: 138.8 / 156
+waiting for mutex
+x: 27.9878
+y: -74.0443
+theta: 244.995
+>> odom update done
+waiting for mutex
+x: 27.8938
+y: -74.0837
+theta: 244.612
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 35.7558
+pose: 27.8938, -74.0837, 4.26929
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.106785
+targetVel: 129.466
+actualLeftVel: 293.8 / 600
+actualRightVel: 140.2 / 162
+waiting for mutex
+x: 27.7883
+y: -74.2055
+theta: 244.519
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 36.5696
+pose: 27.7883, -74.2055, 4.26766
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.105306
+targetVel: 129.466
+actualLeftVel: 397.6 / 600
+actualRightVel: 146.6 / 168
+waiting for mutex
+x: 27.7243
+y: -74.3323
+theta: 244.484
+>> odom update done
+waiting for mutex
+x: 27.6496
+y: -74.4664
+theta: 244.374
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 37.9631
+pose: 27.6496, -74.4664, 4.26514
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.102807
+targetVel: 129.466
+actualLeftVel: 369.2 / 600
+actualRightVel: 154.4 / 174
+waiting for mutex
+x: 27.5679
+y: -74.5545
+theta: 243.972
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 38.8039
+pose: 27.5679, -74.5545, 4.25811
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.10132
+targetVel: 129.466
+actualLeftVel: 418.4 / 600
+actualRightVel: 163.8 / 174
+waiting for mutex
+x: 27.4796
+y: -74.5965
+theta: 243.279
+>> odom update done
+waiting for mutex
+x: 27.38
+y: -74.6452
+theta: 242.517
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 40.8383
+pose: 27.38, -74.6452, 4.23272
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.0977832
+targetVel: 129.466
+actualLeftVel: 462.8 / 600
+actualRightVel: 175.6 / 186
+waiting for mutex
+x: 27.3207
+y: -74.6934
+theta: 241.774
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 41.7865
+pose: 27.3207, -74.6934, 4.21976
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.0961637
+targetVel: 129.466
+actualLeftVel: 497 / 600
+actualRightVel: 186.6 / 192
+waiting for mutex
+x: 27.2107
+y: -74.7675
+theta: 241.073
+>> odom update done
+waiting for mutex
+x: 27.1002
+y: -74.8458
+theta: 240.408
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 44.1648
+pose: 27.1002, -74.8458, 4.19591
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.092181
+targetVel: 129.466
+actualLeftVel: 461.6 / 594
+actualRightVel: 197.6 / 204
+waiting for mutex
+x: 26.9899
+y: -74.9376
+theta: 239.835
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 45.3246
+pose: 26.9899, -74.9376, 4.18592
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.0902786
+targetVel: 129.466
+actualLeftVel: 334.6 / 600
+actualRightVel: 207.6 / 210
+waiting for mutex
+x: 26.8695
+y: -75.0691
+theta: 239.407
+>> odom update done
+waiting for mutex
+x: 26.7595
+y: -75.1937
+theta: 239.055
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 47.5579
+pose: 26.7595, -75.1937, 4.1723
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.0866866
+targetVel: 129.466
+actualLeftVel: 374.2 / 600
+actualRightVel: 211.8 / 222
+waiting for mutex
+x: 26.6376
+y: -75.3276
+theta: 238.652
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 48.7241
+pose: 26.6376, -75.3276, 4.16527
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.0848472
+targetVel: 129.466
+actualLeftVel: 333.6 / 600
+actualRightVel: 212 / 222
+waiting for mutex
+x: 26.5245
+y: -75.4152
+theta: 238.075
+>> odom update done
+waiting for mutex
+x: 26.3986
+y: -75.4968
+theta: 237.356
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 51.2841
+pose: 26.3986, -75.4968, 4.14265
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.0808938
+targetVel: 150
+actualLeftVel: 379.4 / 600
+actualRightVel: 218.8 / 240
+waiting for mutex
+x: 26.2717
+y: -75.5698
+theta: 236.592
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 52.7077
+pose: 26.2717, -75.5698, 4.12931
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.0787441
+targetVel: 150
+actualLeftVel: 383.8 / 600
+actualRightVel: 247 / 240
+waiting for mutex
+x: 26.1612
+y: -75.6949
+theta: 235.936
+>> odom update done
+waiting for mutex
+x: 25.9797
+y: -75.8231
+theta: 235.446
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 55.5891
+pose: 25.9797, -75.8231, 4.1093
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.0744956
+targetVel: 150
+actualLeftVel: 393.6 / 600
+actualRightVel: 256.6 / 258
+waiting for mutex
+x: 25.8256
+y: -75.9912
+theta: 235.092
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 56.9141
+pose: 25.8256, -75.9912, 4.10313
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.0725866
+targetVel: 150
+actualLeftVel: 403.4 / 600
+actualRightVel: 257.8 / 264
+waiting for mutex
+x: 25.6705
+y: -76.155
+theta: 234.717
+>> odom update done
+waiting for mutex
+x: 25.5143
+y: -76.3221
+theta: 234.37
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 59.5527
+pose: 25.5143, -76.3221, 4.09052
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.0688659
+targetVel: 150
+actualLeftVel: 437.2 / 600
+actualRightVel: 269.8 / 276
+waiting for mutex
+x: 25.3447
+y: -76.5084
+theta: 234.042
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 60.91
+pose: 25.3447, -76.5084, 4.0848
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.0669926
+targetVel: 150
+actualLeftVel: 510.4 / 600
+actualRightVel: 287 / 282
+waiting for mutex
+x: 25.1617
+y: -76.7094
+theta: 233.706
+>> odom update done
+waiting for mutex
+x: 24.9902
+y: -76.8888
+theta: 233.347
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 63.697
+pose: 24.9902, -76.8888, 4.07267
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.0632297
+targetVel: 150
+actualLeftVel: 516.2 / 600
+actualRightVel: 269.2 / 294
+waiting for mutex
+x: 24.8552
+y: -77.015
+theta: 232.976
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 64.8372
+pose: 24.8552, -77.015, 4.06621
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.0617218
+targetVel: 150
+actualLeftVel: 448.6 / 600
+actualRightVel: 217.6 / 300
+waiting for mutex
+x: 24.7189
+y: -77.151
+theta: 232.674
+>> odom update done
+waiting for mutex
+x: 24.6098
+y: -77.3044
+theta: 232.351
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 66.9171
+pose: 24.6098, -77.3044, 4.05529
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.0590168
+targetVel: 150
+actualLeftVel: 437.2 / 600
+actualRightVel: 202.2 / 306
+waiting for mutex
+x: 24.4734
+y: -77.4167
+theta: 231.908
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 68.1159
+pose: 24.4734, -77.4167, 4.04755
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.0574839
+targetVel: 150
+actualLeftVel: 445 / 600
+actualRightVel: 239.4 / 318
+waiting for mutex
+x: 24.3362
+y: -77.5283
+theta: 231.467
+>> odom update done
+waiting for mutex
+x: 24.1714
+y: -77.6781
+theta: 231.067
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 70.6113
+pose: 24.1714, -77.6781, 4.03288
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.0543527
+targetVel: 150
+actualLeftVel: 410.2 / 600
+actualRightVel: 256.6 / 330
+waiting for mutex
+x: 24.0037
+y: -77.8475
+theta: 230.799
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 71.7695
+pose: 24.0037, -77.8475, 4.02821
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.0529261
+targetVel: 150
+actualLeftVel: 418.4 / 594
+actualRightVel: 252.8 / 330
+waiting for mutex
+x: 23.8472
+y: -78.0149
+theta: 230.626
+>> odom update done
+waiting for mutex
+x: 23.6634
+y: -78.217
+theta: 230.471
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 73.8345
+pose: 23.6634, -78.217, 4.02247
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.0504234
+targetVel: 150
+actualLeftVel: 399.2 / 594
+actualRightVel: 268.6 / 342
+waiting for mutex
+x: 23.492
+y: -78.4061
+theta: 230.338
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 74.8105
+pose: 23.492, -78.4061, 4.02016
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.0492584
+targetVel: 150
+actualLeftVel: 410.8 / 600
+actualRightVel: 265.2 / 348
+waiting for mutex
+x: 23.3195
+y: -78.6014
+theta: 230.248
+>> odom update done
+waiting for mutex
+x: 23.1327
+y: -78.8198
+theta: 230.204
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 76.6355
+pose: 23.1327, -78.8198, 4.01781
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.0471099
+targetVel: 150
+actualLeftVel: 419.6 / 600
+actualRightVel: 270.6 / 354
+waiting for mutex
+x: 22.9457
+y: -79.0371
+theta: 230.153
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 77.5312
+pose: 22.9457, -79.0371, 4.01693
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.0460694
+targetVel: 150
+actualLeftVel: 431 / 600
+actualRightVel: 306.4 / 360
+waiting for mutex
+x: 22.7454
+y: -79.2684
+theta: 230.09
+>> odom update done
+waiting for mutex
+x: 22.5445
+y: -79.5022
+theta: 230.045
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 79.3839
+pose: 22.5445, -79.5022, 4.01504
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.043946
+targetVel: 150
+actualLeftVel: 453.6 / 600
+actualRightVel: 303.6 / 372
+waiting for mutex
+x: 22.3301
+y: -79.7508
+theta: 229.993
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 80.33
+pose: 22.3301, -79.7508, 4.01413
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.0428762
+targetVel: 150
+actualLeftVel: 463.6 / 594
+actualRightVel: 326 / 372
+waiting for mutex
+x: 22.1022
+y: -80.0126
+theta: 229.923
+>> odom update done
+waiting for mutex
+x: 21.8757
+y: -80.2574
+theta: 229.749
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 82.4094
+pose: 21.8757, -80.2574, 4.00987
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.040559
+targetVel: 150
+actualLeftVel: 490.4 / 600
+actualRightVel: 341.2 / 384
+waiting for mutex
+x: 21.64
+y: -80.4679
+theta: 229.261
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 83.8754
+pose: 21.64, -80.4679, 4.00136
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.0389529
+targetVel: 150
+actualLeftVel: 489.6 / 600
+actualRightVel: 352.4 / 390
+waiting for mutex
+x: 21.4074
+y: -80.6346
+theta: 228.51
+>> odom update done
+waiting for mutex
+x: 21.1625
+y: -80.7451
+theta: 227.667
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 87.5434
+pose: 21.1625, -80.7451, 3.97354
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.0350304
+targetVel: 150
+actualLeftVel: 532.6 / 600
+actualRightVel: 342 / 408
+waiting for mutex
+x: 20.9503
+y: -80.8979
+theta: 227.064
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 89.0426
+pose: 20.9503, -80.8979, 3.96302
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.0334655
+targetVel: 150
+actualLeftVel: 571.6 / 600
+actualRightVel: 308.2 / 420
+waiting for mutex
+x: 20.7057
+y: -81.0585
+theta: 226.677
+>> odom update done
+waiting for mutex
+x: 20.4575
+y: -81.2335
+theta: 226.392
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 91.5454
+pose: 20.4575, -81.2335, 3.95128
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.0309009
+targetVel: 150
+actualLeftVel: 583.2 / 600
+actualRightVel: 315.6 / 426
+waiting for mutex
+x: 20.2051
+y: -81.4269
+theta: 226.232
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 92.5569
+pose: 20.2051, -81.4269, 3.94849
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.029881
+targetVel: 150
+actualLeftVel: 611 / 594
+actualRightVel: 343.2 / 432
+waiting for mutex
+x: 19.9855
+y: -81.6991
+theta: 226.174
+>> odom update done
+waiting for mutex
+x: 19.7134
+y: -81.934
+theta: 226.188
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 94.0887
+pose: 19.7134, -81.934, 3.94772
+lookaheadPose: 30.4771, -58.9781, 15
+curvature: 0.0283543
+targetVel: 150
+actualLeftVel: 614.2 / 600
+actualRightVel: 321.8 / 444
+waiting for mutex
+x: 19.4958
+y: -82.1614
+theta: 226.192
+>> odom update done
+waiting for mutex
+x: 19.2961
+y: -82.3533
+theta: 226.066
+>> odom update done
+waiting for mutex
+x: 19.1306
+y: -82.4825
+theta: 225.735
+>> odom update done
+waiting for mutex
+x: 19.0279
+y: -82.5246
+theta: 225.234
+>> odom update done
+waiting for mutex
+x: 18.9742
+y: -82.497
+theta: 224.576
+>> odom update done
+waiting for mutex
+x: 19.0264
+y: -82.5032
+theta: 223.844
+>> odom update done
+waiting for mutex
+x: 19.0612
+y: -82.4289
+theta: 223.1
+>> odom update done
+waiting for mutex
+x: 19.1356
+y: -82.3681
+theta: 222.367
+>> odom update done
+waiting for mutex
+x: 19.1607
+y: -82.2696
+theta: 221.721
+>> odom update done
+waiting for mutex
+x: 19.1788
+y: -82.2009
+theta: 221.269
+>> odom update done
+waiting for mutex
+x: 19.1909
+y: -82.1565
+theta: 220.977
+>> odom update done
+waiting for mutex
+x: 19.2229
+y: -82.1496
+theta: 220.757
+>> odom update done
+waiting for mutex
+x: 19.2321
+y: -82.1169
+theta: 220.541
+>> odom update done
+waiting for mutex
+x: 19.2417
+y: -82.0833
+theta: 220.319
+>> odom update done
+waiting for mutex
+x: 19.2521
+y: -82.047
+theta: 220.079
+>> odom update done
+waiting for mutex
+x: 19.2849
+y: -82.0386
+theta: 219.846
+>> odom update done
+waiting for mutex
+x: 19.2926
+y: -82.0124
+theta: 219.673
+>> odom update done
+waiting for mutex
+x: 19.3439
+y: -82.0438
+theta: 219.524
+>> odom update done
+waiting for mutex
+x: 19.3724
+y: -82.0499
+theta: 219.385
+>> odom update done
+waiting for mutex
+x: 19.3792
+y: -82.0277
+theta: 219.238
+>> odom update done
+waiting for mutex
+x: 19.3859
+y: -82.0058
+theta: 219.093
+>> odom update done
+waiting for mutex
+x: 19.4153
+y: -82.0092
+theta: 218.934
+>> odom update done
+waiting for mutex
+x: 19.423
+y: -81.9845
+theta: 218.77
+>> odom update done
+waiting for mutex
+x: 19.4548
+y: -81.9805
+theta: 218.561
+>> odom update done
+waiting for mutex
+x: 19.4858
+y: -81.9789
+theta: 218.368
+>> odom update done
+waiting for mutex
+x: 19.5162
+y: -81.9795
+theta: 218.189
+>> odom update done
+waiting for mutex
+x: 19.5243
+y: -81.9548
+theta: 218.024
+>> odom update done
+waiting for mutex
+x: 19.5533
+y: -81.9596
+theta: 217.871
+>> odom update done
+waiting for mutex
+x: 19.5597
+y: -81.9406
+theta: 217.744
+>> odom update done
+waiting for mutex
+x: 19.5647
+y: -81.9258
+theta: 217.645
+>> odom update done
+waiting for mutex
+x: 19.5693
+y: -81.9121
+theta: 217.553
+>> odom update done
+waiting for mutex
+x: 19.5734
+y: -81.9
+theta: 217.471
+>> odom update done
+waiting for mutex
+x: 19.598
+y: -81.9177
+theta: 217.405
+>> odom update done
+waiting for mutex
+x: 19.6226
+y: -81.9357
+theta: 217.339
+>> odom update done
+waiting for mutex
+x: 19.6258
+y: -81.9265
+theta: 217.277
+>> odom update done
+waiting for mutex
+x: 19.6286
+y: -81.9181
+theta: 217.221
+>> odom update done
+waiting for mutex
+x: 19.6312
+y: -81.9109
+theta: 217.172
+>> odom update done
+waiting for mutex
+x: 19.6332
+y: -81.9048
+theta: 217.131
+>> odom update done
+waiting for mutex
+x: 19.635
+y: -81.8999
+theta: 217.098
+>> odom update done
+waiting for mutex
+x: 19.6364
+y: -81.8959
+theta: 217.071
+>> odom update done
+waiting for mutex
+x: 19.6585
+y: -81.9206
+theta: 217.05
+>> odom update done
+waiting for mutex
+x: 19.6594
+y: -81.9181
+theta: 217.033
+>> odom update done
+waiting for mutex
+x: 19.6601
+y: -81.9161
+theta: 217.019
+>> odom update done
+waiting for mutex
+x: 19.6607
+y: -81.9143
+theta: 217.007
+>> odom update done
+waiting for mutex
+x: 19.6613
+y: -81.9127
+theta: 216.996
+>> odom update done
+waiting for mutex
+x: 19.6621
+y: -81.9104
+theta: 216.981
+>> odom update done
+waiting for mutex
+x: 19.6629
+y: -81.9081
+theta: 216.965
+>> odom update done
+waiting for mutex
+x: 19.6637
+y: -81.9057
+theta: 216.95
+>> odom update done
+waiting for mutex
+x: 19.6643
+y: -81.9041
+theta: 216.938
+>> odom update done
+waiting for mutex
+x: 19.665
+y: -81.9021
+theta: 216.926
+>> odom update done
+waiting for mutex
+x: 19.6654
+y: -81.901
+theta: 216.918
+>> odom update done
+waiting for mutex
+x: 19.6655
+y: -81.9006
+theta: 216.915
+>> odom update done
+waiting for mutex
+x: 19.6654
+y: -81.901
+theta: 216.918
+>> odom update done
+waiting for mutex
+x: 19.6662
+y: -81.8985
+theta: 216.901
+>> odom update done
+waiting for mutex
+x: 19.6666
+y: -81.8977
+theta: 216.895
+>> odom update done
+waiting for mutex
+x: 19.6674
+y: -81.8952
+theta: 216.878
+>> odom update done
+waiting for mutex
+x: 19.668
+y: -81.8937
+theta: 216.868
+>> odom update done
+waiting for mutex
+x: 19.6685
+y: -81.8922
+theta: 216.858
+>> odom update done
+waiting for mutex
+x: 19.6684
+y: -81.8924
+theta: 216.86
+>> odom update done
+waiting for mutex
+x: 19.669
+y: -81.8907
+theta: 216.848
+>> odom update done
+waiting for mutex
+x: 19.6693
+y: -81.8898
+theta: 216.842
+>> odom update done
+waiting for mutex
+x: 19.6703
+y: -81.8871
+theta: 216.824
+>> odom update done
+waiting for mutex
+x: 19.6707
+y: -81.8859
+theta: 216.816
+>> odom update done
+waiting for mutex
+x: 19.6711
+y: -81.8847
+theta: 216.808
+>> odom update done
+waiting for mutex
+x: 19.6716
+y: -81.8835
+theta: 216.8
+>> odom update done
+waiting for mutex
+x: 19.6711
+y: -81.8848
+theta: 216.809
+>> odom update done
+waiting for mutex
+x: 19.6708
+y: -81.8855
+theta: 216.814
+>> odom update done
+waiting for mutex
+x: 19.6716
+y: -81.8834
+theta: 216.799
+>> odom update done
+waiting for mutex
+x: 19.6724
+y: -81.881
+theta: 216.783
+>> odom update done
+waiting for mutex
+x: 19.6735
+y: -81.8779
+theta: 216.762
+>> odom update done
+waiting for mutex
+x: 19.6739
+y: -81.8768
+theta: 216.755
+>> odom update done
+waiting for mutex
+x: 19.6737
+y: -81.8776
+theta: 216.76
+>> odom update done
+waiting for mutex
+x: 19.6732
+y: -81.8789
+theta: 216.769
+>> odom update done
+waiting for mutex
+x: 19.6732
+y: -81.879
+theta: 216.769
+>> odom update done
+waiting for mutex
+x: 19.6743
+y: -81.8759
+theta: 216.749
+>> odom update done
+waiting for mutex
+x: 19.6743
+y: -81.8757
+theta: 216.747
+>> odom update done
+waiting for mutex
+x: 19.6749
+y: -81.8741
+theta: 216.736
+>> odom update done
+waiting for mutex
+x: 19.6756
+y: -81.8722
+theta: 216.724
+>> odom update done
+waiting for mutex
+x: 19.6758
+y: -81.8716
+theta: 216.72
+>> odom update done
+waiting for mutex
+x: 19.6752
+y: -81.8732
+theta: 216.73
+>> odom update done
+waiting for mutex
+x: 19.6756
+y: -81.872
+theta: 216.722
+>> odom update done
+waiting for mutex
+x: 19.6768
+y: -81.8687
+theta: 216.7
+>> odom update done
+waiting for mutex
+x: 19.6773
+y: -81.8675
+theta: 216.692
+>> odom update done
+waiting for mutex
+x: 19.6767
+y: -81.8689
+theta: 216.701
+>> odom update done
+waiting for mutex
+x: 19.6761
+y: -81.8706
+theta: 216.713
+>> odom update done
+waiting for mutex
+x: 19.6762
+y: -81.8704
+theta: 216.711
+>> odom update done
+waiting for mutex
+x: 19.6768
+y: -81.8686
+theta: 216.7
+>> odom update done
+waiting for mutex
+x: 19.698
+y: -81.8959
+theta: 216.695
+>> odom update done
+waiting for mutex
+x: 19.6978
+y: -81.8965
+theta: 216.699
+>> odom update done
+waiting for mutex
+x: 19.6987
+y: -81.8937
+theta: 216.68
+>> odom update done
+waiting for mutex
+x: 19.6981
+y: -81.8954
+theta: 216.691
+>> odom update done
+waiting for mutex
+x: 19.6984
+y: -81.8945
+theta: 216.686
+>> odom update done
+waiting for mutex
+x: 19.6996
+y: -81.8914
+theta: 216.664
+>> odom update done
+waiting for mutex
+x: 19.7007
+y: -81.8881
+theta: 216.642
+>> odom update done
+waiting for mutex
+x: 19.7011
+y: -81.8871
+theta: 216.636
+>> odom update done
+waiting for mutex
+x: 19.7009
+y: -81.8875
+theta: 216.638
+>> odom update done
+waiting for mutex
+x: 19.7007
+y: -81.8882
+theta: 216.643
+>> odom update done
+waiting for mutex
+x: 19.7015
+y: -81.8859
+theta: 216.627
+>> odom update done
+waiting for mutex
+x: 19.7018
+y: -81.885
+theta: 216.621
+>> odom update done
+waiting for mutex
+x: 19.7022
+y: -81.8842
+theta: 216.615
+>> odom update done
+waiting for mutex
+x: 19.7018
+y: -81.8852
+theta: 216.623
+>> odom update done
+waiting for mutex
+x: 19.7021
+y: -81.8842
+theta: 216.616
+>> odom update done
+waiting for mutex
+x: 19.7027
+y: -81.8825
+theta: 216.604
+>> odom update done
+waiting for mutex
+x: 19.7034
+y: -81.8806
+theta: 216.592
+>> odom update done
+waiting for mutex
+x: 19.7046
+y: -81.8774
+theta: 216.57
+>> odom update done
+waiting for mutex
+x: 19.7052
+y: -81.8757
+theta: 216.558
+>> odom update done
+waiting for mutex
+x: 19.7049
+y: -81.8766
+theta: 216.564
+>> odom update done
+waiting for mutex
+x: 19.7046
+y: -81.8772
+theta: 216.568
+>> odom update done
+waiting for mutex
+x: 19.7043
+y: -81.878
+theta: 216.574
+>> odom update done
+waiting for mutex
+x: 19.7046
+y: -81.8772
+theta: 216.568
+>> odom update done
+waiting for mutex
+x: 19.7051
+y: -81.8761
+theta: 216.561
+>> odom update done
+waiting for mutex
+x: 19.7062
+y: -81.8728
+theta: 216.539
+>> odom update done
+waiting for mutex
+x: 19.7066
+y: -81.8717
+theta: 216.531
+>> odom update done
+waiting for mutex
+x: 19.7072
+y: -81.8701
+theta: 216.52
+>> odom update done
+waiting for mutex
+x: 19.7072
+y: -81.8702
+theta: 216.521
+>> odom update done
+waiting for mutex
+x: 19.7073
+y: -81.8699
+theta: 216.519
+>> odom update done
+waiting for mutex
+x: 19.7077
+y: -81.8686
+theta: 216.511
+>> odom update done
+waiting for mutex
+x: 19.7078
+y: -81.8684
+theta: 216.509
+>> odom update done
+waiting for mutex
+x: 19.7081
+y: -81.8675
+theta: 216.503
+>> odom update done
+waiting for mutex
+x: 19.7083
+y: -81.8671
+theta: 216.5
+>> odom update done
+waiting for mutex
+x: 19.7083
+y: -81.8669
+theta: 216.499
+>> odom update done
+waiting for mutex
+x: 19.7076
+y: -81.869
+theta: 216.513
+>> odom update done
+waiting for mutex
+x: 19.7074
+y: -81.8694
+theta: 216.516
+>> odom update done
+waiting for mutex
+x: 19.7077
+y: -81.8686
+theta: 216.51
+>> odom update done
+waiting for mutex
+x: 19.7084
+y: -81.8669
+theta: 216.499
+>> odom update done
+waiting for mutex
+x: 19.7092
+y: -81.8646
+theta: 216.484
+>> odom update done
+waiting for mutex
+x: 19.709
+y: -81.8652
+theta: 216.487
+>> odom update done
+waiting for mutex
+x: 19.7087
+y: -81.8658
+theta: 216.492
+>> odom update done
+waiting for mutex
+x: 19.7093
+y: -81.8643
+theta: 216.481
+>> odom update done
+waiting for mutex
+x: 19.71
+y: -81.8623
+theta: 216.468
+>> odom update done
+waiting for mutex
+x: 19.7103
+y: -81.8615
+theta: 216.463
+>> odom update done
+waiting for mutex
+x: 19.7102
+y: -81.8616
+theta: 216.463
+>> odom update done
+waiting for mutex
+x: 19.7107
+y: -81.8603
+theta: 216.455
+>> odom update done
+waiting for mutex
+x: 19.7115
+y: -81.8583
+theta: 216.441
+>> odom update done
+waiting for mutex
+x: 19.7125
+y: -81.8554
+theta: 216.421
+>> odom update done
+waiting for mutex
+x: 19.7136
+y: -81.8523
+theta: 216.4
+>> odom update done
+waiting for mutex
+x: 19.7141
+y: -81.8509
+theta: 216.391
+>> odom update done
+waiting for mutex
+x: 19.7143
+y: -81.8504
+theta: 216.387
+>> odom update done
+waiting for mutex
+x: 19.7146
+y: -81.8495
+theta: 216.381
+>> odom update done
+waiting for mutex
+x: 19.7148
+y: -81.849
+theta: 216.378
+>> odom update done
+waiting for mutex
+x: 19.7148
+y: -81.8491
+theta: 216.379
+>> odom update done
+waiting for mutex
+x: 19.7148
+y: -81.849
+theta: 216.378
+>> odom update done
+waiting for mutex
+x: 19.7154
+y: -81.8473
+theta: 216.367
+>> odom update done
+waiting for mutex
+x: 19.7157
+y: -81.8467
+theta: 216.362
+>> odom update done
+waiting for mutex
+x: 19.7153
+y: -81.8478
+theta: 216.37
+>> odom update done
+waiting for mutex
+x: 19.7142
+y: -81.8507
+theta: 216.389
+>> odom update done
+waiting for mutex
+x: 19.7127
+y: -81.8549
+theta: 216.418
+>> odom update done
+waiting for mutex
+x: 19.7106
+y: -81.8606
+theta: 216.456
+>> odom update done
+waiting for mutex
+x: 19.7084
+y: -81.8668
+theta: 216.498
+>> odom update done
+waiting for mutex
+x: 19.7057
+y: -81.8741
+theta: 216.548
+>> odom update done
+waiting for mutex
+x: 19.7028
+y: -81.8823
+theta: 216.603
+>> odom update done
+waiting for mutex
+x: 19.6991
+y: -81.8926
+theta: 216.672
+>> odom update done
+waiting for mutex
+x: 19.696
+y: -81.9014
+theta: 216.732
+>> odom update done
+waiting for mutex
+x: 19.6922
+y: -81.912
+theta: 216.804
+>> odom update done
+waiting for mutex
+x: 19.688
+y: -81.924
+theta: 216.884
+>> odom update done
+waiting for mutex
+x: 19.6835
+y: -81.9366
+theta: 216.969
+>> odom update done
+waiting for mutex
+x: 19.6787
+y: -81.9506
+theta: 217.064
+>> odom update done
+waiting for mutex
+x: 19.6733
+y: -81.9661
+theta: 217.168
+>> odom update done
+waiting for mutex
+x: 19.6681
+y: -81.9809
+theta: 217.267
+>> odom update done
+waiting for mutex
+x: 19.6628
+y: -81.9964
+theta: 217.372
+>> odom update done
+waiting for mutex
+x: 19.6568
+y: -82.014
+theta: 217.49
+>> odom update done
+waiting for mutex
+x: 19.6496
+y: -82.0351
+theta: 217.631
+>> odom update done
+waiting for mutex
+x: 19.6421
+y: -82.0576
+theta: 217.782
+>> odom update done
+waiting for mutex
+x: 19.6347
+y: -82.0796
+theta: 217.929
+>> odom update done
+waiting for mutex
+x: 19.6281
+y: -82.0996
+theta: 218.064
+>> odom update done
+waiting for mutex
+x: 19.6226
+y: -82.1163
+theta: 218.175
+>> odom update done
+waiting for mutex
+x: 19.6181
+y: -82.1301
+theta: 218.268
+>> odom update done
+waiting for mutex
+x: 19.6149
+y: -82.1399
+theta: 218.333
+>> odom update done
+waiting for mutex
+x: 19.6322
+y: -82.1243
+theta: 218.316
+>> odom update done
+waiting for mutex
+x: 19.6695
+y: -82.0848
+theta: 218.225
+>> odom update done
+waiting for mutex
+x: 19.7106
+y: -82.0341
+theta: 218.059
+>> odom update done
+waiting for mutex
+x: 19.7533
+y: -81.9792
+theta: 217.864
+>> odom update done
+waiting for mutex
+x: 19.7968
+y: -81.9224
+theta: 217.655
+>> odom update done
+waiting for mutex
+x: 19.8409
+y: -81.865
+theta: 217.441
+>> odom update done
+waiting for mutex
+x: 19.8689
+y: -81.8192
+theta: 217.218
+>> odom update done
+waiting for mutex
+x: 19.9143
+y: -81.7597
+theta: 216.988
+>> odom update done
+waiting for mutex
+x: 19.9446
+y: -81.7087
+theta: 216.729
+>> odom update done
+waiting for mutex
+x: 19.9934
+y: -81.6413
+theta: 216.443
+>> odom update done
+waiting for mutex
+x: 20.0431
+y: -81.5729
+theta: 216.147
+>> odom update done
+waiting for mutex
+x: 20.0939
+y: -81.5026
+theta: 215.838
+>> odom update done
+waiting for mutex
+x: 20.1456
+y: -81.4313
+theta: 215.519
+>> odom update done
+waiting for mutex
+x: 20.1986
+y: -81.3578
+theta: 215.184
+>> odom update done
+waiting for mutex
+x: 20.2694
+y: -81.2721
+theta: 214.845
+>> odom update done
+waiting for mutex
+x: 20.3244
+y: -81.1964
+theta: 214.491
+>> odom update done
+waiting for mutex
+x: 20.3976
+y: -81.1083
+theta: 214.13
+>> odom update done
+waiting for mutex
+x: 20.4338
+y: -81.0051
+theta: 213.78
+>> odom update done
+waiting for mutex
+x: 20.5277
+y: -80.9463
+theta: 213.414
+>> odom update done
+waiting for mutex
+x: 20.6004
+y: -80.8644
+theta: 213.086
+>> odom update done
+waiting for mutex
+x: 20.6923
+y: -80.7691
+theta: 212.742
+>> odom update done
+waiting for mutex
+x: 20.7654
+y: -80.6894
+theta: 212.423
+>> odom update done
+waiting for mutex
+x: 20.8586
+y: -80.5946
+theta: 212.075
+>> odom update done
+waiting for mutex
+x: 20.9504
+y: -80.4624
+theta: 211.745
+>> odom update done
+waiting for mutex
+x: 21.0448
+y: -80.3687
+theta: 211.396
+>> odom update done
+waiting for mutex
+x: 21.1563
+y: -80.2675
+theta: 211.067
+>> odom update done
+waiting for mutex
+x: 21.2683
+y: -80.1671
+theta: 210.739
+>> odom update done
+waiting for mutex
+x: 21.3629
+y: -80.0377
+theta: 210.414
+>> odom update done
+waiting for mutex
+x: 21.4925
+y: -79.9312
+theta: 210.108
+>> odom update done
+waiting for mutex
+x: 21.6041
+y: -79.8368
+theta: 209.809
+>> odom update done
+waiting for mutex
+x: 21.7368
+y: -79.728
+theta: 209.478
+>> odom update done
+waiting for mutex
+x: 21.872
+y: -79.6163
+theta: 209.119
+>> odom update done
+waiting for mutex
+x: 22.0078
+y: -79.5055
+theta: 208.762
+>> odom update done
+waiting for mutex
+x: 22.1449
+y: -79.3945
+theta: 208.396
+>> odom update done
+waiting for mutex
+x: 22.3001
+y: -79.2764
+theta: 208.045
+>> odom update done
+waiting for mutex
+x: 22.4407
+y: -79.1267
+theta: 207.681
+>> odom update done
+waiting for mutex
+x: 22.5625
+y: -78.9895
+theta: 207.332
+>> odom update done
+waiting for mutex
+x: 22.7393
+y: -78.8634
+theta: 206.97
+>> odom update done
+waiting for mutex
+x: 22.8978
+y: -78.7485
+theta: 206.613
+>> odom update done
+waiting for mutex
+x: 23.0766
+y: -78.6239
+theta: 206.247
+>> odom update done
+waiting for mutex
+x: 23.2362
+y: -78.5116
+theta: 205.895
+>> odom update done
+waiting for mutex
+x: 23.4175
+y: -78.3876
+theta: 205.516
+>> odom update done
+waiting for mutex
+x: 23.583
+y: -78.27
+theta: 205.108
+>> odom update done
+waiting for mutex
+x: 23.7505
+y: -78.1518
+theta: 204.688
+>> odom update done
+waiting for mutex
+x: 23.9402
+y: -78.0225
+theta: 204.24
+>> odom update done
+waiting for mutex
+x: 24.111
+y: -77.9046
+theta: 203.801
+>> odom update done
+waiting for mutex
+x: 24.2833
+y: -77.7869
+theta: 203.355
+>> odom update done
+waiting for mutex
+x: 24.4573
+y: -77.6693
+theta: 202.9
+>> odom update done
+waiting for mutex
+x: 24.6347
+y: -77.5496
+theta: 202.417
+>> odom update done
+waiting for mutex
+x: 24.8153
+y: -77.4282
+theta: 201.909
+>> odom update done
+waiting for mutex
+x: 24.9974
+y: -77.3078
+theta: 201.397
+>> odom update done
+waiting for mutex
+x: 25.1624
+y: -77.1947
+theta: 200.87
+>> odom update done
+waiting for mutex
+x: 25.3305
+y: -77.0804
+theta: 200.321
+>> odom update done
+waiting for mutex
+x: 25.5019
+y: -76.9647
+theta: 199.748
+>> odom update done
+waiting for mutex
+x: 25.6768
+y: -76.8475
+theta: 199.149
+>> odom update done
+waiting for mutex
+x: 25.854
+y: -76.7309
+theta: 198.541
+>> odom update done
+waiting for mutex
+x: 26.0148
+y: -76.6199
+theta: 197.909
+>> odom update done
+waiting for mutex
+x: 26.1773
+y: -76.5101
+theta: 197.272
+>> odom update done
+waiting for mutex
+x: 26.4017
+y: -76.3831
+theta: 196.629
+>> odom update done
+waiting for mutex
+x: 26.5666
+y: -76.2769
+theta: 195.992
+>> odom update done
+waiting for mutex
+x: 26.732
+y: -76.1733
+theta: 195.361
+>> odom update done
+waiting for mutex
+x: 26.8797
+y: -76.0755
+theta: 194.718
+>> odom update done
+waiting for mutex
+x: 27.0517
+y: -75.9709
+theta: 194.047
+>> odom update done
+waiting for mutex
+x: 27.2082
+y: -75.8695
+theta: 193.342
+>> odom update done
+waiting for mutex
+x: 27.3674
+y: -75.7684
+theta: 192.623
+>> odom update done
+waiting for mutex
+x: 27.5477
+y: -75.6655
+theta: 191.91
+>> odom update done
+waiting for mutex
+x: 27.7085
+y: -75.5693
+theta: 191.199
+>> odom update done
+waiting for mutex
+x: 27.8694
+y: -75.4762
+theta: 190.498
+>> odom update done
+waiting for mutex
+x: 28.0291
+y: -75.3872
+theta: 189.817
+>> odom update done
+waiting for mutex
+x: 28.1666
+y: -75.306
+theta: 189.159
+>> odom update done
+waiting for mutex
+x: 28.3244
+y: -75.2243
+theta: 188.512
+>> odom update done
+waiting for mutex
+x: 28.504
+y: -75.1413
+theta: 187.863
+>> odom update done
+waiting for mutex
+x: 28.6649
+y: -75.0621
+theta: 187.206
+>> odom update done
+waiting for mutex
+x: 28.826
+y: -74.9854
+theta: 186.554
+>> odom update done
+waiting for mutex
+x: 29.0059
+y: -74.9105
+theta: 185.925
+>> odom update done
+waiting for mutex
+x: 29.1833
+y: -74.8403
+theta: 185.324
+>> odom update done
+waiting for mutex
+x: 29.3394
+y: -74.7748
+theta: 184.733
+>> odom update done
+waiting for mutex
+x: 29.5158
+y: -74.7102
+theta: 184.151
+>> odom update done
+waiting for mutex
+x: 29.6917
+y: -74.6482
+theta: 183.578
+>> odom update done
+waiting for mutex
+x: 29.8842
+y: -74.5904
+theta: 183.044
+>> odom update done
+waiting for mutex
+x: 30.0728
+y: -74.5376
+theta: 182.545
+>> odom update done
+waiting for mutex
+x: 30.2556
+y: -74.4551
+theta: 182.085
+>> odom update done
+waiting for mutex
+x: 30.4408
+y: -74.4084
+theta: 181.619
+>> odom update done
+waiting for mutex
+x: 30.624
+y: -74.3649
+theta: 181.172
+>> odom update done
+waiting for mutex
+x: 30.8052
+y: -74.3244
+theta: 180.742
+>> odom update done
+waiting for mutex
+x: 30.9805
+y: -74.2894
+theta: 180.361
+>> odom update done
+waiting for mutex
+x: 31.1499
+y: -74.2596
+theta: 180.026
+>> odom update done
+waiting for mutex
+x: 31.3376
+y: -74.2327
+theta: 179.713
+>> odom update done
+waiting for mutex
+x: 31.5233
+y: -74.2081
+theta: 179.415
+>> odom update done
+waiting for mutex
+x: 31.6858
+y: -74.1859
+theta: 179.136
+>> odom update done
+waiting for mutex
+x: 31.8842
+y: -74.1689
+theta: 178.903
+>> odom update done
+waiting for mutex
+x: 32.0774
+y: -74.156
+theta: 178.709
+>> odom update done
+waiting for mutex
+x: 32.2874
+y: -74.1469
+theta: 178.548
+>> odom update done
+waiting for mutex
+x: 32.4962
+y: -74.1391
+theta: 178.394
+>> odom update done
+waiting for mutex
+x: 32.7244
+y: -74.1335
+theta: 178.253
+>> odom update done
+waiting for mutex
+x: 32.9279
+y: -74.13
+theta: 178.14
+>> odom update done
+waiting for mutex
+x: 33.1269
+y: -74.1297
+theta: 178.061
+>> odom update done
+waiting for mutex
+x: 33.3402
+y: -74.1343
+theta: 178.031
+>> odom update done
+waiting for mutex
+x: 33.5327
+y: -74.1383
+theta: 178
+>> odom update done
+waiting for mutex
+x: 33.7481
+y: -74.142
+theta: 177.955
+>> odom update done
+waiting for mutex
+x: 33.9642
+y: -74.1454
+theta: 177.904
+>> odom update done
+waiting for mutex
+x: 34.1997
+y: -74.1506
+theta: 177.865
+>> odom update done
+waiting for mutex
+x: 34.4107
+y: -74.1574
+theta: 177.852
+>> odom update done
+waiting for mutex
+x: 34.643
+y: -74.1648
+theta: 177.837
+>> odom update done
+waiting for mutex
+x: 34.8554
+y: -74.1709
+theta: 177.813
+>> odom update done
+waiting for mutex
+x: 35.0894
+y: -74.1773
+theta: 177.785
+>> odom update done
+waiting for mutex
+x: 35.3222
+y: -74.1847
+theta: 177.766
+>> odom update done
+waiting for mutex
+x: 35.5549
+y: -74.1922
+theta: 177.747
+>> odom update done
+waiting for mutex
+x: 35.8082
+y: -74.2008
+theta: 177.73
+>> odom update done
+waiting for mutex
+x: 36.0437
+y: -74.2068
+theta: 177.691
+>> odom update done
+waiting for mutex
+x: 36.2788
+y: -74.2131
+theta: 177.655
+>> odom update done
+waiting for mutex
+x: 36.5322
+y: -74.222
+theta: 177.638
+>> odom update done
+waiting for mutex
+x: 36.762
+y: -74.2318
+theta: 177.641
+>> odom update done
+waiting for mutex
+x: 36.9919
+y: -74.2414
+theta: 177.643
+>> odom update done
+waiting for mutex
+x: 37.2435
+y: -74.2515
+theta: 177.639
+>> odom update done
+waiting for mutex
+x: 37.4732
+y: -74.2613
+theta: 177.643
+>> odom update done
+waiting for mutex
+x: 37.7007
+y: -74.2723
+theta: 177.663
+>> odom update done
+waiting for mutex
+x: 37.948
+y: -74.2849
+theta: 177.692
+>> odom update done
+waiting for mutex
+x: 38.1746
+y: -74.2963
+theta: 177.718
+>> odom update done
+waiting for mutex
+x: 38.4019
+y: -74.3072
+theta: 177.74
+>> odom update done
+waiting for mutex
+x: 38.6071
+y: -74.3179
+theta: 177.77
+>> odom update done
+waiting for mutex
+x: 38.8305
+y: -74.3309
+theta: 177.821
+>> odom update done
+waiting for mutex
+x: 39.029
+y: -74.3454
+theta: 177.901
+>> odom update done
+waiting for mutex
+x: 39.2256
+y: -74.3607
+theta: 177.996
+>> odom update done
+waiting for mutex
+x: 39.4421
+y: -74.3771
+theta: 178.099
+>> odom update done
+waiting for mutex
+x: 39.6372
+y: -74.3926
+theta: 178.205
+>> odom update done
+waiting for mutex
+x: 39.8312
+y: -74.4086
+theta: 178.321
+>> odom update done
+waiting for mutex
+x: 40.0251
+y: -74.4241
+theta: 178.436
+>> odom update done
+waiting for mutex
+x: 40.1992
+y: -74.4382
+theta: 178.544
+>> odom update done
+waiting for mutex
+x: 40.3743
+y: -74.4512
+theta: 178.645
+>> odom update done
+waiting for mutex
+x: 40.571
+y: -74.464
+theta: 178.74
+>> odom update done
+waiting for mutex
+x: 40.7277
+y: -74.4745
+theta: 178.821
+>> odom update done
+waiting for mutex
+x: 40.9063
+y: -74.4845
+theta: 178.895
+>> odom update done
+waiting for mutex
+x: 41.065
+y: -74.4933
+theta: 178.962
+>> odom update done
+waiting for mutex
+x: 41.2237
+y: -74.5019
+theta: 179.029
+>> odom update done
+waiting for mutex
+x: 41.3605
+y: -74.5106
+theta: 179.103
+>> odom update done
+waiting for mutex
+x: 41.4992
+y: -74.5179
+theta: 179.162
+>> odom update done
+waiting for mutex
+x: 41.6163
+y: -74.5252
+theta: 179.228
+>> odom update done
+waiting for mutex
+x: 41.7327
+y: -74.5328
+theta: 179.298
+>> odom update done
+waiting for mutex
+x: 41.8483
+y: -74.5408
+theta: 179.374
+>> odom update done
+waiting for mutex
+x: 41.9429
+y: -74.5485
+theta: 179.45
+>> odom update done
+waiting for mutex
+x: 42.0375
+y: -74.556
+theta: 179.527
+>> odom update done
+waiting for mutex
+x: 42.1326
+y: -74.5631
+theta: 179.601
+>> odom update done
+waiting for mutex
+x: 42.2077
+y: -74.5693
+theta: 179.666
+>> odom update done
+waiting for mutex
+x: 42.3048
+y: -74.5749
+theta: 179.724
+>> odom update done
+waiting for mutex
+x: 42.3608
+y: -74.5797
+theta: 179.776
+>> odom update done
+waiting for mutex
+x: 42.4384
+y: -74.5841
+theta: 179.823
+>> odom update done
+waiting for mutex
+x: 42.5159
+y: -74.5885
+theta: 179.871
+>> odom update done
+waiting for mutex
+x: 42.5513
+y: -74.5929
+theta: 179.921
+>> odom update done
+waiting for mutex
+x: 42.6077
+y: -74.5972
+theta: 179.969
+>> odom update done
+waiting for mutex
+x: 42.6435
+y: -74.6012
+theta: 180.016
+>> odom update done
+waiting for mutex
+x: 42.6792
+y: -74.6054
+theta: 180.064
+>> odom update done
+waiting for mutex
+x: 42.6938
+y: -74.6096
+theta: 180.112
+>> odom update done
+waiting for mutex
+x: 42.7282
+y: -74.6145
+theta: 180.169
+>> odom update done
+waiting for mutex
+x: 42.7198
+y: -74.6202
+theta: 180.234
+>> odom update done
+waiting for mutex
+x: 42.713
+y: -74.6247
+theta: 180.286
+>> odom update done
+waiting for mutex
+x: 42.7084
+y: -74.6278
+theta: 180.321
+>> odom update done
+waiting for mutex
+x: 42.706
+y: -74.6295
+theta: 180.34
+>> odom update done
+waiting for mutex
+x: 42.7057
+y: -74.6296
+theta: 180.341
+>> odom update done
+waiting for mutex
+x: 42.7084
+y: -74.6278
+theta: 180.321
+>> odom update done
+waiting for mutex
+x: 42.7134
+y: -74.6244
+theta: 180.282
+>> odom update done
+waiting for mutex
+x: 42.7196
+y: -74.6202
+theta: 180.235
+>> odom update done
+waiting for mutex
+x: 42.7264
+y: -74.6157
+theta: 180.183
+>> odom update done
+waiting for mutex
+x: 42.7332
+y: -74.6112
+theta: 180.131
+>> odom update done
+waiting for mutex
+x: 42.7393
+y: -74.607
+theta: 180.084
+>> odom update done
+waiting for mutex
+x: 42.7448
+y: -74.6034
+theta: 180.043
+>> odom update done
+waiting for mutex
+x: 42.7494
+y: -74.6003
+theta: 180.007
+>> odom update done
+waiting for mutex
+x: 42.7534
+y: -74.5977
+theta: 179.977
+>> odom update done
+waiting for mutex
+x: 42.7565
+y: -74.5956
+theta: 179.953
+>> odom update done
+waiting for mutex
+x: 42.7589
+y: -74.594
+theta: 179.935
+>> odom update done
+waiting for mutex
+x: 42.7607
+y: -74.5928
+theta: 179.921
+>> odom update done
+waiting for mutex
+x: 42.7618
+y: -74.592
+theta: 179.912
+>> odom update done
+waiting for mutex
+x: 42.7625
+y: -74.5916
+theta: 179.907
+>> odom update done
+waiting for mutex
+x: 42.7629
+y: -74.5913
+theta: 179.904
+>> odom update done
+waiting for mutex
+x: 42.763
+y: -74.5913
+theta: 179.903
+>> odom update done
+waiting for mutex
+x: 42.7633
+y: -74.5911
+theta: 179.901
+>> odom update done
+waiting for mutex
+x: 42.7638
+y: -74.5907
+theta: 179.897
+>> odom update done
+waiting for mutex
+x: 42.7646
+y: -74.5902
+theta: 179.891
+>> odom update done
+waiting for mutex
+x: 42.7655
+y: -74.5896
+theta: 179.885
+>> odom update done
+waiting for mutex
+x: 42.7663
+y: -74.5891
+theta: 179.878
+>> odom update done
+waiting for mutex
+x: 42.7673
+y: -74.5884
+theta: 179.871
+>> odom update done
+waiting for mutex
+x: 42.7683
+y: -74.5878
+theta: 179.863
+>> odom update done
+waiting for mutex
+x: 42.7692
+y: -74.5871
+theta: 179.856
+>> odom update done
+waiting for mutex
+x: 42.7702
+y: -74.5865
+theta: 179.849
+>> odom update done
+waiting for mutex
+x: 42.7711
+y: -74.5859
+theta: 179.842
+>> odom update done
+waiting for mutex
+x: 42.772
+y: -74.5853
+theta: 179.835
+>> odom update done
+waiting for mutex
+x: 42.7728
+y: -74.5848
+theta: 179.829
+>> odom update done
+waiting for mutex
+x: 42.7734
+y: -74.5844
+theta: 179.824
+>> odom update done
+waiting for mutex
+x: 42.7738
+y: -74.5841
+theta: 179.821
+>> odom update done
+waiting for mutex
+x: 42.7738
+y: -74.5841
+theta: 179.821
+>> odom update done
+waiting for mutex
+x: 42.7739
+y: -74.5841
+theta: 179.821
+>> odom update done
+waiting for mutex
+x: 42.7739
+y: -74.584
+theta: 179.82
+>> odom update done
+waiting for mutex
+x: 42.7739
+y: -74.584
+theta: 179.82
+>> odom update done
+waiting for mutex
+x: 42.7739
+y: -74.584
+theta: 179.82
+>> odom update done
+waiting for mutex
+x: 42.7739
+y: -74.5841
+theta: 179.821
+>> odom update done
+waiting for mutex
+x: 42.7739
+y: -74.584
+theta: 179.82
+>> odom update done
+waiting for mutex
+x: 42.7738
+y: -74.5841
+theta: 179.821
+>> odom update done
+waiting for mutex
+x: 42.7738
+y: -74.5841
+theta: 179.821
+>> odom update done
+waiting for mutex
+x: 42.7738
+y: -74.5841
+theta: 179.821
+>> odom update done
+waiting for mutex
+x: 42.7738
+y: -74.5841
+theta: 179.821
+>> odom update done
+waiting for mutex
+x: 42.7741
+y: -74.5839
+theta: 179.819
+>> odom update done
+waiting for mutex
+x: 42.7741
+y: -74.5839
+theta: 179.819
+>> odom update done
+waiting for mutex
+x: 42.7741
+y: -74.5839
+theta: 179.819
+>> odom update done
+waiting for mutex
+x: 42.7742
+y: -74.5839
+theta: 179.818
+>> odom update done
+waiting for mutex
+x: 42.7742
+y: -74.5839
+theta: 179.818
+>> odom update done
+waiting for mutex
+x: 42.7739
+y: -74.584
+theta: 179.82
+>> odom update done
+waiting for mutex
+x: 42.7739
+y: -74.584
+theta: 179.82
+>> odom update done
+waiting for mutex
+x: 42.7739
+y: -74.5841
+theta: 179.821
+>> odom update done
+waiting for mutex
+x: 42.7739
+y: -74.584
+theta: 179.82
+>> odom update done
+waiting for mutex
+x: 42.774
+y: -74.584
+theta: 179.819
+>> odom update done
+waiting for mutex
+x: 42.7741
+y: -74.5839
+theta: 179.819
+>> odom update done
+waiting for mutex
+x: 42.774
+y: -74.584
+theta: 179.819
+>> odom update done
+waiting for mutex
+x: 42.7739
+y: -74.584
+theta: 179.82
+>> odom update done
+waiting for mutex
+x: 42.774
+y: -74.584
+theta: 179.819
+>> odom update done
+waiting for mutex
+x: 42.774
+y: -74.584
+theta: 179.82
+>> odom update done
+waiting for mutex
+x: 42.774
+y: -74.584
+theta: 179.82
+>> odom update done
+waiting for mutex
+x: 42.7742
+y: -74.5838
+theta: 179.818
+>> odom update done
+waiting for mutex
+x: 42.7741
+y: -74.5839
+theta: 179.819
+>> odom update done
+waiting for mutex
+x: 42.7741
+y: -74.5839
+theta: 179.819
+>> odom update done
+waiting for mutex
+x: 42.7742
+y: -74.5839
+theta: 179.818
+>> odom update done
+waiting for mutex
+x: 42.7741
+y: -74.5839
+theta: 179.818
+>> odom update done
+waiting for mutex
+x: 42.774
+y: -74.584
+theta: 179.819
+>> odom update done
+waiting for mutex
+x: 42.7741
+y: -74.5839
+theta: 179.819
+>> odom update done
+waiting for mutex
+x: 42.7741
+y: -74.5839
+theta: 179.819
+>> odom update done
+waiting for mutex
+x: 42.7739
+y: -74.584
+theta: 179.82
+>> odom update done
+waiting for mutex
+x: 42.774
+y: -74.584
+theta: 179.82
+>> odom update done
+waiting for mutex
+x: 42.774
+y: -74.584
+theta: 179.82
+>> odom update done
+waiting for mutex
+x: 42.7739
+y: -74.584
+theta: 179.82
+>> odom update done
+waiting for mutex
+x: 42.774
+y: -74.584
+theta: 179.819
+>> odom update done
+waiting for mutex
+x: 42.7741
+y: -74.5839
+theta: 179.819
+>> odom update done
+waiting for mutex
+x: 42.774
+y: -74.584
+theta: 179.82
+>> odom update done
+waiting for mutex
+x: 42.7741
+y: -74.5839
+theta: 179.819
+>> odom update done
+waiting for mutex
+x: 42.7741
+y: -74.5839
+theta: 179.819
+>> odom update done
+waiting for mutex
+x: 42.7741
+y: -74.5839
+theta: 179.819
+>> odom update done
+waiting for mutex
+x: 42.774
+y: -74.5839
+theta: 179.819
+>> odom update done
+waiting for mutex
+x: 42.7741
+y: -74.5839
+theta: 179.819
+>> odom update done
+waiting for mutex
+x: 42.774
+y: -74.584
+theta: 179.82
+>> odom update done
+waiting for mutex
+x: 42.7739
+y: -74.5841
+theta: 179.82
+>> odom update done
+waiting for mutex
+x: 42.774
+y: -74.5839
+theta: 179.819
+>> odom update done
+waiting for mutex
+x: 42.7741
+y: -74.5839
+theta: 179.819
+>> odom update done
+waiting for mutex
+x: 42.7739
+y: -74.584
+theta: 179.82
+>> odom update done
+waiting for mutex
+x: 42.7739
+y: -74.584
+theta: 179.82
+>> odom update done
+waiting for mutex
+x: 42.7742
+y: -74.5839
+theta: 179.818
+>> odom update done
+waiting for mutex
+x: 42.774
+y: -74.5839
+theta: 179.819
+>> odom update done
+waiting for mutex
+x: 42.774
+y: -74.584
+theta: 179.82
+>> odom update done
+WARNING - pros.serial.terminal.terminal:stop - Stopping terminal - pros-cli version:3.4.3

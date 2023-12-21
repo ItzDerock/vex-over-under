@@ -11,34 +11,25 @@
 #define SHARED(type, name, ...) \
   std::shared_ptr<type> name = std::make_shared<type>(__VA_ARGS__)
 
-SHARED(pros::Motor, drive_left_front, DRIVE_LEFT_FRONT,
+SHARED(pros::Motor, drive_left_front, -DRIVE_LEFT_FRONT,
        pros::v5::MotorGear::blue);
-SHARED(pros::Motor, drive_left_back, DRIVE_LEFT_BACK,
+SHARED(pros::Motor, drive_left_back, -DRIVE_LEFT_BACK,
        pros::v5::MotorGear::blue);
-SHARED(pros::Motor, drive_left_pto, -DRIVE_LEFT_PTO, pros::v5::MotorGear::blue);
-SHARED(pros::Motor, drive_right_front, -DRIVE_RIGHT_FRONT,
+SHARED(pros::Motor, drive_left_pto, DRIVE_LEFT_PTO, pros::v5::MotorGear::blue);
+SHARED(pros::Motor, drive_right_front, DRIVE_RIGHT_FRONT,
        pros::v5::MotorGear::blue);
-SHARED(pros::Motor, drive_right_back, -DRIVE_RIGHT_BACK,
+SHARED(pros::Motor, drive_right_back, DRIVE_RIGHT_BACK,
        pros::v5::MotorGear::blue);
-SHARED(pros::Motor, drive_right_pto, DRIVE_RIGHT_PTO,
+SHARED(pros::Motor, drive_right_pto, -DRIVE_RIGHT_PTO,
        pros::v5::MotorGear::blue);
 
-OdomIntegratedSensor odom_left = {
-    .sensor = drive_left_back,
-    .offset = 7.5,
-    .gear_ratio = 0.5,
-};
-
-OdomIntegratedSensor odom_right = {
-    .sensor = drive_right_back,
-    .offset = 7.5,
-    .gear_ratio = 0.5,
-};
-
-OdomSensor odom_middle = {
-    .sensor = std::make_shared<pros::adi::Encoder>('c', 'd'),
-    .offset = 5,
-};
+// can't use a designator until P2287R1 is merged
+// https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2021/p2287r1.html
+// which won't make it to C++23
+OdomIntegratedSensor odom_left(drive_left_back, 7.5, 0.5, 4);
+OdomIntegratedSensor odom_right(drive_right_back, 7.5, 0.5, 4);
+OdomSensor odom_middle(std::make_shared<pros::adi::Encoder>('c', 'd', true), 5,
+                       1, 2.75);
 
 SHARED(pros::Imu, inertial, ODOM_INERTIAL);
 

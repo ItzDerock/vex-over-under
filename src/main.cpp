@@ -7,6 +7,8 @@
 #include "robot/screen.hpp"
 #include "robot/subsystems.hpp"
 
+// static Gif* gif = nullptr;
+
 /**
  * Runs initialization code. This occurs as soon as the program is started.
  *
@@ -15,17 +17,25 @@
  */
 void initialize() {
   catapult::initialize();
-  odom::reset();
+
+  // odom::reset();
+  odom::reset({31, -60, 3 * M_PI / 2});
   odom::initalize();
 
   // load pure pursuit paths
-  pros::Task([]() { odom::loadPaths({"/usd/path.txt"}); });
+  odom::loadPaths(
+      {"/usd/skills/push-left.txt", /*"/usd/skills/push-center.txt"*/});
+
+  static Gif gif("/usd/game.gif", lv_scr_act());
+  screen::initAutonSelector(&gif);
 
   // offload gif initialization to a separate task
-  pros::Task([]() {
-    static Gif gif("/usd/game.gif", lv_scr_act());
-    screen::initAutonSelector(&gif);
-  });
+  // pros::Task([]() {
+
+  //   // never deallocate the gif
+  //   gif = new Gif("/usd/game.gif", lv_scr_act());
+  //   screen::initAutonSelector(gif);
+  // });
 }
 
 /**
@@ -62,12 +72,23 @@ void autonomous() {
 
   std::cout << "starting" << std::endl;
 
-  odom::reset({31, -60, 0});
-  odom::autonomous = odom::Autonomous::Skills;
-
   // SKILLS
   if (odom::autonomous == odom::Autonomous::Skills) {
-    odom::follow(odom::getPath("/usd/path.txt"), 10, 15'000, true, false);
+    odom::moveDistance(-13, 5'000);
+    odom::turnTo(360 - 40);
+    odom::moveDistance(-1, 3'000);
+
+    pros::delay(2'000);
+
+    odom::turnTo(0);
+
+    pros::delay(1'000);
+
+    odom::follow(odom::getPath("/usd/skills/push-left.txt"), 15, 15'000, true,
+                 false);
+    // odom::follow(odom::getPath("/usd/skills/push-center.txt"), 15, 15'000,
+    // true,
+    //              true);
   } else if (odom::autonomous == odom::Autonomous::ScoreLeft) {
     // wings->toggle();
     odom::moveDistance(32, 3);
@@ -99,14 +120,14 @@ double driveCurve(double input) {
          input;
 }
 
-void move(double left, double right) {
-  drive_left_back->move(left);
-  drive_left_front->move(left);
-  drive_left_pto->move(left);
-  drive_right_back->move(right);
-  drive_right_front->move(right);
-  drive_right_pto->move(right);
-}
+// static void move(double left, double right) {
+//   drive_left_back->move(left);
+//   drive_left_front->move(left);
+//   drive_left_pto->move(left);
+//   drive_right_back->move(right);
+//   drive_right_front->move(right);
+//   drive_right_pto->move(right);
+// }
 
 /**
  * Runs the operator control code. This function will be started in its own task
@@ -127,12 +148,12 @@ void opcontrol() {
   while (true) {
     // get the joystick values
     double throttle = master.get_analog(ANALOG_RIGHT_Y);
-    double turn = -1 * master.get_analog(ANALOG_LEFT_X);
+    double turn = master.get_analog(ANALOG_LEFT_X);
 
     if (throttle == 0) {
       double leftPower = driveCurve(turn);
 
-      move(leftPower, -leftPower);
+      odom::move(leftPower, -leftPower);
     } else {
       double leftPower = throttle + (std::abs(throttle) * turn) / 127.0;
       double rightPower = throttle - (std::abs(throttle) * turn) / 127.0;
@@ -140,11 +161,11 @@ void opcontrol() {
       leftPower = driveCurve(leftPower);
       rightPower = driveCurve(rightPower);
 
-      move(leftPower, rightPower);
+      odom::move(leftPower, rightPower);
     }
 
-    // int left = master.get_analog(ANALOG_RIGHT_Y);
-    // int right = master.get_analog(ANALOG_LEFT_X);
+    // int left = master.get_analog(ANALOG_LEFT_Y);
+    // int right = master.get_analog(ANALOG_RIGHT_Y);
 
     // // apply the curve
     // left = driveCurve(left);

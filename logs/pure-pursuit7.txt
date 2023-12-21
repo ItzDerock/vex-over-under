@@ -1,0 +1,2939 @@
+Established terminal connection
+
+
+
+         _+=+_
+      .-`  .  `-.          8888888b.  8888888b.   .d88888b.   .d8888b.
+   _+`     "     `+_       888   Y88b 888   Y88b d88P" "Y88b d88P  Y88b
+  \\\sssssssssssss///      888    888 888    888 888     888 Y88b.
+     .ss\  *  /ss.         888   d88P 888   d88P 888     888  "Y888b.
+ .+bm  .s  *  s.  md+.     8888888P"  8888888P"  888     888     "Y88b.
+.hMMMMs .  *  . sMMMMh.    888        888 T88b   888     888       "888
+ `\hMMMb \ | / dMMMh:      888        888  T88b  Y88b. .d88P Y88b  d88P
+   -SNMNo  -  oNMNs-       888        888   T88b  "Y88888P"   "Y8888P"
+     `+dMh\./dMd/
+        `:yNy:`                      Powered by PROS for VEX V5
+           "                Copyright (c) Purdue University ACM SIGBots
+Version:        4.0.6     Platform:  V1.1.2 (b34)     Uptime:    0.001 s
+Compiled:   Dec 16 2023 11:14:05     Directory:                        
+
+
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+Gif::Gif - "/usd/game.gif" info:
+  width: 480
+  height: 240
+  colors: 128
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+starting
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+pathPoints.size(): 422
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 104.578
+pose: 40.9998, -44.9999, 1.57077
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0184428
+targetVel: 120
+actualLeftVel: -0 / 594
+actualRightVel: 0 / 486
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 104.577
+pose: 40.9997, -44.9998, 1.57076
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0184429
+targetVel: 120
+actualLeftVel: -0 / 594
+actualRightVel: 0 / 486
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 104.538
+pose: 41.2301, -44.9998, 1.57076
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0184781
+targetVel: 120
+actualLeftVel: 103 / 600
+actualRightVel: 187.4 / 486
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 104.492
+pose: 41.5019, -44.9995, 1.5707
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0185199
+targetVel: 120
+actualLeftVel: 252.4 / 594
+actualRightVel: 277.8 / 486
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 104.407
+pose: 41.9794, -44.9965, 1.57013
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0185965
+targetVel: 120
+actualLeftVel: 39.8 / 594
+actualRightVel: 226.4 / 486
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 104.359
+pose: 42.2235, -44.9914, 1.56917
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0186405
+targetVel: 120
+actualLeftVel: 92.8 / 600
+actualRightVel: 261 / 486
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 104.215
+pose: 42.7416, -45.0054, 1.56284
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0187707
+targetVel: 120
+actualLeftVel: 264.6 / 600
+actualRightVel: 290.2 / 486
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 104.061
+pose: 43.3592, -44.9635, 1.55589
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0189102
+targetVel: 120
+actualLeftVel: 168.6 / 600
+actualRightVel: 352.4 / 486
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 103.973
+pose: 43.7079, -44.9627, 1.55211
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.01899
+targetVel: 120
+actualLeftVel: 273.6 / 600
+actualRightVel: 345.6 / 486
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 103.817
+pose: 44.3394, -44.9094, 1.5443
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0191313
+targetVel: 120
+actualLeftVel: 262.8 / 600
+actualRightVel: 325.4 / 486
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 103.739
+pose: 44.6646, -44.8801, 1.54028
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0192022
+targetVel: 120
+actualLeftVel: 377 / 600
+actualRightVel: 380.2 / 486
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 103.583
+pose: 45.4101, -44.8221, 1.53377
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0193439
+targetVel: 120
+actualLeftVel: 344.8 / 600
+actualRightVel: 396 / 486
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 103.442
+pose: 46.2204, -44.773, 1.53028
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.019472
+targetVel: 120
+actualLeftVel: 415.2 / 600
+actualRightVel: 431.4 / 486
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 103.372
+pose: 46.6741, -44.7501, 1.52941
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.019536
+targetVel: 120
+actualLeftVel: 423.6 / 600
+actualRightVel: 441.4 / 486
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 103.242
+pose: 47.5683, -44.709, 1.52868
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0196545
+targetVel: 120
+actualLeftVel: 443.4 / 600
+actualRightVel: 427.6 / 486
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 103.176
+pose: 48.0506, -44.6894, 1.52881
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0197146
+targetVel: 120
+actualLeftVel: 479.2 / 600
+actualRightVel: 451 / 486
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 103.061
+pose: 49.0048, -44.6347, 1.53056
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0198198
+targetVel: 120
+actualLeftVel: 474.4 / 600
+actualRightVel: 458.6 / 486
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 102.943
+pose: 50.0098, -44.6096, 1.53334
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0199282
+targetVel: 120
+actualLeftVel: 502.6 / 600
+actualRightVel: 484 / 480
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 102.884
+pose: 50.5254, -44.5994, 1.53508
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0199817
+targetVel: 120
+actualLeftVel: 506 / 600
+actualRightVel: 474.8 / 480
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 102.777
+pose: 51.5455, -44.589, 1.53981
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0200803
+targetVel: 120
+actualLeftVel: 501.8 / 600
+actualRightVel: 491 / 480
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 102.722
+pose: 52.0914, -44.5876, 1.54275
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0201306
+targetVel: 120
+actualLeftVel: 553.6 / 600
+actualRightVel: 502.8 / 480
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 102.614
+pose: 53.1612, -44.5895, 1.5485
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.020229
+targetVel: 120
+actualLeftVel: 538.8 / 600
+actualRightVel: 491.4 / 480
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 102.503
+pose: 54.2732, -44.5971, 1.55431
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0203315
+targetVel: 120
+actualLeftVel: 537.2 / 594
+actualRightVel: 498.4 / 480
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 102.444
+pose: 54.8193, -44.6275, 1.55724
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0203857
+targetVel: 120
+actualLeftVel: 568.2 / 600
+actualRightVel: 500.4 / 480
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 102.343
+pose: 55.9382, -44.6259, 1.564
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0204788
+targetVel: 120
+actualLeftVel: 543.6 / 600
+actualRightVel: 531 / 480
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 102.288
+pose: 56.5075, -44.6395, 1.56729
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.020529
+targetVel: 120
+actualLeftVel: 564.4 / 600
+actualRightVel: 533.4 / 480
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 102.246
+pose: 57.1246, -44.6731, -4.70897
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0205679
+targetVel: 120
+actualLeftVel: 600 / 600
+actualRightVel: 517.6 / 480
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 102.138
+pose: 58.2666, -44.7164, -4.70188
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0206666
+targetVel: 120
+actualLeftVel: 580.8 / 594
+actualRightVel: 522.2 / 480
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 102.091
+pose: 58.8392, -44.7182, -4.69814
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0207104
+targetVel: 120
+actualLeftVel: 589.8 / 594
+actualRightVel: 521.6 / 480
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 101.991
+pose: 60.0097, -44.7561, -4.69003
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0208023
+targetVel: 120
+actualLeftVel: 597.4 / 594
+actualRightVel: 537 / 474
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 101.943
+pose: 60.6045, -44.7661, -4.68612
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0208473
+targetVel: 120
+actualLeftVel: 600 / 600
+actualRightVel: 529 / 474
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 101.833
+pose: 61.7628, -44.8338, -4.67948
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0209483
+targetVel: 120
+actualLeftVel: 601.6 / 600
+actualRightVel: 524.4 / 474
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 101.724
+pose: 62.9192, -44.9077, -4.67303
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0210489
+targetVel: 120
+actualLeftVel: 594.6 / 600
+actualRightVel: 543 / 474
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 101.679
+pose: 63.4914, -44.9259, -4.66931
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.021091
+targetVel: 120
+actualLeftVel: 575.8 / 600
+actualRightVel: 518.8 / 474
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 101.576
+pose: 64.6564, -45.0192, -4.66157
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.021186
+targetVel: 120
+actualLeftVel: 600.8 / 600
+actualRightVel: 518.8 / 474
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 101.526
+pose: 65.2281, -45.0687, -4.65771
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0212322
+targetVel: 120
+actualLeftVel: 607.6 / 600
+actualRightVel: 535.6 / 474
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 101.435
+pose: 66.4188, -45.1316, -4.64953
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0213167
+targetVel: 120
+actualLeftVel: 605.8 / 600
+actualRightVel: 544.2 / 474
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 101.324
+pose: 67.6063, -45.3032, -4.64083
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0214197
+targetVel: 120
+actualLeftVel: 602.6 / 600
+actualRightVel: 538 / 474
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 101.274
+pose: 68.2012, -45.3689, -4.63649
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0214659
+targetVel: 120
+actualLeftVel: 613.8 / 600
+actualRightVel: 531.6 / 474
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 101.186
+pose: 69.3923, -45.4588, -4.62803
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0215478
+targetVel: 120
+actualLeftVel: 580.8 / 600
+actualRightVel: 533.8 / 474
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 101.139
+pose: 69.9652, -45.5302, -4.62371
+lookaheadPose: 81.521, -135.251, 0
+curvature: 0.0215913
+targetVel: 120
+actualLeftVel: 602.8 / 600
+actualRightVel: 518 / 474
+waiting for mutex
+>> odom update done
+targetLeftVel: 1.45685
+targetRightVel: 127
+pose: 71.1319, -45.6832, -4.61493
+lookaheadPose: 75.7629, -43.7979, 46
+curvature: -0.186156
+targetVel: 120
+actualLeftVel: 582.2 / 0
+actualRightVel: 515.8 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: -31.6524
+targetRightVel: 127
+pose: 72.2948, -45.8443, -4.6065
+lookaheadPose: 75.7468, -42.2271, 47
+curvature: -0.31694
+targetVel: 120
+actualLeftVel: 553.8 / -144
+actualRightVel: 545.6 / 594
+waiting for mutex
+>> odom update done
+targetLeftVel: -40.3977
+targetRightVel: 127
+pose: 72.9261, -45.9326, -4.60254
+lookaheadPose: 75.7468, -42.2271, 47
+curvature: -0.368181
+targetVel: 120
+actualLeftVel: 458.2 / -186
+actualRightVel: 619 / 594
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: -43.8344
+targetRightVel: 127
+pose: 74.1383, -46.105, -4.59573
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.391267
+targetVel: 120
+actualLeftVel: 103.8 / -198
+actualRightVel: 559.2 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: -45.7586
+targetRightVel: 127
+pose: 74.7583, -46.1908, -4.59327
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.405045
+targetVel: 120
+actualLeftVel: 36.2 / -210
+actualRightVel: 543.6 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: -45.0462
+targetRightVel: 127
+pose: 75.9022, -46.3119, -4.59629
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.399868
+targetVel: 120
+actualLeftVel: 36.2 / -210
+actualRightVel: 569.2 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: -40.6546
+targetRightVel: 127
+pose: 76.9918, -46.3024, -4.6167
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.369843
+targetVel: 120
+actualLeftVel: 36.2 / -186
+actualRightVel: 604.2 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: -37.6257
+targetRightVel: 127
+pose: 77.4964, -46.2598, -4.63395
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.350853
+targetVel: 120
+actualLeftVel: 36.2 / -174
+actualRightVel: 604 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 32.9767
+targetRightVel: 127
+pose: 84.0129, -41.3879, 1.09169
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.111949
+targetVel: 120
+actualLeftVel: 19.6 / 150
+actualRightVel: 564.2 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 39.7811
+targetRightVel: 127
+pose: 84.5371, -41.1379, 1.09089
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0996104
+targetVel: 120
+actualLeftVel: 32.6 / 180
+actualRightVel: 544.2 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 50.9508
+targetRightVel: 127
+pose: 85.4847, -40.6643, 1.0897
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0814021
+targetVel: 120
+actualLeftVel: 145.6 / 234
+actualRightVel: 523.4 / 594
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 56.2797
+targetRightVel: 127
+pose: 85.9738, -40.4131, 1.09039
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0734971
+targetVel: 120
+actualLeftVel: 228.2 / 264
+actualRightVel: 496.2 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 66.8321
+targetRightVel: 127
+pose: 87.176, -39.8353, 1.08943
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0591261
+targetVel: 120
+actualLeftVel: 239.4 / 306
+actualRightVel: 472.6 / 594
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 72.7306
+targetRightVel: 127
+pose: 87.9469, -39.4144, 1.08644
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0517549
+targetVel: 120
+actualLeftVel: 210 / 336
+actualRightVel: 327.6 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 74.7322
+targetRightVel: 127
+pose: 88.2434, -39.2464, 1.08439
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0493514
+targetVel: 120
+actualLeftVel: 209.4 / 348
+actualRightVel: 348.6 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 77.6473
+targetRightVel: 127
+pose: 88.7697, -38.9129, 1.07509
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0459352
+targetVel: 120
+actualLeftVel: 310.6 / 360
+actualRightVel: 330 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 78.2761
+targetRightVel: 127
+pose: 89.0093, -38.7558, 1.0657
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.045211
+targetVel: 120
+actualLeftVel: 198.2 / 366
+actualRightVel: 418 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 80.1072
+targetRightVel: 127
+pose: 89.6113, -38.4061, 1.04956
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0431272
+targetVel: 120
+actualLeftVel: 170.8 / 378
+actualRightVel: 369 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 82.2379
+targetRightVel: 127
+pose: 90.1784, -38.0298, 1.03684
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0407484
+targetVel: 120
+actualLeftVel: 240 / 384
+actualRightVel: 358.2 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 82.9603
+targetRightVel: 127
+pose: 90.4473, -37.8539, 1.02937
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0399529
+targetVel: 120
+actualLeftVel: 267.8 / 384
+actualRightVel: 369.8 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 84.2118
+targetRightVel: 127
+pose: 91.0762, -37.4811, 1.01235
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0385874
+targetVel: 120
+actualLeftVel: 290.4 / 396
+actualRightVel: 417.8 / 594
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 84.8207
+targetRightVel: 127
+pose: 91.4315, -37.2944, 1.00427
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0379291
+targetVel: 120
+actualLeftVel: 306 / 396
+actualRightVel: 393.2 / 594
+waiting for mutex
+>> odom update done
+targetLeftVel: 85.8774
+targetRightVel: 127
+pose: 92.0417, -36.918, 0.988166
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0367953
+targetVel: 120
+actualLeftVel: 336.4 / 396
+actualRightVel: 408.4 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 87.6396
+targetRightVel: 127
+pose: 92.7455, -36.4101, 0.972571
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0349294
+targetVel: 120
+actualLeftVel: 352.4 / 408
+actualRightVel: 467.4 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 88.4425
+targetRightVel: 127
+pose: 93.0893, -36.158, 0.965159
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0340893
+targetVel: 120
+actualLeftVel: 350 / 414
+actualRightVel: 448.4 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 90.1953
+targetRightVel: 127
+pose: 93.7962, -35.6024, 0.950818
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.032277
+targetVel: 120
+actualLeftVel: 367.4 / 420
+actualRightVel: 497.8 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 91.1087
+targetRightVel: 127
+pose: 94.1805, -35.3183, 0.944723
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0313442
+targetVel: 120
+actualLeftVel: 382 / 426
+actualRightVel: 506.4 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 92.6083
+targetRightVel: 127
+pose: 94.9858, -34.7694, 0.932169
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0298295
+targetVel: 120
+actualLeftVel: 389.2 / 432
+actualRightVel: 522.2 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 93.8309
+targetRightVel: 127
+pose: 95.7731, -34.2108, 0.918432
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0286098
+targetVel: 120
+actualLeftVel: 418 / 438
+actualRightVel: 521.2 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 94.3625
+targetRightVel: 127
+pose: 96.1665, -33.9213, 0.910949
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0280836
+targetVel: 120
+actualLeftVel: 415.8 / 444
+actualRightVel: 519.4 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 95.3609
+targetRightVel: 127
+pose: 96.9606, -33.3204, 0.895688
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0271023
+targetVel: 120
+actualLeftVel: 417.8 / 444
+actualRightVel: 546 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 95.9703
+targetRightVel: 127
+pose: 97.3643, -32.977, 0.888146
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0265077
+targetVel: 120
+actualLeftVel: 428.6 / 444
+actualRightVel: 545.8 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 96.8869
+targetRightVel: 127
+pose: 98.1766, -32.3315, 0.872876
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0256193
+targetVel: 120
+actualLeftVel: 444.8 / 450
+actualRightVel: 571.4 / 594
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 97.6632
+targetRightVel: 127
+pose: 98.9742, -31.6742, 0.857076
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0248726
+targetVel: 120
+actualLeftVel: 453.8 / 456
+actualRightVel: 527 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 97.8965
+targetRightVel: 127
+pose: 99.3608, -31.3796, 0.849132
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0246492
+targetVel: 120
+actualLeftVel: 442.6 / 456
+actualRightVel: 532.4 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 104.108
+targetRightVel: 127
+pose: 106.549, -24.3338, 0.727195
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0188669
+targetVel: 120
+actualLeftVel: 521.8 / 486
+actualRightVel: 612.8 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 104.433
+targetRightVel: 127
+pose: 106.924, -23.9068, 0.722028
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0185733
+targetVel: 120
+actualLeftVel: 517.6 / 486
+actualRightVel: 613.6 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 105.078
+targetRightVel: 127
+pose: 107.695, -23.0157, 0.711576
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0179919
+targetVel: 120
+actualLeftVel: 507.8 / 492
+actualRightVel: 597.8 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 105.621
+targetRightVel: 127
+pose: 108.472, -22.1329, 0.700752
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0175056
+targetVel: 120
+actualLeftVel: 509.6 / 492
+actualRightVel: 596.8 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 105.87
+targetRightVel: 127
+pose: 108.844, -21.6816, 0.694974
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0172835
+targetVel: 120
+actualLeftVel: 525.6 / 492
+actualRightVel: 616 / 594
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 106.435
+targetRightVel: 127
+pose: 109.614, -20.6925, 0.683333
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0167804
+targetVel: 120
+actualLeftVel: 538.4 / 498
+actualRightVel: 594 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 106.635
+targetRightVel: 127
+pose: 109.942, -20.237, 0.677095
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0166028
+targetVel: 120
+actualLeftVel: 521.6 / 498
+actualRightVel: 554 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 107.023
+targetRightVel: 127
+pose: 110.615, -19.3332, 0.665294
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0162597
+targetVel: 120
+actualLeftVel: 519.4 / 504
+actualRightVel: 591 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 107.497
+targetRightVel: 127
+pose: 111.361, -18.3664, 0.654907
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0158415
+targetVel: 120
+actualLeftVel: 518.8 / 504
+actualRightVel: 657 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 107.769
+targetRightVel: 127
+pose: 111.748, -17.8619, 0.650339
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0156029
+targetVel: 120
+actualLeftVel: 524 / 504
+actualRightVel: 636.6 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 108.241
+targetRightVel: 127
+pose: 112.455, -16.884, 0.640884
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0151893
+targetVel: 120
+actualLeftVel: 542 / 510
+actualRightVel: 614 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 108.431
+targetRightVel: 127
+pose: 112.816, -16.3931, 0.635545
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0150233
+targetVel: 120
+actualLeftVel: 547.2 / 510
+actualRightVel: 618.8 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 108.797
+targetRightVel: 127
+pose: 113.498, -15.4083, 0.624885
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0147041
+targetVel: 120
+actualLeftVel: 549.2 / 510
+actualRightVel: 598.8 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 109.161
+targetRightVel: 127
+pose: 114.184, -14.3987, 0.614424
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0143882
+targetVel: 120
+actualLeftVel: 551.4 / 510
+actualRightVel: 605.6 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 109.313
+targetRightVel: 127
+pose: 114.521, -13.915, 0.609253
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0142565
+targetVel: 120
+actualLeftVel: 530.6 / 510
+actualRightVel: 612.4 / 594
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 109.641
+targetRightVel: 127
+pose: 115.261, -12.932, 0.600023
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0139722
+targetVel: 120
+actualLeftVel: 539.4 / 510
+actualRightVel: 617.6 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 109.769
+targetRightVel: 127
+pose: 115.612, -12.4565, 0.595046
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0138623
+targetVel: 120
+actualLeftVel: 534.4 / 510
+actualRightVel: 598.8 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 109.926
+targetRightVel: 127
+pose: 116.324, -11.5019, 0.583244
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0137265
+targetVel: 120
+actualLeftVel: 478.8 / 510
+actualRightVel: 605.4 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 109.747
+targetRightVel: 127
+pose: 117.043, -10.6281, 0.565564
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0138807
+targetVel: 120
+actualLeftVel: 353.2 / 510
+actualRightVel: 621.2 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 109.328
+targetRightVel: 127
+pose: 117.379, -10.2597, 0.54996
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0142437
+targetVel: 120
+actualLeftVel: 323.8 / 510
+actualRightVel: 571.4 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 107.931
+targetRightVel: 127
+pose: 118.135, -9.74992, 0.508816
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0154605
+targetVel: 120
+actualLeftVel: 375.4 / 504
+actualRightVel: 527 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 107.057
+targetRightVel: 127
+pose: 118.465, -9.5275, 0.483199
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0162294
+targetVel: 120
+actualLeftVel: 184.8 / 504
+actualRightVel: 539.8 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 105.024
+targetRightVel: 127
+pose: 119.132, -9.10409, 0.42191
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.018041
+targetVel: 120
+actualLeftVel: 124.6 / 492
+actualRightVel: 531.6 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 102.99
+targetRightVel: 127
+pose: 119.851, -8.7865, 0.357941
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0198848
+targetVel: 120
+actualLeftVel: 81.6 / 480
+actualRightVel: 491.2 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 102.095
+targetRightVel: 127
+pose: 120.191, -8.58004, 0.326459
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0207071
+targetVel: 120
+actualLeftVel: 81.6 / 480
+actualRightVel: 505 / 594
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 100.431
+targetRightVel: 127
+pose: 120.758, -8.2087, 0.26456
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0222514
+targetVel: 120
+actualLeftVel: 250.4 / 468
+actualRightVel: 430 / 594
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 99.638
+targetRightVel: 127
+pose: 121.083, -8.05549, 0.233605
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0229962
+targetVel: 120
+actualLeftVel: 77 / 462
+actualRightVel: 424 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 98.2016
+targetRightVel: 127
+pose: 121.671, -7.72564, 0.172425
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0243578
+targetVel: 120
+actualLeftVel: 70 / 462
+actualRightVel: 422.6 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 96.921
+targetRightVel: 127
+pose: 122.164, -7.37012, 0.111334
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0255864
+targetVel: 120
+actualLeftVel: 118 / 450
+actualRightVel: 439.6 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 96.3491
+targetRightVel: 127
+pose: 122.416, -7.16236, 0.0806929
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0261396
+targetVel: 120
+actualLeftVel: 229.4 / 450
+actualRightVel: 454.2 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 95.372
+targetRightVel: 127
+pose: 122.838, -6.65019, 0.020543
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0270915
+targetVel: 120
+actualLeftVel: 109.4 / 444
+actualRightVel: 470 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 94.9206
+targetRightVel: 127
+pose: 123.027, -6.41328, -0.00916024
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.027534
+targetVel: 120
+actualLeftVel: 139.8 / 444
+actualRightVel: 440.2 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 94.3366
+targetRightVel: 127
+pose: 123.293, -5.84597, -0.0575169
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0281092
+targetVel: 120
+actualLeftVel: 134.6 / 444
+actualRightVel: 435 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 94.0562
+targetRightVel: 127
+pose: 123.502, -5.23526, -0.0929211
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0283865
+targetVel: 120
+actualLeftVel: 197.4 / 444
+actualRightVel: 398.2 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 94.0496
+targetRightVel: 127
+pose: 123.579, -4.89277, -0.104345
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.028393
+targetVel: 120
+actualLeftVel: 220.2 / 444
+actualRightVel: 419.6 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 94.2474
+targetRightVel: 127
+pose: 123.693, -4.02843, -0.119966
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0281974
+targetVel: 120
+actualLeftVel: 252.4 / 444
+actualRightVel: 471.6 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 94.3918
+targetRightVel: 127
+pose: 123.735, -3.59605, -0.124882
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0280547
+targetVel: 120
+actualLeftVel: 288.4 / 444
+actualRightVel: 391 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 94.623
+targetRightVel: 127
+pose: 123.67, -2.84205, -0.132958
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0278268
+targetVel: 120
+actualLeftVel: 317.8 / 444
+actualRightVel: 346.4 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 94.8128
+targetRightVel: 127
+pose: 123.664, -2.20285, -0.1406
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.02764
+targetVel: 120
+actualLeftVel: 361.2 / 444
+actualRightVel: 312.2 / 594
+waiting for mutex
+>> odom update done
+targetLeftVel: 94.8945
+targetRightVel: 127
+pose: 123.648, -1.89699, -0.144615
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0275597
+targetVel: 120
+actualLeftVel: 362.6 / 444
+actualRightVel: 342.4 / 600
+targetLeftVel: 98.9526
+targetRightVel: 127
+pose: 122.25, 8.49963, -0.187032
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0236437
+targetVel: 120
+actualLeftVel: 372 / 462
+actualRightVel: 345.2 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 99.2713
+targetRightVel: 127
+pose: 122.321, 8.94415, -0.180764
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0233421
+targetVel: 120
+actualLeftVel: 354 / 462
+actualRightVel: 363.8 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 100.116
+targetRightVel: 127
+pose: 122.378, 9.94356, -0.159653
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0225466
+targetVel: 120
+actualLeftVel: 376.8 / 468
+actualRightVel: 452.6 / 594
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 101.087
+targetRightVel: 127
+pose: 122.337, 11.2375, -0.139019
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0216404
+targetVel: 120
+actualLeftVel: 301.2 / 474
+actualRightVel: 564 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 101.562
+targetRightVel: 127
+pose: 122.268, 11.9104, -0.129856
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0211994
+targetVel: 120
+actualLeftVel: 254.4 / 474
+actualRightVel: 612.4 / 594
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 102.519
+targetRightVel: 127
+pose: 122.156, 13.3332, -0.112886
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0203169
+targetVel: 120
+actualLeftVel: 294 / 480
+actualRightVel: 596.2 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 102.815
+targetRightVel: 127
+pose: 122.051, 13.9273, -0.110806
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0200455
+targetVel: 120
+actualLeftVel: 373.8 / 480
+actualRightVel: 472 / 594
+waiting for mutex
+>> odom update done
+targetLeftVel: 103.411
+targetRightVel: 127
+pose: 121.911, 15.273, -0.109142
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0195004
+targetVel: 120
+actualLeftVel: 415.2 / 486
+actualRightVel: 453 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 103.671
+targetRightVel: 127
+pose: 121.828, 15.9705, -0.110424
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0192637
+targetVel: 120
+actualLeftVel: 478.2 / 486
+actualRightVel: 450.8 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 103.855
+targetRightVel: 127
+pose: 121.762, 16.4997, -0.111924
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0190963
+targetVel: 120
+actualLeftVel: 471.4 / 486
+actualRightVel: 558.4 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 104.107
+targetRightVel: 127
+pose: 121.593, 17.5743, -0.120599
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0188681
+targetVel: 120
+actualLeftVel: 425.4 / 486
+actualRightVel: 518.4 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 104.194
+targetRightVel: 127
+pose: 121.525, 18.0925, -0.126293
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0187895
+targetVel: 120
+actualLeftVel: 478 / 486
+actualRightVel: 536.4 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 104.316
+targetRightVel: 127
+pose: 121.345, 19.1078, -0.139734
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0186794
+targetVel: 120
+actualLeftVel: 501.8 / 486
+actualRightVel: 551.2 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 104.344
+targetRightVel: 127
+pose: 121.121, 20.0494, -0.156357
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0186541
+targetVel: 120
+actualLeftVel: 514.8 / 486
+actualRightVel: 519 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 104.385
+targetRightVel: 127
+pose: 121.003, 20.5467, -0.163787
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0186164
+targetVel: 120
+actualLeftVel: 377.8 / 486
+actualRightVel: 547.6 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 104.635
+targetRightVel: 127
+pose: 120.857, 21.6119, -0.171305
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0183913
+targetVel: 120
+actualLeftVel: 129.8 / 486
+actualRightVel: 555.6 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 104.816
+targetRightVel: 127
+pose: 120.78, 22.1634, -0.172488
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0182282
+targetVel: 120
+actualLeftVel: 284.2 / 486
+actualRightVel: 513 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 105.067
+targetRightVel: 127
+pose: 120.548, 23.1614, -0.178487
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.018002
+targetVel: 120
+actualLeftVel: 364 / 492
+actualRightVel: 505.6 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 105.325
+targetRightVel: 127
+pose: 120.326, 24.2024, -0.184619
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0177705
+targetVel: 120
+actualLeftVel: 224 / 492
+actualRightVel: 568.2 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 105.526
+targetRightVel: 127
+pose: 120.145, 25.0266, -0.189449
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0175903
+targetVel: 120
+actualLeftVel: 249 / 492
+actualRightVel: 579.2 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 105.785
+targetRightVel: 127
+pose: 119.892, 26.1404, -0.196413
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0173595
+targetVel: 120
+actualLeftVel: 138.4 / 492
+actualRightVel: 555 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 105.873
+targetRightVel: 127
+pose: 119.765, 26.6553, -0.201137
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0172807
+targetVel: 120
+actualLeftVel: 381 / 492
+actualRightVel: 523.2 / 594
+waiting for mutex
+>> odom update done
+targetLeftVel: 105.947
+targetRightVel: 127
+pose: 119.467, 27.6226, -0.214769
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0172145
+targetVel: 120
+actualLeftVel: 437.6 / 492
+actualRightVel: 528 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 105.893
+targetRightVel: 127
+pose: 119.193, 28.5111, -0.233564
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.017263
+targetVel: 120
+actualLeftVel: 414.2 / 492
+actualRightVel: 505 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 105.819
+targetRightVel: 127
+pose: 119.016, 28.9, -0.244644
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0173285
+targetVel: 120
+actualLeftVel: 433 / 492
+actualRightVel: 481.8 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 105.644
+targetRightVel: 127
+pose: 118.719, 29.7346, -0.269325
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0174853
+targetVel: 120
+actualLeftVel: 495.2 / 492
+actualRightVel: 495.8 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 105.567
+targetRightVel: 127
+pose: 118.531, 30.1724, -0.281716
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0175541
+targetVel: 120
+actualLeftVel: 457.8 / 492
+actualRightVel: 527.6 / 594
+waiting for mutex
+>> odom update done
+targetLeftVel: 105.378
+targetRightVel: 127
+pose: 118.11, 31.0179, -0.308362
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.017723
+targetVel: 120
+actualLeftVel: 445 / 492
+actualRightVel: 540.6 / 594
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 105.971
+targetRightVel: 127
+pose: 114.053, 39.3378, -0.432475
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0171928
+targetVel: 120
+actualLeftVel: 35.4 / 492
+actualRightVel: 424.2 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 106.09
+targetRightVel: 127
+pose: 113.691, 40.0431, -0.43855
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0170869
+targetVel: 120
+actualLeftVel: 83.8 / 498
+actualRightVel: 328.8 / 594
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 106.341
+targetRightVel: 127
+pose: 113.31, 40.7186, -0.435969
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0168643
+targetVel: 120
+actualLeftVel: 178.8 / 498
+actualRightVel: 333.2 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 106.47
+targetRightVel: 127
+pose: 113.181, 41.0246, -0.43361
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0167497
+targetVel: 120
+actualLeftVel: 192 / 498
+actualRightVel: 299.2 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 106.784
+targetRightVel: 127
+pose: 112.865, 41.7785, -0.42801
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0164713
+targetVel: 120
+actualLeftVel: 136.4 / 498
+actualRightVel: 444.4 / 594
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 106.995
+targetRightVel: 127
+pose: 112.713, 42.2328, -0.423091
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0162845
+targetVel: 120
+actualLeftVel: 263.8 / 498
+actualRightVel: 353.8 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 107.478
+targetRightVel: 127
+pose: 112.413, 43.0878, -0.408786
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0158586
+targetVel: 120
+actualLeftVel: 325.2 / 504
+actualRightVel: 389.8 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 107.866
+targetRightVel: 127
+pose: 112.111, 43.859, -0.398954
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0155177
+targetVel: 120
+actualLeftVel: 402.4 / 504
+actualRightVel: 327 / 594
+waiting for mutex
+>> odom update done
+targetLeftVel: 107.974
+targetRightVel: 127
+pose: 111.926, 44.2345, -0.399078
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0154228
+targetVel: 120
+actualLeftVel: 418.2 / 504
+actualRightVel: 382.8 / 594
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 107.965
+targetRightVel: 127
+pose: 111.704, 44.7075, -0.407638
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0154304
+targetVel: 120
+actualLeftVel: 298.2 / 504
+actualRightVel: 279.4 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 107.98
+targetRightVel: 127
+pose: 111.67, 44.9852, -0.410968
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0154178
+targetVel: 120
+actualLeftVel: 277.4 / 504
+actualRightVel: 308.8 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 108.152
+targetRightVel: 127
+pose: 111.46, 45.5416, -0.409937
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0152671
+targetVel: 120
+actualLeftVel: 355.6 / 510
+actualRightVel: 188.8 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 108.273
+targetRightVel: 127
+pose: 111.25, 46.0152, -0.410673
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0151612
+targetVel: 120
+actualLeftVel: 219.6 / 510
+actualRightVel: 303 / 594
+waiting for mutex
+>> odom update done
+targetLeftVel: 108.364
+targetRightVel: 127
+pose: 111.108, 46.3416, -0.410673
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0150814
+targetVel: 120
+actualLeftVel: 209.8 / 510
+actualRightVel: 337 / 594
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 108.585
+targetRightVel: 127
+pose: 110.907, 46.8627, -0.40611
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0148893
+targetVel: 120
+actualLeftVel: 248.4 / 510
+actualRightVel: 179.2 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 108.669
+targetRightVel: 127
+pose: 110.827, 47.0696, -0.40449
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0148162
+targetVel: 120
+actualLeftVel: 303.4 / 510
+actualRightVel: 177.2 / 594
+waiting for mutex
+>> odom update done
+targetLeftVel: 108.732
+targetRightVel: 127
+pose: 110.694, 47.3679, -0.405591
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0147605
+targetVel: 120
+actualLeftVel: 353.4 / 510
+actualRightVel: 128.6 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 108.735
+targetRightVel: 127
+pose: 110.51, 47.7209, -0.411283
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.014758
+targetVel: 120
+actualLeftVel: 398.4 / 510
+actualRightVel: 149 / 594
+waiting for mutex
+>> odom update done
+targetLeftVel: 108.763
+targetRightVel: 127
+pose: 110.459, 47.834, -0.411513
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0147343
+targetVel: 120
+actualLeftVel: 436.8 / 510
+actualRightVel: 121.6 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 108.902
+targetRightVel: 127
+pose: 110.269, 48.2847, -0.410498
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0146129
+targetVel: 120
+actualLeftVel: 471.6 / 510
+actualRightVel: 255 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 108.945
+targetRightVel: 127
+pose: 110.158, 48.5226, -0.411818
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0145757
+targetVel: 120
+actualLeftVel: 530 / 510
+actualRightVel: 401.6 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 109.083
+targetRightVel: 127
+pose: 109.775, 49.281, -0.416012
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0144555
+targetVel: 120
+actualLeftVel: 560.8 / 510
+actualRightVel: 465 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 109.227
+targetRightVel: 127
+pose: 109.384, 50.2041, -0.421983
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0143312
+targetVel: 120
+actualLeftVel: 475.6 / 510
+actualRightVel: 505.2 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 109.243
+targetRightVel: 127
+pose: 109.174, 50.552, -0.426821
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0143172
+targetVel: 120
+actualLeftVel: 484.8 / 510
+actualRightVel: 419 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 109.247
+targetRightVel: 127
+pose: 108.718, 51.2809, -0.438792
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0143135
+targetVel: 120
+actualLeftVel: 481 / 510
+actualRightVel: 410.6 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 109.253
+targetRightVel: 127
+pose: 108.489, 51.5936, -0.443896
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0143084
+targetVel: 120
+actualLeftVel: 470.2 / 510
+actualRightVel: 395 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 109.168
+targetRightVel: 127
+pose: 108.084, 52.1986, -0.459389
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.014382
+targetVel: 120
+actualLeftVel: 471.6 / 510
+actualRightVel: 400.4 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 109.039
+targetRightVel: 127
+pose: 107.658, 52.8757, -0.478851
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0144943
+targetVel: 120
+actualLeftVel: 502.4 / 510
+actualRightVel: 492.6 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 108.133
+targetRightVel: 127
+pose: 99.0421, 62.9208, -0.735726
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0152841
+targetVel: 120
+actualLeftVel: 400.2 / 510
+actualRightVel: 374.4 / 594
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 108.127
+targetRightVel: 127
+pose: 98.7957, 63.1509, -0.741184
+lookaheadPose: 75.7396, -41.3683, 48
+curvature: -0.0152891
+targetVel: 120
+actualLeftVel: 364.2 / 510
+actualRightVel: 404.6 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 59.9404
+targetRightVel: 127
+pose: 98.2717, 63.8523, -0.733898
+lookaheadPose: 94.3378, 66.9385, 103
+curvature: -0.068328
+targetVel: 120
+actualLeftVel: 424.4 / 276
+actualRightVel: 358.6 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 84.9177
+pose: 97.8561, 64.4062, -0.731283
+lookaheadPose: 94.8838, 68.4268, 104
+curvature: 0.0378245
+targetVel: 120
+actualLeftVel: 365.8 / 594
+actualRightVel: 335.8 / 396
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 73.9307
+pose: 97.5845, 64.6545, -0.738291
+lookaheadPose: 94.8838, 68.4268, 104
+curvature: 0.0503081
+targetVel: 120
+actualLeftVel: 329.4 / 600
+actualRightVel: 425.2 / 342
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 43.6016
+pose: 97.0453, 65.0774, -0.759744
+lookaheadPose: 94.8838, 68.4268, 104
+curvature: 0.0931141
+targetVel: 120
+actualLeftVel: 431.4 / 600
+actualRightVel: 368.4 / 198
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 27.8528
+pose: 96.7852, 65.2782, -0.769476
+lookaheadPose: 94.8838, 68.4268, 104
+curvature: 0.121956
+targetVel: 120
+actualLeftVel: 551.2 / 594
+actualRightVel: 317.4 / 126
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -14.6792
+pose: 96.3917, 65.6307, -0.785716
+lookaheadPose: 95.6871, 70.5808, 105
+curvature: 0.240263
+targetVel: 120
+actualLeftVel: 578.8 / 594
+actualRightVel: 258.6 / -66
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -22.6706
+pose: 96.1017, 65.7685, -0.806657
+lookaheadPose: 95.6871, 70.5808, 105
+curvature: 0.273257
+targetVel: 120
+actualLeftVel: 591.6 / 600
+actualRightVel: 167.2 / -102
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -23.396
+pose: 96.0983, 65.754, -0.818839
+lookaheadPose: 95.6871, 70.5808, 105
+curvature: 0.276503
+targetVel: 120
+actualLeftVel: 585.4 / 600
+actualRightVel: 91.4 / -108
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -21.4412
+pose: 96.1996, 65.6064, -0.836505
+lookaheadPose: 95.6871, 70.5808, 105
+curvature: 0.267856
+targetVel: 120
+actualLeftVel: 442.2 / 600
+actualRightVel: 0 / -96
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -19.2552
+pose: 96.3428, 65.5567, -0.843993
+lookaheadPose: 95.6871, 70.5808, 105
+curvature: 0.258557
+targetVel: 120
+actualLeftVel: 400.8 / 600
+actualRightVel: -73 / -84
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -17.2994
+pose: 96.437, 65.4612, -0.850655
+lookaheadPose: 95.6871, 70.5808, 105
+curvature: 0.250551
+targetVel: 120
+actualLeftVel: 397.6 / 600
+actualRightVel: -67.6 / -78
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -18.2377
+pose: 96.4086, 65.6027, -0.838056
+lookaheadPose: 95.6871, 70.5808, 105
+curvature: 0.254356
+targetVel: 120
+actualLeftVel: 484.8 / 600
+actualRightVel: -19.4 / -84
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -18.2396
+pose: 96.4063, 65.6594, -0.829958
+lookaheadPose: 95.6871, 70.5808, 105
+curvature: 0.254363
+targetVel: 120
+actualLeftVel: 517.2 / 594
+actualRightVel: -8.8 / -84
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -17.3161
+pose: 96.4129, 65.6593, -0.819457
+lookaheadPose: 95.6871, 70.5808, 105
+curvature: 0.250618
+targetVel: 120
+actualLeftVel: 499.4 / 600
+actualRightVel: -39.2 / -78
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -16.4242
+pose: 96.4684, 65.6993, -0.815633
+lookaheadPose: 95.6871, 70.5808, 105
+curvature: 0.24706
+targetVel: 120
+actualLeftVel: 378.8 / 594
+actualRightVel: -54.8 / -72
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -15.1913
+pose: 96.5148, 65.7961, -0.800035
+lookaheadPose: 95.6871, 70.5808, 105
+curvature: 0.242236
+targetVel: 120
+actualLeftVel: 403.4 / 600
+actualRightVel: -35.2 / -66
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -15.5189
+pose: 96.4898, 65.9778, -0.7778
+lookaheadPose: 95.6871, 70.5808, 105
+curvature: 0.243507
+targetVel: 120
+actualLeftVel: 405.4 / 600
+actualRightVel: -13.8 / -66
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -16.4988
+pose: 96.45, 66.1296, -0.762368
+lookaheadPose: 95.6871, 70.5808, 105
+curvature: 0.247356
+targetVel: 120
+actualLeftVel: 368.6 / 594
+actualRightVel: 0 / -72
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -17.8826
+pose: 96.3808, 66.4426, -0.725378
+lookaheadPose: 95.6871, 70.5808, 105
+curvature: 0.252908
+targetVel: 120
+actualLeftVel: 335 / 600
+actualRightVel: 0 / -78
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -18.7216
+pose: 96.3402, 66.6021, -0.705773
+lookaheadPose: 95.6871, 70.5808, 105
+curvature: 0.256344
+targetVel: 120
+actualLeftVel: 312.4 / 594
+actualRightVel: 0 / -84
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -14.2704
+pose: 96.3592, 67.0238, -0.663868
+lookaheadPose: 96.2372, 72.0223, 106
+curvature: 0.238701
+targetVel: 120
+actualLeftVel: 366.6 / 594
+actualRightVel: 8.8 / -66
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -15.0314
+pose: 96.4137, 67.5044, -0.616898
+lookaheadPose: 96.2372, 72.0223, 106
+curvature: 0.241618
+targetVel: 120
+actualLeftVel: 441 / 600
+actualRightVel: 8.8 / -66
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -15.9343
+pose: 96.3902, 67.7173, -0.59176
+lookaheadPose: 96.2372, 72.0223, 106
+curvature: 0.24513
+targetVel: 120
+actualLeftVel: 403 / 600
+actualRightVel: 23 / -66
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -17.2142
+pose: 96.3812, 68.1928, -0.537594
+lookaheadPose: 96.2372, 72.0223, 106
+curvature: 0.250209
+targetVel: 120
+actualLeftVel: 393.4 / 600
+actualRightVel: 23 / -78
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -17.7857
+pose: 96.3765, 68.4309, -0.509786
+lookaheadPose: 96.2372, 72.0223, 106
+curvature: 0.252515
+targetVel: 120
+actualLeftVel: 399.6 / 600
+actualRightVel: 26.8 / -78
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -7.06314
+pose: 96.4176, 68.897, -0.454421
+lookaheadPose: 96.9509, 73.8685, 107
+curvature: 0.212911
+targetVel: 120
+actualLeftVel: 409.8 / 600
+actualRightVel: -7 / -30
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: -5.47091
+pose: 96.5274, 69.3531, -0.396695
+lookaheadPose: 96.9509, 73.8685, 107
+curvature: 0.207626
+targetVel: 120
+actualLeftVel: 444.8 / 600
+actualRightVel: -17 / -18
+targetLeftVel: 114.068
+targetRightVel: 125.932
+pose: 99.7228, 78.2793, 0.227967
+lookaheadPose: 100.738, 83.1752, 112
+curvature: -0.00941567
+targetVel: 120
+actualLeftVel: 395.4 / 534
+actualRightVel: 340.4 / 588
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 108.009
+targetRightVel: 127
+pose: 99.8463, 78.7133, 0.232226
+lookaheadPose: 100.738, 83.1752, 112
+curvature: -0.015392
+targetVel: 120
+actualLeftVel: 444.2 / 510
+actualRightVel: 430.2 / 594
+waiting for mutex
+>> odom update done
+targetLeftVel: 91.5351
+targetRightVel: 127
+pose: 100.08, 79.5801, 0.237389
+lookaheadPose: 100.738, 83.1752, 112
+curvature: -0.0309114
+targetVel: 120
+actualLeftVel: 478.2 / 426
+actualRightVel: 367.8 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 125.413
+targetRightVel: 114.587
+pose: 100.302, 80.3835, 0.242355
+lookaheadPose: 101.606, 85.2104, 113
+curvature: 0.00859188
+targetVel: 120
+actualLeftVel: 414.4 / 588
+actualRightVel: 391.2 / 534
+waiting for mutex
+>> odom update done
+targetLeftVel: 125.764
+targetRightVel: 114.236
+pose: 100.417, 80.8182, 0.243652
+lookaheadPose: 101.606, 85.2104, 113
+curvature: 0.00914857
+targetVel: 120
+actualLeftVel: 423.2 / 588
+actualRightVel: 427 / 534
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 123.817
+targetRightVel: 116.183
+pose: 100.702, 81.7469, 0.244535
+lookaheadPose: 101.606, 85.2104, 113
+curvature: 0.00605945
+targetVel: 120
+actualLeftVel: 488.6 / 576
+actualRightVel: 485.6 / 546
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 93.8262
+pose: 100.805, 82.2442, 0.245174
+lookaheadPose: 102.362, 86.9955, 114
+curvature: 0.0286145
+targetVel: 120
+actualLeftVel: 416 / 600
+actualRightVel: 433 / 438
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 80.2536
+pose: 101.037, 83.161, 0.245596
+lookaheadPose: 102.362, 86.9955, 114
+curvature: 0.0429622
+targetVel: 120
+actualLeftVel: 427.2 / 600
+actualRightVel: 462.8 / 372
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 87.3745
+pose: 101.288, 84.0845, 0.244721
+lookaheadPose: 102.922, 88.8101, 115
+curvature: 0.0352081
+targetVel: 120
+actualLeftVel: 466.2 / 600
+actualRightVel: 432.8 / 408
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 81.1258
+pose: 101.397, 84.5136, 0.245112
+lookaheadPose: 102.922, 88.8101, 115
+curvature: 0.041984
+targetVel: 120
+actualLeftVel: 516.6 / 600
+actualRightVel: 425 / 378
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 127
+targetRightVel: 64.8457
+pose: 101.638, 85.4056, 0.24819
+lookaheadPose: 102.922, 88.8101, 115
+curvature: 0.0617106
+targetVel: 120
+actualLeftVel: 552.4 / 600
+actualRightVel: 427 / 300
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 123.547
+targetRightVel: 116.453
+pose: 101.763, 85.8468, 0.25068
+lookaheadPose: 103.071, 90.6726, 116
+curvature: 0.00562944
+targetVel: 120
+actualLeftVel: 530.2 / 576
+actualRightVel: 400.8 / 546
+waiting for mutex
+>> odom update done
+targetLeftVel: 120.279
+targetRightVel: 119.721
+pose: 102.026, 86.72, 0.257683
+lookaheadPose: 103.071, 90.6726, 116
+curvature: 0.000442511
+targetVel: 120
+actualLeftVel: 501 / 564
+actualRightVel: 408.8 / 558
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 113.677
+targetRightVel: 126.323
+pose: 102.316, 87.7283, 0.266305
+lookaheadPose: 103.071, 90.6726, 116
+curvature: -0.0100358
+targetVel: 120
+actualLeftVel: 496.8 / 528
+actualRightVel: 520.2 / 594
+waiting for mutex
+>> odom update done
+targetLeftVel: 77.503
+targetRightVel: 127
+pose: 102.459, 88.2629, 0.270262
+lookaheadPose: 103.229, 93.2031, 117
+curvature: -0.046102
+targetVel: 120
+actualLeftVel: 525.4 / 360
+actualRightVel: 512 / 594
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 43.6127
+targetRightVel: 127
+pose: 102.841, 89.4466, 0.279636
+lookaheadPose: 103.229, 93.2031, 117
+curvature: -0.0930956
+targetVel: 120
+actualLeftVel: 474.6 / 198
+actualRightVel: 605.8 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 45.1464
+targetRightVel: 127
+pose: 103.044, 90.0741, 0.283754
+lookaheadPose: 103.321, 95.0665, 118
+curvature: -0.0905692
+targetVel: 120
+actualLeftVel: 414.2 / 210
+actualRightVel: 529 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 13.307
+targetRightVel: 127
+pose: 103.388, 91.18, 0.28735
+lookaheadPose: 103.321, 95.0665, 118
+curvature: -0.154346
+targetVel: 120
+actualLeftVel: 367.2 / 60
+actualRightVel: 480.2 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 19.0981
+targetRightVel: 127
+pose: 103.742, 92.2253, 0.286372
+lookaheadPose: 103.377, 97.212, 119
+curvature: -0.140678
+targetVel: 120
+actualLeftVel: 298.4 / 84
+actualRightVel: 574.4 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 5.67992
+targetRightVel: 127
+pose: 103.891, 92.7751, 0.28413
+lookaheadPose: 103.377, 97.212, 119
+curvature: -0.174168
+targetVel: 120
+actualLeftVel: 331.2 / 18
+actualRightVel: 556.4 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 9.90039
+targetRightVel: 127
+pose: 104.134, 93.8344, 0.272444
+lookaheadPose: 103.401, 98.7804, 120
+curvature: -0.162926
+targetVel: 120
+actualLeftVel: 184 / 42
+actualRightVel: 572.6 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: -1.05813
+targetRightVel: 127
+pose: 104.249, 94.3542, 0.262367
+lookaheadPose: 103.401, 98.7804, 120
+curvature: -0.193677
+targetVel: 120
+actualLeftVel: 248.6 / 0
+actualRightVel: 587.6 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: -22.8968
+targetRightVel: 127
+pose: 104.373, 95.3625, 0.231987
+lookaheadPose: 103.401, 98.7804, 120
+curvature: -0.274264
+targetVel: 120
+actualLeftVel: 233.4 / -102
+actualRightVel: 592.6 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 13.1324
+targetRightVel: 127
+pose: 104.428, 96.3046, 0.188727
+lookaheadPose: 103.393, 101.196, 121
+curvature: -0.154776
+targetVel: 120
+actualLeftVel: 228.6 / 60
+actualRightVel: 597.2 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 6.42997
+targetRightVel: 127
+pose: 104.498, 96.7374, 0.163397
+lookaheadPose: 103.393, 101.196, 121
+curvature: -0.172118
+targetVel: 120
+actualLeftVel: 188 / 24
+actualRightVel: 601.6 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: -10.676
+targetRightVel: 127
+pose: 104.709, 97.5465, 0.106481
+lookaheadPose: 103.393, 101.196, 121
+curvature: -0.225439
+targetVel: 120
+actualLeftVel: 134 / -42
+actualRightVel: 628 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 15.7275
+targetRightVel: 127
+pose: 104.855, 97.9509, 0.0753849
+lookaheadPose: 103.354, 102.72, 122
+curvature: -0.148498
+targetVel: 120
+actualLeftVel: 131 / 66
+actualRightVel: 621.4 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 2.65278
+targetRightVel: 127
+pose: 105.013, 98.7454, 0.00895046
+lookaheadPose: 103.354, 102.72, 122
+curvature: -0.182682
+targetVel: 120
+actualLeftVel: 84.4 / 6
+actualRightVel: 593.6 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: -14.843
+targetRightVel: 127
+pose: 105.216, 99.4905, -0.0572963
+lookaheadPose: 103.354, 102.72, 122
+curvature: -0.240892
+targetVel: 120
+actualLeftVel: 97 / -66
+actualRightVel: 577.2 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 19.7316
+targetRightVel: 127
+pose: 105.544, 103.031, -0.234496
+lookaheadPose: 103.137, 106.895, 124
+curvature: -0.139248
+targetVel: 120
+actualLeftVel: 7.4 / 84
+actualRightVel: 95 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 14.4356
+targetRightVel: 127
+pose: 105.494, 103.231, -0.234951
+lookaheadPose: 103.137, 106.895, 124
+curvature: -0.151594
+targetVel: 120
+actualLeftVel: 7.4 / 66
+actualRightVel: 97 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 7.9373
+targetRightVel: 127
+pose: 105.449, 103.445, -0.233745
+lookaheadPose: 103.137, 106.895, 124
+curvature: -0.168068
+targetVel: 120
+actualLeftVel: 7.4 / 30
+actualRightVel: 121.6 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 2.61433
+targetRightVel: 127
+pose: 105.413, 103.615, -0.23292
+lookaheadPose: 103.137, 106.895, 124
+curvature: -0.182792
+targetVel: 120
+actualLeftVel: 7.4 / 6
+actualRightVel: 140.4 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: -6.61488
+targetRightVel: 127
+pose: 105.347, 103.904, -0.232379
+lookaheadPose: 103.137, 106.895, 124
+curvature: -0.211409
+targetVel: 120
+actualLeftVel: 7.4 / -24
+actualRightVel: 146 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: -10.1112
+targetRightVel: 127
+pose: 105.315, 104.019, -0.233289
+lookaheadPose: 103.137, 106.895, 124
+curvature: -0.22343
+targetVel: 120
+actualLeftVel: -12.8 / -42
+actualRightVel: 118.6 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: -14.3225
+targetRightVel: 127
+pose: 105.251, 104.181, -0.238214
+lookaheadPose: 103.137, 106.895, 124
+curvature: -0.238899
+targetVel: 120
+actualLeftVel: -15.8 / -66
+actualRightVel: 88.4 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 48.6158
+targetRightVel: 127
+pose: 105.198, 104.239, -0.245782
+lookaheadPose: 102.978, 108.719, 125
+curvature: -0.085017
+targetVel: 120
+actualLeftVel: -38 / 222
+actualRightVel: 59.6 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 49.183
+targetRightVel: 127
+pose: 105.199, 104.251, -0.249788
+lookaheadPose: 102.978, 108.719, 125
+curvature: -0.08413
+targetVel: 120
+actualLeftVel: -49.8 / 228
+actualRightVel: 48.8 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 50.0423
+targetRightVel: 127
+pose: 105.169, 104.318, -0.256943
+lookaheadPose: 102.978, 108.719, 125
+curvature: -0.0827971
+targetVel: 120
+actualLeftVel: 46.4 / 234
+actualRightVel: 53 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 49.2993
+targetRightVel: 127
+pose: 105.143, 104.385, -0.258534
+lookaheadPose: 102.978, 108.719, 125
+curvature: -0.0839489
+targetVel: 120
+actualLeftVel: 50.4 / 228
+actualRightVel: 82 / 594
+waiting for mutex
+>> odom update done
+targetLeftVel: 43.7335
+targetRightVel: 127
+pose: 105.108, 104.57, -0.255904
+lookaheadPose: 102.978, 108.719, 125
+curvature: -0.092895
+targetVel: 120
+actualLeftVel: 41.6 / 198
+actualRightVel: 97.6 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 38.618
+targetRightVel: 127
+pose: 105.116, 104.663, -0.249775
+lookaheadPose: 102.978, 108.719, 125
+curvature: -0.101647
+targetVel: 120
+actualLeftVel: 33.6 / 174
+actualRightVel: 79.8 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 35.3841
+targetRightVel: 127
+pose: 105.116, 104.731, -0.24645
+lookaheadPose: 102.978, 108.719, 125
+curvature: -0.107465
+targetVel: 120
+actualLeftVel: 33.2 / 162
+actualRightVel: 25.6 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 26.8063
+targetRightVel: 127
+pose: 105.079, 104.975, -0.24172
+lookaheadPose: 102.978, 108.719, 125
+curvature: -0.124082
+targetVel: 120
+actualLeftVel: 25.6 / 120
+actualRightVel: 88.6 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 23.3437
+targetRightVel: 127
+pose: 105.057, 105.084, -0.24086
+lookaheadPose: 102.978, 108.719, 125
+curvature: -0.131326
+targetVel: 120
+actualLeftVel: 25.6 / 108
+actualRightVel: 173.2 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 12.4181
+targetRightVel: 127
+pose: 104.966, 105.446, -0.241301
+lookaheadPose: 102.978, 108.719, 125
+curvature: -0.156544
+targetVel: 120
+actualLeftVel: 25.6 / 54
+actualRightVel: 200.6 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: -1.06812
+targetRightVel: 127
+pose: 104.855, 105.859, -0.24298
+lookaheadPose: 102.978, 108.719, 125
+curvature: -0.193707
+targetVel: 120
+actualLeftVel: 22 / 0
+actualRightVel: 191.6 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: -6.82384
+targetRightVel: 127
+pose: 104.805, 106.029, -0.244478
+lookaheadPose: 102.978, 108.719, 125
+curvature: -0.212107
+targetVel: 120
+actualLeftVel: 22 / -24
+actualRightVel: 201.2 / 600
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 63.4203
+targetRightVel: 127
+pose: 104.692, 106.439, -0.246439
+lookaheadPose: 102.717, 111.032, 126
+curvature: -0.0635984
+targetVel: 120
+actualLeftVel: -15 / 294
+actualRightVel: 214 / 594
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 59.5303
+targetRightVel: 127
+pose: 104.627, 106.671, -0.247866
+lookaheadPose: 102.717, 111.032, 126
+curvature: -0.068897
+targetVel: 120
+actualLeftVel: -41.4 / 276
+actualRightVel: 170.6 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 52.4962
+targetRightVel: 127
+pose: 104.529, 107.022, -0.249497
+lookaheadPose: 102.717, 111.032, 126
+curvature: -0.0790614
+targetVel: 120
+actualLeftVel: 18.2 / 240
+actualRightVel: 117 / 594
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: 49.2115
+targetRightVel: 127
+pose: 104.499, 107.147, -0.249192
+lookaheadPose: 102.717, 111.032, 126
+curvature: -0.0840856
+targetVel: 120
+actualLeftVel: 40.4 / 228
+actualRightVel: 112.4 / 600
+waiting for mutex
+>> odom update done
+targetLeftVel: 48.1027
+targetRightVel: 127
+pose: 104.496, 107.173, -0.248468
+lookaheadPose: 102.717, 111.032, 126
+curvature: -0.0858243
+targetVel: 120
+actualLeftVel: 40.4 / 222
+actualRightVel: 32.4 / 600
+waiting for mutex
+>> odom update done
+WARNING - pros.serial.terminal.terminal:stop - Stopping terminal - pros-cli version:3.4.3

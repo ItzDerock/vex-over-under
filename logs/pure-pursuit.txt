@@ -1,0 +1,740 @@
+Established terminal connection
+
+
+
+         _+=+_
+      .-`  .  `-.          8888888b.  8888888b.   .d88888b.   .d8888b.
+   _+`     "     `+_       888   Y88b 888   Y88b d88P" "Y88b d88P  Y88b
+  \\\sssssssssssss///      888    888 888    888 888     888 Y88b.
+     .ss\  *  /ss.         888   d88P 888   d88P 888     888  "Y888b.
+ .+bm  .s  *  s.  md+.     8888888P"  8888888P"  888     888     "Y88b.
+.hMMMMs .  *  . sMMMMh.    888        888 T88b   888     888       "888
+ `\hMMMb \ | / dMMMh:      888        888  T88b  Y88b. .d88P Y88b  d88P
+   -SNMNo  -  oNMNs-       888        888   T88b  "Y88888P"   "Y8888P"
+     `+dMh\./dMd/
+        `:yNy:`                      Powered by PROS for VEX V5
+           "                Copyright (c) Purdue University ACM SIGBots
+Version:        4.0.6     Platform:  V1.1.2 (b34)     Uptime:    0.001 s
+Compiled:   Dec 16 2023 10:11:41     Directory:                        
+
+
+WARNING: odom::init() called when odomTask is not null
+Gif::Gif - "/usd/game.gif" info:
+  width: 480
+  height: 240
+  colors: 128
+starting
+pathPoints.size(): 256
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: -0 / 600
+actualRightVel: 0 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: -0 / 600
+actualRightVel: 0 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 7.2 / 600
+actualRightVel: 31 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 134.6 / 600
+actualRightVel: 184.6 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 286.4 / 600
+actualRightVel: 313 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 325.8 / 600
+actualRightVel: 328 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 203.4 / 600
+actualRightVel: 257.6 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 195.8 / 600
+actualRightVel: 229.2 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 176 / 600
+actualRightVel: 223.2 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 221.2 / 600
+actualRightVel: 242.2 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 212.6 / 600
+actualRightVel: 281.8 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 263.2 / 600
+actualRightVel: 316.8 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 284.6 / 600
+actualRightVel: 322.8 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 306.6 / 600
+actualRightVel: 344.6 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 325.8 / 600
+actualRightVel: 339.6 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 335.4 / 600
+actualRightVel: 337 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 358.2 / 600
+actualRightVel: 365.4 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 380.4 / 600
+actualRightVel: 364.6 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 402.8 / 600
+actualRightVel: 387.4 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 411.4 / 600
+actualRightVel: 412.4 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 434 / 600
+actualRightVel: 414.4 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 442 / 600
+actualRightVel: 425.4 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 444.2 / 600
+actualRightVel: 434.2 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 458.2 / 600
+actualRightVel: 441.6 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 475.4 / 600
+actualRightVel: 443.6 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 474.2 / 600
+actualRightVel: 438.2 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 455.6 / 600
+actualRightVel: 444.2 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 477.2 / 600
+actualRightVel: 454.4 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 481.6 / 600
+actualRightVel: 457 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 478.6 / 600
+actualRightVel: 460.6 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 516.2 / 600
+actualRightVel: 467.4 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 525.6 / 600
+actualRightVel: 479.6 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 532 / 600
+actualRightVel: 488.6 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 525.2 / 600
+actualRightVel: 478.4 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 519 / 600
+actualRightVel: 479.2 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 536.2 / 600
+actualRightVel: 467.8 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 557 / 600
+actualRightVel: 488.8 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 543 / 600
+actualRightVel: 487.8 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 537.8 / 600
+actualRightVel: 484.2 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 533.4 / 600
+actualRightVel: 505.8 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 552.6 / 600
+actualRightVel: 493.4 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 543.2 / 600
+actualRightVel: 484.2 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 555.4 / 600
+actualRightVel: 502.6 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 565 / 600
+actualRightVel: 491.8 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 553.8 / 600
+actualRightVel: 491.4 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 589.4 / 600
+actualRightVel: 493.4 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 559 / 600
+actualRightVel: 491.6 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 583.8 / 600
+actualRightVel: 482 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 574.8 / 600
+actualRightVel: 503 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 566.8 / 600
+actualRightVel: 480.2 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 576.6 / 600
+actualRightVel: 501.8 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 552.8 / 600
+actualRightVel: 490.2 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 563.2 / 600
+actualRightVel: 499.8 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 561.4 / 600
+actualRightVel: 490.6 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 571.4 / 600
+actualRightVel: 491.6 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 554 / 600
+actualRightVel: 486.2 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 547.4 / 600
+actualRightVel: 491 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 568.2 / 600
+actualRightVel: 477.6 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 568.6 / 600
+actualRightVel: 484.6 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 575.8 / 600
+actualRightVel: 471.6 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 564.4 / 600
+actualRightVel: 475.8 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 563.2 / 600
+actualRightVel: 480.6 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 546.2 / 600
+actualRightVel: 493.8 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 552.6 / 600
+actualRightVel: 480.8 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 582.4 / 600
+actualRightVel: 492.6 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 557.6 / 600
+actualRightVel: 509.6 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 581.4 / 600
+actualRightVel: 494 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 586.4 / 600
+actualRightVel: 491.2 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 578 / 600
+actualRightVel: 506.4 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 582.6 / 600
+actualRightVel: 492.6 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 546.6 / 600
+actualRightVel: 489.6 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 584.4 / 600
+actualRightVel: 505.4 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 566.4 / 600
+actualRightVel: 488 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 564 / 600
+actualRightVel: 494.6 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 574.2 / 600
+actualRightVel: 499.8 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 552.4 / 600
+actualRightVel: 495.4 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 577.4 / 600
+actualRightVel: 501.2 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 559.4 / 600
+actualRightVel: 491 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 583.6 / 600
+actualRightVel: 493.2 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 552.4 / 600
+actualRightVel: 483.6 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 562.2 / 600
+actualRightVel: 487 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 573.8 / 600
+actualRightVel: 486.2 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 572.6 / 600
+actualRightVel: 502.6 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 587.2 / 600
+actualRightVel: 488.4 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 565.6 / 600
+actualRightVel: 515.6 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 575.2 / 600
+actualRightVel: 501.8 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 556.4 / 600
+actualRightVel: 497.8 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 574.2 / 600
+actualRightVel: 503.6 / 456
+targetLeftVel: 127
+targetRightVel: 97.2327
+pose: 31, -60, 0.785398
+lookaheadPose: 82.664, -119.624, 0
+curvature: 0.025286
+targetVel: 120
+actualLeftVel: 581.2 / 600
+actualRightVel: 500 / 456
+[B[B[B[B[B[B[B[B[B[B[B[B[B[A[A[A[A[A[A[A[A[A[A[A[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[BWARNING - pros.serial.terminal.terminal:stop - Stopping terminal - pros-cli version:3.4.3

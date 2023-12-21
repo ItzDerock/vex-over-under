@@ -1,0 +1,861 @@
+Established terminal connection
+
+
+
+         _+=+_
+      .-`  .  `-.          8888888b.  8888888b.   .d88888b.   .d8888b.
+   _+`     "     `+_       888   Y88b 888   Y88b d88P" "Y88b d88P  Y88b
+  \\\sssssssssssss///      888    888 888    888 888     888 Y88b.
+     .ss\  *  /ss.         888   d88P 888   d88P 888     888  "Y888b.
+ .+bm  .s  *  s.  md+.     8888888P"  8888888P"  888     888     "Y88b.
+.hMMMMs .  *  . sMMMMh.    888        888 T88b   888     888       "888
+ `\hMMMb \ | / dMMMh:      888        888  T88b  Y88b. .d88P Y88b  d88P
+   -SNMNo  -  oNMNs-       888        888   T88b  "Y88888P"   "Y8888P"
+     `+dMh\./dMd/
+        `:yNy:`                      Powered by PROS for VEX V5
+           "                Copyright (c) Purdue University ACM SIGBots
+Version:        4.0.6     Platform:  V1.1.2 (b34)     Uptime:    0.001 s
+Compiled:   Dec 16 2023 10:51:04     Directory:                        
+
+
+WARNING: odom::init() called when odomTask is not null
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+Gif::Gif - "/usd/game.gif" info:
+  width: 480
+  height: 240
+  colors: 128
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+starting
+pathPoints.size(): 422
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: -0 / 486
+actualRightVel: 0 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: -0 / 486
+actualRightVel: 0 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 108 / 486
+actualRightVel: 198.6 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 226 / 486
+actualRightVel: 304.2 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 201.8 / 486
+actualRightVel: 300 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 181.2 / 486
+actualRightVel: 270.8 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 212 / 486
+actualRightVel: 303.2 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 300 / 486
+actualRightVel: 355.2 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 313 / 486
+actualRightVel: 396.4 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 351.8 / 486
+actualRightVel: 377.2 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 367.6 / 486
+actualRightVel: 392.2 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 389.4 / 486
+actualRightVel: 446.2 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 424.4 / 486
+actualRightVel: 483 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 441.2 / 486
+actualRightVel: 499.4 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 448.4 / 486
+actualRightVel: 509 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 466.2 / 486
+actualRightVel: 514.2 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 464.6 / 486
+actualRightVel: 535.8 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 463.6 / 486
+actualRightVel: 538.8 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 454.8 / 486
+actualRightVel: 552.2 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 475.6 / 486
+actualRightVel: 575.2 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 497.4 / 486
+actualRightVel: 581.2 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 511.8 / 486
+actualRightVel: 580.6 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 508.6 / 486
+actualRightVel: 606.2 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 514.4 / 486
+actualRightVel: 578.6 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 499.6 / 486
+actualRightVel: 589.4 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 495.6 / 486
+actualRightVel: 612.4 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 511.6 / 486
+actualRightVel: 599.6 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 519.2 / 486
+actualRightVel: 608.6 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 517 / 486
+actualRightVel: 642.6 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 506.4 / 486
+actualRightVel: 629.4 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 504 / 486
+actualRightVel: 631.2 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 521 / 486
+actualRightVel: 604.4 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 519.8 / 486
+actualRightVel: 604.4 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 515 / 486
+actualRightVel: 618.6 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 516.6 / 486
+actualRightVel: 620.2 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 511.6 / 486
+actualRightVel: 610.4 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 520.2 / 486
+actualRightVel: 619.6 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 524 / 486
+actualRightVel: 639.4 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 512.4 / 486
+actualRightVel: 619.4 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 519.6 / 486
+actualRightVel: 607.4 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 514.4 / 486
+actualRightVel: 614.4 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 517.2 / 486
+actualRightVel: 601.4 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 508.4 / 486
+actualRightVel: 619 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 516.6 / 486
+actualRightVel: 637.4 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 517.8 / 486
+actualRightVel: 633.2 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 512.4 / 486
+actualRightVel: 611.4 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 514.2 / 486
+actualRightVel: 613.2 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 512.8 / 486
+actualRightVel: 622.2 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 523.2 / 486
+actualRightVel: 631.8 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 531.2 / 486
+actualRightVel: 649.4 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 520.4 / 486
+actualRightVel: 640.6 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 510.6 / 486
+actualRightVel: 619.8 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 521.2 / 486
+actualRightVel: 638.4 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 527.6 / 486
+actualRightVel: 624.8 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 527.4 / 486
+actualRightVel: 611.2 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 515 / 486
+actualRightVel: 620.6 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 512.8 / 486
+actualRightVel: 626.6 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 521.8 / 486
+actualRightVel: 635.2 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 516 / 486
+actualRightVel: 618.2 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 516.4 / 486
+actualRightVel: 616.4 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 515.4 / 486
+actualRightVel: 602.8 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 507 / 486
+actualRightVel: 615.4 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 519.4 / 486
+actualRightVel: 626.6 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 505.8 / 486
+actualRightVel: 619.8 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 514.4 / 486
+actualRightVel: 645 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 510.4 / 486
+actualRightVel: 631.4 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 510.6 / 486
+actualRightVel: 602.6 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 521.2 / 486
+actualRightVel: 619.8 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 503 / 486
+actualRightVel: 625.6 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 514.2 / 486
+actualRightVel: 607.2 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 511.8 / 486
+actualRightVel: 620.8 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 518.6 / 486
+actualRightVel: 620.8 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 518.6 / 486
+actualRightVel: 623.8 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 494.8 / 486
+actualRightVel: 616.6 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 508.6 / 486
+actualRightVel: 605 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 510.4 / 486
+actualRightVel: 623.2 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 519 / 486
+actualRightVel: 623 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 521.4 / 486
+actualRightVel: 618.2 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 501.6 / 486
+actualRightVel: 631.4 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 516.6 / 486
+actualRightVel: 627.2 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 506 / 486
+actualRightVel: 630.4 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 514.4 / 486
+actualRightVel: 589.2 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 516.4 / 486
+actualRightVel: 621.4 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 498.8 / 486
+actualRightVel: 616.8 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 509.2 / 486
+actualRightVel: 612 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 515.4 / 486
+actualRightVel: 619.6 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 520.4 / 486
+actualRightVel: 618.8 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 515.4 / 486
+actualRightVel: 612.2 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 510 / 486
+actualRightVel: 611.8 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 518.6 / 486
+actualRightVel: 590.6 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 522.8 / 486
+actualRightVel: 607.4 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 501 / 486
+actualRightVel: 614.4 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 386.2 / 486
+actualRightVel: 606 / 594
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: 283 / 486
+actualRightVel: 602.4 / 594
+
+WARNING - pros.serial.terminal.terminal:stop - Stopping terminal - pros-cli version:3.4.3

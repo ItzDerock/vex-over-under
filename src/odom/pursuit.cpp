@@ -216,7 +216,7 @@ void odom::follow(std::shared_ptr<std::vector<odom::RobotPosition>> pathPoints,
     curvature = findLookaheadCurvature(pose, curvatureHeading, lookaheadPose);
 
     // get the target velocity of the robot
-    targetVel = pathPoints->at(closestPoint).theta;
+    targetVel = pathPoints->at(closestPoint).theta + 50;
 
     // calculate target left and right velocities
     float targetLeftVel = targetVel * (2 + curvature * DRIVE_TRACK_WIDTH) / 2;
@@ -226,7 +226,7 @@ void odom::follow(std::shared_ptr<std::vector<odom::RobotPosition>> pathPoints,
 
     // ratio the speeds to respect the max speed
     float ratio =
-        std::max(std::fabs(targetLeftVel), std::fabs(targetRightVel)) / 127;
+        std::max(std::fabs(targetLeftVel), std::fabs(targetRightVel)) / 40;
 
     if (ratio > 1) {
       targetLeftVel /= ratio;
@@ -264,12 +264,12 @@ void odom::follow(std::shared_ptr<std::vector<odom::RobotPosition>> pathPoints,
 
     // actual
     std::cout << "actualLeftVel: " << drive_left_back->get_actual_velocity()
-              << std::endl;
+              << " / " << drive_left_back->get_target_velocity() << std::endl;
     std::cout << "actualRightVel: " << drive_right_back->get_actual_velocity()
-              << std::endl;
+              << " / " << drive_right_back->get_target_velocity() << std::endl;
 #endif
 
-    pros::delay(10);
+    pros::delay(15);
   }
 
   // stop the drivetrain

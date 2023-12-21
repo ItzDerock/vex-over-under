@@ -136,7 +136,7 @@ void odom::turnTo(double theta, double timeout) {
       settledTime += 10;
     }
 
-    moveVelocity(-output, output);
+    moveVelocity(output, -output);
     pros::delay(10);
   }
 

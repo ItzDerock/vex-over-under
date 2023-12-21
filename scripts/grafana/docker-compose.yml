@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana:/var/lib/grafana
+      - ../../logs:/etc/data
+    environment:
+      GF_INSTALL_PLUGINS: "marcusolsson-json-datasource"
+    dns:
+      - 172.17.0.1
+      - 1.1.1.1
+
+volumes:
+  grafana:

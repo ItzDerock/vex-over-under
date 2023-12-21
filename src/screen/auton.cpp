@@ -1,3 +1,4 @@
+#include "../config.hpp"
 #include "main.h"
 #include "robot/odom.hpp"
 #include "robot/screen.hpp"
@@ -47,22 +48,12 @@ static void auto_dropdown_select(lv_event_t *event) {
   }
 }
 
-// handle test auton button
-static void test_auton_cb(lv_event_t *event) {
-  lv_event_code_t code = lv_event_get_code(event);
-  // lv_obj_t *obj = lv_event_get_target(event);
-
-  if (code == LV_EVENT_VALUE_CHANGED) {
-    autonomous();
-  }
-}
-
 static void reset_position_event_cb(lv_event_t *event) {
   lv_event_code_t code = lv_event_get_code(event);
   // lv_obj_t *obj = lv_event_get_target(event);
 
   if (code == LV_EVENT_CLICKED) {
-    odom::reset({31, -60, 0});
+    odom::reset({-35, -70 + (double)DRIVE_TRACK_WIDTH / 2, 0});
   }
 }
 
@@ -110,14 +101,21 @@ void screen::initAutonSelector(Gif *gif) {
   // set the position of the reset position button
   lv_obj_set_pos(reset_position, 10, 50);
 
-  // test auton button
-  lv_obj_t *test_auton = lv_btn_create(screen::auton_selector_screen);
-  lv_obj_t *test_auton_label = lv_label_create(test_auton);
+  // text that shows current odom pose
+  lv_obj_t *odom_text = lv_label_create(screen::auton_selector_screen);
+  lv_label_set_text(odom_text, "odom");
+  lv_obj_set_pos(odom_text, 10, 90);
 
-  // set the text of the test auton button
-  lv_label_set_text(test_auton_label, "Test Auton");
-  lv_obj_add_event_cb(test_auton, test_auton_cb, LV_EVENT_CLICKED, gif);
+  pros::Task([odom_text]() {
+    while (true) {
+      odom::RobotPosition position = odom::getPosition(true);
 
-  // set the position of the test auton button
-  lv_obj_set_pos(test_auton, 10, 90);
+      std::string text = "x: " + std::to_string(position.x) +
+                         "\ny: " + std::to_string(position.y) +
+                         "\ntheta: " + std::to_string(position.theta);
+
+      lv_label_set_text(odom_text, text.c_str());
+      pros::delay(50);
+    }
+  });
 }

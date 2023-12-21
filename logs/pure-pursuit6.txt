@@ -1,0 +1,7033 @@
+Established terminal connection
+
+
+
+         _+=+_
+      .-`  .  `-.          8888888b.  8888888b.   .d88888b.   .d8888b.
+   _+`     "     `+_       888   Y88b 888   Y88b d88P" "Y88b d88P  Y88b
+  \\\sssssssssssss///      888    888 888    888 888     888 Y88b.
+     .ss\  *  /ss.         888   d88P 888   d88P 888     888  "Y888b.
+ .+bm  .s  *  s.  md+.     8888888P"  8888888P"  888     888     "Y88b.
+.hMMMMs .  *  . sMMMMh.    888        888 T88b   888     888       "888
+ `\hMMMb \ | / dMMMh:      888        888  T88b  Y88b. .d88P Y88b  d88P
+   -SNMNo  -  oNMNs-       888        888   T88b  "Y88888P"   "Y8888P"
+     `+dMh\./dMd/
+        `:yNy:`                      Powered by PROS for VEX V5
+           "                Copyright (c) Purdue University ACM SIGBots
+Version:        4.0.6     Platform:  V1.1.2 (b34)     Uptime:    0.001 s
+Compiled:   Dec 16 2023 11:01:21     Directory:                        
+
+
+FAILED TO RESET ODOMETRY!
+errorno: 11
+at: odom_imu
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+Gif::Gif - "/usd/game.gif" info:
+  width: 480
+  height: 240
+  colors: 128
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+starting
+FAILED TO RESET ODOMETRY!
+errorno: 11
+at: odom_imu
+pathPoints.size(): 422
+waiting for mutex
+>> odom update done
+targetLeftVel: 104.714
+targetRightVel: 127
+pose: 31, -60, 4.71239
+lookaheadPose: 81.521, -135.251, 0
+curvature: -0.0183202
+targetVel: 120
+actualLeftVel: -0 / 486
+actualRightVel: 0 / 594
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: 96.4 / 0
+actualRightVel: 94.6 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: 68.8 / 0
+actualRightVel: 54.6 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 23.6 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -13.8 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -13.8 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -13.8 / 0
+actualRightVel: -7 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -24 / 0
+actualRightVel: -7 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -24 / 0
+actualRightVel: -18 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -20 / 0
+actualRightVel: -18 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -20 / 0
+actualRightVel: -11.6 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -14.6 / 0
+actualRightVel: -11.6 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -14.6 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, inf
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28318
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28314
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2831
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28304
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28292
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28288
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28277
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28271
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28262
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28256
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28149
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28138
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28137
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28122
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28118
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28109
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28102
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28094
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28083
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28074
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28069
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28056
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28056
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28038
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28039
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28023
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28019
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28016
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2801
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.28
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27995
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27986
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27981
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2797
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27969
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27962
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27951
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27938
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27928
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27924
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27925
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27918
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27912
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27901
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27801
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27796
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27791
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2778
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27775
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2777
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27759
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27753
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2774
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27734
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2773
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27727
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27713
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27708
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27699
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27692
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2768
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27679
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27668
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27663
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27647
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2764
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2763
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27627
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2762
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2762
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27617
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2761
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27604
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27595
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2759
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27586
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2758
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27577
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27464
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27455
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27451
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27437
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27434
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27423
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27413
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27403
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.274
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27393
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27381
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27369
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27365
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27356
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27355
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27338
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2734
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27329
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27321
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27314
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27305
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27291
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27287
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27276
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27278
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27268
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27263
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27256
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2725
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27239
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27233
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27232
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27222
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27212
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27203
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27193
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27028
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27025
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27022
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27017
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27015
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27004
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.27
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26987
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26983
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26971
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26967
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26954
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26945
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26935
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26929
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2692
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26912
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26908
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26902
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26894
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26884
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26878
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26865
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26856
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26854
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26851
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26849
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26836
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26833
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26825
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26816
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26808
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26805
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26787
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26784
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26641
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26627
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26623
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26608
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26604
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26593
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26589
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26574
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2657
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26557
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26555
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26542
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2654
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26532
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26533
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26524
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26515
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26501
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.265
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26492
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26488
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26472
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26349
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26335
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26333
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26322
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26313
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26303
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26293
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26286
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26284
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26275
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26268
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26258
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26251
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26239
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26238
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2623
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26228
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26218
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26214
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26204
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26196
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26186
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26181
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26171
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26162
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26152
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2615
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26135
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26133
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26119
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2611
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26098
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26093
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26085
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2608
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.26066
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25885
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25874
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25868
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25861
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25851
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25843
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25836
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25828
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25814
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25814
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25798
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25791
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25783
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2578
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25761
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25759
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25748
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25741
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25731
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25727
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25716
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25707
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25699
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25689
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25685
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25678
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25671
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25664
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25649
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25647
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25642
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25632
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25621
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25618
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25608
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25602
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25402
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25395
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25384
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25378
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25364
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25363
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25348
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25342
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2533
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25323
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25321
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25315
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25312
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25303
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25293
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25288
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25276
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25268
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25261
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2526
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25247
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25236
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25227
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25223
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25212
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2521
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25198
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2519
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25174
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25169
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25164
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25156
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25145
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25139
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25126
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.25123
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24899
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24902
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24888
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24881
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24871
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24868
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24859
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24853
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24845
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24845
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24826
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24816
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2481
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24806
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24793
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24789
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24783
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24774
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24767
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24762
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24748
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24742
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2473
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24731
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24728
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24721
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24709
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24702
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24695
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24691
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24675
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24669
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24663
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24662
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24645
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24638
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24458
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24454
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24445
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2444
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24432
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24425
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24414
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24407
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24401
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24397
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24385
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2438
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24369
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24364
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24356
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24345
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24335
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24329
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24318
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2431
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24296
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24292
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24283
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24273
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24268
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24261
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24255
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24251
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24242
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24238
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24222
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2422
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24211
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24206
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24196
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24065
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24052
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24049
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24041
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2403
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24024
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24021
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24007
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.24
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2399
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23982
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23973
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23964
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23958
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23952
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23943
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23935
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23919
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23919
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2391
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23901
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23893
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23889
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23873
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23871
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23864
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23855
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23839
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23837
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23828
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23823
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23808
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23804
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23688
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23673
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23668
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23664
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23657
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23643
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23638
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23625
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2362
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23612
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23607
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23599
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23589
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23578
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2357
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2356
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23557
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23545
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23543
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23533
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23529
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23525
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23523
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2352
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23515
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.235
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23492
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23483
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2348
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23466
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23469
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23452
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23453
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23439
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23319
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23312
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23302
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23298
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23288
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23283
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23275
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23268
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2326
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23253
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23241
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23233
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23227
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23224
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23216
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23208
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23199
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23189
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23178
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2317
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23166
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23162
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23148
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23144
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23139
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23131
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2313
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23127
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23109
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.231
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23095
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23085
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2308
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.23073
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22964
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22946
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22939
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22925
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22926
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22914
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22907
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.229
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22895
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22883
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22879
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22865
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22857
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22856
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22851
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22839
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22837
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22824
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22821
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22804
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22808
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22787
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22782
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22775
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22769
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22754
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22753
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22744
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22738
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22722
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22717
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22703
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22702
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22687
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22685
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22549
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22539
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22531
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2252
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22511
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22504
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22495
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22482
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22483
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22469
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22468
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22457
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22453
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22446
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22435
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22424
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22421
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22404
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22405
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22395
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22396
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22383
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22382
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22364
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.2236
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22344
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22342
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22332
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22328
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22321
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22321
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22311
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22301
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22293
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22178
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22164
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22156
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22141
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22135
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22127
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22125
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22116
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22107
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22098
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22087
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22082
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22073
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22066
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22059
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+waiting for mutex
+>> odom update done
+targetLeftVel: nan
+targetRightVel: nan
+pose: nan, nan, 6.22051
+lookaheadPose: 81.521, -135.251, 0
+curvature: nan
+targetVel: 120
+actualLeftVel: -0 / 0
+actualRightVel: 0 / 0
+waiting for mutex
+>> odom update done
+[A[A[A[A[A[A[B[B[B[B[B[B[B[B[B[B[B[B[B[A[A[A[A[A[A[A[A[A[A[A[B[B[B[A[A[A[A[A[AWARNING - pros.serial.terminal.terminal:stop - Stopping terminal - pros-cli version:3.4.3
