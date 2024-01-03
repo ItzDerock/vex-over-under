@@ -2,11 +2,11 @@
 
 #include "config.hpp"
 #include "gif-pros/gifclass.hpp"
+#include "pros-mpeg/mpeg.hpp"
 #include "pros/misc.h"
 #include "robot/odom.hpp"
 #include "robot/screen.hpp"
 #include "robot/subsystems.hpp"
-
 // static Gif* gif = nullptr;
 
 /**
@@ -26,8 +26,9 @@ void initialize() {
   odom::loadPaths(
       {"/usd/skills/push-left.txt", /*"/usd/skills/push-center.txt"*/});
 
-  static Gif gif("/usd/game.gif", lv_scr_act());
-  screen::initAutonSelector(&gif);
+  // static Gif gif("/usd/game.gif", lv_scr_act());
+  static MPEGPlayer mpeg("/usd/game.mpeg", lv_scr_act());
+  // screen::initAutonSelector(&mpeg);
 
   // offload gif initialization to a separate task
   // pros::Task([]() {

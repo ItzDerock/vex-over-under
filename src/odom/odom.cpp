@@ -7,7 +7,7 @@
 #include "robot/logger.hpp"
 #include "robot/utils.hpp"
 
-#define ODOM_DEBUG true
+#define ODOM_DEBUG false
 
 /**
  * Odometry implementation is based on the following paper:
