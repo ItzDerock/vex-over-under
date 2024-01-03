@@ -18,6 +18,7 @@
 #include "../config.hpp"
 #include "main.h"
 #include "pros/misc.hpp"
+#include "robot/logger.hpp"
 #include "robot/odom.hpp"
 #include "robot/utils.hpp"
 
@@ -170,10 +171,6 @@ void odom::follow(std::shared_ptr<std::vector<odom::RobotPosition>> pathPoints,
     return;
   }
 
-#if PURE_PURSUIT_DEBUG
-  std::cout << "pathPoints.size(): " << pathPoints->size() << std::endl;
-#endif
-
   odom::RobotPosition pose = getPosition();
   odom::RobotPosition lookaheadPose(0, 0, 0);
   odom::RobotPosition lastLookahead = pathPoints->at(0);
@@ -237,39 +234,25 @@ void odom::follow(std::shared_ptr<std::vector<odom::RobotPosition>> pathPoints,
     prevLeftVel = targetLeftVel;
     prevRightVel = targetRightVel;
 
-    // move the drivetrain
-    if (forwards) {
-      odom::move(targetLeftVel, targetRightVel);
-
-#if PURE_PURSUIT_DEBUG
-      std::cout << "targetLeftVel: " << targetLeftVel << std::endl;
-      std::cout << "targetRightVel: " << targetRightVel << std::endl;
-#endif
-    } else {
-      odom::move(-targetRightVel, -targetLeftVel);
-
-#if PURE_PURSUIT_DEBUG
-      std::cout << "targetLeftVel: " << -targetRightVel << std::endl;
-      std::cout << "targetRightVel: " << -targetLeftVel << std::endl;
-#endif
+    if (!forwards) {
+      float temp = targetLeftVel;
+      targetLeftVel = -1 * targetRightVel;
+      targetRightVel = -1 * temp;
     }
 
-#if PURE_PURSUIT_DEBUG
-    std::cout << "pose: " << pose.x << ", " << pose.y << ", " << pose.theta
-              << std::endl;
-    std::cout << "lookaheadPose: " << lookaheadPose.x << ", " << lookaheadPose.y
-              << ", " << lookaheadPose.theta << std::endl;
-    std::cout << "curvature: " << curvature << std::endl;
-    std::cout << "targetVel: " << targetVel << std::endl;
+    // move the drivetrain
+    odom::move(targetLeftVel, targetRightVel);
 
-    // actual
-    std::cout << "actualLeftVel: " << drive_left_back->get_actual_velocity()
-              << " / " << drive_left_back->get_target_velocity() << std::endl;
-    std::cout << "actualRightVel: " << drive_right_back->get_actual_velocity()
-              << " / " << drive_right_back->get_target_velocity() << std::endl;
+#if PURE_PURSUIT_DEBUG
+    logger::log(logger::Route::PurePursuitTargetVelocity,
+                {targetLeftVel, targetRightVel});
+
+    logger::log(logger::Route::PurePursuitCurvature, {curvature});
+    logger::log(logger::Route::PurePursuitLookaheadPose,
+                {lookaheadPose.x, lookaheadPose.y, lookaheadPose.theta});
 #endif
 
-    pros::delay(15);
+    pros::delay(10);
   }
 
   // stop the drivetrain

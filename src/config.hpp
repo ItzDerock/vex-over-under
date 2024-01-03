@@ -5,11 +5,12 @@
 // ODOMETRY
 #define ODOMETRY_TICKS_PER_INCH 360.0  // ticks per inch
 #define ODOMETRY_WHEEL_DIAMETER 2.75   // inches
-#define ODOM_MIDDLE_PORT 'b', 'c'
+#define ODOM_MIDDLE_PORT 'c', 'd'
 #define ODOM_INERTIAL 16
 
 // DRIVETRAIN
-#define DRIVETRAIN_GEAR_RATIO /* input 32 -> output 72 */ 0.5
+#define DRIVETRAIN_GEAR_RATIO /* input 32 -> output 60 */ 0.6
+#define DRIVETRAIN_GEARBOX pros::v5::MotorGear::blue
 #define DRIVE_LEFT_FRONT 4
 #define DRIVE_LEFT_BACK 5
 #define DRIVE_LEFT_PTO 6

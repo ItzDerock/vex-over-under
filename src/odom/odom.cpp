@@ -4,7 +4,10 @@
 
 #include "../config.hpp"
 #include "main.h"
+#include "robot/logger.hpp"
 #include "robot/utils.hpp"
+
+#define ODOM_DEBUG true
 
 /**
  * Odometry implementation is based on the following paper:
@@ -108,13 +111,20 @@ void odom::update() {
   // 11. Update the global position
   state.x += globalOffset.x;
   state.y += globalOffset.y;
-
-  // state.x += localOffset.y * sin(thetam);
-  // state.y += localOffset.y * cos(thetam);
-  // state.x += localOffset.x * -cos(thetam);
-  // state.y += localOffset.x * sin(thetam);
-
   state.theta = newTheta;
+
+#if ODOM_DEBUG
+  logger::log(logger::Route::RobotPosition, {state.x, state.y, state.theta});
+
+  // I wish there was a more elegant way to do this
+  logger::log(logger::Route::RobotVelocity,
+              {
+                  drive_left_back->get_actual_velocity(),
+                  (double)drive_left_back->get_target_velocity(),
+                  drive_right_back->get_actual_velocity(),
+                  (double)drive_right_back->get_target_velocity(),
+              });
+#endif
 
   // unlock mutex
   mutex.give();
