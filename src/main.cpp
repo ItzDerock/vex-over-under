@@ -177,6 +177,11 @@ void opcontrol() {
       catapult::rapidFire = master.get_digital(DIGITAL_R1);
     }
 
+    // r2 for toggle
+    if (master.get_digital_new_press(DIGITAL_R2)) {
+      catapult::rapidFire = !catapult::rapidFire;
+    }
+
     // wings
     if (master.get_digital_new_press(DIGITAL_L1)) {
       wings->toggle();

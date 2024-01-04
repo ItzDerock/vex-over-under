@@ -38,9 +38,7 @@ void catapult::update() {
   // reload if error > 20deg
   if (error > 30 && catapultState == FIRING) catapultState = RELOADING;
 
-  double output = 100;
-
-  catapult_motor->move_velocity(output);
+  catapult_motor->move(127);
 }
 
 void catapult::fire() {

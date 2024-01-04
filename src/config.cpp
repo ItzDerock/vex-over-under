@@ -13,10 +13,10 @@
 
 SHARED(pros::Motor, drive_left_front, -DRIVE_LEFT_FRONT, DRIVETRAIN_GEARBOX);
 SHARED(pros::Motor, drive_left_back, -DRIVE_LEFT_BACK, DRIVETRAIN_GEARBOX);
-SHARED(pros::Motor, drive_left_pto, DRIVE_LEFT_PTO, DRIVETRAIN_GEARBOX);
+SHARED(pros::Motor, drive_left_pto, -DRIVE_LEFT_PTO, DRIVETRAIN_GEARBOX);
 SHARED(pros::Motor, drive_right_front, DRIVE_RIGHT_FRONT, DRIVETRAIN_GEARBOX);
 SHARED(pros::Motor, drive_right_back, DRIVE_RIGHT_BACK, DRIVETRAIN_GEARBOX);
-SHARED(pros::Motor, drive_right_pto, -DRIVE_RIGHT_PTO, DRIVETRAIN_GEARBOX);
+SHARED(pros::Motor, drive_right_pto, DRIVE_RIGHT_PTO, DRIVETRAIN_GEARBOX);
 
 // can't use a designator until P2287R1 is merged
 // https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2021/p2287r1.html
