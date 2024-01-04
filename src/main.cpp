@@ -7,7 +7,6 @@
 #include "robot/odom.hpp"
 #include "robot/screen.hpp"
 #include "robot/subsystems.hpp"
-// static Gif* gif = nullptr;
 
 /**
  * Runs initialization code. This occurs as soon as the program is started.
@@ -26,17 +25,8 @@ void initialize() {
   odom::loadPaths(
       {"/usd/skills/push-left.txt", /*"/usd/skills/push-center.txt"*/});
 
-  // static Gif gif("/usd/game.gif", lv_scr_act());
   static MPEGPlayer mpeg("/usd/game.mpeg", lv_scr_act());
-  // screen::initAutonSelector(&mpeg);
-
-  // offload gif initialization to a separate task
-  // pros::Task([]() {
-
-  //   // never deallocate the gif
-  //   gif = new Gif("/usd/game.gif", lv_scr_act());
-  //   screen::initAutonSelector(gif);
-  // });
+  screen::initAutonSelector(&mpeg);
 }
 
 /**

@@ -1,3 +1,11 @@
+/**
+ * MPEGPlayer
+ * Ports MPEG1 support to LVGL-based displays such as the VEX v5 Brain.
+ * Built by Derock <derock@derock.dev>
+ * Please credit if used
+ * MIT License
+ */
+
 #include "pros-mpeg/mpeg.hpp"
 
 #include "main.h"
@@ -17,13 +25,16 @@ MPEGPlayer::MPEGPlayer(const char *fname, lv_obj_t *parent) {
   // enable looping
   plm_set_loop(decoder, true);
 
-  // create rgb buffer
+  // parse basic data
   width = plm_get_width(decoder);
   height = plm_get_height(decoder);
   frametime = (double)1000 / plm_get_framerate(decoder);
 
+  // create rgb buffer
   frame = new uint8_t[width * height * 3];
   lvframe = new lv_color_t[width * height];
+
+  // create LVGL canvas
   canvas = lv_canvas_create(parent);
   lv_canvas_set_buffer(canvas, lvframe, width, height, LV_IMG_CF_TRUE_COLOR);
 
@@ -33,6 +44,13 @@ MPEGPlayer::MPEGPlayer(const char *fname, lv_obj_t *parent) {
                         ("MPEG - \"" + std::string(fname) + "\"").c_str());
 }
 
+lv_obj_t *MPEGPlayer::getLVGLObj() const { return canvas; }
+void MPEGPlayer::pause() { task->suspend(); }
+void MPEGPlayer::resume() { task->resume(); }
+
+/**
+ * Basically just free's everything
+ */
 MPEGPlayer::~MPEGPlayer() {
   if (canvas) {
     lv_obj_del(canvas);

@@ -1,13 +1,34 @@
+/**
+ * MPEGPlayer
+ * Ports MPEG1 support to LVGL-based displays such as the VEX v5 Brain.
+ * Built by Derock <derock@derock.dev>
+ * Please credit if used
+ * MIT License
+ */
+
 #pragma once
 #include "main.h"
-
-#define PL_MPEG_IMPLEMENTATION
 #include "pros-mpeg/pl_mpeg.h"
 
 class MPEGPlayer {
  public:
   MPEGPlayer(const char* fname, lv_obj_t* parent);
   ~MPEGPlayer();
+
+  /**
+   * Gets the LVGL Canvas
+   */
+  lv_obj_t* getLVGLObj() const;
+
+  /**
+   * Pauses playback
+   */
+  void pause();
+
+  /**
+   * Resumes playback
+   */
+  void resume();
 
  private:
   pros::Task* task;
