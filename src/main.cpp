@@ -135,6 +135,7 @@ double driveCurve(double input) {
  */
 void opcontrol() {
   pros::Controller master(pros::E_CONTROLLER_MASTER);
+  bool cataWasHeld = false;
 
   while (true) {
     // get the joystick values
@@ -155,32 +156,29 @@ void opcontrol() {
       odom::move(leftPower, rightPower);
     }
 
-    // int left = master.get_analog(ANALOG_LEFT_Y);
-    // int right = master.get_analog(ANALOG_RIGHT_Y);
-
-    // // apply the curve
-    // left = driveCurve(left);
-    // right = driveCurve(right);
-
-    // // update drive
-    // drive_left_back->move(left);
-    // drive_left_front->move(left);
-    // drive_left_pto->move(left);
-    // drive_right_back->move(right);
-    // drive_right_front->move(right);
-    // drive_right_pto->move(right);
-
     // if single press, fire once
-    if (master.get_digital_new_press(DIGITAL_R1)) {
+    if (master.get_digital_new_press(DIGITAL_X)) {
       catapult::fire();
-    } else {
-      catapult::rapidFire = master.get_digital(DIGITAL_R1);
+      cataWasHeld = true;
+    } else if (cataWasHeld) {
+      catapult::rapidFire = master.get_digital(DIGITAL_X);
+
+      if (catapult::rapidFire == false) {
+        cataWasHeld = false;
+      }
     }
 
     // r2 for toggle
-    if (master.get_digital_new_press(DIGITAL_R2)) {
+    if (master.get_digital_new_press(DIGITAL_A)) {
       catapult::rapidFire = !catapult::rapidFire;
+      if (catapult::rapidFire) {
+        catapult::fire();
+      }
     }
+
+    // intake
+    intake_motor->move(master.get_digital(DIGITAL_R1) * 127 -
+                       master.get_digital(DIGITAL_R2) * 127);
 
     // wings
     if (master.get_digital_new_press(DIGITAL_L1)) {

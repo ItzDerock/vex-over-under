@@ -4,7 +4,7 @@
 
 // ODOMETRY
 #define ODOMETRY_TICKS_PER_INCH 360.0  // ticks per inch
-#define ODOMETRY_WHEEL_DIAMETER 2.75   // inches
+#define ODOMETRY_WHEEL_DIAMETER 3.25   // inches
 #define ODOM_MIDDLE_PORT 'c', 'd'
 #define ODOM_INERTIAL 16
 
@@ -22,6 +22,9 @@
 // CATAPULT
 #define CATAPULT_PORT 15
 #define CATAPULT_ROT_PORT 10
+
+// INTAKE
+#define INTAKE_PORT 9
 
 // WINGS
 #define WINGS_PORT 'a'
@@ -90,6 +93,9 @@ extern SHARED(pros::adi::Pneumatics, wings);
 
 ///// Blocker
 extern SHARED(pros::adi::Pneumatics, blocker);
+
+///// Intake
+extern SHARED(pros::Motor, intake_motor);
 
 // undefine SHARED macro to prevent accidental use
 #undef SHARED
