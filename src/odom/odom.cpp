@@ -49,8 +49,8 @@ void odom::update() {
   mutex.take();
 
   // 1. Store the current encoder values
-  double left = odom_left.sensor->get_position();
-  double right = odom_right.sensor->get_position();
+  double left = -odom_left.sensor->get_position();
+  double right = -odom_right.sensor->get_position();
   double center = (double)odom_middle.sensor->get_value();
 
   // 2. Calculate delta values
@@ -93,25 +93,31 @@ void odom::update() {
   // 9. Calculate the average orientation
   double thetam = state.theta + dTheta / 2;
 
+  state.x += localOffset.y * sin(thetam);
+  state.y += localOffset.y * cos(thetam);
+  state.x += localOffset.x * -cos(thetam);
+  state.y += localOffset.x * sin(thetam);
+  state.theta = newTheta;
+
   // 10. Calculate the global offset
-  RobotPosition globalOffset = {0, 0, 0};
+  // RobotPosition globalOffset = {0, 0, 0};
 
-  // convert local offset to polar coordinates
-  double r =
-      sqrt(localOffset.x * localOffset.x + localOffset.y * localOffset.y);
-  double theta = atan2(localOffset.y, localOffset.x);
+  // // convert local offset to polar coordinates
+  // double r =
+  //     sqrt(localOffset.x * localOffset.x + localOffset.y * localOffset.y);
+  // double theta = atan2(localOffset.y, localOffset.x);
 
-  // subtract thetam from the angle component
-  theta -= thetam;
+  // // subtract thetam from the angle component
+  // theta -= thetam;
 
-  // convert back to Cartesian coordinates
-  globalOffset.x = r * cos(theta);
-  globalOffset.y = r * sin(theta);
+  // // convert back to Cartesian coordinates
+  // globalOffset.x = r * cos(theta);
+  // globalOffset.y = r * sin(theta);
 
   // 11. Update the global position
-  state.x += globalOffset.x;
-  state.y += globalOffset.y;
-  state.theta = newTheta;
+  // state.x += globalOffset.x;
+  // state.y += globalOffset.y;
+  // state.theta = newTheta;
 
 #if ODOM_DEBUG
   logger::log(logger::Route::RobotPosition, {state.x, state.y, state.theta});
