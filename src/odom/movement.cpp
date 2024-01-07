@@ -4,12 +4,13 @@
 
 #define SETTLED_TIME 800  // milliseconds
 
-odom::Autonomous odom::autonomous = odom::Autonomous::None;
+odom::Autonomous odom::autonomous = odom::Autonomous::Skills;
+// TODO: switch to NONE for comp
 
 std::shared_ptr<PIDController> odom::turnPID =
-    std::make_shared<PIDController>(0.1, 0.04, 0.02);
+    std::make_shared<PIDController>(4, 0.03, 40);
 std::shared_ptr<PIDController> odom::drivePID =
-    std::make_shared<PIDController>(7, 0.1, 0.2);
+    std::make_shared<PIDController>(15, 0.15, 40);
 
 std::shared_ptr<ExitCondition> odom::lateralLargeExit =
     std::make_shared<ExitCondition>(3, 500);
@@ -53,8 +54,8 @@ void odom::moveDistance(double dist, double timeout) {
   double targetY = initialPosition.y + dist * cos(initialPosition.theta);
   RobotPosition targetPosition = {targetX, targetY, initialPosition.theta};
 
-  odom::moveTo(targetPosition.x, targetPosition.y, targetPosition.theta, {},
-               timeout);
+  odom::moveTo(targetPosition.x, targetPosition.y, targetPosition.theta,
+               timeout, {}, false);
 }
 
 /**
@@ -133,6 +134,8 @@ void odom::moveTo(float x, float y, float theta, int timeout,
     RobotPosition carrot =
         target - RobotPosition(cos(target.theta), sin(target.theta), 0) *
                      params.lead * distTarget;
+    printf("carrot: %f, %f\n", carrot.x, carrot.y);
+
     if (close) carrot = target;  // settling behavior
 
     // calculate if the robot is on the same side as the carrot point
@@ -213,8 +216,8 @@ void odom::moveTo(float x, float y, float theta, int timeout,
     prevLateralOut = lateralOut;
 
     // ratio the speeds to respect the max speed
-    float leftPower = lateralOut + angularOut;
-    float rightPower = lateralOut - angularOut;
+    float leftPower = lateralOut - angularOut;
+    float rightPower = lateralOut + angularOut;
     const float ratio =
         std::max(std::fabs(leftPower), std::fabs(rightPower)) / params.maxSpeed;
     if (ratio > 1) {
@@ -223,8 +226,6 @@ void odom::moveTo(float x, float y, float theta, int timeout,
     }
 
     // move the drivetrain
-    // drivetrain.leftMotors->move(leftPower);
-    // drivetrain.rightMotors->move(rightPower);
     move(leftPower, rightPower);
 
     // delay to save resources
@@ -234,50 +235,3 @@ void odom::moveTo(float x, float y, float theta, int timeout,
   // stop the drivetrain
   move(0, 0);
 }
-
-// void odom::moveTo(float x, float y, float theta, double timeout) {
-//   timeout = timeout * 1000;
-
-//   // reset PIDs
-//   drivePID->reset();
-//   turnPID->reset();
-
-//   RobotPosition target = {x, y, utils::degToRad(theta)};
-//   utils::Timer timer(timeout);
-
-//   unsigned int settledAmount = 0;
-
-//   while (!timer.isUp() && settledAmount < SETTLED_TIME) {
-//     RobotPosition position = getPosition();
-
-//     // calculate errors
-//     float driveError = hypot(x - position.x, y - position.y);
-//     float turnError = utils::angleError(theta, odom::getPosition().theta);
-//     float turnErrorToPoint = utils::angleError(
-//         atan2(y - position.y, x - position.x), position.theta);
-
-//     // calculate motor powers
-//     float drivePower = drivePID->update(driveError);
-//     float turnPower = turnPID->update(turnError);
-
-//     // check if we went past the target
-//     if (std::abs(turnErrorToPoint) >= M_PI / 2) {
-//       // turnError = utils::angleError(theta + 180,
-//       odom::getPosition().theta); turnPower *= -1; drivePower *= -1;
-//     }
-
-//     // set motor powers
-//     odom::moveVelocity(drivePower - turnPower, drivePower + turnPower);
-
-//     // check if we are settled
-//     if (fabs(driveError) < 0.5) {
-//       settledAmount += 20;
-//     } else {
-//       settledAmount = 0;
-//     }
-
-//     pros::delay(20);
-//   }
-
-//   odom::move(0, 0);
-// }

@@ -11,12 +11,12 @@
 // DRIVETRAIN
 #define DRIVETRAIN_GEAR_RATIO /* input 32 -> output 60 */ 0.6
 #define DRIVETRAIN_GEARBOX pros::v5::MotorGear::blue
-#define DRIVE_LEFT_FRONT 4
-#define DRIVE_LEFT_BACK 5
-#define DRIVE_LEFT_PTO 6
-#define DRIVE_RIGHT_FRONT 1
-#define DRIVE_RIGHT_BACK 2
-#define DRIVE_RIGHT_PTO 3
+#define DRIVE_LEFT_FRONT 1
+#define DRIVE_LEFT_BACK 2
+#define DRIVE_LEFT_PTO 3
+#define DRIVE_RIGHT_FRONT 4
+#define DRIVE_RIGHT_BACK 5
+#define DRIVE_RIGHT_PTO 6
 #define DRIVE_TRACK_WIDTH 12  // inches
 
 // CATAPULT

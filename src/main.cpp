@@ -17,9 +17,8 @@
 void initialize() {
   catapult::initialize();
 
-  odom::reset({0, 0, 0});
-  // odom::reset({31, -60, 3 * M_PI / 2});
   odom::initalize();
+  odom::reset({0, 0, 0});
 
   // load pure pursuit paths
   odom::loadPaths(
@@ -68,7 +67,8 @@ void autonomous() {
     case odom::Autonomous::Skills:
       odom::moveTo(24, 0, 0, 10'000, {}, false);
       odom::moveTo(0, 0, 0, 10'000, {.forwards = false}, false);
-      odom::moveTo(25, -22, 90, 10'000, {}, false);
+      odom::moveTo(25, -22, 270, 10'000,
+                   {.chasePower = 0.5, .lead = 0.75, .slew = 5}, false);
       break;
 
       // case odom::Autonomous::ScoreLeft:
@@ -139,13 +139,14 @@ void opcontrol() {
     double throttle = master.get_analog(ANALOG_RIGHT_Y);
     double turn = master.get_analog(ANALOG_LEFT_X);
 
-    if (throttle == 0) {
+    // small deadzone
+    if (fabs(throttle) < 2) {
       double leftPower = driveCurve(turn);
 
-      odom::move(-leftPower, leftPower);
+      odom::move(leftPower, -leftPower);
     } else {
-      double leftPower = throttle - (std::abs(throttle) * turn) / 127.0;
-      double rightPower = throttle + (std::abs(throttle) * turn) / 127.0;
+      double leftPower = throttle + (std::abs(throttle) * turn) / 127.0;
+      double rightPower = throttle - (std::abs(throttle) * turn) / 127.0;
 
       leftPower = driveCurve(leftPower);
       rightPower = driveCurve(rightPower);
