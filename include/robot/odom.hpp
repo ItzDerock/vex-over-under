@@ -1,4 +1,5 @@
 #pragma once
+#include "ExitCondition.hpp"
 #include "PID.hpp"
 #include "main.h"
 #include "position.hpp"
@@ -10,6 +11,10 @@ namespace odom {
  */
 extern std::shared_ptr<PIDController> turnPID;
 extern std::shared_ptr<PIDController> drivePID;
+extern std::shared_ptr<ExitCondition> lateralLargeExit;
+extern std::shared_ptr<ExitCondition> lateralSmallExit;
+extern std::shared_ptr<ExitCondition> angularLargeExit;
+extern std::shared_ptr<ExitCondition> angularSmallExit;
 
 /**
  * Returns the current robot location, by default in radians.
@@ -46,6 +51,32 @@ void turnTo(double theta, double timeout);
 void moveDistance(double distance);
 void moveDistance(double distance, double timeout);
 
+struct MoveToPoseParams {
+  float maxSpeed = 127;
+  float minSpeed = 0;
+  float chasePower = 10;
+  float lead = 0;
+  float earlyExitRange = 0;
+  float slew = 5;
+  bool forwards = true;
+};
+
+/**
+ * @brief Move the chassis towards the target pose
+ *
+ * Uses the boomerang controller
+ *
+ * @param x x location
+ * @param y y location
+ * @param theta target heading in degrees.
+ * @param timeout longest time the robot can spend moving
+ *
+ * @param maxSpeed the maximum speed the robot can move at. 127 at default
+ * @param async whether the function should be run asynchronously. true by
+ * default
+ */
+void moveTo(float x, float y, float theta, int timeout, MoveToPoseParams params,
+            bool async);
 /**
  * The odometry mutex. Use whenever you are reading values.
  */

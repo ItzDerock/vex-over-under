@@ -17,7 +17,7 @@
 #define DRIVE_RIGHT_FRONT 1
 #define DRIVE_RIGHT_BACK 2
 #define DRIVE_RIGHT_PTO 3
-#define DRIVE_TRACK_WIDTH 10.5  // inches
+#define DRIVE_TRACK_WIDTH 12  // inches
 
 // CATAPULT
 #define CATAPULT_PORT 15

@@ -21,11 +21,14 @@ SHARED(pros::Motor, drive_right_pto, -DRIVE_RIGHT_PTO, DRIVETRAIN_GEARBOX);
 // can't use a designator until P2287R1 is merged
 // https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2021/p2287r1.html
 // which won't make it to C++23
-OdomIntegratedSensor odom_left(drive_left_back, 7.5, 0.5, 4);
-OdomIntegratedSensor odom_right(drive_right_back, 7.5, 0.5, 4);
+// offset, gear ratio, wheel size
+OdomIntegratedSensor odom_left(drive_left_back, DRIVE_TRACK_WIDTH / 2,
+                               DRIVETRAIN_GEAR_RATIO, 4);
+OdomIntegratedSensor odom_right(drive_right_back, DRIVE_TRACK_WIDTH / 2,
+                                DRIVETRAIN_GEAR_RATIO, 4);
 OdomSensor odom_middle(std::make_shared<pros::adi::Encoder>(ODOM_MIDDLE_PORT,
                                                             true),
-                       5, 1, 2.75);
+                       4, 1, ODOMETRY_WHEEL_DIAMETER);
 
 SHARED(pros::Imu, inertial, ODOM_INERTIAL);
 

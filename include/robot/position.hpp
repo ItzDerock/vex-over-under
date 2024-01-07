@@ -37,6 +37,10 @@ struct RobotPosition {
     return odom::RobotPosition(this->x + (other.x - this->x) * t,
                                this->y + (other.y - this->y) * t, this->theta);
   }
+
+  float angle(odom::RobotPosition other) const {
+    return std::atan2(other.y - this->y, other.x - this->x);
+  }
 };
 
-}
+}  // namespace odom
