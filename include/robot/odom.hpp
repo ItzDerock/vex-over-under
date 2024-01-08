@@ -18,8 +18,10 @@ extern std::shared_ptr<ExitCondition> angularSmallExit;
 
 /**
  * Returns the current robot location, by default in radians.
+ * @param degrees whether to return the angle in degrees
+ * @param standardPos whether to return the angle in standard form (0 deg is +x)
  */
-RobotPosition getPosition(bool degrees = false);
+RobotPosition getPosition(bool degrees = false, bool standardPos = false);
 
 /**
  * Updates the odoemtry position

@@ -154,7 +154,7 @@ void odom::moveTo(float x, float y, float theta, int timeout,
   angularSmallExit->reset();
 
   // calculate target pose
-  RobotPosition target(x, y, utils::degToRad(theta));
+  RobotPosition target(x, y, M_PI_2 - utils::degToRad(theta));
   if (!params.forwards)
     target.theta = fmod(target.theta + M_PI, 2 * M_PI);  // backwards movement
 
@@ -175,12 +175,12 @@ void odom::moveTo(float x, float y, float theta, int timeout,
            (!angularLargeExit->getExit() && !angularSmallExit->getExit())) ||
           !close)) {
     // update position
-    RobotPosition pose = getPosition();
+    RobotPosition pose = getPosition(false, true);
 
     // convert from odometry angle to standard angle
     // current odom implementation uses a half-bearing and half-standard
     // calculation we must subtract from 2pi to get the standard angle
-    pose.theta = utils::angleSquish(2 * M_PI - pose.theta);
+    // pose.theta = utils::angleSquish(2 * M_PI - pose.theta);
 
     // update distance travelled
     distTravelled += pose.distance(lastPose);
