@@ -65,10 +65,28 @@ void autonomous() {
   // SKILLS
   switch (odom::autonomous) {
     case odom::Autonomous::Skills:
-      odom::moveTo(24, 0, 0, 10'000, {}, false);
-      odom::moveTo(0, 0, 0, 10'000, {.forwards = false}, false);
-      odom::moveTo(25, -22, 270, 10'000,
-                   {.chasePower = 0.5, .lead = 0.75, .slew = 5}, false);
+      // TURN TEST
+      // odom::turnTo(90);
+      // pros::delay(1000);
+      // odom::turnTo(180);
+      // pros::delay(1000);
+      // odom::turnTo(270);
+      // pros::delay(1000);
+      // odom::turnTo(0);
+
+      // SIMPLE MOVE TEST
+      // odom::moveTo(26, 0, 0, 10'000, {.lead = 0}, false);
+      // pros::delay(5'000);
+      // odom::moveTo(0, 0, 0, 10'000, {.forwards = false}, false);
+
+      odom::moveTo(26, 0, 0, 10'000, {.lead = 0}, false);
+      odom::moveTo(26, -20, 270, 10'000, {.lead = 0, .forwards = false}, false);
+      odom::moveTo(0, 0, 0, 10'000, {.chasePower = 0.5, .lead = 0.8, .slew = 5},
+                   false);
+
+      // false); intake_motor->move(0); odom::moveTo(0, 0, 0, 10'000, {.lead =
+      // 0.8, .forwards = false}, false); odom::moveTo(25, -22, 270, 10'000,
+      //              {.chasePower = 0.5, .lead = 0.75, .slew = 5}, false);
       break;
 
       // case odom::Autonomous::ScoreLeft:

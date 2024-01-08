@@ -1,0 +1,2493 @@
+Established terminal connection
+
+
+
+         _+=+_
+      .-`  .  `-.          8888888b.  8888888b.   .d88888b.   .d8888b.
+   _+`     "     `+_       888   Y88b 888   Y88b d88P" "Y88b d88P  Y88b
+  \\\sssssssssssss///      888    888 888    888 888     888 Y88b.
+     .ss\  *  /ss.         888   d88P 888   d88P 888     888  "Y888b.
+ .+bm  .s  *  s.  md+.     8888888P"  8888888P"  888     888     "Y88b.
+.hMMMMs .  *  . sMMMMh.    888        888 T88b   888     888       "888
+ `\hMMMb \ | / dMMMh:      888        888  T88b  Y88b. .d88P Y88b  d88P
+   -SNMNo  -  oNMNs-       888        888   T88b  "Y88888P"   "Y8888P"
+     `+dMh\./dMd/
+        `:yNy:`                      Powered by PROS for VEX V5
+           "                Copyright (c) Purdue University ACM SIGBots
+Version:        4.0.6     Platform:  V1.1.2 (b34)     Uptime:    0.001 s
+Compiled:   Jan  7 2024 21:01:20     Directory:                        
+
+
+
+
+
+         _+=+_
+      .-`  .  `-.          8888888b.  8888888b.   .d88888b.   .d8888b.
+   _+`     "     `+_       888   Y88b 888   Y88b d88P" "Y88b d88P  Y88b
+  \\\sssssssssssss///      888    888 888    888 888     888 Y88b.
+     .ss\  *  /ss.         888   d88P 888   d88P 888     888  "Y888b.
+ .+bm  .s  *  s.  md+.     8888888P"  8888888P"  888     888     "Y88b.
+.hMMMMs .  *  . sMMMMh.    888        888 T88b   888     888       "888
+ `\hMMMb \ | / dMMMh:      888        888  T88b  Y88b. .d88P Y88b  d88P
+   -SNMNo  -  oNMNs-       888        888   T88b  "Y88888P"   "Y8888P"
+     `+dMh\./dMd/
+        `:yNy:`                      Powered by PROS for VEX V5
+           "                Copyright (c) Purdue University ACM SIGBots
+Version:        4.0.6     Platform:  V1.1.2 (b34)     Uptime:    0.001 s
+Compiled:   Jan  7 2024 21:01:20     Directory:                        
+
+
+starting
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.000608
+carrot theta: 0.000081
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.000602
+carrot theta: 0.000080
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.000596
+carrot theta: 0.000079
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.000641
+carrot theta: 0.000085
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.000649
+carrot theta: 0.000087
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.000666
+carrot theta: 0.000088
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.000567
+carrot theta: 0.000074
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.000358
+carrot theta: 0.000046
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.000020
+carrot theta: -0.000005
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.000068
+carrot theta: -0.000011
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.000380
+carrot theta: 0.000049
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.001035
+carrot theta: 0.000136
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.001833
+carrot theta: 0.000240
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.002492
+carrot theta: 0.000324
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.002639
+carrot theta: 0.000334
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.002492
+carrot theta: 0.000304
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.002602
+carrot theta: 0.000309
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.003088
+carrot theta: 0.000361
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.003625
+carrot theta: 0.000418
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.004324
+carrot theta: 0.000490
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.005318
+carrot theta: 0.000594
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.006746
+carrot theta: 0.000749
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.008387
+carrot theta: 0.000929
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.010051
+carrot theta: 0.001088
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.011609
+carrot theta: 0.001218
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.013549
+carrot theta: 0.001372
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.015719
+carrot theta: 0.001561
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.017547
+carrot theta: 0.001639
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.019486
+carrot theta: 0.001770
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.021886
+carrot theta: 0.001887
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.024883
+carrot theta: 0.002048
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.026868
+carrot theta: 0.002181
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.026611
+carrot theta: 0.000510
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.027015
+carrot theta: 0.000114
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.025968
+carrot theta: -0.000528
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.024971
+carrot theta: -0.001237
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.024178
+carrot theta: -0.001902
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.023543
+carrot theta: -0.002628
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.021955
+carrot theta: -0.003529
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.019833
+carrot theta: -0.004556
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.016881
+carrot theta: -0.005799
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.014065
+carrot theta: -0.006962
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.010271
+carrot theta: -0.008446
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.006161
+carrot theta: -0.010050
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.002893
+carrot theta: -0.011496
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.000371
+carrot theta: -0.013012
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.002761
+carrot theta: -0.014333
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.005321
+carrot theta: -0.015826
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.006996
+carrot theta: -0.017174
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.007737
+carrot theta: -0.018425
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.007812
+carrot theta: -0.019572
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.008018
+carrot theta: -0.020945
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.007699
+carrot theta: -0.022339
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.007254
+carrot theta: -0.023973
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.007409
+carrot theta: -0.026057
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.007734
+carrot theta: -0.028612
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.023278
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.026138
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.029145
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.031498
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.033067
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.032960
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.031325
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.028386
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.024176
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.019263
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.014184
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.009387
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.005369
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.001918
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.001812
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.005309
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.008321
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.010685
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.012512
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.014347
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.016620
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.018939
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.021423
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.024256
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.026876
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.028670
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.029840
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.030363
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.029875
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.028219
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.026095
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.023984
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.022071
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.019274
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.016090
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.013628
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.011419
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.009855
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.008572
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007378
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.006519
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.005712
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.005207
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.005030
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004931
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004723
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004251
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.003225
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.002279
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.001569
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.001091
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.001139
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.001650
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.002633
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.003574
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004354
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.005140
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.005663
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.005896
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.005749
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.005444
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.005049
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004621
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004378
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004252
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004251
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004321
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004519
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004911
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.005318
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.005783
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.006200
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.006446
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.006457
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.006384
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.006394
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.006414
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.006437
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.006477
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.006516
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.006484
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.006542
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.006693
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.006789
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.006824
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.006911
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007100
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007308
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007487
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007715
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007851
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007982
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.008096
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.008290
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.008461
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.008596
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.008686
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.008669
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.008596
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.008502
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.008526
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.008521
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.008480
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.008443
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.008476
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.008410
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.008405
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.008364
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.008321
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.008243
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.008116
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007930
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007725
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007566
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007502
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007532
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007515
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007562
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007667
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007697
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007691
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007657
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007487
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007260
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007104
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007028
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007031
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007085
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007222
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007302
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007337
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007387
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007474
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007551
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007548
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007477
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007359
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007267
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007207
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007189
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007162
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007172
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007151
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007132
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007155
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007141
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007178
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007177
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007140
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007082
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007054
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007059
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007031
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007021
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007002
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.006897
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.006778
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.006742
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.006695
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.006572
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.006460
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.006254
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.006100
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.005961
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.005830
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.005739
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.005647
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.005534
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.005457
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.005296
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.005151
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.005066
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004983
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004966
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004939
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004993
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.005005
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.005033
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.005070
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.005002
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004856
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004693
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004598
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004473
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004356
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004338
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004375
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004426
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004478
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004508
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004420
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004301
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004277
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004171
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004141
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004162
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004269
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004347
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004436
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004492
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004456
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004371
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004204
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004068
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.003901
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.003703
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.003520
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.003441
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.003449
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.003567
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.003678
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.003765
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.003777
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.003739
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.003638
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.003417
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.003224
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.003039
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.002934
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.002836
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.002837
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.002938
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.003036
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.003150
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.003341
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.003548
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.003608
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.003616
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.003499
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.003238
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.002927
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.002604
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.002350
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.002148
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.002073
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.002061
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.002028
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.002016
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.002091
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.002151
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.002181
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.002136
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.002047
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.001896
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.001685
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.001447
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.001176
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.001004
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000851
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000789
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000687
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000689
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000730
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000781
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000816
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000795
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000747
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000622
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000473
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000356
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000280
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000161
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000128
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000151
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000200
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000292
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000376
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000449
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000453
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000458
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000463
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000467
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000499
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000494
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000515
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000548
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000455
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000264
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000040
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000180
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000312
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000372
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000365
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000359
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000302
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000199
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000133
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000095
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000101
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000106
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000107
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000037
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000071
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000160
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000240
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000271
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000274
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000310
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000329
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000342
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000298
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000168
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000009
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000065
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000031
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000048
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000079
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000065
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000027
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000013
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000049
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000110
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000229
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000355
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000430
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000370
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000265
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000120
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000018
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000135
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000184
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000179
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000157
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000082
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000013
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000151
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000279
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000349
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000378
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000412
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000455
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000433
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000297
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000125
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000009
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000062
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000062
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000068
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000048
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000107
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000170
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000265
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000278
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000311
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000418
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000523
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000576
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000604
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000630
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000590
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000489
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000396
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000305
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000186
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000051
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000073
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000082
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000040
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000105
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000295
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000436
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000470
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000502
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000489
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000361
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000201
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000074
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000042
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000112
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000258
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000455
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000642
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000793
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000940
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.001007
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.001044
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.001001
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000910
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000742
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000517
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000408
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000281
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000136
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000059
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000071
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000163
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000313
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000487
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000574
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000579
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000495
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000313
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000070
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000167
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000331
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000353
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000233
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000001
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000241
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000491
+target theta: 0.000000
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000699
+target theta: 0.000000
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.620398
+carrot theta: -1.621228
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.620382
+carrot theta: -1.621225
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.620527
+carrot theta: -1.621259
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.623496
+carrot theta: -1.624033
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.635044
+carrot theta: -1.636079
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.651182
+carrot theta: -1.654363
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.663268
+carrot theta: -1.671556
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.656375
+carrot theta: -1.674131
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.649199
+carrot theta: -1.680355
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.642029
+carrot theta: -1.688972
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.629217
+carrot theta: -1.694899
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.611224
+carrot theta: -1.698396
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.591818
+carrot theta: -1.702582
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.572079
+carrot theta: -1.708712
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.549378
+carrot theta: -1.714190
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.525506
+carrot theta: -1.721044
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.495971
+carrot theta: -1.724267
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.467411
+carrot theta: -1.730048
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.437929
+carrot theta: -1.737110
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.405870
+carrot theta: -1.743894
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.371821
+carrot theta: -1.750450
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.334334
+carrot theta: -1.755014
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.298458
+carrot theta: -1.762933
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.257331
+carrot theta: -1.767551
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.217060
+carrot theta: -1.774663
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.173639
+carrot theta: -1.780290
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.128594
+carrot theta: -1.785718
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.081357
+carrot theta: -1.790524
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 1.033065
+carrot theta: -1.795709
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 0.983224
+carrot theta: -1.801074
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 0.931323
+carrot theta: -1.805556
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 0.882384
+carrot theta: -1.814093
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 0.825847
+carrot theta: -1.816709
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 0.775168
+carrot theta: -1.826478
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 0.716220
+carrot theta: -1.828874
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 0.658452
+carrot theta: -1.833987
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 0.586032
+carrot theta: -1.824989
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 0.523205
+carrot theta: -1.826743
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 0.456826
+carrot theta: -1.825509
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 0.392752
+carrot theta: -1.826795
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 0.328445
+carrot theta: -1.828016
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 0.264352
+carrot theta: -1.828894
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 0.201819
+carrot theta: -1.830661
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 0.140808
+carrot theta: -1.832617
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 0.079832
+carrot theta: -1.832683
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 0.022905
+carrot theta: -1.834091
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.031543
+carrot theta: -1.834417
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.080566
+carrot theta: -1.836263
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.128361
+carrot theta: -1.834248
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.170564
+carrot theta: -1.833181
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.209882
+carrot theta: -1.831036
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.245779
+carrot theta: -1.828282
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.278205
+carrot theta: -1.825344
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.305176
+carrot theta: -1.824626
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.331453
+carrot theta: -1.820825
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.352802
+carrot theta: -1.817156
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.371088
+carrot theta: -1.811984
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.385077
+carrot theta: -1.807254
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.396299
+carrot theta: -1.802478
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.404961
+carrot theta: -1.797762
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.412070
+carrot theta: -1.792318
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.417082
+carrot theta: -1.787139
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.421590
+carrot theta: -1.781794
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.425065
+carrot theta: -1.776025
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.426845
+carrot theta: -1.769579
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.428721
+carrot theta: -1.762121
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.428750
+carrot theta: -1.755153
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.427157
+carrot theta: -1.748882
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.426686
+carrot theta: -1.740912
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.425329
+carrot theta: -1.732772
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.422160
+carrot theta: -1.726160
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.418949
+carrot theta: -1.719686
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.413615
+carrot theta: -1.714451
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.410686
+carrot theta: -1.706477
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.406945
+carrot theta: -1.699349
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.403722
+carrot theta: -1.691747
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.400515
+carrot theta: -1.684400
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.397406
+carrot theta: -1.677332
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.394384
+carrot theta: -1.670530
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.391999
+carrot theta: -1.663417
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.389327
+carrot theta: -1.656456
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.386429
+carrot theta: -1.649669
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.383440
+carrot theta: -1.643100
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.380168
+carrot theta: -1.636680
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.376674
+carrot theta: -1.630429
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.373321
+carrot theta: -1.623864
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.369780
+carrot theta: -1.617513
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.366066
+carrot theta: -1.611374
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.362190
+carrot theta: -1.605448
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.358616
+carrot theta: -1.599367
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.354621
+carrot theta: -1.593913
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.350609
+carrot theta: -1.588687
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.346747
+carrot theta: -1.583299
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.342988
+carrot theta: -1.578185
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.339115
+carrot theta: -1.573274
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.335150
+carrot theta: -1.568564
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.331079
+carrot theta: -1.564045
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.327059
+carrot theta: -1.559745
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.323305
+carrot theta: -1.555395
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.319296
+carrot theta: -1.551198
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.315253
+carrot theta: -1.546925
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.310890
+carrot theta: -1.542807
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.306551
+carrot theta: -1.538671
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.301918
+carrot theta: -1.534935
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.297210
+carrot theta: -1.531388
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.292728
+carrot theta: -1.527879
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.288093
+carrot theta: -1.524541
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.283767
+carrot theta: -1.521452
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.279206
+carrot theta: -1.518337
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.272466
+carrot theta: -1.518004
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.268252
+carrot theta: -1.515136
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.263008
+carrot theta: -1.513370
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.258496
+carrot theta: -1.510792
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.252132
+carrot theta: -1.511006
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.248903
+carrot theta: -1.508895
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.241273
+carrot theta: -1.506274
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.216157
+carrot theta: -1.500953
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.202143
+carrot theta: -1.496920
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.189851
+carrot theta: -1.494749
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.173538
+carrot theta: -1.492523
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.158278
+carrot theta: -1.490607
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.147540
+carrot theta: -1.488585
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.134121
+carrot theta: -1.487118
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.119911
+carrot theta: -1.485777
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.108222
+carrot theta: -1.484956
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.100260
+carrot theta: -1.484530
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.096745
+carrot theta: -1.483112
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.093642
+carrot theta: -1.482751
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.088911
+carrot theta: -1.483060
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.084783
+carrot theta: -1.482690
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.082395
+carrot theta: -1.481953
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.080312
+carrot theta: -1.482219
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.079065
+carrot theta: -1.482004
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.076756
+carrot theta: -1.482659
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.075500
+carrot theta: -1.482598
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.073747
+carrot theta: -1.483177
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.071970
+carrot theta: -1.483951
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.069992
+carrot theta: -1.484770
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.068202
+carrot theta: -1.485469
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.067251
+carrot theta: -1.486169
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.067522
+carrot theta: -1.486895
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.067469
+carrot theta: -1.487641
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.067274
+carrot theta: -1.487725
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.066603
+carrot theta: -1.488520
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.065910
+carrot theta: -1.489866
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.065774
+carrot theta: -1.490552
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.065474
+carrot theta: -1.490536
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.064536
+carrot theta: -1.491086
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.064251
+carrot theta: -1.491627
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.063741
+carrot theta: -1.492143
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.062366
+carrot theta: -1.492695
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.060465
+carrot theta: -1.493151
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.058321
+carrot theta: -1.494351
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.056776
+carrot theta: -1.494941
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.055277
+carrot theta: -1.495586
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.054506
+carrot theta: -1.495592
+WARNING - pros.serial.terminal.terminal:stop - Stopping terminal - pros-cli version:3.4.3

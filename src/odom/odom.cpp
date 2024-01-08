@@ -72,8 +72,10 @@ void odom::update() {
   double newTheta = resetValues.theta + inertial->get_heading() * M_PI / 180;
   if (newTheta > 2 * M_PI) newTheta -= 2 * M_PI;
   // newTheta = utils::angleSquish(newTheta);
-  // auto newTheta = resetValues.theta +
-  //                 (left - right) / (odom_left.offset + odom_right.offset);
+  // auto newTheta =
+  //     resetValues.theta + (normalizeSensorData(left, odom_left) -
+  //                          normalizeSensorData(right, odom_right)) /
+  //                             (odom_left.offset + odom_right.offset);
 
   // 6. Calculate change in orientation
   double dTheta = newTheta - state.theta;
@@ -215,5 +217,3 @@ odom::RobotPosition odom::getPosition(bool degrees) {
   // return the state
   return returnState;
 }
-
-odom::RobotPosition odom::getPosition() { return getPosition(false); }

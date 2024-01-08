@@ -2,15 +2,16 @@
 #include "robot/odom.hpp"
 #include "robot/utils.hpp"
 
-#define SETTLED_TIME 800  // milliseconds
+#define SETTLED_TIME 3000  // milliseconds
 
 odom::Autonomous odom::autonomous = odom::Autonomous::Skills;
 // TODO: switch to NONE for comp
 
 std::shared_ptr<PIDController> odom::turnPID =
-    std::make_shared<PIDController>(4, 0.03, 40);
+    std::make_shared<PIDController>(5, 0, 25);
+// std::make_shared<PIDController>(8, 0.08, 45);
 std::shared_ptr<PIDController> odom::drivePID =
-    std::make_shared<PIDController>(15, 0.15, 40);
+    std::make_shared<PIDController>(35, 0, 20);
 
 std::shared_ptr<ExitCondition> odom::lateralLargeExit =
     std::make_shared<ExitCondition>(3, 500);
@@ -47,15 +48,78 @@ void odom::move(double left, double right) {
   drive_right_pto->move(right);
 }
 
+// void odom::moveDistance(double dist, double timeout) {
+//   // find the target position's X and Y
+//   RobotPosition initialPosition = getPosition();
+//   double targetX = initialPosition.x + dist * sin(initialPosition.theta);
+//   double targetY = initialPosition.y + dist * cos(initialPosition.theta);
+//   RobotPosition targetPosition = {targetX, targetY, initialPosition.theta};
+
+//   odom::moveTo(targetPosition.x, targetPosition.y, targetPosition.theta,
+//                timeout, {}, false);
+// }
+
 void odom::moveDistance(double dist, double timeout) {
+  int8_t sign = dist < 0 ? -1 : 1;
+
+  // to finish movement, we should be settled for SETTLED_TIME
+  unsigned int settledAmount = 0;
+  double distanceError = infinity();
+  double angularError = infinity();
+  uint32_t startTime = pros::millis();
+  timeout = timeout * 1000;
+
   // find the target position's X and Y
   RobotPosition initialPosition = getPosition();
   double targetX = initialPosition.x + dist * sin(initialPosition.theta);
   double targetY = initialPosition.y + dist * cos(initialPosition.theta);
   RobotPosition targetPosition = {targetX, targetY, initialPosition.theta};
 
-  odom::moveTo(targetPosition.x, targetPosition.y, targetPosition.theta,
-               timeout, {}, false);
+  std::cout << "targetX: " << targetX << std::endl;
+  std::cout << "targetY: " << targetY << std::endl;
+
+  if (sign < 0) dist = dist * -1;
+
+  // loop until we are settled
+  while (settledAmount < SETTLED_TIME && pros::millis() - startTime < timeout) {
+    // get the current position
+    RobotPosition position = getPosition();
+
+    // calculate the error
+    // $$\text{Distance} = d_i - d_t$$
+    distanceError = dist - distance(position, initialPosition);
+    angularError = utils::radToDeg(position.theta - targetPosition.theta);
+
+    std::cout << "distanceError: " << distanceError << std::endl;
+    std::cout << "angularError: " << angularError << std::endl;
+
+    // if we are settled, increment settledAmount
+    if (fabs(distanceError) < 0.5) settledAmount += 10;
+    // otherwise, reset settledAmount
+    else
+      settledAmount = 0;
+
+    // calculate the output
+    double output = drivePID->update(distanceError);
+    double angularOutput = -1 * turnPID->update(angularError);
+
+    std::cout << "output: " << output << std::endl;
+
+    // set the motors
+    // double left = output + angularOutput;
+    // double right = output - angularOutput;
+
+    double left = sign * output - angularError;
+    double right = sign * output + angularError;
+
+    moveVelocity(left, right);
+
+    // wait 10 milliseconds
+    pros::delay(10);
+  }
+
+  // stop the motors
+  moveVelocity(0, 0);
 }
 
 /**
@@ -111,7 +175,12 @@ void odom::moveTo(float x, float y, float theta, int timeout,
            (!angularLargeExit->getExit() && !angularSmallExit->getExit())) ||
           !close)) {
     // update position
-    const RobotPosition pose = getPosition();
+    RobotPosition pose = getPosition();
+
+    // convert from odometry angle to standard angle
+    // current odom implementation uses a half-bearing and half-standard
+    // calculation we must subtract from 2pi to get the standard angle
+    pose.theta = utils::angleSquish(2 * M_PI - pose.theta);
 
     // update distance travelled
     distTravelled += pose.distance(lastPose);
@@ -155,10 +224,27 @@ void odom::moveTo(float x, float y, float theta, int timeout,
         params.forwards ? pose.theta : pose.theta + M_PI;
 
     const float angularError =
-        close ? utils::angleError(adjustedRobotTheta, target.theta)
-              : utils::angleError(adjustedRobotTheta, pose.angle(carrot));
+        close ? utils::angleError(adjustedRobotTheta, target.theta, true)
+              : utils::angleError(adjustedRobotTheta,
+                                  utils::angleSquish(pose.angle(carrot)), true);
+
+    printf("close: %d\n", close);
+    printf("angularError: %f\n", utils::radToDeg(angularError));
+    printf("robot theta: %f\n", utils::radToDeg(adjustedRobotTheta));
+    if (close)
+      printf("target theta: %f\n", utils::radToDeg(target.theta));
+    else
+      printf("carrot theta: %f\n",
+             utils::radToDeg(utils::angleSquish(pose.angle(carrot))));
+
+    printf("angle to carrot: %f\n",
+           utils::radToDeg(utils::angleSquish(pose.angle(carrot))));
+    printf("angle to target: %f\n", utils::radToDeg(pose.angle(target)));
 
     float lateralError = pose.distance(carrot);
+
+    printf("distance: %f\n", lateralError);
+
     // only use cos when settling
     // otherwise just multiply by the sign of cos
     // maxSlipSpeed takes care of lateralOut
@@ -167,6 +253,8 @@ void odom::moveTo(float x, float y, float theta, int timeout,
     else
       lateralError *=
           utils::sgn(cos(utils::angleError(pose.theta, pose.angle(carrot))));
+
+    printf("lateralError: %f\n", lateralError);
 
     // update exit conditions
     lateralSmallExit->update(lateralError);
@@ -216,8 +304,8 @@ void odom::moveTo(float x, float y, float theta, int timeout,
     prevLateralOut = lateralOut;
 
     // ratio the speeds to respect the max speed
-    float leftPower = lateralOut - angularOut;
-    float rightPower = lateralOut + angularOut;
+    float leftPower = lateralOut + angularOut;
+    float rightPower = lateralOut - angularOut;
     const float ratio =
         std::max(std::fabs(leftPower), std::fabs(rightPower)) / params.maxSpeed;
     if (ratio > 1) {
@@ -229,6 +317,50 @@ void odom::moveTo(float x, float y, float theta, int timeout,
     move(leftPower, rightPower);
 
     // delay to save resources
+    pros::delay(10);
+  }
+
+  // stop the drivetrain
+  move(0, 0);
+}
+
+/**
+ * @brief Turns to a given angle
+ */
+void odom::turnTo(double degrees, double timeout) {
+  // reset angular controllers/exit conditions
+  turnPID->reset();
+  angularLargeExit->reset();
+  angularSmallExit->reset();
+
+  // ensure we are still in autonomous
+  // and that we do not go past the timeout
+  utils::Timer timer(timeout * 1000);
+  uint8_t compState = pros::competition::get_status();
+
+  while (!timer.isUp() && !angularLargeExit->getExit() &&
+         !angularSmallExit->getExit() &&
+         pros::competition::get_status() == compState) {
+    // calculate error in degrees
+    // this is because degrees makes it easier to tune the PID
+    // as errors are larger
+    RobotPosition pose = getPosition(true);
+    double error = utils::angleError(pose.theta, degrees);
+
+    printf("pose: %f\n", pose.theta);
+    printf("target: %f\n", degrees);
+    printf("error: %f\n", error);
+
+    // calculate the output from the PID
+    double power = turnPID->update(error);
+    angularLargeExit->update(error);
+    angularSmallExit->update(error);
+
+    // constrain the output
+    power = std::clamp(power, -127.0, 127.0);
+    printf("power: %f\n", power);
+    move(-power, power);
+
     pros::delay(10);
   }
 

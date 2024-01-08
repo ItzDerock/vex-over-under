@@ -6,9 +6,9 @@ namespace utils {
 
 /**
  * Calculates the error between two angles.
- * Expects angles in RADIANS!
+ * BY DEFAULT EXPECTS ANGLES IN DEGREES
  */
-double angleError(double angle1, double angle2);
+double angleError(double angle1, double angle2, bool radians = false);
 
 /**
  * Returns the angle in the range [0, 2PI]

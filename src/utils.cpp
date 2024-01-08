@@ -8,16 +8,19 @@
 
 /**
  * Calculates the error between two angles.
- * Expects angles in RADIANS!
+ * BY DEFAULT, EXPECTS ANGLES IN DEGREES
  */
-double utils::angleError(double angle1, double angle2) {
-  return std::remainder(angle1 - angle2, 2 * M_PI);
+double utils::angleError(double angle1, double angle2, bool radians) {
+  return std::remainder(angle1 - angle2, radians ? 2 * M_PI : 360);
 }
 
 /**
  * Returns the angle in the range [0, 2PI]
  */
-double utils::angleSquish(double angle) { return fmod(angle, 2 * M_PI); }
+double utils::angleSquish(double angle) {
+  while (angle < 0) angle += 2 * M_PI;
+  return fmod(angle, 2 * M_PI);
+}
 
 /**
  * Converts degrees to radians

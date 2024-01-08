@@ -19,8 +19,7 @@ extern std::shared_ptr<ExitCondition> angularSmallExit;
 /**
  * Returns the current robot location, by default in radians.
  */
-RobotPosition getPosition(bool degrees);
-RobotPosition getPosition();
+RobotPosition getPosition(bool degrees = false);
 
 /**
  * Updates the odoemtry position
@@ -42,8 +41,7 @@ void initalize();
 /**
  * turn to a given angle (in degrees)
  */
-void turnTo(double theta);
-void turnTo(double theta, double timeout);
+void turnTo(double degrees, double timeout = 5);
 
 /**
  * Drive a certain distance (in inches)
