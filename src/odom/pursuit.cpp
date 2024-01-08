@@ -209,7 +209,7 @@ void odom::follow(std::shared_ptr<std::vector<odom::RobotPosition>> pathPoints,
     lastLookahead = lookaheadPose;  // update last lookahead position
 
     // get the curvature of the arc between the robot and the lookahead point
-    float curvatureHeading = M_PI / 2 - pose.theta;
+    float curvatureHeading = pose.theta;
     curvature = findLookaheadCurvature(pose, curvatureHeading, lookaheadPose);
 
     // get the target velocity of the robot

@@ -1,0 +1,4025 @@
+Established terminal connection
+
+
+
+  _____  _____   ____   _____ 
+ |  __ \|  __ \ / __ \ / ____|          Powered by PROS for VEX V5
+ | |__) | |__) | |  | | (___      Version:                          4.0.6
+ |  ___/|  _  /| |  | |\___ \     Uptime:                         2.940 s
+ | |    | | \ \| |__| |____) |    Compiled:          Jan  7 2024 22:29:08
+ |_|    |_|  \_\\____/|_____/     Directory:                             
+
+
+starting
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.029022
+robot theta: 359.974848
+carrot theta: 0.003870
+angle to carrot: 0.003870
+angle to target: 0.003870
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.030724
+robot theta: 359.973372
+carrot theta: 0.004097
+angle to carrot: 0.004097
+angle to target: 0.004097
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.030632
+robot theta: 359.973454
+carrot theta: 0.004086
+angle to carrot: 0.004086
+angle to target: 0.004086
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.028710
+robot theta: 359.975121
+carrot theta: 0.003830
+angle to carrot: 0.003830
+angle to target: 0.003830
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.030525
+robot theta: 359.973509
+carrot theta: 0.004034
+angle to carrot: 0.004034
+angle to target: 0.004034
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.030430
+robot theta: 359.973536
+carrot theta: 0.003966
+angle to carrot: 0.003966
+angle to target: 0.003966
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.025278
+robot theta: 359.977962
+carrot theta: 0.003240
+angle to carrot: 0.003240
+angle to target: 0.003240
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.005545
+robot theta: 359.995038
+carrot theta: 0.000582
+angle to carrot: 0.000582
+angle to target: 0.000582
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.008243
+robot theta: 359.992688
+carrot theta: 0.000931
+angle to carrot: 0.000931
+angle to target: 0.000931
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.018476
+robot theta: 359.983809
+carrot theta: 0.002285
+angle to carrot: 0.002285
+angle to target: 0.002285
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.022475
+robot theta: 359.980312
+carrot theta: 0.002786
+angle to carrot: 0.002786
+angle to target: 0.002786
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.034401
+robot theta: 359.969930
+carrot theta: 0.004331
+angle to carrot: 0.004331
+angle to target: 0.004331
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.035915
+robot theta: 359.968509
+carrot theta: 0.004424
+angle to carrot: 0.004424
+angle to target: 0.004424
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.017911
+robot theta: 359.983945
+carrot theta: 0.001856
+angle to carrot: 0.001856
+angle to target: 0.001856
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.012834
+robot theta: 0.010476
+carrot theta: 359.997642
+angle to carrot: 359.997642
+angle to target: -0.002358
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.044183
+robot theta: 0.037652
+carrot theta: 359.993469
+angle to carrot: 359.993469
+angle to target: -0.006531
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.060622
+robot theta: 0.052077
+carrot theta: 359.991455
+angle to carrot: 359.991455
+angle to target: -0.008545
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.051387
+robot theta: 0.044485
+carrot theta: 359.993098
+angle to carrot: 359.993098
+angle to target: -0.006902
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.021187
+robot theta: 0.018643
+carrot theta: 359.997456
+angle to carrot: 359.997456
+angle to target: -0.002544
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.033852
+robot theta: 359.971351
+carrot theta: 0.005203
+angle to carrot: 0.005203
+angle to target: 0.005203
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.088766
+robot theta: 359.923785
+carrot theta: 0.012551
+angle to carrot: 0.012551
+angle to target: 0.012551
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.139192
+robot theta: 359.879689
+carrot theta: 0.018881
+angle to carrot: 0.018881
+angle to target: 0.018881
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.185694
+robot theta: 359.838408
+carrot theta: 0.024101
+angle to carrot: 0.024101
+angle to target: 0.024101
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.258632
+robot theta: 359.774204
+carrot theta: 0.032836
+angle to carrot: 0.032836
+angle to target: 0.032836
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.353764
+robot theta: 359.690247
+carrot theta: 0.044011
+angle to carrot: 0.044011
+angle to target: 0.044011
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.480839
+robot theta: 359.577932
+carrot theta: 0.058771
+angle to carrot: 0.058771
+angle to target: 0.058771
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.558477
+robot theta: 359.505778
+carrot theta: 0.064254
+angle to carrot: 0.064254
+angle to target: 0.064254
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.673342
+robot theta: 359.401931
+carrot theta: 0.075273
+angle to carrot: 0.075273
+angle to target: 0.075273
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.794078
+robot theta: 359.290790
+carrot theta: 0.084869
+angle to carrot: 0.084869
+angle to target: 0.084869
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -1.000164
+robot theta: 359.108206
+carrot theta: 0.108370
+angle to carrot: 0.108370
+angle to target: 0.108370
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -1.079950
+robot theta: 359.027364
+carrot theta: 0.107314
+angle to carrot: 0.107314
+angle to target: 0.107314
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -1.014639
+robot theta: 359.065777
+carrot theta: 0.080416
+angle to carrot: 0.080416
+angle to target: 0.080416
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.881085
+robot theta: 359.160908
+carrot theta: 0.041992
+angle to carrot: 0.041992
+angle to target: 0.041992
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.728460
+robot theta: 359.273988
+carrot theta: 0.002448
+angle to carrot: 0.002448
+angle to target: 0.002448
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.613292
+robot theta: 359.353437
+carrot theta: 359.966729
+angle to carrot: 359.966729
+angle to target: -0.033271
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.548865
+robot theta: 359.391140
+carrot theta: 359.940005
+angle to carrot: 359.940005
+angle to target: -0.059995
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.556488
+robot theta: 359.372452
+carrot theta: 359.928940
+angle to carrot: 359.928940
+angle to target: -0.071060
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.551481
+robot theta: 359.360759
+carrot theta: 359.912240
+angle to carrot: 359.912240
+angle to target: -0.087760
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.555751
+robot theta: 359.344121
+carrot theta: 359.899872
+angle to carrot: 359.899872
+angle to target: -0.100128
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.544023
+robot theta: 359.338711
+carrot theta: 359.882734
+angle to carrot: 359.882734
+angle to target: -0.117266
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.509664
+robot theta: 359.345705
+carrot theta: 359.855369
+angle to carrot: 359.855369
+angle to target: -0.144631
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.467074
+robot theta: 359.355841
+carrot theta: 359.822915
+angle to carrot: 359.822915
+angle to target: -0.177085
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.318634
+robot theta: 359.447420
+carrot theta: 359.766054
+angle to carrot: 359.766054
+angle to target: -0.233946
+carrot: 26.000000, 0.000000
+close: 0
+angularError: -0.089057
+robot theta: 359.604515
+carrot theta: 359.693572
+angle to carrot: 359.693572
+angle to target: -0.306428
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.158675
+robot theta: 359.777209
+carrot theta: 359.618535
+angle to carrot: 359.618535
+angle to target: -0.381465
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.346798
+robot theta: 359.902584
+carrot theta: 359.555786
+angle to carrot: 359.555786
+angle to target: -0.444214
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.453392
+robot theta: 359.966132
+carrot theta: 359.512741
+angle to carrot: 359.512741
+angle to target: -0.487259
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.376091
+robot theta: 359.991568
+carrot theta: 359.615477
+angle to carrot: 359.615477
+angle to target: -0.384523
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.383128
+robot theta: 359.981842
+carrot theta: 359.598714
+angle to carrot: 359.598714
+angle to target: -0.401286
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.379244
+robot theta: 359.963072
+carrot theta: 359.583829
+angle to carrot: 359.583829
+angle to target: -0.416171
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.361208
+robot theta: 359.930315
+carrot theta: 359.569106
+angle to carrot: 359.569106
+angle to target: -0.430894
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.361217
+robot theta: 359.906737
+carrot theta: 359.545520
+angle to carrot: 359.545520
+angle to target: -0.454480
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.312264
+robot theta: 359.843981
+carrot theta: 359.531717
+angle to carrot: 359.531717
+angle to target: -0.468283
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.241121
+robot theta: 359.762483
+carrot theta: 359.521362
+angle to carrot: 359.521362
+angle to target: -0.478638
+carrot: 26.000000, 0.000000
+close: 0
+angularError: 0.102601
+robot theta: 359.630224
+carrot theta: 359.527622
+angle to carrot: 359.527622
+angle to target: -0.472378
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.537744
+robot theta: 359.462256
+target theta: 0.000000
+angle to carrot: 359.539330
+angle to target: -0.460670
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.724318
+robot theta: 359.275682
+target theta: 0.000000
+angle to carrot: 359.599974
+angle to target: -0.400026
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.917858
+robot theta: 359.082142
+target theta: 0.000000
+angle to carrot: 359.595094
+angle to target: -0.404906
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -1.106890
+robot theta: 358.893110
+target theta: 0.000000
+angle to carrot: 359.569184
+angle to target: -0.430816
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -1.252018
+robot theta: 358.747982
+target theta: 0.000000
+angle to carrot: 359.485634
+angle to target: -0.514366
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -1.352695
+robot theta: 358.647305
+target theta: 0.000000
+angle to carrot: 359.316353
+angle to target: -0.683647
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -1.447116
+robot theta: 358.552884
+target theta: 0.000000
+angle to carrot: 359.065663
+angle to target: -0.934337
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -1.495965
+robot theta: 358.504035
+target theta: 0.000000
+angle to carrot: 358.608737
+angle to target: -1.391263
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -1.528395
+robot theta: 358.471605
+target theta: 0.000000
+angle to carrot: 358.582783
+angle to target: -1.417217
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -1.522439
+robot theta: 358.477561
+target theta: 0.000000
+angle to carrot: 357.500851
+angle to target: -2.499149
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -1.488589
+robot theta: 358.511411
+target theta: 0.000000
+angle to carrot: 356.553115
+angle to target: -3.446885
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -1.454274
+robot theta: 358.545726
+target theta: 0.000000
+angle to carrot: 350.288191
+angle to target: -9.711809
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -1.420341
+robot theta: 358.579659
+target theta: 0.000000
+angle to carrot: 248.324857
+angle to target: -111.675143
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -1.403102
+robot theta: 358.596898
+target theta: 0.000000
+angle to carrot: 194.776276
+angle to target: -165.223724
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -1.369771
+robot theta: 358.630229
+target theta: 0.000000
+angle to carrot: 190.013326
+angle to target: -169.986674
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -1.327779
+robot theta: 358.672221
+target theta: 0.000000
+angle to carrot: 188.013446
+angle to target: -171.986554
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -1.319337
+robot theta: 358.680663
+target theta: 0.000000
+angle to carrot: 186.711230
+angle to target: -173.288770
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -1.319173
+robot theta: 358.680827
+target theta: 0.000000
+angle to carrot: 185.658697
+angle to target: -174.341303
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -1.286688
+robot theta: 358.713312
+target theta: 0.000000
+angle to carrot: 184.961636
+angle to target: -175.038364
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -1.216829
+robot theta: 358.783171
+target theta: 0.000000
+angle to carrot: 184.534189
+angle to target: -175.465811
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -1.113420
+robot theta: 358.886580
+target theta: 0.000000
+angle to carrot: 184.260981
+angle to target: -175.739019
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.997525
+robot theta: 359.002475
+target theta: 0.000000
+angle to carrot: 184.114501
+angle to target: -175.885499
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.886494
+robot theta: 359.113506
+target theta: 0.000000
+angle to carrot: 183.951915
+angle to target: -176.048085
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.747459
+robot theta: 359.252541
+target theta: 0.000000
+angle to carrot: 183.839859
+angle to target: -176.160141
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.565174
+robot theta: 359.434826
+target theta: 0.000000
+angle to carrot: 183.778770
+angle to target: -176.221230
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.365105
+robot theta: 359.634895
+target theta: 0.000000
+angle to carrot: 183.686617
+angle to target: -176.313383
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.169406
+robot theta: 359.830594
+target theta: 0.000000
+angle to carrot: 183.609668
+angle to target: -176.390332
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.018468
+robot theta: 0.018468
+target theta: 0.000000
+angle to carrot: 183.773060
+angle to target: -176.226940
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.184958
+robot theta: 0.184958
+target theta: 0.000000
+angle to carrot: 183.666960
+angle to target: -176.333040
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.316043
+robot theta: 0.316043
+target theta: 0.000000
+angle to carrot: 183.538019
+angle to target: -176.461981
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.397037
+robot theta: 0.397037
+target theta: 0.000000
+angle to carrot: 183.419693
+angle to target: -176.580307
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.416908
+robot theta: 0.416908
+target theta: 0.000000
+angle to carrot: 183.303252
+angle to target: -176.696748
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.434177
+robot theta: 0.434177
+target theta: 0.000000
+angle to carrot: 183.209269
+angle to target: -176.790731
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.404622
+robot theta: 0.404622
+target theta: 0.000000
+angle to carrot: 183.073607
+angle to target: -176.926393
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.220421
+robot theta: 0.220421
+target theta: 0.000000
+angle to carrot: 182.892184
+angle to target: -177.107816
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.078132
+robot theta: 0.078132
+target theta: 0.000000
+angle to carrot: 182.784745
+angle to target: -177.215255
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.037076
+robot theta: 0.037076
+target theta: 0.000000
+angle to carrot: 182.757520
+angle to target: -177.242480
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.079098
+robot theta: 0.079098
+target theta: 0.000000
+angle to carrot: 182.785387
+angle to target: -177.214613
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.191412
+robot theta: 0.191412
+target theta: 0.000000
+angle to carrot: 182.859481
+angle to target: -177.140519
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.260458
+robot theta: 0.260458
+target theta: 0.000000
+angle to carrot: 182.890777
+angle to target: -177.109223
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.265910
+robot theta: 0.265910
+target theta: 0.000000
+angle to carrot: 182.880286
+angle to target: -177.119714
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.304905
+robot theta: 0.304905
+target theta: 0.000000
+angle to carrot: 182.905544
+angle to target: -177.094456
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.378649
+robot theta: 0.378649
+target theta: 0.000000
+angle to carrot: 182.953137
+angle to target: -177.046863
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.428663
+robot theta: 0.428663
+target theta: 0.000000
+angle to carrot: 182.985266
+angle to target: -177.014734
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.477114
+robot theta: 0.477114
+target theta: 0.000000
+angle to carrot: 183.016302
+angle to target: -176.983698
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.527771
+robot theta: 0.527771
+target theta: 0.000000
+angle to carrot: 183.064414
+angle to target: -176.935586
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.590095
+robot theta: 0.590095
+target theta: 0.000000
+angle to carrot: 183.104193
+angle to target: -176.895807
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.646008
+robot theta: 0.646008
+target theta: 0.000000
+angle to carrot: 183.156458
+angle to target: -176.843542
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.638258
+robot theta: 0.638258
+target theta: 0.000000
+angle to carrot: 183.185609
+angle to target: -176.814391
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.573992
+robot theta: 0.573992
+target theta: 0.000000
+angle to carrot: 183.178287
+angle to target: -176.821713
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.523974
+robot theta: 0.523974
+target theta: 0.000000
+angle to carrot: 183.179571
+angle to target: -176.820429
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.491655
+robot theta: 0.491655
+target theta: 0.000000
+angle to carrot: 183.192234
+angle to target: -176.807766
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.490646
+robot theta: 0.490646
+target theta: 0.000000
+angle to carrot: 183.225989
+angle to target: -176.774011
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.498163
+robot theta: 0.498163
+target theta: 0.000000
+angle to carrot: 183.266178
+angle to target: -176.733822
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.481454
+robot theta: 0.481454
+target theta: 0.000000
+angle to carrot: 183.290562
+angle to target: -176.709438
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.451699
+robot theta: 0.451699
+target theta: 0.000000
+angle to carrot: 183.270249
+angle to target: -176.729751
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.417264
+robot theta: 0.417264
+target theta: 0.000000
+angle to carrot: 183.282133
+angle to target: -176.717867
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.386277
+robot theta: 0.386277
+target theta: 0.000000
+angle to carrot: 183.278417
+angle to target: -176.721583
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.361811
+robot theta: 0.361811
+target theta: 0.000000
+angle to carrot: 183.279087
+angle to target: -176.720913
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.352471
+robot theta: 0.352471
+target theta: 0.000000
+angle to carrot: 183.290302
+angle to target: -176.709698
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.361183
+robot theta: 0.361183
+target theta: 0.000000
+angle to carrot: 183.314399
+angle to target: -176.685601
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.384316
+robot theta: 0.384316
+target theta: 0.000000
+angle to carrot: 183.367469
+angle to target: -176.632531
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.413679
+robot theta: 0.413679
+target theta: 0.000000
+angle to carrot: 183.407208
+angle to target: -176.592792
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.439018
+robot theta: 0.439018
+target theta: 0.000000
+angle to carrot: 183.444528
+angle to target: -176.555472
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.443231
+robot theta: 0.443231
+target theta: 0.000000
+angle to carrot: 183.447547
+angle to target: -176.552453
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.421899
+robot theta: 0.421899
+target theta: 0.000000
+angle to carrot: 183.451740
+angle to target: -176.548260
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.399022
+robot theta: 0.399022
+target theta: 0.000000
+angle to carrot: 183.454759
+angle to target: -176.545241
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.381666
+robot theta: 0.381666
+target theta: 0.000000
+angle to carrot: 183.442205
+angle to target: -176.557795
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.365336
+robot theta: 0.365336
+target theta: 0.000000
+angle to carrot: 183.430376
+angle to target: -176.569624
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.350382
+robot theta: 0.350382
+target theta: 0.000000
+angle to carrot: 183.438763
+angle to target: -176.561237
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.347240
+robot theta: 0.347240
+target theta: 0.000000
+angle to carrot: 183.455852
+angle to target: -176.544148
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.352223
+robot theta: 0.352223
+target theta: 0.000000
+angle to carrot: 183.479088
+angle to target: -176.520912
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.352294
+robot theta: 0.352294
+target theta: 0.000000
+angle to carrot: 183.479143
+angle to target: -176.520857
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.345193
+robot theta: 0.345193
+target theta: 0.000000
+angle to carrot: 183.493691
+angle to target: -176.506309
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.334772
+robot theta: 0.334772
+target theta: 0.000000
+angle to carrot: 183.485987
+angle to target: -176.514013
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.326287
+robot theta: 0.326287
+target theta: 0.000000
+angle to carrot: 183.519550
+angle to target: -176.480450
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.319808
+robot theta: 0.319808
+target theta: 0.000000
+angle to carrot: 183.514701
+angle to target: -176.485299
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.316774
+robot theta: 0.316774
+target theta: 0.000000
+angle to carrot: 183.532569
+angle to target: -176.467431
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.319596
+robot theta: 0.319596
+target theta: 0.000000
+angle to carrot: 183.555054
+angle to target: -176.444946
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.329102
+robot theta: 0.329102
+target theta: 0.000000
+angle to carrot: 183.562226
+angle to target: -176.437774
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.339734
+robot theta: 0.339734
+target theta: 0.000000
+angle to carrot: 183.590967
+angle to target: -176.409033
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.342278
+robot theta: 0.342278
+target theta: 0.000000
+angle to carrot: 183.613889
+angle to target: -176.386111
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.343644
+robot theta: 0.343644
+target theta: 0.000000
+angle to carrot: 183.636155
+angle to target: -176.363845
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.345630
+robot theta: 0.345630
+target theta: 0.000000
+angle to carrot: 183.659160
+angle to target: -176.340840
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.349628
+robot theta: 0.349628
+target theta: 0.000000
+angle to carrot: 183.683967
+angle to target: -176.316033
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.355497
+robot theta: 0.355497
+target theta: 0.000000
+angle to carrot: 183.710523
+angle to target: -176.289477
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.358724
+robot theta: 0.358724
+target theta: 0.000000
+angle to carrot: 183.735330
+angle to target: -176.264670
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.359270
+robot theta: 0.359270
+target theta: 0.000000
+angle to carrot: 183.758320
+angle to target: -176.241680
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.352559
+robot theta: 0.352559
+target theta: 0.000000
+angle to carrot: 183.775847
+angle to target: -176.224153
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.344936
+robot theta: 0.344936
+target theta: 0.000000
+angle to carrot: 183.792813
+angle to target: -176.207187
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.337595
+robot theta: 0.337595
+target theta: 0.000000
+angle to carrot: 183.787021
+angle to target: -176.212979
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.328551
+robot theta: 0.328551
+target theta: 0.000000
+angle to carrot: 183.802935
+angle to target: -176.197065
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.318033
+robot theta: 0.318033
+target theta: 0.000000
+angle to carrot: 183.817798
+angle to target: -176.182202
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.309734
+robot theta: 0.309734
+target theta: 0.000000
+angle to carrot: 183.834572
+angle to target: -176.165428
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.295805
+robot theta: 0.295805
+target theta: 0.000000
+angle to carrot: 183.846935
+angle to target: -176.153065
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.287422
+robot theta: 0.287422
+target theta: 0.000000
+angle to carrot: 183.863874
+angle to target: -176.136126
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.279395
+robot theta: 0.279395
+target theta: 0.000000
+angle to carrot: 183.881264
+angle to target: -176.118736
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.276050
+robot theta: 0.276050
+target theta: 0.000000
+angle to carrot: 183.902683
+angle to target: -176.097317
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.277348
+robot theta: 0.277348
+target theta: 0.000000
+angle to carrot: 183.928173
+angle to target: -176.071827
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.272321
+robot theta: 0.272321
+target theta: 0.000000
+angle to carrot: 183.948705
+angle to target: -176.051295
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.271937
+robot theta: 0.271937
+target theta: 0.000000
+angle to carrot: 183.973348
+angle to target: -176.026652
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.261926
+robot theta: 0.261926
+target theta: 0.000000
+angle to carrot: 184.015641
+angle to target: -175.984359
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.254352
+robot theta: 0.254352
+target theta: 0.000000
+angle to carrot: 184.009248
+angle to target: -175.990752
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.243619
+robot theta: 0.243619
+target theta: 0.000000
+angle to carrot: 184.025777
+angle to target: -175.974223
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.227957
+robot theta: 0.227957
+target theta: 0.000000
+angle to carrot: 184.038221
+angle to target: -175.961779
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.213638
+robot theta: 0.213638
+target theta: 0.000000
+angle to carrot: 184.051882
+angle to target: -175.948118
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.194474
+robot theta: 0.194474
+target theta: 0.000000
+angle to carrot: 184.061403
+angle to target: -175.938597
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.176402
+robot theta: 0.176402
+target theta: 0.000000
+angle to carrot: 184.071894
+angle to target: -175.928106
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.162553
+robot theta: 0.162553
+target theta: 0.000000
+angle to carrot: 184.086128
+angle to target: -175.913872
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.156920
+robot theta: 0.156920
+target theta: 0.000000
+angle to carrot: 184.107739
+angle to target: -175.892261
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.160879
+robot theta: 0.160879
+target theta: 0.000000
+angle to carrot: 184.138161
+angle to target: -175.861839
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.164401
+robot theta: 0.164401
+target theta: 0.000000
+angle to carrot: 184.141289
+angle to target: -175.858711
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.164488
+robot theta: 0.164488
+target theta: 0.000000
+angle to carrot: 184.196327
+angle to target: -175.803673
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.163969
+robot theta: 0.163969
+target theta: 0.000000
+angle to carrot: 184.195862
+angle to target: -175.804138
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.166233
+robot theta: 0.166233
+target theta: 0.000000
+angle to carrot: 184.225929
+angle to target: -175.774071
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.167744
+robot theta: 0.167744
+target theta: 0.000000
+angle to carrot: 184.255695
+angle to target: -175.744305
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.164546
+robot theta: 0.164546
+target theta: 0.000000
+angle to carrot: 184.252799
+angle to target: -175.747201
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.158990
+robot theta: 0.158990
+target theta: 0.000000
+angle to carrot: 184.276445
+angle to target: -175.723555
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.150888
+robot theta: 0.150888
+target theta: 0.000000
+angle to carrot: 184.298028
+angle to target: -175.701972
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.140245
+robot theta: 0.140245
+target theta: 0.000000
+angle to carrot: 184.317494
+angle to target: -175.682506
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.132030
+robot theta: 0.132030
+target theta: 0.000000
+angle to carrot: 184.339419
+angle to target: -175.660581
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.120631
+robot theta: 0.120631
+target theta: 0.000000
+angle to carrot: 184.328805
+angle to target: -175.671195
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.114669
+robot theta: 0.114669
+target theta: 0.000000
+angle to carrot: 184.323245
+angle to target: -175.676755
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.113350
+robot theta: 0.113350
+target theta: 0.000000
+angle to carrot: 184.351686
+angle to target: -175.648314
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.110389
+robot theta: 0.110389
+target theta: 0.000000
+angle to carrot: 184.378952
+angle to target: -175.621048
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.104228
+robot theta: 0.104228
+target theta: 0.000000
+angle to carrot: 184.403527
+angle to target: -175.596473
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.098654
+robot theta: 0.098654
+target theta: 0.000000
+angle to carrot: 184.398241
+angle to target: -175.601759
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.093933
+robot theta: 0.093933
+target theta: 0.000000
+angle to carrot: 184.424414
+angle to target: -175.575586
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.088202
+robot theta: 0.088202
+target theta: 0.000000
+angle to carrot: 184.449959
+angle to target: -175.550041
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.090658
+robot theta: 0.090658
+target theta: 0.000000
+angle to carrot: 184.483782
+angle to target: -175.516218
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.092026
+robot theta: 0.092026
+target theta: 0.000000
+angle to carrot: 184.485107
+angle to target: -175.514893
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.087308
+robot theta: 0.087308
+target theta: 0.000000
+angle to carrot: 184.480544
+angle to target: -175.519456
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.081029
+robot theta: 0.081029
+target theta: 0.000000
+angle to carrot: 184.538505
+angle to target: -175.461495
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.081467
+robot theta: 0.081467
+target theta: 0.000000
+angle to carrot: 184.571618
+angle to target: -175.428382
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.083600
+robot theta: 0.083600
+target theta: 0.000000
+angle to carrot: 184.573722
+angle to target: -175.426278
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.080213
+robot theta: 0.080213
+target theta: 0.000000
+angle to carrot: 184.603529
+angle to target: -175.396471
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.079932
+robot theta: 0.079932
+target theta: 0.000000
+angle to carrot: 184.603256
+angle to target: -175.396744
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.084596
+robot theta: 0.084596
+target theta: 0.000000
+angle to carrot: 184.641532
+angle to target: -175.358468
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.083902
+robot theta: 0.083902
+target theta: 0.000000
+angle to carrot: 184.674986
+angle to target: -175.325014
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.077505
+robot theta: 0.077505
+target theta: 0.000000
+angle to carrot: 184.703140
+angle to target: -175.296860
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.073352
+robot theta: 0.073352
+target theta: 0.000000
+angle to carrot: 184.698933
+angle to target: -175.301067
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.072441
+robot theta: 0.072441
+target theta: 0.000000
+angle to carrot: 184.733016
+angle to target: -175.266984
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.070343
+robot theta: 0.070343
+target theta: 0.000000
+angle to carrot: 184.766361
+angle to target: -175.233639
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.072516
+robot theta: 0.072516
+target theta: 0.000000
+angle to carrot: 184.768587
+angle to target: -175.231413
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.078437
+robot theta: 0.078437
+target theta: 0.000000
+angle to carrot: 184.810743
+angle to target: -175.189257
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.078021
+robot theta: 0.078021
+target theta: 0.000000
+angle to carrot: 184.810320
+angle to target: -175.189680
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.075971
+robot theta: 0.075971
+target theta: 0.000000
+angle to carrot: 184.882009
+angle to target: -175.117991
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.074811
+robot theta: 0.074811
+target theta: 0.000000
+angle to carrot: 184.880807
+angle to target: -175.119193
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.081218
+robot theta: 0.081218
+target theta: 0.000000
+angle to carrot: 184.887487
+angle to target: -175.112513
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.079729
+robot theta: 0.079729
+target theta: 0.000000
+angle to carrot: 184.962114
+angle to target: -175.037886
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.080113
+robot theta: 0.080113
+target theta: 0.000000
+angle to carrot: 184.962510
+angle to target: -175.037490
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.088706
+robot theta: 0.088706
+target theta: 0.000000
+angle to carrot: 185.010649
+angle to target: -174.989351
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.090875
+robot theta: 0.090875
+target theta: 0.000000
+angle to carrot: 185.012944
+angle to target: -174.987056
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.084465
+robot theta: 0.084465
+target theta: 0.000000
+angle to carrot: 185.045797
+angle to target: -174.954203
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.078284
+robot theta: 0.078284
+target theta: 0.000000
+angle to carrot: 185.079374
+angle to target: -174.920626
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.074756
+robot theta: 0.074756
+target theta: 0.000000
+angle to carrot: 185.075577
+angle to target: -174.924423
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.067874
+robot theta: 0.067874
+target theta: 0.000000
+angle to carrot: 185.108826
+angle to target: -174.891174
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.058399
+robot theta: 0.058399
+target theta: 0.000000
+angle to carrot: 185.139726
+angle to target: -174.860274
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.060310
+robot theta: 0.060310
+target theta: 0.000000
+angle to carrot: 185.141816
+angle to target: -174.858184
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.067880
+robot theta: 0.067880
+target theta: 0.000000
+angle to carrot: 185.192018
+angle to target: -174.807982
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.069400
+robot theta: 0.069400
+target theta: 0.000000
+angle to carrot: 185.193684
+angle to target: -174.806316
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.060441
+robot theta: 0.060441
+target theta: 0.000000
+angle to carrot: 185.226387
+angle to target: -174.773613
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.056112
+robot theta: 0.056112
+target theta: 0.000000
+angle to carrot: 185.264746
+angle to target: -174.735254
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.050889
+robot theta: 0.050889
+target theta: 0.000000
+angle to carrot: 185.258913
+angle to target: -174.741087
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.041517
+robot theta: 0.041517
+target theta: 0.000000
+angle to carrot: 185.248449
+angle to target: -174.751551
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.030914
+robot theta: 0.030914
+target theta: 0.000000
+angle to carrot: 185.280086
+angle to target: -174.719914
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.026699
+robot theta: 0.026699
+target theta: 0.000000
+angle to carrot: 185.319456
+angle to target: -174.680544
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.021910
+robot theta: 0.021910
+target theta: 0.000000
+angle to carrot: 185.314019
+angle to target: -174.685981
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.009857
+robot theta: 0.009857
+target theta: 0.000000
+angle to carrot: 185.300331
+angle to target: -174.699669
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.002995
+robot theta: 359.997005
+target theta: 0.000000
+angle to carrot: 185.285714
+angle to target: -174.714286
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.005399
+robot theta: 359.994601
+target theta: 0.000000
+angle to carrot: 185.282955
+angle to target: -174.717045
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.002531
+robot theta: 359.997469
+target theta: 0.000000
+angle to carrot: 185.330602
+angle to target: -174.669398
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000837
+robot theta: 359.999163
+target theta: 0.000000
+angle to carrot: 185.377676
+angle to target: -174.622324
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.000700
+robot theta: 359.999300
+target theta: 0.000000
+angle to carrot: 185.377840
+angle to target: -174.622160
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.005965
+robot theta: 0.005965
+target theta: 0.000000
+angle to carrot: 185.385517
+angle to target: -174.614483
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007780
+robot theta: 0.007780
+target theta: 0.000000
+angle to carrot: 185.433656
+angle to target: -174.566344
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004196
+robot theta: 0.004196
+target theta: 0.000000
+angle to carrot: 185.429504
+angle to target: -174.570496
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.002094
+robot theta: 359.997906
+target theta: 0.000000
+angle to carrot: 185.422182
+angle to target: -174.577818
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.006083
+robot theta: 359.993917
+target theta: 0.000000
+angle to carrot: 185.464201
+angle to target: -174.535799
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.010263
+robot theta: 359.989737
+target theta: 0.000000
+angle to carrot: 185.506644
+angle to target: -174.493356
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.009907
+robot theta: 359.990093
+target theta: 0.000000
+angle to carrot: 185.555247
+angle to target: -174.444753
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.009907
+robot theta: 359.990093
+target theta: 0.000000
+angle to carrot: 185.604288
+angle to target: -174.395712
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.011738
+robot theta: 359.988262
+target theta: 0.000000
+angle to carrot: 185.651990
+angle to target: -174.348010
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.011028
+robot theta: 359.988972
+target theta: 0.000000
+angle to carrot: 185.703626
+angle to target: -174.296374
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.014497
+robot theta: 359.985503
+target theta: 0.000000
+angle to carrot: 185.751055
+angle to target: -174.248945
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.019497
+robot theta: 359.980503
+target theta: 0.000000
+angle to carrot: 185.744963
+angle to target: -174.255037
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.025562
+robot theta: 359.974438
+target theta: 0.000000
+angle to carrot: 185.789933
+angle to target: -174.210067
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.033349
+robot theta: 359.966651
+target theta: 0.000000
+angle to carrot: 185.833564
+angle to target: -174.166436
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.041736
+robot theta: 359.958264
+target theta: 0.000000
+angle to carrot: 185.877182
+angle to target: -174.122818
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.045069
+robot theta: 359.954931
+target theta: 0.000000
+angle to carrot: 185.928039
+angle to target: -174.071961
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.046982
+robot theta: 359.953018
+target theta: 0.000000
+angle to carrot: 185.925594
+angle to target: -174.074406
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.041299
+robot theta: 359.958701
+target theta: 0.000000
+angle to carrot: 185.988882
+angle to target: -174.011118
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.029305
+robot theta: 359.970695
+target theta: 0.000000
+angle to carrot: 186.061515
+angle to target: -173.938485
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.012148
+robot theta: 359.987852
+target theta: 0.000000
+angle to carrot: 186.083494
+angle to target: -173.916506
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.000449
+robot theta: 0.000449
+target theta: 0.000000
+angle to carrot: 186.099600
+angle to target: -173.900400
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004440
+robot theta: 0.004440
+target theta: 0.000000
+angle to carrot: 186.104695
+angle to target: -173.895305
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.005849
+robot theta: 0.005849
+target theta: 0.000000
+angle to carrot: 186.226054
+angle to target: -173.773946
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.008236
+robot theta: 0.008236
+target theta: 0.000000
+angle to carrot: 186.229155
+angle to target: -173.770845
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007612
+robot theta: 0.007612
+target theta: 0.000000
+angle to carrot: 186.228349
+angle to target: -173.771651
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.001721
+robot theta: 0.001721
+target theta: 0.000000
+angle to carrot: 186.282198
+angle to target: -173.717802
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.003148
+robot theta: 0.003148
+target theta: 0.000000
+angle to carrot: 186.346784
+angle to target: -173.653216
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.010334
+robot theta: 0.010334
+target theta: 0.000000
+angle to carrot: 186.356251
+angle to target: -173.643749
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.010065
+robot theta: 0.010065
+target theta: 0.000000
+angle to carrot: 186.355896
+angle to target: -173.644104
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.007689
+robot theta: 0.007689
+target theta: 0.000000
+angle to carrot: 186.352768
+angle to target: -173.647232
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.004160
+robot theta: 0.004160
+target theta: 0.000000
+angle to carrot: 186.412136
+angle to target: -173.587864
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.003239
+robot theta: 0.003239
+target theta: 0.000000
+angle to carrot: 186.410920
+angle to target: -173.589080
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.004006
+robot theta: 359.995994
+target theta: 0.000000
+angle to carrot: 186.401289
+angle to target: -173.598711
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.015863
+robot theta: 359.984137
+target theta: 0.000000
+angle to carrot: 186.450467
+angle to target: -173.549533
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.021191
+robot theta: 359.978809
+target theta: 0.000000
+angle to carrot: 186.509466
+angle to target: -173.490534
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.018104
+robot theta: 359.981896
+target theta: 0.000000
+angle to carrot: 186.513619
+angle to target: -173.486381
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.016874
+robot theta: 359.983126
+target theta: 0.000000
+angle to carrot: 186.515271
+angle to target: -173.484729
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.018951
+robot theta: 359.981049
+target theta: 0.000000
+angle to carrot: 186.580022
+angle to target: -173.419978
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.018650
+robot theta: 359.981350
+target theta: 0.000000
+angle to carrot: 186.580418
+angle to target: -173.419582
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.016710
+robot theta: 359.983290
+target theta: 0.000000
+angle to carrot: 186.583054
+angle to target: -173.416946
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.015153
+robot theta: 359.984847
+target theta: 0.000000
+angle to carrot: 186.654198
+angle to target: -173.345802
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.015454
+robot theta: 359.984546
+target theta: 0.000000
+angle to carrot: 186.653774
+angle to target: -173.346226
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.009142
+robot theta: 359.990858
+target theta: 0.000000
+angle to carrot: 186.733004
+angle to target: -173.266996
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.005399
+robot theta: 359.994601
+target theta: 0.000000
+angle to carrot: 186.738182
+angle to target: -173.261818
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.007230
+robot theta: 359.992770
+target theta: 0.000000
+angle to carrot: 186.735668
+angle to target: -173.264332
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.011110
+robot theta: 359.988890
+target theta: 0.000000
+angle to carrot: 186.802399
+angle to target: -173.197601
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.012585
+robot theta: 359.987415
+target theta: 0.000000
+angle to carrot: 186.873938
+angle to target: -173.126062
+carrot: 26.000000, 0.000000
+close: 1
+angularError: -0.006301
+robot theta: 359.993699
+target theta: 0.000000
+angle to carrot: 186.882763
+angle to target: -173.117237
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.003222
+robot theta: 0.003222
+target theta: 0.000000
+angle to carrot: 186.896150
+angle to target: -173.103850
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.013829
+robot theta: 0.013829
+target theta: 0.000000
+angle to carrot: 186.986759
+angle to target: -173.013241
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.029500
+robot theta: 0.029500
+target theta: 0.000000
+angle to carrot: 187.086630
+angle to target: -172.913370
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.043405
+robot theta: 0.043405
+target theta: 0.000000
+angle to carrot: 187.106397
+angle to target: -172.893603
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.055609
+robot theta: 0.055609
+target theta: 0.000000
+angle to carrot: 187.123705
+angle to target: -172.876295
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.057377
+robot theta: 0.057377
+target theta: 0.000000
+angle to carrot: 187.126218
+angle to target: -172.873782
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.056966
+robot theta: 0.056966
+target theta: 0.000000
+angle to carrot: 187.205804
+angle to target: -172.794196
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.057375
+robot theta: 0.057375
+target theta: 0.000000
+angle to carrot: 187.206391
+angle to target: -172.793609
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.054707
+robot theta: 0.054707
+target theta: 0.000000
+angle to carrot: 187.284515
+angle to target: -172.715485
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.048781
+robot theta: 0.048781
+target theta: 0.000000
+angle to carrot: 187.275963
+angle to target: -172.724037
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.043075
+robot theta: 0.043075
+target theta: 0.000000
+angle to carrot: 187.351273
+angle to target: -172.648727
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.046656
+robot theta: 0.046656
+target theta: 0.000000
+angle to carrot: 187.356478
+angle to target: -172.643522
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.051888
+robot theta: 0.051888
+target theta: 0.000000
+angle to carrot: 187.449696
+angle to target: -172.550304
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.062669
+robot theta: 0.062669
+target theta: 0.000000
+angle to carrot: 187.465501
+angle to target: -172.534499
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.075862
+robot theta: 0.075862
+target theta: 0.000000
+angle to carrot: 187.572913
+angle to target: -172.427087
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.092892
+robot theta: 0.092892
+target theta: 0.000000
+angle to carrot: 187.597979
+angle to target: -172.402021
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.105686
+robot theta: 0.105686
+target theta: 0.000000
+angle to carrot: 187.707686
+angle to target: -172.292314
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.108646
+robot theta: 0.108646
+target theta: 0.000000
+angle to carrot: 187.712071
+angle to target: -172.287929
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.104990
+robot theta: 0.104990
+target theta: 0.000000
+angle to carrot: 187.706661
+angle to target: -172.293339
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.098287
+robot theta: 0.098287
+target theta: 0.000000
+angle to carrot: 187.789730
+angle to target: -172.210270
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.092800
+robot theta: 0.092800
+target theta: 0.000000
+angle to carrot: 187.876624
+angle to target: -172.123376
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.084363
+robot theta: 0.084363
+target theta: 0.000000
+angle to carrot: 187.863892
+angle to target: -172.136108
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.073901
+robot theta: 0.073901
+target theta: 0.000000
+angle to carrot: 187.848087
+angle to target: -172.151913
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.062280
+robot theta: 0.062280
+target theta: 0.000000
+angle to carrot: 187.830493
+angle to target: -172.169507
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.056315
+robot theta: 0.056315
+target theta: 0.000000
+angle to carrot: 187.917946
+angle to target: -172.082054
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.057445
+robot theta: 0.057445
+target theta: 0.000000
+angle to carrot: 188.018514
+angle to target: -171.981486
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.059073
+robot theta: 0.059073
+target theta: 0.000000
+angle to carrot: 188.021028
+angle to target: -171.978972
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.055101
+robot theta: 0.055101
+target theta: 0.000000
+angle to carrot: 188.014894
+angle to target: -171.985106
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.048110
+robot theta: 0.048110
+target theta: 0.000000
+angle to carrot: 188.004116
+angle to target: -171.995884
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.046316
+robot theta: 0.046316
+target theta: 0.000000
+angle to carrot: 188.102375
+angle to target: -171.897625
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.047799
+robot theta: 0.047799
+target theta: 0.000000
+angle to carrot: 188.208298
+angle to target: -171.791702
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.049444
+robot theta: 0.049444
+target theta: 0.000000
+angle to carrot: 188.210880
+angle to target: -171.789120
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.050880
+robot theta: 0.050880
+target theta: 0.000000
+angle to carrot: 188.213134
+angle to target: -171.786866
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.055853
+robot theta: 0.055853
+target theta: 0.000000
+angle to carrot: 188.327389
+angle to target: -171.672611
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.064014
+robot theta: 0.064014
+target theta: 0.000000
+angle to carrot: 188.449704
+angle to target: -171.550296
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.075989
+robot theta: 0.075989
+target theta: 0.000000
+angle to carrot: 188.468788
+angle to target: -171.531212
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.087775
+robot theta: 0.087775
+target theta: 0.000000
+angle to carrot: 188.600433
+angle to target: -171.399567
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.094567
+robot theta: 0.094567
+target theta: 0.000000
+angle to carrot: 188.611306
+angle to target: -171.388694
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.097055
+robot theta: 0.097055
+target theta: 0.000000
+angle to carrot: 188.731490
+angle to target: -171.268510
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.097546
+robot theta: 0.097546
+target theta: 0.000000
+angle to carrot: 188.732283
+angle to target: -171.267717
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.095338
+robot theta: 0.095338
+target theta: 0.000000
+angle to carrot: 188.848013
+angle to target: -171.151987
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.093581
+robot theta: 0.093581
+target theta: 0.000000
+angle to carrot: 188.967624
+angle to target: -171.032376
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.099346
+robot theta: 0.099346
+target theta: 0.000000
+angle to carrot: 188.977104
+angle to target: -171.022896
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.105280
+robot theta: 0.105280
+target theta: 0.000000
+angle to carrot: 188.986857
+angle to target: -171.013143
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.109771
+robot theta: 0.109771
+target theta: 0.000000
+angle to carrot: 188.994220
+angle to target: -171.005780
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.114939
+robot theta: 0.114939
+target theta: 0.000000
+angle to carrot: 189.002703
+angle to target: -170.997297
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.119849
+robot theta: 0.119849
+target theta: 0.000000
+angle to carrot: 189.137299
+angle to target: -170.862701
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.123766
+robot theta: 0.123766
+target theta: 0.000000
+angle to carrot: 189.273971
+angle to target: -170.726029
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.123526
+robot theta: 0.123526
+target theta: 0.000000
+angle to carrot: 189.273575
+angle to target: -170.726425
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.121073
+robot theta: 0.121073
+target theta: 0.000000
+angle to carrot: 189.269491
+angle to target: -170.730509
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.114834
+robot theta: 0.114834
+target theta: 0.000000
+angle to carrot: 189.259081
+angle to target: -170.740919
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.108186
+robot theta: 0.108186
+target theta: 0.000000
+angle to carrot: 189.247989
+angle to target: -170.752011
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.100854
+robot theta: 0.100854
+target theta: 0.000000
+angle to carrot: 189.235736
+angle to target: -170.764264
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.094578
+robot theta: 0.094578
+target theta: 0.000000
+angle to carrot: 189.225231
+angle to target: -170.774769
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.086634
+robot theta: 0.086634
+target theta: 0.000000
+angle to carrot: 189.344800
+angle to target: -170.655200
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.085129
+robot theta: 0.085129
+target theta: 0.000000
+angle to carrot: 189.478863
+angle to target: -170.521137
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.085510
+robot theta: 0.085510
+target theta: 0.000000
+angle to carrot: 189.479519
+angle to target: -170.520481
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.085965
+robot theta: 0.085965
+target theta: 0.000000
+angle to carrot: 189.480298
+angle to target: -170.519702
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.088088
+robot theta: 0.088088
+target theta: 0.000000
+angle to carrot: 189.483918
+angle to target: -170.516082
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.093638
+robot theta: 0.093638
+target theta: 0.000000
+angle to carrot: 189.493384
+angle to target: -170.506616
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.103804
+robot theta: 0.103804
+target theta: 0.000000
+angle to carrot: 189.651749
+angle to target: -170.348251
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.111379
+robot theta: 0.111379
+target theta: 0.000000
+angle to carrot: 189.810209
+angle to target: -170.189791
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.114192
+robot theta: 0.114192
+target theta: 0.000000
+angle to carrot: 189.815072
+angle to target: -170.184928
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.113633
+robot theta: 0.113633
+target theta: 0.000000
+angle to carrot: 189.814116
+angle to target: -170.185884
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.105646
+robot theta: 0.105646
+target theta: 0.000000
+angle to carrot: 189.800292
+angle to target: -170.199708
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.093783
+robot theta: 0.093783
+target theta: 0.000000
+angle to carrot: 189.779733
+angle to target: -170.220267
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.083212
+robot theta: 0.083212
+target theta: 0.000000
+angle to carrot: 189.910463
+angle to target: -170.089537
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.080008
+robot theta: 0.080008
+target theta: 0.000000
+angle to carrot: 190.058309
+angle to target: -169.941691
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.084832
+robot theta: 0.084832
+target theta: 0.000000
+angle to carrot: 190.066861
+angle to target: -169.933139
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.095103
+robot theta: 0.095103
+target theta: 0.000000
+angle to carrot: 190.085015
+angle to target: -169.914985
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.108266
+robot theta: 0.108266
+target theta: 0.000000
+angle to carrot: 190.267190
+angle to target: -169.732810
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.121304
+robot theta: 0.121304
+target theta: 0.000000
+angle to carrot: 190.290344
+angle to target: -169.709656
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.128837
+robot theta: 0.128837
+target theta: 0.000000
+angle to carrot: 190.303691
+angle to target: -169.696309
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.131027
+robot theta: 0.131027
+target theta: 0.000000
+angle to carrot: 190.472314
+angle to target: -169.527686
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.129692
+robot theta: 0.129692
+target theta: 0.000000
+angle to carrot: 190.469924
+angle to target: -169.530076
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.132508
+robot theta: 0.132508
+target theta: 0.000000
+angle to carrot: 190.474951
+angle to target: -169.525049
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.130096
+robot theta: 0.130096
+target theta: 0.000000
+angle to carrot: 190.640610
+angle to target: -169.359390
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.122320
+robot theta: 0.122320
+target theta: 0.000000
+angle to carrot: 190.801830
+angle to target: -169.198170
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.113320
+robot theta: 0.113320
+target theta: 0.000000
+angle to carrot: 190.785437
+angle to target: -169.214563
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.104330
+robot theta: 0.104330
+target theta: 0.000000
+angle to carrot: 190.769031
+angle to target: -169.230969
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.104151
+robot theta: 0.104151
+target theta: 0.000000
+angle to carrot: 190.768703
+angle to target: -169.231297
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.110206
+robot theta: 0.110206
+target theta: 0.000000
+angle to carrot: 190.779755
+angle to target: -169.220245
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.124192
+robot theta: 0.124192
+target theta: 0.000000
+angle to carrot: 190.986081
+angle to target: -169.013919
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.140431
+robot theta: 0.140431
+target theta: 0.000000
+angle to carrot: 191.203213
+angle to target: -168.796787
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.157991
+robot theta: 0.157991
+target theta: 0.000000
+angle to carrot: 191.235547
+angle to target: -168.764453
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.174014
+robot theta: 0.174014
+target theta: 0.000000
+angle to carrot: 191.264958
+angle to target: -168.735042
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.185549
+robot theta: 0.185549
+target theta: 0.000000
+angle to carrot: 191.286077
+angle to target: -168.713923
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.194224
+robot theta: 0.194224
+target theta: 0.000000
+angle to carrot: 191.301923
+angle to target: -168.698077
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.192612
+robot theta: 0.192612
+target theta: 0.000000
+angle to carrot: 191.298986
+angle to target: -168.701014
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.180619
+robot theta: 0.180619
+target theta: 0.000000
+angle to carrot: 191.472281
+angle to target: -168.527719
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.160907
+robot theta: 0.160907
+target theta: 0.000000
+angle to carrot: 191.435822
+angle to target: -168.564178
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.146064
+robot theta: 0.146064
+target theta: 0.000000
+angle to carrot: 191.609076
+angle to target: -168.390924
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.135168
+robot theta: 0.135168
+target theta: 0.000000
+angle to carrot: 191.588627
+angle to target: -168.411373
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.135451
+robot theta: 0.135451
+target theta: 0.000000
+angle to carrot: 191.589159
+angle to target: -168.410841
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.144809
+robot theta: 0.144809
+target theta: 0.000000
+angle to carrot: 191.606727
+angle to target: -168.393273
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.157446
+robot theta: 0.157446
+target theta: 0.000000
+angle to carrot: 191.630373
+angle to target: -168.369627
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.175220
+robot theta: 0.175220
+target theta: 0.000000
+angle to carrot: 191.872011
+angle to target: -168.127989
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.192820
+robot theta: 0.192820
+target theta: 0.000000
+angle to carrot: 191.905001
+angle to target: -168.094999
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.209713
+robot theta: 0.209713
+target theta: 0.000000
+angle to carrot: 191.936543
+angle to target: -168.063457
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.214607
+robot theta: 0.214607
+target theta: 0.000000
+angle to carrot: 191.945668
+angle to target: -168.054332
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.210156
+robot theta: 0.210156
+target theta: 0.000000
+angle to carrot: 192.154522
+angle to target: -167.845478
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.198309
+robot theta: 0.198309
+target theta: 0.000000
+angle to carrot: 192.132228
+angle to target: -167.867772
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.180401
+robot theta: 0.180401
+target theta: 0.000000
+angle to carrot: 192.098432
+angle to target: -167.901568
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.162405
+robot theta: 0.162405
+target theta: 0.000000
+angle to carrot: 192.064349
+angle to target: -167.935651
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.150138
+robot theta: 0.150138
+target theta: 0.000000
+angle to carrot: 192.264064
+angle to target: -167.735936
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.146783
+robot theta: 0.146783
+target theta: 0.000000
+angle to carrot: 192.257630
+angle to target: -167.742370
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.153890
+robot theta: 0.153890
+target theta: 0.000000
+angle to carrot: 192.271249
+angle to target: -167.728751
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.168025
+robot theta: 0.168025
+target theta: 0.000000
+angle to carrot: 192.298311
+angle to target: -167.701689
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.185385
+robot theta: 0.185385
+target theta: 0.000000
+angle to carrot: 192.331410
+angle to target: -167.668590
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.202631
+robot theta: 0.202631
+target theta: 0.000000
+angle to carrot: 192.596831
+angle to target: -167.403169
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.216171
+robot theta: 0.216171
+target theta: 0.000000
+angle to carrot: 192.622676
+angle to target: -167.377324
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.223011
+robot theta: 0.223011
+target theta: 0.000000
+angle to carrot: 192.635695
+angle to target: -167.364305
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.222651
+robot theta: 0.222651
+target theta: 0.000000
+angle to carrot: 192.634998
+angle to target: -167.365002
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.224756
+robot theta: 0.224756
+target theta: 0.000000
+angle to carrot: 192.639014
+angle to target: -167.360986
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.222376
+robot theta: 0.222376
+target theta: 0.000000
+angle to carrot: 192.634479
+angle to target: -167.365521
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.216095
+robot theta: 0.216095
+target theta: 0.000000
+angle to carrot: 192.622526
+angle to target: -167.377474
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.210337
+robot theta: 0.210337
+target theta: 0.000000
+angle to carrot: 192.611543
+angle to target: -167.388457
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.206477
+robot theta: 0.206477
+target theta: 0.000000
+angle to carrot: 192.845791
+angle to target: -167.154209
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.206200
+robot theta: 0.206200
+target theta: 0.000000
+angle to carrot: 192.845259
+angle to target: -167.154741
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.208969
+robot theta: 0.208969
+target theta: 0.000000
+angle to carrot: 192.850586
+angle to target: -167.149414
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.215001
+robot theta: 0.215001
+target theta: 0.000000
+angle to carrot: 193.113070
+angle to target: -166.886930
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.220778
+robot theta: 0.220778
+target theta: 0.000000
+angle to carrot: 193.124231
+angle to target: -166.875769
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.225514
+robot theta: 0.225514
+target theta: 0.000000
+angle to carrot: 193.133370
+angle to target: -166.866630
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.230896
+robot theta: 0.230896
+target theta: 0.000000
+angle to carrot: 193.143738
+angle to target: -166.856262
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.236936
+robot theta: 0.236936
+target theta: 0.000000
+angle to carrot: 193.416604
+angle to target: -166.583396
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.248175
+robot theta: 0.248175
+target theta: 0.000000
+angle to carrot: 193.438338
+angle to target: -166.561662
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.258491
+robot theta: 0.258491
+target theta: 0.000000
+angle to carrot: 193.458227
+angle to target: -166.541773
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.265007
+robot theta: 0.265007
+target theta: 0.000000
+angle to carrot: 193.743073
+angle to target: -166.256927
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.261297
+robot theta: 0.261297
+target theta: 0.000000
+angle to carrot: 193.735902
+angle to target: -166.264098
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.253071
+robot theta: 0.253071
+target theta: 0.000000
+angle to carrot: 193.719946
+angle to target: -166.280054
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.242625
+robot theta: 0.242625
+target theta: 0.000000
+angle to carrot: 193.699661
+angle to target: -166.300339
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.234856
+robot theta: 0.234856
+target theta: 0.000000
+angle to carrot: 193.684539
+angle to target: -166.315461
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.235197
+robot theta: 0.235197
+target theta: 0.000000
+angle to carrot: 193.967431
+angle to target: -166.032569
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.237525
+robot theta: 0.237525
+target theta: 0.000000
+angle to carrot: 194.265719
+angle to target: -165.734281
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.243287
+robot theta: 0.243287
+target theta: 0.000000
+angle to carrot: 194.277057
+angle to target: -165.722943
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.242164
+robot theta: 0.242164
+target theta: 0.000000
+angle to carrot: 194.274844
+angle to target: -165.725156
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.243177
+robot theta: 0.243177
+target theta: 0.000000
+angle to carrot: 194.276839
+angle to target: -165.723161
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.241283
+robot theta: 0.241283
+target theta: 0.000000
+angle to carrot: 194.273110
+angle to target: -165.726890
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.239239
+robot theta: 0.239239
+target theta: 0.000000
+angle to carrot: 194.269093
+angle to target: -165.730907
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.237417
+robot theta: 0.237417
+target theta: 0.000000
+angle to carrot: 194.571384
+angle to target: -165.428616
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.237030
+robot theta: 0.237030
+target theta: 0.000000
+angle to carrot: 194.570619
+angle to target: -165.429381
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.243388
+robot theta: 0.243388
+target theta: 0.000000
+angle to carrot: 194.583200
+angle to target: -165.416800
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.249318
+robot theta: 0.249318
+target theta: 0.000000
+angle to carrot: 194.913932
+angle to target: -165.086068
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.251583
+robot theta: 0.251583
+target theta: 0.000000
+angle to carrot: 194.918426
+angle to target: -165.081574
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.253236
+robot theta: 0.253236
+target theta: 0.000000
+angle to carrot: 194.921691
+angle to target: -165.078309
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.253934
+robot theta: 0.253934
+target theta: 0.000000
+angle to carrot: 194.923084
+angle to target: -165.076916
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.253504
+robot theta: 0.253504
+target theta: 0.000000
+angle to carrot: 194.922223
+angle to target: -165.077777
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.252414
+robot theta: 0.252414
+target theta: 0.000000
+angle to carrot: 195.252928
+angle to target: -164.747072
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.258332
+robot theta: 0.258332
+target theta: 0.000000
+angle to carrot: 195.264689
+angle to target: -164.735311
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.262082
+robot theta: 0.262082
+target theta: 0.000000
+angle to carrot: 195.272120
+angle to target: -164.727880
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.265653
+robot theta: 0.265653
+target theta: 0.000000
+angle to carrot: 195.279196
+angle to target: -164.720804
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.269087
+robot theta: 0.269087
+target theta: 0.000000
+angle to carrot: 195.285999
+angle to target: -164.714001
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.278108
+robot theta: 0.278108
+target theta: 0.000000
+angle to carrot: 195.651838
+angle to target: -164.348162
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.289061
+robot theta: 0.289061
+target theta: 0.000000
+angle to carrot: 195.673490
+angle to target: -164.326510
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.298699
+robot theta: 0.298699
+target theta: 0.000000
+angle to carrot: 195.692478
+angle to target: -164.307522
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.306864
+robot theta: 0.306864
+target theta: 0.000000
+angle to carrot: 195.708542
+angle to target: -164.291458
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.312335
+robot theta: 0.312335
+target theta: 0.000000
+angle to carrot: 195.719279
+angle to target: -164.280721
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.313376
+robot theta: 0.313376
+target theta: 0.000000
+angle to carrot: 195.721315
+angle to target: -164.278685
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.309096
+robot theta: 0.309096
+target theta: 0.000000
+angle to carrot: 195.712927
+angle to target: -164.287073
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.302855
+robot theta: 0.302855
+target theta: 0.000000
+angle to carrot: 195.700660
+angle to target: -164.299340
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.294681
+robot theta: 0.294681
+target theta: 0.000000
+angle to carrot: 195.684568
+angle to target: -164.315432
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.282429
+robot theta: 0.282429
+target theta: 0.000000
+angle to carrot: 196.024220
+angle to target: -163.975780
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.268308
+robot theta: 0.268308
+target theta: 0.000000
+angle to carrot: 195.996189
+angle to target: -164.003811
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.255805
+robot theta: 0.255805
+target theta: 0.000000
+angle to carrot: 195.971286
+angle to target: -164.028714
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.247550
+robot theta: 0.247550
+target theta: 0.000000
+angle to carrot: 195.954784
+angle to target: -164.045216
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.244557
+robot theta: 0.244557
+target theta: 0.000000
+angle to carrot: 196.328081
+angle to target: -163.671919
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.244749
+robot theta: 0.244749
+target theta: 0.000000
+angle to carrot: 196.328477
+angle to target: -163.671523
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.249598
+robot theta: 0.249598
+target theta: 0.000000
+angle to carrot: 196.338190
+angle to target: -163.661810
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.257393
+robot theta: 0.257393
+target theta: 0.000000
+angle to carrot: 196.353763
+angle to target: -163.646237
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.267029
+robot theta: 0.267029
+target theta: 0.000000
+angle to carrot: 196.372983
+angle to target: -163.627017
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.280742
+robot theta: 0.280742
+target theta: 0.000000
+angle to carrot: 196.400249
+angle to target: -163.599751
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.291321
+robot theta: 0.291321
+target theta: 0.000000
+angle to carrot: 196.819076
+angle to target: -163.180924
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.297028
+robot theta: 0.297028
+target theta: 0.000000
+angle to carrot: 196.830360
+angle to target: -163.169640
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.298974
+robot theta: 0.298974
+target theta: 0.000000
+angle to carrot: 196.834198
+angle to target: -163.165802
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.295735
+robot theta: 0.295735
+target theta: 0.000000
+angle to carrot: 196.827805
+angle to target: -163.172195
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.287541
+robot theta: 0.287541
+target theta: 0.000000
+angle to carrot: 196.811590
+angle to target: -163.188410
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.278435
+robot theta: 0.278435
+target theta: 0.000000
+angle to carrot: 196.793545
+angle to target: -163.206455
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.271588
+robot theta: 0.271588
+target theta: 0.000000
+angle to carrot: 196.779939
+angle to target: -163.220061
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.262482
+robot theta: 0.262482
+target theta: 0.000000
+angle to carrot: 197.178112
+angle to target: -162.821888
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.251914
+robot theta: 0.251914
+target theta: 0.000000
+angle to carrot: 197.157020
+angle to target: -162.842980
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.246236
+robot theta: 0.246236
+target theta: 0.000000
+angle to carrot: 197.145669
+angle to target: -162.854331
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.244716
+robot theta: 0.244716
+target theta: 0.000000
+angle to carrot: 197.142622
+angle to target: -162.857378
+carrot: 26.000000, 0.000000
+close: 1
+angularError: 0.243669
+robot theta: 0.243669
+target theta: 0.000000
+angle to carrot: 197.140532
+angle to target: -162.859468
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 93.265420
+robot theta: 0.243885
+carrot theta: 266.978465
+angle to carrot: 266.978465
+angle to target: -93.021535
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 93.270038
+robot theta: 0.247387
+carrot theta: 266.977352
+angle to carrot: 266.977352
+angle to target: -93.022648
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 93.433170
+robot theta: 0.252072
+carrot theta: 266.818905
+angle to carrot: 266.818905
+angle to target: -93.181095
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 94.024726
+robot theta: 0.224781
+carrot theta: 266.200056
+angle to carrot: 266.200056
+angle to target: -93.799944
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 94.891552
+robot theta: 0.109495
+carrot theta: 265.217943
+angle to carrot: 265.217943
+angle to target: -94.782057
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 94.567036
+robot theta: 359.861958
+carrot theta: 265.294919
+angle to carrot: 265.294919
+angle to target: -94.705081
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 94.819111
+robot theta: 359.395839
+carrot theta: 264.576725
+angle to carrot: 264.576725
+angle to target: -95.423275
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 94.585566
+robot theta: 358.735578
+carrot theta: 264.150009
+angle to carrot: 264.150009
+angle to target: -95.849991
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 94.282319
+robot theta: 357.898880
+carrot theta: 263.616557
+angle to carrot: 263.616557
+angle to target: -96.383443
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 93.606486
+robot theta: 356.913693
+carrot theta: 263.307204
+angle to carrot: 263.307204
+angle to target: -96.692796
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 92.841505
+robot theta: 355.738464
+carrot theta: 262.896956
+angle to carrot: 262.896956
+angle to target: -97.103044
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 91.814435
+robot theta: 354.387480
+carrot theta: 262.573041
+angle to carrot: 262.573041
+angle to target: -97.426959
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 90.610027
+robot theta: 352.900110
+carrot theta: 262.290080
+angle to carrot: 262.290080
+angle to target: -97.709920
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 89.295318
+robot theta: 351.306409
+carrot theta: 262.011087
+angle to carrot: 262.011087
+angle to target: -97.988913
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 87.961334
+robot theta: 349.602550
+carrot theta: 261.641212
+angle to carrot: 261.641212
+angle to target: -98.358788
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 86.490440
+robot theta: 347.756295
+carrot theta: 261.265852
+angle to carrot: 261.265852
+angle to target: -98.734148
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 84.941633
+robot theta: 345.766715
+carrot theta: 260.825080
+angle to carrot: 260.825080
+angle to target: -99.174920
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 83.221204
+robot theta: 343.669410
+carrot theta: 260.448203
+angle to carrot: 260.448203
+angle to target: -99.551797
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 81.331529
+robot theta: 341.446238
+carrot theta: 260.114706
+angle to carrot: 260.114706
+angle to target: -99.885294
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 79.388108
+robot theta: 339.117581
+carrot theta: 259.729469
+angle to carrot: 259.729469
+angle to target: -100.270531
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 77.331784
+robot theta: 336.667920
+carrot theta: 259.336132
+angle to carrot: 259.336132
+angle to target: -100.663868
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 75.155843
+robot theta: 334.097173
+carrot theta: 258.941327
+angle to carrot: 258.941327
+angle to target: -101.058673
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 72.822855
+robot theta: 331.436405
+carrot theta: 258.613546
+angle to carrot: 258.613546
+angle to target: -101.386454
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 70.345061
+robot theta: 328.660425
+carrot theta: 258.315361
+angle to carrot: 258.315361
+angle to target: -101.684639
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 67.818424
+robot theta: 325.799532
+carrot theta: 257.981105
+angle to carrot: 257.981105
+angle to target: -102.018895
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 65.124167
+robot theta: 322.863643
+carrot theta: 257.739473
+angle to carrot: 257.739473
+angle to target: -102.260527
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 62.361567
+robot theta: 319.820002
+carrot theta: 257.458431
+angle to carrot: 257.458431
+angle to target: -102.541569
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 59.464262
+robot theta: 316.686065
+carrot theta: 257.221800
+angle to carrot: 257.221800
+angle to target: -102.778200
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 56.552460
+robot theta: 313.490629
+carrot theta: 256.938169
+angle to carrot: 256.938169
+angle to target: -103.061831
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 53.482953
+robot theta: 310.193014
+carrot theta: 256.710061
+angle to carrot: 256.710061
+angle to target: -103.289939
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 50.342801
+robot theta: 306.848543
+carrot theta: 256.505743
+angle to carrot: 256.505743
+angle to target: -103.494257
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 47.203318
+robot theta: 303.422766
+carrot theta: 256.219449
+angle to carrot: 256.219449
+angle to target: -103.780551
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 43.853322
+robot theta: 299.905000
+carrot theta: 256.051679
+angle to carrot: 256.051679
+angle to target: -103.948321
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 40.399521
+robot theta: 296.345297
+carrot theta: 255.945777
+angle to carrot: 255.945777
+angle to target: -104.054223
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 36.899861
+robot theta: 292.694698
+carrot theta: 255.794836
+angle to carrot: 255.794836
+angle to target: -104.205164
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 33.358866
+robot theta: 289.008117
+carrot theta: 255.649251
+angle to carrot: 255.649251
+angle to target: -104.350749
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 29.792524
+robot theta: 285.346398
+carrot theta: 255.553874
+angle to carrot: 255.553874
+angle to target: -104.446126
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 26.092180
+robot theta: 281.643506
+carrot theta: 255.551327
+angle to carrot: 255.551327
+angle to target: -104.448673
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 22.460882
+robot theta: 277.954740
+carrot theta: 255.493857
+angle to carrot: 255.493857
+angle to target: -104.506143
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 18.835896
+robot theta: 274.275972
+carrot theta: 255.440076
+angle to carrot: 255.440076
+angle to target: -104.559924
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 15.208895
+robot theta: 270.611385
+carrot theta: 255.402490
+angle to carrot: 255.402490
+angle to target: -104.597510
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 11.669409
+robot theta: 267.032229
+carrot theta: 255.362820
+angle to carrot: 255.362820
+angle to target: -104.637180
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 8.257067
+robot theta: 263.536292
+carrot theta: 255.279225
+angle to carrot: 255.279225
+angle to target: -104.720775
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 5.270641
+robot theta: 260.176741
+carrot theta: 254.906099
+angle to carrot: 254.906099
+angle to target: -105.093901
+carrot: 26.000000, -18.000000
+close: 0
+angularError: 2.092541
+robot theta: 257.048705
+carrot theta: 254.956164
+angle to carrot: 254.956164
+angle to target: -105.043836
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -0.780121
+robot theta: 254.170655
+carrot theta: 254.950775
+angle to carrot: 254.950775
+angle to target: -105.049225
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -3.427597
+robot theta: 251.536305
+carrot theta: 254.963903
+angle to carrot: 254.963903
+angle to target: -105.036097
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -6.044544
+robot theta: 249.088857
+carrot theta: 255.133401
+angle to carrot: 255.133401
+angle to target: -104.866599
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -8.378337
+robot theta: 246.853173
+carrot theta: 255.231510
+angle to carrot: 255.231510
+angle to target: -104.768490
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -10.676381
+robot theta: 244.834169
+carrot theta: 255.510550
+angle to carrot: 255.510550
+angle to target: -104.489450
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -12.717563
+robot theta: 242.993843
+carrot theta: 255.711406
+angle to carrot: 255.711406
+angle to target: -104.288594
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -14.535397
+robot theta: 241.362165
+carrot theta: 255.897562
+angle to carrot: 255.897562
+angle to target: -104.102438
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -16.231852
+robot theta: 239.982439
+carrot theta: 256.214292
+angle to carrot: 256.214292
+angle to target: -103.785708
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -17.608511
+robot theta: 238.864911
+carrot theta: 256.473423
+angle to carrot: 256.473423
+angle to target: -103.526577
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -18.846613
+robot theta: 237.963955
+carrot theta: 256.810568
+angle to carrot: 256.810568
+angle to target: -103.189432
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -19.951273
+robot theta: 237.260227
+carrot theta: 257.211500
+angle to carrot: 257.211500
+angle to target: -102.788500
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -20.742864
+robot theta: 236.720314
+carrot theta: 257.463178
+angle to carrot: 257.463178
+angle to target: -102.536822
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -21.516131
+robot theta: 236.357276
+carrot theta: 257.873406
+angle to carrot: 257.873406
+angle to target: -102.126594
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -22.019625
+robot theta: 236.162424
+carrot theta: 258.182049
+angle to carrot: 258.182049
+angle to target: -101.817951
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -22.451190
+robot theta: 236.076036
+carrot theta: 258.527226
+angle to carrot: 258.527226
+angle to target: -101.472774
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -22.811148
+robot theta: 236.081391
+carrot theta: 258.892539
+angle to carrot: 258.892539
+angle to target: -101.107461
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -23.048169
+robot theta: 236.193324
+carrot theta: 259.241493
+angle to carrot: 259.241493
+angle to target: -100.758507
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -23.272275
+robot theta: 236.380580
+carrot theta: 259.652855
+angle to carrot: 259.652855
+angle to target: -100.347145
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -23.343835
+robot theta: 236.653487
+carrot theta: 259.997322
+angle to carrot: 259.997322
+angle to target: -100.002678
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -23.452742
+robot theta: 236.987210
+carrot theta: 260.439952
+angle to carrot: 260.439952
+angle to target: -99.560048
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -23.526085
+robot theta: 237.359729
+carrot theta: 260.885814
+angle to carrot: 260.885814
+angle to target: -99.114186
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -23.554437
+robot theta: 237.783583
+carrot theta: 261.338020
+angle to carrot: 261.338020
+angle to target: -98.661980
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -23.549785
+robot theta: 238.240741
+carrot theta: 261.790527
+angle to carrot: 261.790527
+angle to target: -98.209473
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -23.512096
+robot theta: 238.730520
+carrot theta: 262.242617
+angle to carrot: 262.242617
+angle to target: -97.757383
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -23.432600
+robot theta: 239.264423
+carrot theta: 262.697023
+angle to carrot: 262.697023
+angle to target: -97.302977
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -23.324601
+robot theta: 239.822968
+carrot theta: 263.147569
+angle to carrot: 263.147569
+angle to target: -96.852431
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -23.191255
+robot theta: 240.401267
+carrot theta: 263.592522
+angle to carrot: 263.592522
+angle to target: -96.407478
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -22.999859
+robot theta: 240.997160
+carrot theta: 263.997019
+angle to carrot: 263.997019
+angle to target: -96.002981
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -22.794687
+robot theta: 241.598544
+carrot theta: 264.393232
+angle to carrot: 264.393232
+angle to target: -95.606768
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -22.606468
+robot theta: 242.206813
+carrot theta: 264.813282
+angle to carrot: 264.813282
+angle to target: -95.186718
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -22.378954
+robot theta: 242.811149
+carrot theta: 265.190103
+angle to carrot: 265.190103
+angle to target: -94.809897
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -22.179062
+robot theta: 243.405184
+carrot theta: 265.584246
+angle to carrot: 265.584246
+angle to target: -94.415754
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -21.972326
+robot theta: 243.993536
+carrot theta: 265.965862
+angle to carrot: 265.965862
+angle to target: -94.034138
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -21.771819
+robot theta: 244.559158
+carrot theta: 266.330977
+angle to carrot: 266.330977
+angle to target: -93.669023
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -21.570840
+robot theta: 245.111638
+carrot theta: 266.682479
+angle to carrot: 266.682479
+angle to target: -93.317521
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -21.365662
+robot theta: 245.656360
+carrot theta: 267.022021
+angle to carrot: 267.022021
+angle to target: -92.977979
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -21.203376
+robot theta: 246.196409
+carrot theta: 267.399785
+angle to carrot: 267.399785
+angle to target: -92.600215
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -21.007903
+robot theta: 246.732579
+carrot theta: 267.740482
+angle to carrot: 267.740482
+angle to target: -92.259518
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -20.829635
+robot theta: 247.261755
+carrot theta: 268.091390
+angle to carrot: 268.091390
+angle to target: -91.908610
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -20.621239
+robot theta: 247.786422
+carrot theta: 268.407662
+angle to carrot: 268.407662
+angle to target: -91.592338
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -20.323511
+robot theta: 248.305435
+carrot theta: 268.628946
+angle to carrot: 268.628946
+angle to target: -91.371054
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -20.126010
+robot theta: 248.818163
+carrot theta: 268.944173
+angle to carrot: 268.944173
+angle to target: -91.055827
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -19.945829
+robot theta: 249.319226
+carrot theta: 269.265055
+angle to carrot: 269.265055
+angle to target: -90.734945
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -19.748027
+robot theta: 249.804443
+carrot theta: 269.552470
+angle to carrot: 269.552470
+angle to target: -90.447530
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -19.565435
+robot theta: 250.279824
+carrot theta: 269.845260
+angle to carrot: 269.845260
+angle to target: -90.154740
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -19.361957
+robot theta: 250.746818
+carrot theta: 270.108775
+angle to carrot: 270.108775
+angle to target: -89.891225
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -19.154210
+robot theta: 251.207473
+carrot theta: 270.361683
+angle to carrot: 270.361683
+angle to target: -89.638317
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -18.946422
+robot theta: 251.675723
+carrot theta: 270.622146
+angle to carrot: 270.622146
+angle to target: -89.377854
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -18.745068
+robot theta: 252.141460
+carrot theta: 270.886529
+angle to carrot: 270.886529
+angle to target: -89.113471
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -18.527165
+robot theta: 252.597416
+carrot theta: 271.124581
+angle to carrot: 271.124581
+angle to target: -88.875419
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -18.336896
+robot theta: 253.024276
+carrot theta: 271.361172
+angle to carrot: 271.361172
+angle to target: -88.638828
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -18.117162
+robot theta: 253.475123
+carrot theta: 271.592285
+angle to carrot: 271.592285
+angle to target: -88.407715
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -17.867888
+robot theta: 253.935724
+carrot theta: 271.803611
+angle to carrot: 271.803611
+angle to target: -88.196389
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -18.004894
+robot theta: 253.935724
+carrot theta: 271.940618
+angle to carrot: 271.940618
+angle to target: -88.059382
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -17.403127
+robot theta: 254.841379
+carrot theta: 272.244507
+angle to carrot: 272.244507
+angle to target: -87.755493
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -17.021634
+robot theta: 255.309275
+carrot theta: 272.330909
+angle to carrot: 272.330909
+angle to target: -87.669091
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -16.392116
+robot theta: 256.212144
+carrot theta: 272.604260
+angle to carrot: 272.604260
+angle to target: -87.395740
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -16.061159
+robot theta: 256.617666
+carrot theta: 272.678825
+angle to carrot: 272.678825
+angle to target: -87.321175
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -16.134386
+robot theta: 256.617666
+carrot theta: 272.752051
+angle to carrot: 272.752051
+angle to target: -87.247949
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -15.779530
+robot theta: 257.180801
+carrot theta: 272.960331
+angle to carrot: 272.960331
+angle to target: -87.039669
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -15.674837
+robot theta: 257.421743
+carrot theta: 273.096580
+angle to carrot: 273.096580
+angle to target: -86.903420
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -15.509198
+robot theta: 257.742543
+carrot theta: 273.251741
+angle to carrot: 273.251741
+angle to target: -86.748259
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -15.370750
+robot theta: 258.015669
+carrot theta: 273.386419
+angle to carrot: 273.386419
+angle to target: -86.613581
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -15.247970
+robot theta: 258.263632
+carrot theta: 273.511603
+angle to carrot: 273.511603
+angle to target: -86.488397
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -15.161179
+robot theta: 258.522496
+carrot theta: 273.683676
+angle to carrot: 273.683676
+angle to target: -86.316324
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -15.071840
+robot theta: 258.718687
+carrot theta: 273.790527
+angle to carrot: 273.790527
+angle to target: -86.209473
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -14.992924
+robot theta: 258.858651
+carrot theta: 273.851575
+angle to carrot: 273.851575
+angle to target: -86.148425
+carrot: 26.000000, -18.000000
+close: 0
+angularError: -15.001319
+robot theta: 258.990146
+carrot theta: 273.991464
+angle to carrot: 273.991464
+angle to target: -86.008536
+[AWARNING - pros.serial.terminal.terminal:stop - Stopping terminal - pros-cli version:3.4.3

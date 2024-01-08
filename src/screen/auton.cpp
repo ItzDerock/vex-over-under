@@ -45,7 +45,15 @@ static void reset_position_event_cb(lv_event_t *event) {
   // lv_obj_t *obj = lv_event_get_target(event);
 
   if (code == LV_EVENT_CLICKED) {
-    odom::reset({-35, -70 + (double)DRIVE_TRACK_WIDTH / 2, 0});
+    switch (odom::autonomous) {
+      case odom::Autonomous::None:
+        odom::reset({0, 0, 0});
+        break;
+
+      default:
+        odom::reset({-35, -70 + (double)DRIVE_TRACK_WIDTH / 2, 0});
+        break;
+    }
   }
 }
 
