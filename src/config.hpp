@@ -9,7 +9,7 @@
 #define ODOM_INERTIAL 16
 
 // DRIVETRAIN
-#define DRIVETRAIN_GEAR_RATIO /* input 32 -> output 60 */ 0.6
+#define DRIVETRAIN_GEAR_RATIO /* input 32 -> output 60 */ (double)32 / 60
 #define DRIVETRAIN_GEARBOX pros::v5::MotorGear::blue
 #define DRIVE_LEFT_FRONT 1
 #define DRIVE_LEFT_BACK 2

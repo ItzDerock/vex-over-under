@@ -66,13 +66,13 @@ void autonomous() {
   switch (odom::autonomous) {
     case odom::Autonomous::Skills:
       // TURN TEST
-      // odom::turnTo(90);
-      // pros::delay(1000);
-      // odom::turnTo(180);
-      // pros::delay(1000);
-      // odom::turnTo(270);
-      // pros::delay(1000);
-      // odom::turnTo(0);
+      odom::turnTo(90);
+      pros::delay(1000);
+      odom::turnTo(180);
+      pros::delay(1000);
+      odom::turnTo(270);
+      pros::delay(1000);
+      odom::turnTo(0);
 
       // SIMPLE MOVE TEST
       // odom::moveTo(26, 0, 0, 10'000, {.lead = 0}, false);

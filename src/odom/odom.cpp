@@ -41,7 +41,18 @@ odom::RobotPosition state = {0, 0, 0};
  */
 inline static double normalizeSensorData(double position,
                                          BasicOdomSensor sensor) {
-  return (position * sensor.gear_ratio) / 360 * sensor.wheel_size * M_PI;
+  // return (position * sensor.gear_ratio) / 360 * sensor.wheel_size * M_PI;
+
+  double wheelRotations = position / 360;
+  double adjustedWheelRotations = wheelRotations * sensor.gear_ratio;
+  double wheelCircumference = sensor.wheel_size * M_PI;
+
+  // printf(
+  //     "wheelRotations: %f, adjustedWheelRotations: %f, wheelCircumference: "
+  //     "%f\n",
+  //     wheelRotations, adjustedWheelRotations, wheelCircumference);
+
+  return adjustedWheelRotations * wheelCircumference;
 }
 
 double readDrivetrainSensor(
@@ -55,11 +66,21 @@ double readDrivetrainSensor(
   if (values[1] == values[2]) return values[1];
 
   // as fallback, calculate the average
-  // std::cerr << "Large discrepancy between motor values!" << std::endl
-  //           << "Values: " << values[0] << ", " << values[1] << ", " <<
-  //           values[2]
-  //           << std::endl;
-  return (values[0] + values[1] + values[2]) / 3;
+  // check if any are equal to 0
+  // if so, ignore them
+  double sum = 0;
+  int count = 0;
+  for (int i = 0; i < 3; i++) {
+    if (values[i] != 0) {
+      sum += values[i];
+      count++;
+    }
+  }
+
+  if (count == 0) return 0;
+  return sum / count;
+
+  // return (values[0] + values[1] + values[2]) / 3;
 }
 
 void odom::update() {
@@ -71,13 +92,15 @@ void odom::update() {
   double right = readDrivetrainSensor(drive_right);
   double center = (double)odom_middle.sensor->get_value();
 
-  printf("left: %f, right: %f, center: %f\n", left, right, center);
+  //  (1.1) Convert to distance of wheel travel (inches)
+  left = normalizeSensorData(left, odom_left);
+  right = normalizeSensorData(right, odom_right);
+  center = normalizeSensorData(center, odom_middle);
 
   // 2. Calculate delta values
-  //  (2.1) Conver tto distance of wheel travel (inches)
-  double dL = normalizeSensorData(left - prevSensors.left, odom_left);
-  double dR = normalizeSensorData(right - prevSensors.right, odom_right);
-  double dC = normalizeSensorData(center - prevSensors.center, odom_middle);
+  double dL = left - prevSensors.left;
+  double dR = right - prevSensors.right;
+  double dC = center - prevSensors.center;
 
   // 3. Update the previous values
   prevSensors.left = left;
@@ -92,10 +115,8 @@ void odom::update() {
   // double newTheta = resetValues.theta + inertial->get_heading() * M_PI / 180;
   // if (newTheta > 2 * M_PI) newTheta -= 2 * M_PI;
   // newTheta = utils::angleSquish(newTheta);
-  auto newTheta =
-      resetValues.theta + (normalizeSensorData(left, odom_left) -
-                           normalizeSensorData(right, odom_right)) /
-                              (odom_left.offset + odom_right.offset);
+  double newTheta = resetValues.theta +
+                    (left - right) / (odom_left.offset + odom_right.offset);
 
   // 6. Calculate change in orientation
   double dTheta = newTheta - state.theta;
