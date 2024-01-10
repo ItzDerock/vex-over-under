@@ -17,7 +17,7 @@
  */
 
 // Task to update the odom
-pros::Task *odomTask = nullptr;
+pros::Task* odomTask = nullptr;
 pros::Mutex odom::mutex;
 
 struct {
@@ -41,7 +41,46 @@ odom::RobotPosition state = {0, 0, 0};
  */
 inline static double normalizeSensorData(double position,
                                          BasicOdomSensor sensor) {
-  return (position * sensor.gear_ratio) / 360 * sensor.wheel_size * M_PI;
+  // return (position * sensor.gear_ratio) / 360 * sensor.wheel_size * M_PI;
+
+  double wheelRotations = position / 360;
+  double adjustedWheelRotations = wheelRotations * sensor.gear_ratio;
+  double wheelCircumference = sensor.wheel_size * M_PI;
+
+  // printf(
+  //     "wheelRotations: %f, adjustedWheelRotations: %f, wheelCircumference: "
+  //     "%f\n",
+  //     wheelRotations, adjustedWheelRotations, wheelCircumference);
+
+  return adjustedWheelRotations * wheelCircumference;
+}
+
+double readDrivetrainSensor(
+    std::vector<std::shared_ptr<pros::Motor>> const& motors) {
+  // find the median value
+  // quick hack since we only have 3 motors
+  double values[3] = {motors[0]->get_position(), motors[1]->get_position(),
+                      motors[2]->get_position()};
+
+  if (values[0] == values[1] || values[0] == values[2]) return values[0];
+  if (values[1] == values[2]) return values[1];
+
+  // as fallback, calculate the average
+  // check if any are equal to 0
+  // if so, ignore them
+  double sum = 0;
+  int count = 0;
+  for (int i = 0; i < 3; i++) {
+    if (values[i] != 0) {
+      sum += values[i];
+      count++;
+    }
+  }
+
+  if (count == 0) return 0;
+  return sum / count;
+
+  // return (values[0] + values[1] + values[2]) / 3;
 }
 
 void odom::update() {
@@ -49,15 +88,19 @@ void odom::update() {
   mutex.take();
 
   // 1. Store the current encoder values
-  double left = odom_left.sensor->get_position();
-  double right = odom_right.sensor->get_position();
+  double left = readDrivetrainSensor(drive_left);
+  double right = readDrivetrainSensor(drive_right);
   double center = (double)odom_middle.sensor->get_value();
 
+  //  (1.1) Convert to distance of wheel travel (inches)
+  left = normalizeSensorData(left, odom_left);
+  right = normalizeSensorData(right, odom_right);
+  center = normalizeSensorData(center, odom_middle);
+
   // 2. Calculate delta values
-  //  (2.1) Conver tto distance of wheel travel (inches)
-  double dL = normalizeSensorData(left - prevSensors.left, odom_left);
-  double dR = normalizeSensorData(right - prevSensors.right, odom_right);
-  double dC = normalizeSensorData(center - prevSensors.center, odom_middle);
+  double dL = left - prevSensors.left;
+  double dR = right - prevSensors.right;
+  double dC = center - prevSensors.center;
 
   // 3. Update the previous values
   prevSensors.left = left;
@@ -72,8 +115,8 @@ void odom::update() {
   double newTheta = resetValues.theta + inertial->get_heading() * M_PI / 180;
   if (newTheta > 2 * M_PI) newTheta -= 2 * M_PI;
   // newTheta = utils::angleSquish(newTheta);
-  // auto newTheta = resetValues.theta +
-  //                 (left - right) / (odom_left.offset + odom_right.offset);
+  // double newTheta = resetValues.theta +
+  //                   (left - right) / (odom_left.offset + odom_right.offset);
 
   // 6. Calculate change in orientation
   double dTheta = newTheta - state.theta;
@@ -82,16 +125,22 @@ void odom::update() {
   RobotPosition localOffset = {0, 0, 0};
 
   if (dTheta == 0) {
-    localOffset.x = dR;
-    localOffset.y = dC;
+    localOffset.x = dC;
+    localOffset.y = dR;
   } else {
     // 8. Otherwise, calculate local offset with formula.
-    localOffset.x = 2 * sin(dTheta / 2) * (dR / dTheta + (odom_right.offset));
-    localOffset.y = 2 * sin(dTheta / 2) * (dC / dTheta + (odom_middle.offset));
+    localOffset.x = 2 * sin(dTheta / 2) * (dC / dTheta + (odom_middle.offset));
+    localOffset.y = 2 * sin(dTheta / 2) * (dR / dTheta + (odom_right.offset));
   }
 
   // 9. Calculate the average orientation
   double thetam = state.theta + dTheta / 2;
+
+  // state.x += localOffset.y * sin(thetam);
+  // state.y += localOffset.y * cos(thetam);
+  // state.x += localOffset.x * -cos(thetam);
+  // state.y += localOffset.x * sin(thetam);
+  // state.theta = newTheta;
 
   // 10. Calculate the global offset
   RobotPosition globalOffset = {0, 0, 0};
@@ -167,8 +216,14 @@ void odom::reset(odom::RobotPosition startState) {
   }
 
   // reset encoders
-  CHECK_SUCCESS(odom_left.sensor->set_zero_position(0), "odom_left");
-  CHECK_SUCCESS(odom_right.sensor->set_zero_position(0), "odom_right");
+  for (auto motor : drive_left) {
+    CHECK_SUCCESS(motor->set_zero_position(0), "drive_left");
+  }
+
+  for (auto motor : drive_right) {
+    CHECK_SUCCESS(motor->set_zero_position(0), "drive_right");
+  }
+
   CHECK_SUCCESS(odom_middle.sensor->reset(), "odom_middle");
   CHECK_SUCCESS(inertial->reset(true), "odom_imu");
 
@@ -182,6 +237,9 @@ void odom::reset(odom::RobotPosition startState) {
   // reset prevSensors
   prevSensors = {0, 0, 0, 0};
 
+  // delay 10ms to let the sensors reset
+  pros::delay(10);
+
   // restart task
   if (taskRunning) initalize();
 
@@ -189,12 +247,9 @@ void odom::reset(odom::RobotPosition startState) {
   mutex.give();
 }
 
-void odom::reset() {
-  // default to 0, 0, 90deg
-  reset({0, 0, M_PI / 2});
-}
+void odom::reset() { reset({0, 0, 0}); }
 
-odom::RobotPosition odom::getPosition(bool degrees) {
+odom::RobotPosition odom::getPosition(bool degrees, bool standardPos) {
   // aquire mutex
   mutex.take();
 
@@ -203,11 +258,14 @@ odom::RobotPosition odom::getPosition(bool degrees) {
       degrees ? RobotPosition(state.x, state.y, state.theta * (180 / M_PI))
               : state;
 
+  // bearing -> standard form
+  if (standardPos) {
+    returnState.theta = utils::angleSquish(M_PI_2 - returnState.theta);
+  }
+
   // release mutex
   mutex.give();
 
   // return the state
   return returnState;
 }
-
-odom::RobotPosition odom::getPosition() { return getPosition(false); }
