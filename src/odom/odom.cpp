@@ -112,11 +112,11 @@ void odom::update() {
   // auto deltaRr = right - resetValues.right;
 
   // 5. Calculate new orientation
-  // double newTheta = resetValues.theta + inertial->get_heading() * M_PI / 180;
-  // if (newTheta > 2 * M_PI) newTheta -= 2 * M_PI;
+  double newTheta = resetValues.theta + inertial->get_heading() * M_PI / 180;
+  if (newTheta > 2 * M_PI) newTheta -= 2 * M_PI;
   // newTheta = utils::angleSquish(newTheta);
-  double newTheta = resetValues.theta +
-                    (left - right) / (odom_left.offset + odom_right.offset);
+  // double newTheta = resetValues.theta +
+  //                   (left - right) / (odom_left.offset + odom_right.offset);
 
   // 6. Calculate change in orientation
   double dTheta = newTheta - state.theta;

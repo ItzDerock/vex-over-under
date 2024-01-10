@@ -17,7 +17,7 @@
 #define DRIVE_RIGHT_FRONT 4
 #define DRIVE_RIGHT_BACK 5
 #define DRIVE_RIGHT_PTO 6
-#define DRIVE_TRACK_WIDTH 12.5  // inches
+#define DRIVE_TRACK_WIDTH 12  // inches
 
 // CATAPULT
 #define CATAPULT_PORT 15
@@ -27,7 +27,8 @@
 #define INTAKE_PORT 9
 
 // WINGS
-#define WINGS_PORT 'a'
+#define WINGS_PORT 'g'
+#define WINGS_PORT_2 'h'
 
 // BLOCKER
 #define BLOCKER_PORT 'e'
@@ -88,6 +89,7 @@ extern SHARED(pros::Rotation, catapult_position);
 
 ///// Wings
 extern SHARED(pros::adi::Pneumatics, wings);
+extern SHARED(pros::adi::Pneumatics, wings_2);
 
 ///// Blocker
 extern SHARED(pros::adi::Pneumatics, blocker);

@@ -67,11 +67,11 @@ void autonomous() {
     case odom::Autonomous::Skills:
       // TURN TEST
       odom::turnTo(90);
-      pros::delay(1000);
+      pros::delay(500);
       odom::turnTo(180);
-      pros::delay(1000);
+      pros::delay(500);
       odom::turnTo(270);
-      pros::delay(1000);
+      pros::delay(500);
       odom::turnTo(0);
 
       // SIMPLE MOVE TEST
@@ -80,10 +80,12 @@ void autonomous() {
       // odom::moveTo(0, 0, 0, 10'000, {.forwards = false}, false);
 
       odom::moveTo(0, 25, 0, 10'000, {.lead = 0}, false);
-      odom::moveTo(12, 20, 270, 10'000, {.lead = 0, .forwards = false}, false);
+      odom::turnTo(270);
+      pros::delay(250);
+      odom::moveDistance(-20);
       pros::delay(5'000);
       odom::moveTo(0, 0, 180, 10'000,
-                   {.chasePower = 0.5, .lead = 0.8, .slew = 5}, false);
+                   {.chasePower = 1, .lead = 0.75, .slew = 5}, false);
 
       // false); intake_motor->move(0); odom::moveTo(0, 0, 0, 10'000, {.lead =
       // 0.8, .forwards = false}, false); odom::moveTo(25, -22, 270, 10'000,
@@ -200,6 +202,7 @@ void opcontrol() {
     // wings
     if (master.get_digital_new_press(DIGITAL_L1)) {
       wings->toggle();
+      wings_2->toggle();
     }
 
     // blocker
