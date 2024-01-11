@@ -7,13 +7,14 @@ This repository holds the C++ code for KCD's VEX 2023 Over Under robot (95993A).
   - uses 2 internal encoders
   - 1 exterior encoder for lateral movement
 - PID Control
+- Boomerang Control 
 - Catapult control
   - Rotational sensor to read position
   - Single press to fire once
   - Hold for rapid fire
 - Wings toggle
-- GIF decoder
-  - Plays a gif on the brain screen using LVGL and a simple gifdecoder library
+- Video decoder
+  - Plays a gif on the brain screen using LVGL and a simple mpeg1 library
 
 ## Ports:
 See [src/config.hpp] for the port configuration. Can be easily edited to accomodate broken ports.

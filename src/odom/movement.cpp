@@ -58,6 +58,17 @@ void odom::move(double left, double right) {
   drive_right_pto->move(right);
 }
 
+// void odom::moveDistance(double dist, double timeout) {
+//   // find the target position's X and Y
+//   RobotPosition initialPosition = getPosition();
+//   double targetX = initialPosition.x + dist * sin(initialPosition.theta);
+//   double targetY = initialPosition.y + dist * cos(initialPosition.theta);
+//   RobotPosition targetPosition = {targetX, targetY, initialPosition.theta};
+
+//   odom::moveTo(targetPosition.x, targetPosition.y, targetPosition.theta,
+//                timeout, {}, false);
+// }
+
 void odom::moveDistance(double dist, double timeout) {
   int8_t sign = dist < 0 ? -1 : 1;
 
