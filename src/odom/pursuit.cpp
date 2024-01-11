@@ -93,23 +93,20 @@ float circleIntersect(const odom::RobotPosition& p1,
  * @param path - the path to follow
  * @param lookaheadDist - the lookahead distance of the algorithm
  */
-odom::RobotPosition lookaheadPoint(const odom::RobotPosition& lastLookahead,
-                                   const odom::RobotPosition& pose,
-                                   std::vector<odom::RobotPosition> path,
-                                   float lookaheadDist) {
+odom::RobotPosition lookaheadPoint(
+    const odom::RobotPosition& lastLookahead, const odom::RobotPosition& pose,
+    std::shared_ptr<std::vector<odom::RobotPosition>> path, int closest,
+    float lookaheadDist) {
   // find the furthest lookahead point on the path
 
   // optimizations applied:
-  // - made the starting index the one after lastLookahead's index,
-  // as anything before would be discarded
-  // - searched the path in reverse, as the first hit would be
-  // the guaranteed farthest lookahead point
-  for (int i = path.size() - 1; i > lastLookahead.theta; i--) {
-    // since we are searching in reverse, instead of getting
-    // the current pose and the next one, we should get the
-    // current pose and the *last* one
-    odom::RobotPosition lastPathPose = path.at(i - 1);
-    odom::RobotPosition currentPathPose = path.at(i);
+  // only consider intersections that have an index greater than or equal to the
+  // point closest to the robot and intersections that have an index greater
+  // than or equal to the index of the last lookahead point
+  const int start = std::max(closest, int(lastLookahead.theta));
+  for (int i = start; i < path->size() - 1; i++) {
+    odom::RobotPosition lastPathPose = path->at(i);
+    odom::RobotPosition currentPathPose = path->at(i + 1);
 
     float t =
         circleIntersect(lastPathPose, currentPathPose, pose, lookaheadDist);
@@ -171,33 +168,32 @@ void odom::follow(std::shared_ptr<std::vector<odom::RobotPosition>> pathPoints,
     return;
   }
 
-  odom::RobotPosition pose = getPosition();
+  odom::RobotPosition pose = odom::getPosition();
+  odom::RobotPosition lastPose = pose;
   odom::RobotPosition lookaheadPose(0, 0, 0);
   odom::RobotPosition lastLookahead = pathPoints->at(0);
   lastLookahead.theta = 0;
-
-  // variables for the loop
-  float curvature, targetVel, prevLeftVel = 0, prevRightVel = 0, leftInput = 0,
-                              rightInput = 0;
+  float curvature;
+  float targetVel;
+  float prevLeftVel = 0;
+  float prevRightVel = 0;
   int closestPoint;
+  float leftInput = 0;
+  float rightInput = 0;
+  float prevVel = 0;
   int compState = pros::competition::get_status();
-
-  // set the timeout
-  int timeoutTime = pros::millis() + timeout;
+  // distTravelled = 0;
 
   // loop until the robot is within the end tolerance
-  while (pros::competition::get_status() == compState) {
-    // check if the timeout has been reached
-    if (timeout != 0 && pros::millis() > timeoutTime) {
-#if PURE_PURSUIT_DEBUG
-      std::cout << "pure pursuit timed out" << std::endl;
-#endif
-      break;
-    }
-
+  for (int i = 0;
+       i < timeout / 10 && pros::competition::get_status() == compState; i++) {
     // get the current position of the robot
     pose = getPosition();
     if (!forwards) pose.theta -= M_PI;
+
+    // update completion vars
+    // distTravelled += pose.distance(lastPose);
+    // lastPose = pose;
 
     // find the closest point on the path to the robot
     closestPoint = findClosest(pose, pathPoints);
@@ -205,26 +201,26 @@ void odom::follow(std::shared_ptr<std::vector<odom::RobotPosition>> pathPoints,
     if (pathPoints->at(closestPoint).theta == 0) break;
 
     // find the lookahead point
-    lookaheadPose = lookaheadPoint(lastLookahead, pose, *pathPoints, lookahead);
+    lookaheadPose = lookaheadPoint(lastLookahead, pose, pathPoints,
+                                   closestPoint, lookahead);
     lastLookahead = lookaheadPose;  // update last lookahead position
 
     // get the curvature of the arc between the robot and the lookahead point
-    float curvatureHeading = pose.theta;
+    float curvatureHeading = M_PI_2 - pose.theta;
     curvature = findLookaheadCurvature(pose, curvatureHeading, lookaheadPose);
 
     // get the target velocity of the robot
-    targetVel = pathPoints->at(closestPoint).theta + 50;
+    targetVel = pathPoints->at(closestPoint).theta;
+    targetVel = utils::slew(targetVel, prevVel, 5);
+    prevVel = targetVel;
 
     // calculate target left and right velocities
     float targetLeftVel = targetVel * (2 + curvature * DRIVE_TRACK_WIDTH) / 2;
     float targetRightVel = targetVel * (2 - curvature * DRIVE_TRACK_WIDTH) / 2;
 
-    // MAYBE?: add a feedforward term to the target velocities
-
     // ratio the speeds to respect the max speed
     float ratio =
-        std::max(std::fabs(targetLeftVel), std::fabs(targetRightVel)) / 40;
-
+        std::max(std::fabs(targetLeftVel), std::fabs(targetRightVel)) / 127;
     if (ratio > 1) {
       targetLeftVel /= ratio;
       targetRightVel /= ratio;
@@ -234,27 +230,15 @@ void odom::follow(std::shared_ptr<std::vector<odom::RobotPosition>> pathPoints,
     prevLeftVel = targetLeftVel;
     prevRightVel = targetRightVel;
 
-    if (!forwards) {
-      float temp = targetLeftVel;
-      targetLeftVel = -1 * targetRightVel;
-      targetRightVel = -1 * temp;
-    }
-
     // move the drivetrain
-    odom::move(targetLeftVel, targetRightVel);
-
-#if PURE_PURSUIT_DEBUG
-    logger::log(logger::Route::PurePursuitTargetVelocity,
-                {targetLeftVel, targetRightVel});
-
-    logger::log(logger::Route::PurePursuitCurvature, {curvature});
-    logger::log(logger::Route::PurePursuitLookaheadPose,
-                {lookaheadPose.x, lookaheadPose.y, lookaheadPose.theta});
-#endif
+    if (forwards) {
+      odom::move(targetLeftVel, targetRightVel);
+    } else {
+      odom::move(-targetRightVel, -targetLeftVel);
+    }
 
     pros::delay(10);
   }
 
-  // stop the drivetrain
   odom::move(0, 0);
 }

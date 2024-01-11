@@ -21,8 +21,8 @@ void initialize() {
   odom::reset({0, 0, 0});
 
   // load pure pursuit paths
-  odom::loadPaths(
-      {"/usd/skills/push-left.txt", /*"/usd/skills/push-center.txt"*/});
+  odom::loadPaths({"/usd/skills/push-left.txt",
+                   "/usd/pathtest.txt" /*"/usd/skills/push-center.txt"*/});
 
   static MPEGPlayer mpeg("/usd/game.mpeg", lv_scr_act());
   screen::initAutonSelector(&mpeg);
@@ -65,31 +65,44 @@ void autonomous() {
   // SKILLS
   switch (odom::autonomous) {
     case odom::Autonomous::Skills:
-      // TURN TEST
+      // move to launch position
+      odom::moveDistance(-9, 2'500);
+      odom::turnTo(45);
+      pros::delay(100);
+      odom::moveDistance(-6, 2'500);
+
+      // catapult::rapidFire = true;
+      // catapult::fire();
+      // pros::delay(25'000);
+      // catapult::rapidFire = false;
+
+      // done firing, move to other side
+      odom::moveDistance(6, 2'500);
+      odom::turnTo(135);
+      pros::delay(100);
+      odom::moveDistance(9, 2'500);
       odom::turnTo(90);
-      pros::delay(500);
-      odom::turnTo(180);
-      pros::delay(500);
+      pros::delay(100);
+      odom::moveTo(34, -57, 90, 5'000, {.chasePower = 5, .lead = 0}, false);
+
+      // push
+      odom::moveTo(58, -24, 0, 15'000, {.chasePower = 5, .lead = 0.6}, false);
+      odom::moveDistance(-5);
       odom::turnTo(270);
-      pros::delay(500);
+      odom::moveDistance(20);
+
+      // front push
+      odom::moveTo(45, 0, 90, 10'000, {.chasePower = 5, .lead = 0.6}, false);
+      odom::moveDistance(-10);
+      pros::delay(200);
+      odom::moveDistance(10);
+      pros::delay(200);
+
+      // top push
+      odom::moveTo(25, 0, 90, 10'000, {.chasePower = 2, .lead = 0}, false);
       odom::turnTo(0);
-
-      // SIMPLE MOVE TEST
-      // odom::moveTo(26, 0, 0, 10'000, {.lead = 0}, false);
-      // pros::delay(5'000);
-      // odom::moveTo(0, 0, 0, 10'000, {.forwards = false}, false);
-
-      odom::moveTo(0, 25, 0, 10'000, {.lead = 0}, false);
-      odom::turnTo(270);
-      pros::delay(250);
-      odom::moveDistance(-20);
-      pros::delay(5'000);
-      odom::moveTo(0, 0, 180, 10'000,
-                   {.chasePower = 1, .lead = 0.75, .slew = 5}, false);
-
-      // false); intake_motor->move(0); odom::moveTo(0, 0, 0, 10'000, {.lead =
-      // 0.8, .forwards = false}, false); odom::moveTo(25, -22, 270, 10'000,
-      //              {.chasePower = 0.5, .lead = 0.75, .slew = 5}, false);
+      odom::moveDistance(12);
+      odom::moveTo(58, 24, 180, 10'000, {.chasePower = 2, .lead = 0.75}, false);
       break;
 
       // case odom::Autonomous::ScoreLeft:
