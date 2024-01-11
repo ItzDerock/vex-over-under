@@ -8,10 +8,10 @@ odom::Autonomous odom::autonomous = odom::Autonomous::Skills;
 // TODO: switch to NONE for comp
 
 std::shared_ptr<PIDController> odom::turnPID =
-    std::make_shared<PIDController>(5, 0, 25);
+    std::make_shared<PIDController>(5, 0, 24);
 // std::make_shared<PIDController>(8, 0.08, 45);
 std::shared_ptr<PIDController> odom::drivePID =
-    std::make_shared<PIDController>(35, 0, 20);
+    std::make_shared<PIDController>(32, 0, 20);
 
 std::shared_ptr<ExitCondition> odom::lateralLargeExit =
     std::make_shared<ExitCondition>(3, 500);
@@ -21,13 +21,23 @@ std::shared_ptr<ExitCondition> odom::lateralSmallExit =
 std::shared_ptr<ExitCondition> odom::angularLargeExit =
     std::make_shared<ExitCondition>(3, 500);
 std::shared_ptr<ExitCondition> odom::angularSmallExit =
-    std::make_shared<ExitCondition>(1, 100);
+    std::make_shared<ExitCondition>(1, 200);
+
+// /**
+//  * Returns the distance between two points
+//  */
+// double distance(odom::RobotPosition a, odom::RobotPosition b) {
+//   return sqrt(pow(a.x - b.x, 2) + pow(a.y - b.y, 2));
+// }
 
 /**
- * Returns the distance between two points
+ * @brief Simple function to check if everything's settled
  */
-double distance(odom::RobotPosition a, odom::RobotPosition b) {
-  return sqrt(pow(a.x - b.x, 2) + pow(a.y - b.y, 2));
+inline bool isSettled() {
+  return odom::lateralLargeExit->getExit() &&
+         odom::angularLargeExit->getExit() &&
+         odom::lateralSmallExit->getExit() &&  //
+         odom::angularSmallExit->getExit();
 }
 
 void odom::moveVelocity(double left, double right) {
@@ -66,9 +76,11 @@ void odom::moveDistance(double dist, double timeout) {
   double angularError = infinity();
 
   // exit conditions
-  utils::Timer timer(timeout * 1000);
+  utils::Timer timer(timeout);
   lateralSmallExit->reset();
   lateralLargeExit->reset();
+  angularLargeExit->reset();
+  angularSmallExit->reset();
 
   // reset the PIDs
   drivePID->reset();
@@ -84,21 +96,22 @@ void odom::moveDistance(double dist, double timeout) {
   if (sign < 0) dist = dist * -1;
 
   // loop until we are settled
-  while (!timer.isUp() && !lateralSmallExit->getExit() &&
-         !lateralLargeExit->getExit()) {
+  while (!timer.isUp() && !isSettled()) {
     // get the current position
     // note: RADIANS and STANDARD POSITION
     RobotPosition position = getPosition(false, true);
 
     // calculate the error
     // $$\text{Distance} = d_i - d_t$$
-    distanceError = dist - distance(position, initialPosition);
+    distanceError = dist - position.distance(initialPosition);
     angularError = utils::radToDeg(utils::angleError(
         position.theta, position.angle(targetPosition), true));
 
     // update the exit conditions
     lateralSmallExit->update(distanceError);
     lateralLargeExit->update(distanceError);
+    angularSmallExit->update(angularError);
+    angularLargeExit->update(angularError);
 
     // calculate the output
     double output = drivePID->update(distanceError);

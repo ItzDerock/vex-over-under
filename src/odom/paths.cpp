@@ -92,6 +92,9 @@ void odom::loadPaths(std::vector<std::string> const& files) {
 
     getData(file, path);
 
+    std::cout << "loaded path: " << file << std::endl
+              << "  size: " << path->size() << std::endl;
+
     // cache the path
     cache[file] = path;
   }

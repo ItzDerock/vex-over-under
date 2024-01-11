@@ -3,6 +3,7 @@
 #include "pros-mpeg/mpeg.hpp"
 #include "robot/odom.hpp"
 #include "robot/screen.hpp"
+#include "robot/utils.hpp"
 
 // current screen
 lv_obj_t *original_screen = nullptr;
@@ -51,7 +52,8 @@ static void reset_position_event_cb(lv_event_t *event) {
         break;
 
       default:
-        odom::reset({-35, -70 + (double)DRIVE_TRACK_WIDTH / 2, 0});
+        odom::reset(
+            {-35, -70 + (double)DRIVE_TRACK_WIDTH / 2, utils::degToRad(90)});
         break;
     }
   }
