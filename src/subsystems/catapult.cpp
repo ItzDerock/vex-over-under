@@ -18,14 +18,24 @@ bool catapult::rapidFire = false;
 void catapult::update() {
   // if we're ready, do nothing
   // ratchet will keep us in place
-  if (catapultState == READY) {
-    return;
-  }
+  // if (catapultState == READY) {
+  //   return;
+  // }
 
   // otherwise, calculate error and spin
   double position = (double)catapult_position->get_angle() / 100;
   double error =
       position < CATAPULT_READY_STATE ? CATAPULT_READY_STATE - position : 360;
+
+  if (catapultState == READY) {
+    if (position > CATAPULT_READY_STATE + CATAPULT_ALLOWED_ERROR) {
+      catapultState = RELOADING;
+      catapult_motor->move(127);
+    } else {
+      catapult_motor->move_velocity(0);
+      return;
+    }
+  }
 
   // if error is less than the allowed error, we're ready
   // rapidFire needs to be false

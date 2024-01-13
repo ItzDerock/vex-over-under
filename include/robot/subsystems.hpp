@@ -12,7 +12,7 @@ namespace catapult {
 
 #define CATAPULT_ALLOWED_ERROR 8
 #define CATAPULT_ZERO_ANGLE 350
-#define CATAPULT_READY_STATE 345
+#define CATAPULT_READY_STATE 330
 
 enum CatapultState { READY, RELOADING, FIRING };
 extern CatapultState catapultState;
