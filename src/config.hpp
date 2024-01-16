@@ -31,7 +31,7 @@
 #define WINGS_PORT_2 'h'
 
 // BLOCKER
-#define BLOCKER_PORT 'e'
+#define BLOCKER_PORT 'a'
 
 /*************************
  * VARIABLE DECLARATIONS *

@@ -8,7 +8,7 @@ odom::Autonomous odom::autonomous = odom::Autonomous::Skills;
 // TODO: switch to NONE for comp
 
 std::shared_ptr<PIDController> odom::turnPID =
-    std::make_shared<PIDController>(5, 0, 24);
+    std::make_shared<PIDController>(4, 0, 26);
 // std::make_shared<PIDController>(8, 0.08, 45);
 std::shared_ptr<PIDController> odom::drivePID =
     std::make_shared<PIDController>(32, 0, 20);
@@ -58,17 +58,7 @@ void odom::move(double left, double right) {
   drive_right_pto->move(right);
 }
 
-// void odom::moveDistance(double dist, double timeout) {
-//   // find the target position's X and Y
-//   RobotPosition initialPosition = getPosition();
-//   double targetX = initialPosition.x + dist * sin(initialPosition.theta);
-//   double targetY = initialPosition.y + dist * cos(initialPosition.theta);
-//   RobotPosition targetPosition = {targetX, targetY, initialPosition.theta};
-
-//   odom::moveTo(targetPosition.x, targetPosition.y, targetPosition.theta,
-//                timeout, {}, false);
-// }
-
+// void odom::moveToSimple(RobotPosition position, double timeout) {
 void odom::moveDistance(double dist, double timeout) {
   int8_t sign = dist < 0 ? -1 : 1;
 
@@ -89,8 +79,8 @@ void odom::moveDistance(double dist, double timeout) {
   // find the target position's X and Y
   // note: RADIANS and STANDARD POSITION
   RobotPosition initialPosition = getPosition(false, true);
-  double targetX = initialPosition.x + dist * sin(initialPosition.theta);
-  double targetY = initialPosition.y + dist * cos(initialPosition.theta);
+  double targetX = initialPosition.x + dist * cos(initialPosition.theta);
+  double targetY = initialPosition.y + dist * sin(initialPosition.theta);
   RobotPosition targetPosition = {targetX, targetY, initialPosition.theta};
 
   if (sign < 0) dist = dist * -1;
@@ -98,14 +88,34 @@ void odom::moveDistance(double dist, double timeout) {
   // loop until we are settled
   while (!timer.isUp() && !isSettled()) {
     // get the current position
-    // note: RADIANS and STANDARD POSITION
-    RobotPosition position = getPosition(false, true);
+    // note: RADIANS
+    RobotPosition position = getPosition(false, false);
+
+    // figure out the target angle
+    double targetTheta = position.angle(targetPosition);
+    // sign > 0 ? position.angle(targetPosition)
+    //          : utils::angleSquish(position.angle(targetPosition) + M_PI);
+
+    printf("Target position is: %f, %f\n", targetPosition.x, targetPosition.y);
+    printf("Current position is: %f, %f\n", position.x, position.y);
+    printf("angle to target: %f\n",
+           utils::radToDeg(position.angle(targetPosition)));
+    printf("needs to face: %f\n", utils::radToDeg(targetTheta));
+    printf("current angle: %f\n", utils::radToDeg(position.theta));
+
+    double adjustedRobotTheta =
+        sign > 0 ? position.theta : utils::angleSquish(position.theta + M_PI);
+
+    printf("adjusted robot theta: %f\n", utils::radToDeg(adjustedRobotTheta));
 
     // calculate the error
     // $$\text{Distance} = d_i - d_t$$
     distanceError = dist - position.distance(initialPosition);
-    angularError = utils::radToDeg(utils::angleError(
-        position.theta, position.angle(targetPosition), true));
+    angularError = utils::radToDeg(
+        utils::angleError(adjustedRobotTheta, targetTheta, true));
+
+    printf("current error is: %f\n", angularError);
+    printf("sign is %d\n", sign);
 
     // update the exit conditions
     lateralSmallExit->update(distanceError);
@@ -114,11 +124,11 @@ void odom::moveDistance(double dist, double timeout) {
     angularLargeExit->update(angularError);
 
     // calculate the output
-    double output = drivePID->update(distanceError);
+    double output = sign * drivePID->update(distanceError);
     double angularOutput = turnPID->update(angularError);
 
-    double left = sign * output + angularError;
-    double right = sign * output - angularError;
+    double left = output + angularError;
+    double right = output - angularError;
 
     moveVelocity(left, right);
 
