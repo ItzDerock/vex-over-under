@@ -1,0 +1,2418 @@
+Established terminal connection
+
+
+
+  _____  _____   ____   _____ 
+ |  __ \|  __ \ / __ \ / ____|          Powered by PROS for VEX V5
+ | |__) | |__) | |  | | (___      Version:                          4.0.6
+ |  ___/|  _  /| |  | |\___ \     Uptime:                       549.736 s
+ | |    | | \ \| |__| |____) |    Compiled:          Jan 16 2024 18:40:52
+ |_|    |_|  \_\\____/|_____/     Directory:                             
+
+
+starting
+angle to target: -44.024169
+needs to face: -44.024169
+current angle: 135.975833
+adjusted robot theta: 315.975833
+current error is: 0.000002
+sign is -1
+angle to target: -44.024196
+needs to face: -44.024196
+current angle: 135.975769
+adjusted robot theta: 315.975769
+current error is: -0.000035
+sign is -1
+angle to target: -44.023633
+needs to face: -44.023633
+current angle: 135.976975
+adjusted robot theta: 315.976975
+current error is: 0.000607
+sign is -1
+angle to target: -44.024350
+needs to face: -44.024350
+current angle: 135.975441
+adjusted robot theta: 315.975441
+current error is: -0.000209
+sign is -1
+angle to target: -44.024046
+needs to face: -44.024046
+current angle: 135.976091
+adjusted robot theta: 315.976091
+current error is: 0.000137
+sign is -1
+angle to target: -44.029998
+needs to face: -44.029998
+current angle: 135.977138
+adjusted robot theta: 315.977138
+current error is: 0.007136
+sign is -1
+angle to target: -44.030009
+needs to face: -44.030009
+current angle: 135.977114
+adjusted robot theta: 315.977114
+current error is: 0.007123
+sign is -1
+angle to target: -44.034346
+needs to face: -44.034346
+current angle: 135.978126
+adjusted robot theta: 315.978126
+current error is: 0.012472
+sign is -1
+angle to target: -44.031658
+needs to face: -44.031658
+current angle: 135.983919
+adjusted robot theta: 315.983919
+current error is: 0.015577
+sign is -1
+angle to target: -44.033564
+needs to face: -44.033564
+current angle: 135.997145
+adjusted robot theta: 315.997145
+current error is: 0.030709
+sign is -1
+angle to target: -44.032413
+needs to face: -44.032413
+current angle: 136.031214
+adjusted robot theta: 316.031214
+current error is: 0.063627
+sign is -1
+angle to target: -44.025535
+needs to face: -44.025535
+current angle: 136.089333
+adjusted robot theta: 316.089333
+current error is: 0.114868
+sign is -1
+angle to target: -44.028929
+needs to face: -44.028929
+current angle: 136.148333
+adjusted robot theta: 316.148333
+current error is: 0.177262
+sign is -1
+angle to target: -43.866227
+needs to face: -43.866227
+current angle: 136.209931
+adjusted robot theta: 316.209931
+current error is: 0.076158
+sign is -1
+angle to target: -43.884225
+needs to face: -43.884225
+current angle: 136.272976
+adjusted robot theta: 316.272976
+current error is: 0.157201
+sign is -1
+angle to target: -43.918666
+needs to face: -43.918666
+current angle: 136.315141
+adjusted robot theta: 316.315141
+current error is: 0.233807
+sign is -1
+angle to target: -43.955068
+needs to face: -43.955068
+current angle: 136.346882
+adjusted robot theta: 316.346882
+current error is: 0.301950
+sign is -1
+angle to target: -43.993095
+needs to face: -43.993095
+current angle: 136.376796
+adjusted robot theta: 316.376796
+current error is: 0.369891
+sign is -1
+angle to target: -44.038058
+needs to face: -44.038058
+current angle: 136.395124
+adjusted robot theta: 316.395124
+current error is: 0.433182
+sign is -1
+angle to target: -44.084479
+needs to face: -44.084479
+current angle: 136.414043
+adjusted robot theta: 316.414043
+current error is: 0.498522
+sign is -1
+angle to target: -44.135726
+needs to face: -44.135726
+current angle: 136.436350
+adjusted robot theta: 316.436350
+current error is: 0.572077
+sign is -1
+angle to target: -44.188950
+needs to face: -44.188950
+current angle: 136.447683
+adjusted robot theta: 316.447683
+current error is: 0.636633
+sign is -1
+angle to target: -44.245959
+needs to face: -44.245959
+current angle: 136.453729
+adjusted robot theta: 316.453729
+current error is: 0.699688
+sign is -1
+angle to target: -44.296915
+needs to face: -44.296915
+current angle: 136.477419
+adjusted robot theta: 316.477419
+current error is: 0.774334
+sign is -1
+angle to target: -44.354781
+needs to face: -44.354781
+current angle: 136.489685
+adjusted robot theta: 316.489685
+current error is: 0.844466
+sign is -1
+angle to target: -44.413534
+needs to face: -44.413534
+current angle: 136.494069
+adjusted robot theta: 316.494069
+current error is: 0.907603
+sign is -1
+angle to target: -44.469712
+needs to face: -44.469712
+current angle: 136.504269
+adjusted robot theta: 316.504269
+current error is: 0.973981
+sign is -1
+angle to target: -44.531983
+needs to face: -44.531983
+current angle: 136.506612
+adjusted robot theta: 316.506612
+current error is: 1.038595
+sign is -1
+angle to target: -44.710432
+needs to face: -44.710432
+current angle: 136.495520
+adjusted robot theta: 316.495520
+current error is: 1.205952
+sign is -1
+angle to target: -44.766006
+needs to face: -44.766006
+current angle: 136.499083
+adjusted robot theta: 316.499083
+current error is: 1.265089
+sign is -1
+angle to target: -44.811502
+needs to face: -44.811502
+current angle: 136.505714
+adjusted robot theta: 316.505714
+current error is: 1.317216
+sign is -1
+angle to target: -44.844666
+needs to face: -44.844666
+current angle: 136.531995
+adjusted robot theta: 316.531995
+current error is: 1.376661
+sign is -1
+angle to target: -44.879763
+needs to face: -44.879763
+current angle: 136.565899
+adjusted robot theta: 316.565899
+current error is: 1.445662
+sign is -1
+angle to target: -44.905133
+needs to face: -44.905133
+current angle: 136.597360
+adjusted robot theta: 316.597360
+current error is: 1.502493
+sign is -1
+angle to target: -44.926775
+needs to face: -44.926775
+current angle: 136.639146
+adjusted robot theta: 316.639146
+current error is: 1.565921
+sign is -1
+angle to target: -45.041061
+needs to face: -45.041061
+current angle: 136.694894
+adjusted robot theta: 316.694894
+current error is: 1.735955
+sign is -1
+angle to target: -45.044135
+needs to face: -45.044135
+current angle: 136.770154
+adjusted robot theta: 316.770154
+current error is: 1.814289
+sign is -1
+angle to target: -45.044353
+needs to face: -45.044353
+current angle: 136.847812
+adjusted robot theta: 316.847812
+current error is: 1.892166
+sign is -1
+angle to target: -45.242483
+needs to face: -45.242483
+current angle: 136.912711
+adjusted robot theta: 316.912711
+current error is: 2.155194
+sign is -1
+angle to target: -45.253353
+needs to face: -45.253353
+current angle: 136.940191
+adjusted robot theta: 316.940191
+current error is: 2.193544
+sign is -1
+angle to target: -45.263373
+needs to face: -45.263373
+current angle: 136.974612
+adjusted robot theta: 316.974612
+current error is: 2.237986
+sign is -1
+angle to target: -45.082049
+needs to face: -45.082049
+current angle: 137.019969
+adjusted robot theta: 317.019969
+current error is: 2.102017
+sign is -1
+angle to target: -45.081632
+needs to face: -45.081632
+current angle: 137.070402
+adjusted robot theta: 317.070402
+current error is: 2.152034
+sign is -1
+angle to target: -45.084539
+needs to face: -45.084539
+current angle: 137.118720
+adjusted robot theta: 317.118720
+current error is: 2.203258
+sign is -1
+angle to target: -45.260710
+needs to face: -45.260710
+current angle: 137.160284
+adjusted robot theta: 317.160284
+current error is: 2.420994
+sign is -1
+angle to target: -45.260416
+needs to face: -45.260416
+current angle: 137.181858
+adjusted robot theta: 317.181858
+current error is: 2.442274
+sign is -1
+angle to target: -45.079587
+needs to face: -45.079587
+current angle: 137.194959
+adjusted robot theta: 317.194959
+current error is: 2.274546
+sign is -1
+angle to target: -45.076650
+needs to face: -45.076650
+current angle: 137.207346
+adjusted robot theta: 317.207346
+current error is: 2.283996
+sign is -1
+angle to target: -45.078033
+needs to face: -45.078033
+current angle: 137.201511
+adjusted robot theta: 317.201511
+current error is: 2.279544
+sign is -1
+angle to target: -45.079624
+needs to face: -45.079624
+current angle: 137.172481
+adjusted robot theta: 317.172481
+current error is: 2.252105
+sign is -1
+angle to target: -45.090423
+needs to face: -45.090423
+current angle: 137.126995
+adjusted robot theta: 317.126995
+current error is: 2.217417
+sign is -1
+angle to target: -45.102007
+needs to face: -45.102007
+current angle: 137.078111
+adjusted robot theta: 317.078111
+current error is: 2.180118
+sign is -1
+angle to target: -45.108929
+needs to face: -45.108929
+current angle: 137.031612
+adjusted robot theta: 317.031612
+current error is: 2.140541
+sign is -1
+angle to target: -45.118570
+needs to face: -45.118570
+current angle: 136.987526
+adjusted robot theta: 316.987526
+current error is: 2.106096
+sign is -1
+angle to target: -45.124560
+needs to face: -45.124560
+current angle: 136.949090
+adjusted robot theta: 316.949090
+current error is: 2.073650
+sign is -1
+angle to target: -45.131383
+needs to face: -45.131383
+current angle: 136.913846
+adjusted robot theta: 316.913846
+current error is: 2.045230
+sign is -1
+angle to target: -45.141089
+needs to face: -45.141089
+current angle: 136.869682
+adjusted robot theta: 316.869682
+current error is: 2.010771
+sign is -1
+angle to target: -45.152069
+needs to face: -45.152069
+current angle: 136.823186
+adjusted robot theta: 316.823186
+current error is: 1.975254
+sign is -1
+angle to target: -45.160200
+needs to face: -45.160200
+current angle: 136.791648
+adjusted robot theta: 316.791648
+current error is: 1.951848
+sign is -1
+angle to target: -45.161064
+needs to face: -45.161064
+current angle: 136.787971
+adjusted robot theta: 316.787971
+current error is: 1.949035
+sign is -1
+angle to target: -45.154415
+needs to face: -45.154415
+current angle: 136.807390
+adjusted robot theta: 316.807390
+current error is: 1.961805
+sign is -1
+angle to target: -45.164967
+needs to face: -45.164967
+current angle: 136.751099
+adjusted robot theta: 316.751099
+current error is: 1.916066
+sign is -1
+angle to target: -45.368254
+needs to face: -45.368254
+current angle: 136.659594
+adjusted robot theta: 316.659594
+current error is: 2.027849
+sign is -1
+angle to target: -45.384356
+needs to face: -45.384356
+current angle: 136.577491
+adjusted robot theta: 316.577491
+current error is: 1.961847
+sign is -1
+angle to target: -45.481099
+needs to face: -45.481099
+current angle: 136.550874
+adjusted robot theta: 316.550874
+current error is: 2.031974
+sign is -1
+angle to target: -45.477811
+needs to face: -45.477811
+current angle: 136.559068
+adjusted robot theta: 316.559068
+current error is: 2.036879
+sign is -1
+angle to target: -45.562563
+needs to face: -45.562563
+current angle: 136.590867
+adjusted robot theta: 316.590867
+current error is: 2.153430
+sign is -1
+angle to target: -45.558543
+needs to face: -45.558543
+current angle: 136.608014
+adjusted robot theta: 316.608014
+current error is: 2.166557
+sign is -1
+angle to target: -45.560975
+needs to face: -45.560975
+current angle: 136.597649
+adjusted robot theta: 316.597649
+current error is: 2.158624
+sign is -1
+angle to target: -45.476270
+needs to face: -45.476270
+current angle: 136.563656
+adjusted robot theta: 316.563656
+current error is: 2.039926
+sign is -1
+angle to target: -45.478787
+needs to face: -45.478787
+current angle: 136.554876
+adjusted robot theta: 316.554876
+current error is: 2.033663
+sign is -1
+angle to target: -45.466776
+needs to face: -45.466776
+current angle: 136.608088
+adjusted robot theta: 316.608088
+current error is: 2.074864
+sign is -1
+angle to target: -45.445900
+needs to face: -45.445900
+current angle: 136.701223
+adjusted robot theta: 316.701223
+current error is: 2.147123
+sign is -1
+angle to target: -45.426147
+needs to face: -45.426147
+current angle: 136.794512
+adjusted robot theta: 316.794512
+current error is: 2.220659
+sign is -1
+angle to target: -45.410257
+needs to face: -45.410257
+current angle: 136.866926
+adjusted robot theta: 316.866926
+current error is: 2.277183
+sign is -1
+angle to target: -45.401722
+needs to face: -45.401722
+current angle: 136.919062
+adjusted robot theta: 316.919062
+current error is: 2.320784
+sign is -1
+angle to target: -45.391030
+needs to face: -45.391030
+current angle: 136.969893
+adjusted robot theta: 316.969893
+current error is: 2.360922
+sign is -1
+angle to target: -45.381331
+needs to face: -45.381331
+current angle: 137.022446
+adjusted robot theta: 317.022446
+current error is: 2.403776
+sign is -1
+angle to target: -45.373343
+needs to face: -45.373343
+current angle: 137.062189
+adjusted robot theta: 317.062189
+current error is: 2.435531
+sign is -1
+angle to target: -45.369282
+needs to face: -45.369282
+current angle: 137.091534
+adjusted robot theta: 317.091534
+current error is: 2.460817
+sign is -1
+angle to target: -45.273636
+needs to face: -45.273636
+current angle: 137.114168
+adjusted robot theta: 317.114168
+current error is: 2.387804
+sign is -1
+angle to target: -45.272481
+needs to face: -45.272481
+current angle: 137.128899
+adjusted robot theta: 317.128899
+current error is: 2.401380
+sign is -1
+pose: 137.136684
+target: 52.000000
+error: 85.136684
+power: 127.000000
+pose: 137.135369
+target: 52.000000
+error: 85.135369
+power: 127.000000
+pose: 137.134672
+target: 52.000000
+error: 85.134672
+power: 127.000000
+pose: 137.138253
+target: 52.000000
+error: 85.138253
+power: 127.000000
+pose: 137.123876
+target: 52.000000
+error: 85.123876
+power: 127.000000
+pose: 137.034448
+target: 52.000000
+error: 85.034448
+power: 127.000000
+pose: 136.771319
+target: 52.000000
+error: 84.771319
+power: 127.000000
+pose: 136.251141
+target: 52.000000
+error: 84.251141
+power: 127.000000
+pose: 135.465894
+target: 52.000000
+error: 83.465894
+power: 127.000000
+pose: 134.498294
+target: 52.000000
+error: 82.498294
+power: 127.000000
+pose: 133.433128
+target: 52.000000
+error: 81.433128
+power: 127.000000
+pose: 132.275344
+target: 52.000000
+error: 80.275344
+power: 127.000000
+pose: 130.996917
+target: 52.000000
+error: 78.996917
+power: 127.000000
+pose: 129.574819
+target: 52.000000
+error: 77.574819
+power: 127.000000
+pose: 128.004649
+target: 52.000000
+error: 76.004649
+power: 127.000000
+pose: 126.304960
+target: 52.000000
+error: 74.304960
+power: 127.000000
+pose: 124.472151
+target: 52.000000
+error: 72.472151
+power: 127.000000
+pose: 122.516215
+target: 52.000000
+error: 70.516215
+power: 127.000000
+pose: 120.436078
+target: 52.000000
+error: 68.436078
+power: 127.000000
+pose: 118.242376
+target: 52.000000
+error: 66.242376
+power: 127.000000
+pose: 115.960933
+target: 52.000000
+error: 63.960933
+power: 127.000000
+pose: 113.582891
+target: 52.000000
+error: 61.582891
+power: 127.000000
+pose: 111.093576
+target: 52.000000
+error: 59.093576
+power: 127.000000
+pose: 108.492283
+target: 52.000000
+error: 56.492283
+power: 127.000000
+pose: 105.786583
+target: 52.000000
+error: 53.786583
+power: 127.000000
+pose: 102.969794
+target: 52.000000
+error: 50.969794
+power: 127.000000
+pose: 100.062201
+target: 52.000000
+error: 48.062201
+power: 116.651380
+pose: 97.097093
+target: 52.000000
+error: 45.097093
+power: 103.295582
+pose: 94.033300
+target: 52.000000
+error: 42.033300
+power: 88.474566
+pose: 90.881938
+target: 52.000000
+error: 38.881938
+power: 73.592337
+pose: 87.692983
+target: 52.000000
+error: 35.692983
+power: 59.859095
+pose: 84.495691
+target: 52.000000
+error: 32.495691
+power: 46.853178
+pose: 81.252591
+target: 52.000000
+error: 29.252591
+power: 32.689761
+pose: 78.010526
+target: 52.000000
+error: 26.010526
+power: 19.748410
+pose: 74.784065
+target: 52.000000
+error: 22.784065
+power: 7.248293
+pose: 71.565056
+target: 52.000000
+error: 19.565056
+power: -5.434032
+pose: 68.366541
+target: 52.000000
+error: 16.366541
+power: -17.695200
+pose: 65.234359
+target: 52.000000
+error: 13.234359
+power: -28.499297
+pose: 62.220932
+target: 52.000000
+error: 10.220932
+power: -37.465371
+pose: 59.355524
+target: 52.000000
+error: 7.355524
+power: -45.078522
+pose: 56.692224
+target: 52.000000
+error: 4.692224
+power: -50.476899
+pose: 54.321638
+target: 52.000000
+error: 2.321638
+power: -52.348690
+pose: 52.240846
+target: 52.000000
+error: 0.240846
+power: -53.137214
+pose: 50.447523
+target: 52.000000
+error: -1.552477
+power: -52.836315
+pose: 48.999091
+target: 52.000000
+error: -3.000909
+power: -49.662860
+pose: 47.942494
+target: 52.000000
+error: -4.057506
+power: -43.701537
+pose: 47.272919
+target: 52.000000
+error: -4.727081
+power: -36.317265
+pose: 46.968134
+target: 52.000000
+error: -5.031866
+power: -28.051895
+pose: 47.001065
+target: 52.000000
+error: -4.998935
+power: -19.139525
+pose: 47.292003
+target: 52.000000
+error: -4.707997
+power: -11.267597
+pose: 47.730484
+target: 52.000000
+error: -4.269516
+power: -5.677554
+pose: 48.739420
+target: 52.000000
+error: -3.260580
+power: 13.190005
+pose: 49.208812
+target: 52.000000
+error: -2.791188
+power: 1.039434
+pose: 49.635624
+target: 52.000000
+error: -2.364376
+power: 1.639606
+pose: 50.010547
+target: 52.000000
+error: -1.989453
+power: 1.790195
+pose: 50.323756
+target: 52.000000
+error: -1.676244
+power: 1.438447
+pose: 50.579155
+target: 52.000000
+error: -1.420845
+power: 0.957011
+pose: 50.782343
+target: 52.000000
+error: -1.217657
+power: 0.412250
+pose: 50.927354
+target: 52.000000
+error: -1.072646
+power: -0.520309
+pose: 51.009794
+target: 52.000000
+error: -0.990206
+power: -1.817378
+pose: 51.027066
+target: 52.000000
+error: -0.972934
+power: -3.442655
+pose: 50.991925
+target: 52.000000
+error: -1.008075
+power: -4.945962
+pose: 50.925204
+target: 52.000000
+error: -1.074796
+power: -6.033947
+pose: 50.840663
+target: 52.000000
+error: -1.159337
+power: -6.835415
+pose: 50.746099
+target: 52.000000
+error: -1.253901
+power: -7.474261
+pose: 50.654645
+target: 52.000000
+error: -1.345355
+power: -7.759228
+pose: 50.574460
+target: 52.000000
+error: -1.425540
+power: -7.786951
+pose: 50.511942
+target: 52.000000
+error: -1.488058
+power: -7.577709
+pose: 50.471398
+target: 52.000000
+error: -1.528602
+power: -7.168541
+pose: 50.452620
+target: 52.000000
+error: -1.547380
+power: -6.677768
+pose: 50.456930
+target: 52.000000
+error: -1.543070
+power: -6.060201
+pose: 50.481987
+target: 52.000000
+error: -1.518013
+power: -5.420576
+pose: 50.512067
+target: 52.000000
+error: -1.487933
+power: -5.169645
+pose: 50.536810
+target: 52.000000
+error: -1.463190
+power: -5.209450
+pose: 50.550351
+target: 52.000000
+error: -1.449649
+power: -5.446541
+pose: 50.555119
+target: 52.000000
+error: -1.444881
+power: -5.655538
+pose: 50.553637
+target: 52.000000
+error: -1.446363
+power: -5.823992
+pose: 50.548461
+target: 52.000000
+error: -1.451539
+power: -5.940741
+pose: 50.545453
+target: 52.000000
+error: -1.454547
+power: -5.896393
+pose: 50.545876
+target: 52.000000
+error: -1.454124
+power: -5.805482
+pose: 50.546258
+target: 52.000000
+error: -1.453742
+power: -5.805058
+pose: 50.546608
+target: 52.000000
+error: -1.453392
+power: -5.804445
+pose: 50.546713
+target: 52.000000
+error: -1.453287
+power: -5.810433
+pose: 50.543722
+target: 52.000000
+error: -1.456278
+power: -5.902882
+pose: 50.539659
+target: 52.000000
+error: -1.460341
+power: -5.946997
+pose: 50.538139
+target: 52.000000
+error: -1.461861
+power: -5.886950
+pose: 50.539836
+target: 52.000000
+error: -1.460164
+power: -5.796535
+pose: 50.544567
+target: 52.000000
+error: -1.455433
+power: -5.698730
+pose: 50.548314
+target: 52.000000
+error: -1.451686
+power: -5.709318
+pose: 50.547955
+target: 52.000000
+error: -1.452045
+power: -5.817516
+pose: 50.546191
+target: 52.000000
+error: -1.453809
+power: -5.861111
+pose: 50.542601
+target: 52.000000
+error: -1.457399
+power: -5.922917
+pose: 50.541042
+target: 52.000000
+error: -1.458958
+power: -5.876384
+pose: 50.540683
+target: 52.000000
+error: -1.459317
+power: -5.846592
+pose: 50.540452
+target: 52.000000
+error: -1.459548
+power: -5.844208
+pose: 50.540755
+target: 52.000000
+error: -1.459245
+power: -5.829086
+pose: 50.541134
+target: 52.000000
+error: -1.458866
+power: -5.825615
+pose: 50.541605
+target: 52.000000
+error: -1.458395
+power: -5.821352
+pose: 50.541397
+target: 52.000000
+error: -1.458603
+power: -5.839815
+pose: 50.540354
+target: 52.000000
+error: -1.459646
+power: -5.865699
+pose: 50.539478
+target: 52.000000
+error: -1.460522
+power: -5.864872
+pose: 50.538481
+target: 52.000000
+error: -1.461519
+power: -5.871995
+pose: 50.539298
+target: 52.000000
+error: -1.460702
+power: -5.821552
+angle to target: -129.459679
+needs to face: -129.459679
+current angle: 50.540318
+adjusted robot theta: 230.540318
+current error is: -0.000003
+sign is -1
+angle to target: -129.460731
+needs to face: -129.460731
+current angle: 50.541555
+adjusted robot theta: 230.541555
+current error is: 0.002286
+sign is -1
+angle to target: -129.726671
+needs to face: -129.726671
+current angle: 50.541466
+adjusted robot theta: 230.541466
+current error is: 0.268137
+sign is -1
+angle to target: -129.462985
+needs to face: -129.462985
+current angle: 50.569646
+adjusted robot theta: 230.569646
+current error is: 0.032630
+sign is -1
+angle to target: -129.032915
+needs to face: -129.032915
+current angle: 50.827183
+adjusted robot theta: 230.827183
+current error is: -0.139902
+sign is -1
+angle to target: -129.203656
+needs to face: -129.203656
+current angle: 51.374131
+adjusted robot theta: 231.374131
+current error is: 0.577787
+sign is -1
+angle to target: -129.354084
+needs to face: -129.354084
+current angle: 52.123266
+adjusted robot theta: 232.123266
+current error is: 1.477350
+sign is -1
+angle to target: -129.916291
+needs to face: -129.916291
+current angle: 52.952214
+adjusted robot theta: 232.952214
+current error is: 2.868505
+sign is -1
+angle to target: -130.410714
+needs to face: -130.410714
+current angle: 53.855424
+adjusted robot theta: 233.855424
+current error is: 4.266138
+sign is -1
+angle to target: -130.835689
+needs to face: -130.835689
+current angle: 54.857419
+adjusted robot theta: 234.857419
+current error is: 5.693108
+sign is -1
+angle to target: -131.374358
+needs to face: -131.374358
+current angle: 55.974794
+adjusted robot theta: 235.974794
+current error is: 7.349152
+sign is -1
+angle to target: -131.938887
+needs to face: -131.938887
+current angle: 57.178409
+adjusted robot theta: 237.178409
+current error is: 9.117296
+sign is -1
+angle to target: -132.875975
+needs to face: -132.875975
+current angle: 58.432173
+adjusted robot theta: 238.432173
+current error is: 11.308148
+sign is -1
+angle to target: -134.514128
+needs to face: -134.514128
+current angle: 59.705659
+adjusted robot theta: 239.705659
+current error is: 14.219787
+sign is -1
+angle to target: -136.429313
+needs to face: -136.429313
+current angle: 60.979637
+adjusted robot theta: 240.979637
+current error is: 17.408950
+sign is -1
+angle to target: -138.495363
+needs to face: -138.495363
+current angle: 62.261355
+adjusted robot theta: 242.261355
+current error is: 20.756718
+sign is -1
+angle to target: -139.905319
+needs to face: -139.905319
+current angle: 63.558683
+adjusted robot theta: 243.558683
+current error is: 23.464002
+sign is -1
+angle to target: -141.766532
+needs to face: -141.766532
+current angle: 64.820443
+adjusted robot theta: 244.820443
+current error is: 26.586975
+sign is -1
+angle to target: -143.680829
+needs to face: -143.680829
+current angle: 66.027572
+adjusted robot theta: 246.027572
+current error is: 29.708401
+sign is -1
+angle to target: -144.761775
+needs to face: -144.761775
+current angle: 67.190555
+adjusted robot theta: 247.190555
+current error is: 31.952330
+sign is -1
+angle to target: -146.781899
+needs to face: -146.781899
+current angle: 68.277585
+adjusted robot theta: 248.277585
+current error is: 35.059484
+sign is -1
+angle to target: -148.357624
+needs to face: -148.357624
+current angle: 69.252513
+adjusted robot theta: 249.252513
+current error is: 37.610136
+sign is -1
+angle to target: -150.494667
+needs to face: -150.494667
+current angle: 70.117198
+adjusted robot theta: 250.117198
+current error is: 40.611864
+sign is -1
+angle to target: -151.450251
+needs to face: -151.450251
+current angle: 70.911886
+adjusted robot theta: 250.911886
+current error is: 42.362137
+sign is -1
+angle to target: -151.957967
+needs to face: -151.957967
+current angle: 71.620805
+adjusted robot theta: 251.620805
+current error is: 43.578772
+sign is -1
+angle to target: -153.620940
+needs to face: -153.620940
+current angle: 72.245320
+adjusted robot theta: 252.245320
+current error is: 45.866260
+sign is -1
+angle to target: -153.607840
+needs to face: -153.607840
+current angle: 72.793896
+adjusted robot theta: 252.793896
+current error is: 46.401736
+sign is -1
+angle to target: -154.614992
+needs to face: -154.614992
+current angle: 73.283820
+adjusted robot theta: 253.283820
+current error is: 47.898812
+sign is -1
+angle to target: -155.647608
+needs to face: -155.647608
+current angle: 73.718070
+adjusted robot theta: 253.718070
+current error is: 49.365678
+sign is -1
+angle to target: -156.050042
+needs to face: -156.050042
+current angle: 74.096053
+adjusted robot theta: 254.096053
+current error is: 50.146095
+sign is -1
+angle to target: -157.884180
+needs to face: -157.884180
+current angle: 74.401420
+adjusted robot theta: 254.401420
+current error is: 52.285600
+sign is -1
+angle to target: -157.909916
+needs to face: -157.909916
+current angle: 74.631245
+adjusted robot theta: 254.631245
+current error is: 52.541162
+sign is -1
+angle to target: -157.575360
+needs to face: -157.575360
+current angle: 74.786105
+adjusted robot theta: 254.786105
+current error is: 52.361465
+sign is -1
+angle to target: -158.345341
+needs to face: -158.345341
+current angle: 74.872550
+adjusted robot theta: 254.872550
+current error is: 53.217891
+sign is -1
+angle to target: -157.743274
+needs to face: -157.743274
+current angle: 74.939448
+adjusted robot theta: 254.939448
+current error is: 52.682721
+sign is -1
+angle to target: -156.931328
+needs to face: -156.931328
+current angle: 74.990411
+adjusted robot theta: 254.990411
+current error is: 51.921738
+sign is -1
+angle to target: -155.462947
+needs to face: -155.462947
+current angle: 75.040427
+adjusted robot theta: 255.040427
+current error is: 50.503374
+sign is -1
+angle to target: -152.116646
+needs to face: -152.116646
+current angle: 75.110607
+adjusted robot theta: 255.110607
+current error is: 47.227253
+sign is -1
+angle to target: -151.077091
+needs to face: -151.077091
+current angle: 75.217006
+adjusted robot theta: 255.217006
+current error is: 46.294097
+sign is -1
+angle to target: -150.638497
+needs to face: -150.638497
+current angle: 75.370598
+adjusted robot theta: 255.370598
+current error is: 46.009095
+sign is -1
+angle to target: -150.519583
+needs to face: -150.519583
+current angle: 75.562611
+adjusted robot theta: 255.562611
+current error is: 46.082195
+sign is -1
+angle to target: -151.052584
+needs to face: -151.052584
+current angle: 75.788083
+adjusted robot theta: 255.788083
+current error is: 46.840667
+sign is -1
+angle to target: -151.093060
+needs to face: -151.093060
+current angle: 76.033599
+adjusted robot theta: 256.033599
+current error is: 47.126659
+sign is -1
+angle to target: -154.667380
+needs to face: -154.667380
+current angle: 76.292755
+adjusted robot theta: 256.292755
+current error is: 50.960134
+sign is -1
+angle to target: -157.491007
+needs to face: -157.491007
+current angle: 76.556467
+adjusted robot theta: 256.556467
+current error is: 54.047474
+sign is -1
+angle to target: -160.105153
+needs to face: -160.105153
+current angle: 76.819510
+adjusted robot theta: 256.819510
+current error is: 56.924663
+sign is -1
+angle to target: -162.983422
+needs to face: -162.983422
+current angle: 77.080056
+adjusted robot theta: 257.080056
+current error is: 60.063478
+sign is -1
+angle to target: -176.615646
+needs to face: -176.615646
+current angle: 77.331043
+adjusted robot theta: 257.331043
+current error is: 73.946690
+sign is -1
+angle to target: 170.379752
+needs to face: 170.379752
+current angle: 77.575890
+adjusted robot theta: 257.575890
+current error is: 87.196138
+sign is -1
+angle to target: 161.790939
+needs to face: 161.790939
+current angle: 77.817084
+adjusted robot theta: 257.817084
+current error is: 96.026145
+sign is -1
+angle to target: 154.286542
+needs to face: 154.286542
+current angle: 78.064116
+adjusted robot theta: 258.064116
+current error is: 103.777574
+sign is -1
+angle to target: 143.705964
+needs to face: 143.705964
+current angle: 78.309929
+adjusted robot theta: 258.309929
+current error is: 114.603965
+sign is -1
+angle to target: 140.722237
+needs to face: 140.722237
+current angle: 78.552137
+adjusted robot theta: 258.552137
+current error is: 117.829900
+sign is -1
+angle to target: 137.041913
+needs to face: 137.041913
+current angle: 78.810403
+adjusted robot theta: 258.810403
+current error is: 121.768490
+sign is -1
+angle to target: 138.002128
+needs to face: 138.002128
+current angle: 79.090710
+adjusted robot theta: 259.090710
+current error is: 121.088582
+sign is -1
+angle to target: 133.995539
+needs to face: 133.995539
+current angle: 79.392104
+adjusted robot theta: 259.392104
+current error is: 125.396565
+sign is -1
+angle to target: 129.260961
+needs to face: 129.260961
+current angle: 79.724513
+adjusted robot theta: 259.724513
+current error is: 130.463552
+sign is -1
+angle to target: 123.936678
+needs to face: 123.936678
+current angle: 80.101792
+adjusted robot theta: 260.101792
+current error is: 136.165113
+sign is -1
+angle to target: 119.937958
+needs to face: 119.937958
+current angle: 80.532882
+adjusted robot theta: 260.532882
+current error is: 140.594924
+sign is -1
+angle to target: 117.121680
+needs to face: 117.121680
+current angle: 81.020062
+adjusted robot theta: 261.020062
+current error is: 143.898382
+sign is -1
+angle to target: 113.942930
+needs to face: 113.942930
+current angle: 81.560534
+adjusted robot theta: 261.560534
+current error is: 147.617604
+sign is -1
+angle to target: 110.970978
+needs to face: 110.970978
+current angle: 82.165776
+adjusted robot theta: 262.165776
+current error is: 151.194797
+sign is -1
+angle to target: 107.002577
+needs to face: 107.002577
+current angle: 82.833163
+adjusted robot theta: 262.833163
+current error is: 155.830586
+sign is -1
+angle to target: 104.465763
+needs to face: 104.465763
+current angle: 83.568765
+adjusted robot theta: 263.568765
+current error is: 159.103002
+sign is -1
+angle to target: 101.422531
+needs to face: 101.422531
+current angle: 84.376757
+adjusted robot theta: 264.376757
+current error is: 162.954226
+sign is -1
+angle to target: 99.291375
+needs to face: 99.291375
+current angle: 85.269149
+adjusted robot theta: 265.269149
+current error is: 165.977774
+sign is -1
+angle to target: 97.467360
+needs to face: 97.467360
+current angle: 86.245894
+adjusted robot theta: 266.245894
+current error is: 168.778534
+sign is -1
+angle to target: 95.794195
+needs to face: 95.794195
+current angle: 87.306633
+adjusted robot theta: 267.306633
+current error is: 171.512437
+sign is -1
+angle to target: 93.769884
+needs to face: 93.769884
+current angle: 88.447043
+adjusted robot theta: 268.447043
+current error is: 174.677158
+sign is -1
+angle to target: 92.701684
+needs to face: 92.701684
+current angle: 89.675697
+adjusted robot theta: 269.675697
+current error is: 176.974014
+sign is -1
+angle to target: 91.727549
+needs to face: 91.727549
+current angle: 90.983382
+adjusted robot theta: 270.983382
+current error is: 179.255833
+sign is -1
+angle to target: 91.501749
+needs to face: 91.501749
+current angle: 92.362020
+adjusted robot theta: 272.362020
+current error is: -179.139729
+sign is -1
+angle to target: 90.483539
+needs to face: 90.483539
+current angle: 93.800366
+adjusted robot theta: 273.800366
+current error is: -176.683173
+sign is -1
+angle to target: 89.636657
+needs to face: 89.636657
+current angle: 95.302318
+adjusted robot theta: 275.302318
+current error is: -174.334339
+sign is -1
+angle to target: 88.914542
+needs to face: 88.914542
+current angle: 96.867213
+adjusted robot theta: 276.867213
+current error is: -172.047329
+sign is -1
+angle to target: 88.290563
+needs to face: 88.290563
+current angle: 98.499217
+adjusted robot theta: 278.499217
+current error is: -169.791346
+sign is -1
+angle to target: 87.761941
+needs to face: 87.761941
+current angle: 100.173220
+adjusted robot theta: 280.173220
+current error is: -167.588721
+sign is -1
+angle to target: 87.649277
+needs to face: 87.649277
+current angle: 101.875077
+adjusted robot theta: 281.875077
+current error is: -165.774199
+sign is -1
+angle to target: 87.237847
+needs to face: 87.237847
+current angle: 103.575343
+adjusted robot theta: 283.575343
+current error is: -163.662503
+sign is -1
+angle to target: 87.468741
+needs to face: 87.468741
+current angle: 105.260577
+adjusted robot theta: 285.260577
+current error is: -162.208164
+sign is -1
+angle to target: 87.226686
+needs to face: 87.226686
+current angle: 106.920675
+adjusted robot theta: 286.920675
+current error is: -160.306011
+sign is -1
+angle to target: 87.992057
+needs to face: 87.992057
+current angle: 108.539772
+adjusted robot theta: 288.539772
+current error is: -159.452284
+sign is -1
+angle to target: 89.696606
+needs to face: 89.696606
+current angle: 110.084812
+adjusted robot theta: 290.084812
+current error is: -159.611793
+sign is -1
+angle to target: 90.983031
+needs to face: 90.983031
+current angle: 111.492618
+adjusted robot theta: 291.492618
+current error is: -159.490412
+sign is -1
+angle to target: 92.023856
+needs to face: 92.023856
+current angle: 112.719858
+adjusted robot theta: 292.719858
+current error is: -159.303998
+sign is -1
+angle to target: 92.840958
+needs to face: 92.840958
+current angle: 113.737407
+adjusted robot theta: 293.737407
+current error is: -159.103551
+sign is -1
+angle to target: 93.514121
+needs to face: 93.514121
+current angle: 114.531799
+adjusted robot theta: 294.531799
+current error is: -158.982322
+sign is -1
+angle to target: 94.148837
+needs to face: 94.148837
+current angle: 115.048410
+adjusted robot theta: 295.048410
+current error is: -159.100427
+sign is -1
+angle to target: 94.694733
+needs to face: 94.694733
+current angle: 115.226728
+adjusted robot theta: 295.226728
+current error is: -159.468005
+sign is -1
+angle to target: 95.421001
+needs to face: 95.421001
+current angle: 115.073617
+adjusted robot theta: 295.073617
+current error is: -160.347383
+sign is -1
+angle to target: 96.024960
+needs to face: 96.024960
+current angle: 114.658483
+adjusted robot theta: 294.658483
+current error is: -161.366478
+sign is -1
+angle to target: 97.119990
+needs to face: 97.119990
+current angle: 114.056680
+adjusted robot theta: 294.056680
+current error is: -163.063310
+sign is -1
+angle to target: 98.247258
+needs to face: 98.247258
+current angle: 113.303871
+adjusted robot theta: 293.303871
+current error is: -164.943387
+sign is -1
+angle to target: 99.575812
+needs to face: 99.575812
+current angle: 112.431968
+adjusted robot theta: 292.431968
+current error is: -167.143843
+sign is -1
+angle to target: 101.364713
+needs to face: 101.364713
+current angle: 111.470802
+adjusted robot theta: 291.470802
+current error is: -169.893911
+sign is -1
+angle to target: 103.084336
+needs to face: 103.084336
+current angle: 110.399970
+adjusted robot theta: 290.399970
+current error is: -172.684367
+sign is -1
+angle to target: 105.125156
+needs to face: 105.125156
+current angle: 109.235065
+adjusted robot theta: 289.235065
+current error is: -175.890090
+sign is -1
+angle to target: 107.189068
+needs to face: 107.189068
+current angle: 107.997899
+adjusted robot theta: 287.997899
+current error is: -179.191169
+sign is -1
+angle to target: 109.231739
+needs to face: 109.231739
+current angle: 106.689935
+adjusted robot theta: 286.689935
+current error is: 177.458196
+sign is -1
+angle to target: 111.660698
+needs to face: 111.660698
+current angle: 105.306911
+adjusted robot theta: 285.306911
+current error is: 173.646213
+sign is -1
+angle to target: 114.474906
+needs to face: 114.474906
+current angle: 103.866529
+adjusted robot theta: 283.866529
+current error is: 169.391622
+sign is -1
+angle to target: 116.948890
+needs to face: 116.948890
+current angle: 102.381066
+adjusted robot theta: 282.381066
+current error is: 165.432176
+sign is -1
+angle to target: 119.703518
+needs to face: 119.703518
+current angle: 100.834612
+adjusted robot theta: 280.834612
+current error is: 161.131094
+sign is -1
+angle to target: 122.541790
+needs to face: 122.541790
+current angle: 99.241170
+adjusted robot theta: 279.241170
+current error is: 156.699380
+sign is -1
+angle to target: 125.710943
+needs to face: 125.710943
+current angle: 97.612201
+adjusted robot theta: 277.612201
+current error is: 151.901258
+sign is -1
+angle to target: 128.657692
+needs to face: 128.657692
+current angle: 95.953225
+adjusted robot theta: 275.953225
+current error is: 147.295533
+sign is -1
+angle to target: 131.673466
+needs to face: 131.673466
+current angle: 94.281919
+adjusted robot theta: 274.281919
+current error is: 142.608453
+sign is -1
+angle to target: 134.493323
+needs to face: 134.493323
+current angle: 92.602132
+adjusted robot theta: 272.602132
+current error is: 138.108809
+sign is -1
+angle to target: 136.983965
+needs to face: 136.983965
+current angle: 90.949567
+adjusted robot theta: 270.949567
+current error is: 133.965602
+sign is -1
+angle to target: 139.327677
+needs to face: 139.327677
+current angle: 89.374087
+adjusted robot theta: 269.374087
+current error is: 130.046411
+sign is -1
+angle to target: 141.365887
+needs to face: 141.365887
+current angle: 87.862237
+adjusted robot theta: 267.862237
+current error is: 126.496350
+sign is -1
+angle to target: 143.048859
+needs to face: 143.048859
+current angle: 86.458338
+adjusted robot theta: 266.458338
+current error is: 123.409479
+sign is -1
+angle to target: 143.542709
+needs to face: 143.542709
+current angle: 85.208404
+adjusted robot theta: 265.208404
+current error is: 121.665695
+sign is -1
+angle to target: 144.425812
+needs to face: 144.425812
+current angle: 84.156462
+adjusted robot theta: 264.156462
+current error is: 119.730650
+sign is -1
+angle to target: 145.342341
+needs to face: 145.342341
+current angle: 83.403744
+adjusted robot theta: 263.403744
+current error is: 118.061403
+sign is -1
+angle to target: 146.066109
+needs to face: 146.066109
+current angle: 82.954175
+adjusted robot theta: 262.954175
+current error is: 116.888066
+sign is -1
+angle to target: 146.480415
+needs to face: 146.480415
+current angle: 82.787564
+adjusted robot theta: 262.787564
+current error is: 116.307150
+sign is -1
+angle to target: 146.297024
+needs to face: 146.297024
+current angle: 82.885667
+adjusted robot theta: 262.885667
+current error is: 116.588643
+sign is -1
+angle to target: 145.951444
+needs to face: 145.951444
+current angle: 83.204679
+adjusted robot theta: 263.204679
+current error is: 117.253235
+sign is -1
+angle to target: 146.024773
+needs to face: 146.024773
+current angle: 83.747365
+adjusted robot theta: 263.747365
+current error is: 117.722592
+sign is -1
+angle to target: 146.117240
+needs to face: 146.117240
+current angle: 84.524516
+adjusted robot theta: 264.524516
+current error is: 118.407276
+sign is -1
+angle to target: 146.209980
+needs to face: 146.209980
+current angle: 85.462571
+adjusted robot theta: 265.462571
+current error is: 119.252591
+sign is -1
+angle to target: 146.100943
+needs to face: 146.100943
+current angle: 86.521367
+adjusted robot theta: 266.521367
+current error is: 120.420424
+sign is -1
+angle to target: 145.978532
+needs to face: 145.978532
+current angle: 87.682252
+adjusted robot theta: 267.682252
+current error is: 121.703720
+sign is -1
+angle to target: 145.475694
+needs to face: 145.475694
+current angle: 88.949635
+adjusted robot theta: 268.949635
+current error is: 123.473941
+sign is -1
+angle to target: 145.267428
+needs to face: 145.267428
+current angle: 90.309753
+adjusted robot theta: 270.309753
+current error is: 125.042326
+sign is -1
+angle to target: 144.381743
+needs to face: 144.381743
+current angle: 91.736128
+adjusted robot theta: 271.736128
+current error is: 127.354385
+sign is -1
+angle to target: 143.448890
+needs to face: 143.448890
+current angle: 93.197792
+adjusted robot theta: 273.197792
+current error is: 129.748902
+sign is -1
+angle to target: 142.879839
+needs to face: 142.879839
+current angle: 94.689036
+adjusted robot theta: 274.689036
+current error is: 131.809197
+sign is -1
+angle to target: 141.861731
+needs to face: 141.861731
+current angle: 96.198068
+adjusted robot theta: 276.198068
+current error is: 134.336336
+sign is -1
+angle to target: 140.851983
+needs to face: 140.851983
+current angle: 97.737394
+adjusted robot theta: 277.737394
+current error is: 136.885410
+sign is -1
+angle to target: 140.505652
+needs to face: 140.505652
+current angle: 99.311779
+adjusted robot theta: 279.311779
+current error is: 138.806127
+sign is -1
+angle to target: 139.866442
+needs to face: 139.866442
+current angle: 100.908755
+adjusted robot theta: 280.908755
+current error is: 141.042313
+sign is -1
+angle to target: 139.196291
+needs to face: 139.196291
+current angle: 102.520368
+adjusted robot theta: 282.520368
+current error is: 143.324077
+sign is -1
+angle to target: 138.693343
+needs to face: 138.693343
+current angle: 104.133177
+adjusted robot theta: 284.133177
+current error is: 145.439834
+sign is -1
+angle to target: 137.980640
+needs to face: 137.980640
+current angle: 105.732133
+adjusted robot theta: 285.732133
+current error is: 147.751493
+sign is -1
+angle to target: 137.239606
+needs to face: 137.239606
+current angle: 107.309260
+adjusted robot theta: 287.309260
+current error is: 150.069654
+sign is -1
+angle to target: 136.814877
+needs to face: 136.814877
+current angle: 108.862913
+adjusted robot theta: 288.862913
+current error is: 152.048036
+sign is -1
+angle to target: 136.402375
+needs to face: 136.402375
+current angle: 110.402154
+adjusted robot theta: 290.402154
+current error is: 153.999779
+sign is -1
+angle to target: 136.072531
+needs to face: 136.072531
+current angle: 111.937818
+adjusted robot theta: 291.937818
+current error is: 155.865287
+sign is -1
+angle to target: 135.649579
+needs to face: 135.649579
+current angle: 113.470781
+adjusted robot theta: 293.470781
+current error is: 157.821202
+sign is -1
+angle to target: 135.406724
+needs to face: 135.406724
+current angle: 114.996580
+adjusted robot theta: 294.996580
+current error is: 159.589856
+sign is -1
+angle to target: 135.073001
+needs to face: 135.073001
+current angle: 116.504271
+adjusted robot theta: 296.504271
+current error is: 161.431270
+sign is -1
+angle to target: 134.456604
+needs to face: 134.456604
+current angle: 117.979735
+adjusted robot theta: 297.979735
+current error is: 163.523131
+sign is -1
+angle to target: 133.962495
+needs to face: 133.962495
+current angle: 119.409165
+adjusted robot theta: 299.409165
+current error is: 165.446670
+sign is -1
+angle to target: 133.628662
+needs to face: 133.628662
+current angle: 120.780916
+adjusted robot theta: 300.780916
+current error is: 167.152253
+sign is -1
+angle to target: 133.177569
+needs to face: 133.177569
+current angle: 122.097716
+adjusted robot theta: 302.097716
+current error is: 168.920146
+sign is -1
+angle to target: 132.877451
+needs to face: 132.877451
+current angle: 123.387753
+adjusted robot theta: 303.387753
+current error is: 170.510302
+sign is -1
+angle to target: 132.565912
+needs to face: 132.565912
+current angle: 124.683699
+adjusted robot theta: 304.683699
+current error is: 172.117787
+sign is -1
+angle to target: 132.269373
+needs to face: 132.269373
+current angle: 125.983974
+adjusted robot theta: 305.983974
+current error is: 173.714601
+sign is -1
+angle to target: 132.081474
+needs to face: 132.081474
+current angle: 127.296991
+adjusted robot theta: 307.296991
+current error is: 175.215517
+sign is -1
+angle to target: 131.579660
+needs to face: 131.579660
+current angle: 128.653364
+adjusted robot theta: 308.653364
+current error is: 177.073704
+sign is -1
+angle to target: 131.249311
+needs to face: 131.249311
+current angle: 130.047160
+adjusted robot theta: 310.047160
+current error is: 178.797848
+sign is -1
+angle to target: 130.609869
+needs to face: 130.609869
+current angle: 131.455739
+adjusted robot theta: 311.455739
+current error is: -179.154130
+sign is -1
+angle to target: 130.243921
+needs to face: 130.243921
+current angle: 132.883453
+adjusted robot theta: 312.883453
+current error is: -177.360468
+sign is -1
+angle to target: 129.728583
+needs to face: 129.728583
+current angle: 134.330566
+adjusted robot theta: 314.330566
+current error is: -175.398017
+sign is -1
+angle to target: 129.194572
+needs to face: 129.194572
+current angle: 135.792164
+adjusted robot theta: 315.792164
+current error is: -173.402408
+sign is -1
+angle to target: 128.655383
+needs to face: 128.655383
+current angle: 137.289288
+adjusted robot theta: 317.289288
+current error is: -171.366095
+sign is -1
+angle to target: 128.104269
+needs to face: 128.104269
+current angle: 138.808266
+adjusted robot theta: 318.808266
+current error is: -169.296003
+sign is -1
+angle to target: 127.671685
+needs to face: 127.671685
+current angle: 140.339604
+adjusted robot theta: 320.339604
+current error is: -167.332082
+sign is -1
+angle to target: 127.107362
+needs to face: 127.107362
+current angle: 141.862775
+adjusted robot theta: 321.862775
+current error is: -165.244586
+sign is -1
+angle to target: 126.675325
+needs to face: 126.675325
+current angle: 143.328443
+adjusted robot theta: 323.328443
+current error is: -163.346882
+sign is -1
+angle to target: 126.251594
+needs to face: 126.251594
+current angle: 144.723922
+adjusted robot theta: 324.723922
+current error is: -161.527672
+sign is -1
+angle to target: 125.841263
+needs to face: 125.841263
+current angle: 146.026506
+adjusted robot theta: 326.026506
+current error is: -159.814757
+sign is -1
+angle to target: 125.444607
+needs to face: 125.444607
+current angle: 147.230679
+adjusted robot theta: 327.230679
+current error is: -158.213928
+sign is -1
+angle to target: 124.941809
+needs to face: 124.941809
+current angle: 148.342875
+adjusted robot theta: 328.342875
+current error is: -156.598934
+sign is -1
+angle to target: 124.479337
+needs to face: 124.479337
+current angle: 149.326935
+adjusted robot theta: 329.326935
+current error is: -155.152402
+sign is -1
+angle to target: 124.272000
+needs to face: 124.272000
+current angle: 150.130180
+adjusted robot theta: 330.130180
+current error is: -154.141820
+sign is -1
+angle to target: 124.005240
+needs to face: 124.005240
+current angle: 150.749014
+adjusted robot theta: 330.749014
+current error is: -153.256226
+sign is -1
+angle to target: 123.877283
+needs to face: 123.877283
+current angle: 151.216380
+adjusted robot theta: 331.216380
+current error is: -152.660903
+sign is -1
+angle to target: 123.973493
+needs to face: 123.973493
+current angle: 151.520539
+adjusted robot theta: 331.520539
+current error is: -152.452954
+sign is -1
+angle to target: 124.024556
+needs to face: 124.024556
+current angle: 151.588331
+adjusted robot theta: 331.588331
+current error is: -152.436224
+sign is -1
+angle to target: 124.227071
+needs to face: 124.227071
+current angle: 151.427954
+adjusted robot theta: 331.427954
+current error is: -152.799117
+sign is -1
+angle to target: 124.463272
+needs to face: 124.463272
+current angle: 151.096231
+adjusted robot theta: 331.096231
+current error is: -153.367041
+sign is -1
+angle to target: 124.648849
+needs to face: 124.648849
+current angle: 150.614908
+adjusted robot theta: 330.614908
+current error is: -154.033940
+sign is -1
+angle to target: 124.953011
+needs to face: 124.953011
+current angle: 149.978435
+adjusted robot theta: 329.978435
+current error is: -154.974576
+sign is -1
+angle to target: 125.286215
+needs to face: 125.286215
+current angle: 149.203899
+adjusted robot theta: 329.203899
+current error is: -156.082316
+sign is -1
+angle to target: 125.562113
+needs to face: 125.562113
+current angle: 148.305491
+adjusted robot theta: 328.305491
+current error is: -157.256622
+sign is -1
+angle to target: 125.950724
+needs to face: 125.950724
+current angle: 147.294493
+adjusted robot theta: 327.294493
+current error is: -158.656230
+sign is -1
+angle to target: 126.444669
+needs to face: 126.444669
+current angle: 146.206220
+adjusted robot theta: 326.206220
+current error is: -160.238450
+sign is -1
+angle to target: 126.839509
+needs to face: 126.839509
+current angle: 145.210866
+adjusted robot theta: 325.210866
+current error is: -161.628643
+sign is -1
+angle to target: 127.278786
+needs to face: 127.278786
+current angle: 144.392427
+adjusted robot theta: 324.392427
+current error is: -162.886358
+sign is -1
+angle to target: 127.487093
+needs to face: 127.487093
+current angle: 143.972701
+adjusted robot theta: 323.972701
+current error is: -163.514392
+sign is -1
+angle to target: 127.813303
+needs to face: 127.813303
+current angle: 143.740030
+adjusted robot theta: 323.740030
+current error is: -164.073273
+sign is -1
+angle to target: 128.077440
+needs to face: 128.077440
+current angle: 143.419068
+adjusted robot theta: 323.419068
+current error is: -164.658371
+sign is -1
+angle to target: 128.325089
+needs to face: 128.325089
+current angle: 143.176500
+adjusted robot theta: 323.176500
+current error is: -165.148589
+sign is -1
+angle to target: 128.444289
+needs to face: 128.444289
+current angle: 143.205816
+adjusted robot theta: 323.205816
+current error is: -165.238473
+sign is -1
+angle to target: 128.610263
+needs to face: 128.610263
+current angle: 143.342486
+adjusted robot theta: 323.342486
+current error is: -165.267777
+sign is -1
+angle to target: 128.613473
+needs to face: 128.613473
+current angle: 143.564483
+adjusted robot theta: 323.564483
+current error is: -165.048990
+sign is -1
+angle to target: 128.746989
+needs to face: 128.746989
+current angle: 143.833492
+adjusted robot theta: 323.833492
+current error is: -164.913497
+sign is -1
+angle to target: 128.743902
+needs to face: 128.743902
+current angle: 144.061175
+adjusted robot theta: 324.061175
+current error is: -164.682727
+sign is -1
+angle to target: 128.678141
+needs to face: 128.678141
+current angle: 144.260140
+adjusted robot theta: 324.260140
+current error is: -164.418001
+sign is -1
+angle to target: 128.743492
+needs to face: 128.743492
+current angle: 144.484054
+adjusted robot theta: 324.484054
+current error is: -164.259439
+sign is -1
+angle to target: 128.669016
+needs to face: 128.669016
+current angle: 144.768033
+adjusted robot theta: 324.768033
+current error is: -163.900983
+sign is -1
+angle to target: 128.577546
+needs to face: 128.577546
+current angle: 145.133438
+adjusted robot theta: 325.133438
+current error is: -163.444108
+sign is -1
+angle to target: 128.491868
+needs to face: 128.491868
+current angle: 145.477135
+adjusted robot theta: 325.477135
+current error is: -163.014733
+sign is -1
+angle to target: 128.476815
+needs to face: 128.476815
+current angle: 145.769377
+adjusted robot theta: 325.769377
+current error is: -162.707437
+sign is -1
+angle to target: 128.401314
+needs to face: 128.401314
+current angle: 146.034540
+adjusted robot theta: 326.034540
+current error is: -162.366774
+sign is -1
+angle to target: 128.334241
+needs to face: 128.334241
+current angle: 146.277516
+adjusted robot theta: 326.277516
+current error is: -162.056725
+sign is -1
+angle to target: 128.213770
+needs to face: 128.213770
+current angle: 146.527091
+adjusted robot theta: 326.527091
+current error is: -161.686679
+sign is -1
+angle to target: 128.165494
+needs to face: 128.165494
+current angle: 146.759962
+adjusted robot theta: 326.759962
+current error is: -161.405532
+sign is -1
+angle to target: 128.129035
+needs to face: 128.129035
+current angle: 146.957356
+adjusted robot theta: 326.957356
+current error is: -161.171679
+sign is -1
+angle to target: 128.095335
+needs to face: 128.095335
+current angle: 147.113284
+adjusted robot theta: 327.113284
+current error is: -160.982051
+sign is -1
+angle to target: 128.072727
+needs to face: 128.072727
+current angle: 147.231840
+adjusted robot theta: 327.231840
+current error is: -160.840887
+sign is -1
+angle to target: 128.053835
+needs to face: 128.053835
+current angle: 147.320519
+adjusted robot theta: 327.320519
+current error is: -160.733315
+sign is -1
+angle to target: 128.042510
+needs to face: 128.042510
+current angle: 147.375298
+adjusted robot theta: 327.375298
+current error is: -160.667212
+sign is -1
+angle to target: 128.030953
+needs to face: 128.030953
+current angle: 147.413587
+adjusted robot theta: 327.413587
+current error is: -160.617366
+sign is -1
+angle to target: 128.025926
+needs to face: 128.025926
+current angle: 147.424047
+adjusted robot theta: 327.424047
+current error is: -160.601879
+sign is -1
+angle to target: 128.021132
+needs to face: 128.021132
+current angle: 147.415474
+adjusted robot theta: 327.415474
+current error is: -160.605658
+sign is -1
+angle to target: 128.016132
+needs to face: 128.016132
+current angle: 147.408135
+adjusted robot theta: 327.408135
+current error is: -160.607997
+sign is -1
+angle to target: 128.014165
+needs to face: 128.014165
+current angle: 147.392610
+adjusted robot theta: 327.392610
+current error is: -160.621555
+sign is -1
+angle to target: 128.017361
+needs to face: 128.017361
+current angle: 147.374607
+adjusted robot theta: 327.374607
+current error is: -160.642754
+sign is -1
+angle to target: 128.018946
+needs to face: 128.018946
+current angle: 147.365620
+adjusted robot theta: 327.365620
+current error is: -160.653326
+sign is -1
+angle to target: 128.021938
+needs to face: 128.021938
+current angle: 147.348787
+adjusted robot theta: 327.348787
+current error is: -160.673151
+sign is -1
+angle to target: 128.024533
+needs to face: 128.024533
+current angle: 147.334141
+adjusted robot theta: 327.334141
+current error is: -160.690392
+sign is -1
+angle to target: 128.024287
+needs to face: 128.024287
+current angle: 147.326697
+adjusted robot theta: 327.326697
+current error is: -160.697590
+sign is -1
+angle to target: 128.023973
+needs to face: 128.023973
+current angle: 147.328522
+adjusted robot theta: 327.328522
+current error is: -160.695451
+sign is -1
+angle to target: 128.021951
+needs to face: 128.021951
+current angle: 147.339891
+adjusted robot theta: 327.339891
+current error is: -160.682060
+sign is -1
+angle to target: 128.018577
+needs to face: 128.018577
+current angle: 147.350174
+adjusted robot theta: 327.350174
+current error is: -160.668404
+sign is -1
+angle to target: 128.016610
+needs to face: 128.016610
+current angle: 147.352519
+adjusted robot theta: 327.352519
+current error is: -160.664091
+sign is -1
+angle to target: 128.013454
+needs to face: 128.013454
+current angle: 147.352848
+adjusted robot theta: 327.352848
+current error is: -160.660607
+sign is -1
+angle to target: 128.011870
+needs to face: 128.011870
+current angle: 147.353036
+adjusted robot theta: 327.353036
+current error is: -160.658834
+sign is -1
+angle to target: 128.011351
+needs to face: 128.011351
+current angle: 147.355926
+adjusted robot theta: 327.355926
+current error is: -160.655425
+sign is -1
+angle to target: 128.010681
+needs to face: 128.010681
+current angle: 147.359759
+adjusted robot theta: 327.359759
+current error is: -160.650922
+sign is -1
+angle to target: 128.010176
+needs to face: 128.010176
+current angle: 147.362588
+adjusted robot theta: 327.362588
+current error is: -160.647588
+sign is -1
+angle to target: 128.009848
+needs to face: 128.009848
+current angle: 147.364436
+adjusted robot theta: 327.364436
+current error is: -160.645412
+sign is -1
+angle to target: 128.010067
+needs to face: 128.010067
+current angle: 147.363177
+adjusted robot theta: 327.363177
+current error is: -160.646890
+sign is -1
+angle to target: 128.010231
+needs to face: 128.010231
+current angle: 147.362278
+adjusted robot theta: 327.362278
+current error is: -160.647953
+sign is -1
+angle to target: 128.010367
+needs to face: 128.010367
+current angle: 147.361483
+adjusted robot theta: 327.361483
+current error is: -160.648884
+sign is -1
+angle to target: 128.010463
+needs to face: 128.010463
+current angle: 147.360957
+adjusted robot theta: 327.360957
+current error is: -160.649505
+sign is -1
+angle to target: 128.010531
+needs to face: 128.010531
+current angle: 147.360602
+adjusted robot theta: 327.360602
+current error is: -160.649929
+sign is -1
+angle to target: 128.010504
+needs to face: 128.010504
+current angle: 147.360694
+adjusted robot theta: 327.360694
+current error is: -160.649810
+sign is -1
+angle to target: 128.010449
+needs to face: 128.010449
+current angle: 147.361053
+adjusted robot theta: 327.361053
+current error is: -160.649396
+sign is -1
+angle to target: 128.010408
+needs to face: 128.010408
+current angle: 147.361249
+adjusted robot theta: 327.361249
+current error is: -160.649159
+sign is -1
+angle to target: 128.009643
+needs to face: 128.009643
+current angle: 147.365627
+adjusted robot theta: 327.365627
+current error is: -160.644016
+sign is -1
+angle to target: 128.008878
+needs to face: 128.008878
+current angle: 147.369932
+adjusted robot theta: 327.369932
+current error is: -160.638946
+sign is -1
+angle to target: 128.008605
+needs to face: 128.008605
+current angle: 147.371495
+adjusted robot theta: 327.371495
+current error is: -160.637110
+sign is -1
+angle to target: 128.008632
+needs to face: 128.008632
+current angle: 147.371345
+adjusted robot theta: 327.371345
+current error is: -160.637288
+sign is -1
+angle to target: 128.008701
+needs to face: 128.008701
+current angle: 147.370892
+adjusted robot theta: 327.370892
+current error is: -160.637809
+sign is -1
+angle to target: 128.008728
+needs to face: 128.008728
+current angle: 147.370735
+adjusted robot theta: 327.370735
+current error is: -160.637993
+sign is -1
+angle to target: 128.008742
+needs to face: 128.008742
+current angle: 147.370666
+adjusted robot theta: 327.370666
+current error is: -160.638076
+sign is -1
+angle to target: 128.008728
+needs to face: 128.008728
+current angle: 147.370762
+adjusted robot theta: 327.370762
+current error is: -160.637966
+sign is -1
+angle to target: 128.008714
+needs to face: 128.008714
+current angle: 147.370849
+adjusted robot theta: 327.370849
+current error is: -160.637865
+sign is -1
+angle to target: 128.008714
+needs to face: 128.008714
+current angle: 147.370877
+adjusted robot theta: 327.370877
+current error is: -160.637838
+sign is -1
+angle to target: 128.005627
+needs to face: 128.005627
+current angle: 147.370733
+adjusted robot theta: 327.370733
+current error is: -160.634894
+sign is -1
+angle to target: 128.004111
+needs to face: 128.004111
+current angle: 147.370526
+adjusted robot theta: 327.370526
+current error is: -160.633584
+sign is -1
+angle to target: 128.003824
+needs to face: 128.003824
+current angle: 147.372127
+adjusted robot theta: 327.372127
+current error is: -160.631697
+sign is -1
+angle to target: 128.002007
+needs to face: 128.002007
+current angle: 147.373600
+adjusted robot theta: 327.373600
+current error is: -160.628407
+sign is -1
+angle to target: 127.998619
+needs to face: 127.998619
+current angle: 147.375239
+adjusted robot theta: 327.375239
+current error is: -160.623380
+sign is -1
+angle to target: 127.996652
+needs to face: 127.996652
+current angle: 147.377574
+adjusted robot theta: 327.377574
+current error is: -160.619078
+sign is -1
+WARNING - pros.serial.terminal.terminal:stop - Stopping terminal - pros-cli version:3.4.3

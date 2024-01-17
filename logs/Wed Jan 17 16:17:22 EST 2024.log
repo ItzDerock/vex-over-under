@@ -1,0 +1,4995 @@
+Established terminal connection
+
+
+
+         _+=+_
+      .-`  .  `-.          8888888b.  8888888b.   .d88888b.   .d8888b.
+   _+`     "     `+_       888   Y88b 888   Y88b d88P" "Y88b d88P  Y88b
+  \\\sssssssssssss///      888    888 888    888 888     888 Y88b.
+     .ss\  *  /ss.         888   d88P 888   d88P 888     888  "Y888b.
+ .+bm  .s  *  s.  md+.     8888888P"  8888888P"  888     888     "Y88b.
+.hMMMMs .  *  . sMMMMh.    888        888 T88b   888     888       "888
+ `\hMMMb \ | / dMMMh:      888        888  T88b  Y88b. .d88P Y88b  d88P
+   -SNMNo  -  oNMNs-       888        888   T88b  "Y88888P"   "Y8888P"
+     `+dMh\./dMd/
+        `:yNy:`                      Powered by PROS for VEX V5
+           "                Copyright (c) Purdue University ACM SIGBots
+Version:        4.0.6     Platform:  V1.1.2 (b34)     Uptime:    0.001 s
+Compiled:   Jan 17 2024 16:16:54     Directory:                        
+
+
+
+
+
+         _+=+_
+      .-`  .  `-.          8888888b.  8888888b.   .d88888b.   .d8888b.
+   _+`     "     `+_       888   Y88b 888   Y88b d88P" "Y88b d88P  Y88b
+  \\\sssssssssssss///      888    888 888    888 888     888 Y88b.
+     .ss\  *  /ss.         888   d88P 888   d88P 888     888  "Y888b.
+ .+bm  .s  *  s.  md+.     8888888P"  8888888P"  888     888     "Y88b.
+.hMMMMs .  *  . sMMMMh.    888        888 T88b   888     888       "888
+ `\hMMMb \ | / dMMMh:      888        888  T88b  Y88b. .d88P Y88b  d88P
+   -SNMNo  -  oNMNs-       888        888   T88b  "Y88888P"   "Y8888P"
+     `+dMh\./dMd/
+        `:yNy:`                      Powered by PROS for VEX V5
+           "                Copyright (c) Purdue University ACM SIGBots
+Version:        4.0.6     Platform:  V1.1.2 (b34)     Uptime:    0.001 s
+Compiled:   Jan 17 2024 16:16:54     Directory:                        
+
+
+loaded path: /usd/skills/push-left.txt
+  size: 68
+loaded path: /usd/pathtest.txt
+  size: 30
+starting
+Target position is: 0.003066, -12.002299
+Current position is: -0.001532, -0.002299
+angle to target: -89.978043
+needs to face: -89.978043
+current angle: 359.978045
+adjusted robot theta: 179.978045
+distance error: 12.000000
+current error is: -90.043911
+sign is -1
+output: -624.000000
+turn out: -2701.317343
+Target position is: 0.003066, -12.002299
+Current position is: -0.001490, -0.002235
+angle to target: -89.978248
+needs to face: -89.978248
+current angle: 359.978658
+adjusted robot theta: 179.978658
+distance error: 11.999923
+current error is: -90.043093
+sign is -1
+output: -383.995987
+turn out: -360.151105
+Target position is: 0.003066, -12.002299
+Current position is: -0.001432, -0.002149
+angle to target: -89.978522
+needs to face: -89.978522
+current angle: 359.979481
+adjusted robot theta: 179.979481
+distance error: 11.999819
+current error is: -90.041998
+sign is -1
+output: -383.992149
+turn out: -360.139508
+Target position is: 0.003066, -12.002299
+Current position is: -0.001554, -0.002332
+angle to target: -89.977941
+needs to face: -89.977941
+current angle: 359.977734
+adjusted robot theta: 179.977734
+distance error: 11.999961
+current error is: -90.044325
+sign is -1
+output: -384.001579
+turn out: -360.237796
+Target position is: 0.003066, -12.002299
+Current position is: -0.001433, -0.002150
+angle to target: -89.978522
+needs to face: -89.978522
+current angle: 359.979475
+adjusted robot theta: 179.979475
+distance error: 11.999820
+current error is: -90.042004
+sign is -1
+output: -383.991427
+turn out: -360.107673
+Target position is: 0.003066, -12.002299
+Current position is: -0.001422, -0.002135
+angle to target: -89.978569
+needs to face: -89.978569
+current angle: 359.979619
+adjusted robot theta: 179.979619
+distance error: 11.999802
+current error is: -90.041811
+sign is -1
+output: -383.993296
+turn out: -360.162242
+Target position is: 0.003066, -12.002299
+Current position is: -0.001447, -0.024524
+angle to target: -89.978412
+needs to face: -89.978412
+current angle: 359.979153
+adjusted robot theta: 179.979153
+distance error: 11.977776
+current error is: -90.042434
+sign is -1
+output: -382.848299
+turn out: -360.185932
+Target position is: 0.003066, -12.002299
+Current position is: -0.001045, -0.068622
+angle to target: -89.980263
+needs to face: -89.980263
+current angle: 359.984709
+adjusted robot theta: 179.984709
+distance error: 11.933676
+current error is: -90.035028
+sign is -1
+output: -380.995614
+turn out: -359.947545
+Target position is: 0.003066, -12.002299
+Current position is: -0.000018, -0.134115
+angle to target: -89.985113
+needs to face: -89.985113
+current angle: 359.999293
+adjusted robot theta: 179.999293
+distance error: 11.868175
+current error is: -90.015594
+sign is -1
+output: -378.471609
+turn out: -359.557107
+Target position is: 0.003066, -12.002299
+Current position is: 0.001042, -0.132522
+angle to target: -89.990229
+needs to face: -89.990229
+current angle: 0.014473
+adjusted robot theta: 180.014473
+distance error: 11.869752
+current error is: -89.995299
+sign is -1
+output: -379.863591
+turn out: -359.453510
+Target position is: 0.003066, -12.002299
+Current position is: 0.000173, -0.238057
+angle to target: -89.985912
+needs to face: -89.985912
+current angle: 0.002239
+adjusted robot theta: 180.002239
+distance error: 11.764236
+current error is: -90.011849
+sign is -1
+output: -374.345225
+turn out: -360.477714
+Target position is: 0.003066, -12.002299
+Current position is: 0.000004, -0.238309
+angle to target: -89.985085
+needs to face: -89.985085
+current angle: 359.999826
+adjusted robot theta: 179.999826
+distance error: 11.763985
+current error is: -90.015088
+sign is -1
+output: -376.442529
+turn out: -360.144558
+Target position is: 0.003066, -12.002299
+Current position is: -0.001632, -0.419543
+angle to target: -89.976759
+needs to face: -89.976759
+current angle: 359.975839
+adjusted robot theta: 179.975839
+distance error: 11.582756
+current error is: -90.047402
+sign is -1
+output: -367.023626
+turn out: -361.029755
+Target position is: 0.003066, -12.002299
+Current position is: -0.006499, -0.650619
+angle to target: -89.951720
+needs to face: -89.951720
+current angle: 359.902613
+adjusted robot theta: 179.902613
+distance error: 11.351662
+current error is: -90.145667
+sign is -1
+output: -358.631284
+turn out: -363.137575
+Target position is: 0.003066, -12.002299
+Current position is: -0.013168, -0.884959
+angle to target: -89.916333
+needs to face: -89.916333
+current angle: 359.798331
+adjusted robot theta: 179.798331
+distance error: 11.117263
+current error is: -90.285337
+sign is -1
+output: -351.064462
+turn out: -364.772749
+Target position is: 0.003066, -12.002299
+Current position is: -0.019386, -1.119274
+angle to target: -89.881799
+needs to face: -89.881799
+current angle: 359.694409
+adjusted robot theta: 179.694409
+distance error: 10.882883
+current error is: -90.423792
+sign is -1
+output: -343.564637
+turn out: -365.295014
+Target position is: 0.003066, -12.002299
+Current position is: -0.023582, -1.343581
+angle to target: -89.856753
+needs to face: -89.856753
+current angle: 359.614938
+adjusted robot theta: 179.614938
+distance error: 10.658537
+current error is: -90.528309
+sign is -1
+output: -336.586289
+turn out: -364.830662
+Target position is: 0.003066, -12.002299
+Current position is: -0.024292, -1.585500
+angle to target: -89.849527
+needs to face: -89.849527
+current angle: 359.580437
+adjusted robot theta: 179.580437
+distance error: 10.416636
+current error is: -90.570036
+sign is -1
+output: -328.494300
+turn out: -363.365054
+Target position is: 0.003066, -12.002299
+Current position is: -0.022021, -1.845558
+angle to target: -89.858481
+needs to face: -89.858481
+current angle: 359.585870
+adjusted robot theta: 179.585870
+distance error: 10.156628
+current error is: -90.555649
+sign is -1
+output: -319.811941
+turn out: -361.848549
+Target position is: 0.003066, -12.002299
+Current position is: -0.018918, -2.149447
+angle to target: -89.872162
+needs to face: -89.872162
+current angle: 359.599358
+adjusted robot theta: 179.599358
+distance error: 9.852782
+current error is: -90.528480
+sign is -1
+output: -309.212106
+turn out: -361.407521
+Target position is: 0.003066, -12.002299
+Current position is: -0.015864, -2.468355
+angle to target: -89.886239
+needs to face: -89.886239
+current angle: 359.611656
+adjusted robot theta: 179.611656
+distance error: 9.533902
+current error is: -90.502105
+sign is -1
+output: -298.707280
+turn out: -361.322674
+Target position is: 0.003066, -12.002299
+Current position is: -0.013090, -2.787600
+angle to target: -89.899544
+needs to face: -89.899544
+current angle: 359.620760
+adjusted robot theta: 179.620760
+distance error: 9.214675
+current error is: -90.479696
+sign is -1
+output: -288.485058
+turn out: -361.336128
+Target position is: 0.003066, -12.002299
+Current position is: -0.010362, -3.129411
+angle to target: -89.913286
+needs to face: -89.913286
+current angle: 359.627720
+adjusted robot theta: 179.627720
+distance error: 8.872876
+current error is: -90.458994
+sign is -1
+output: -277.096048
+turn out: -361.297730
+Target position is: 0.003066, -12.002299
+Current position is: -0.006960, -3.492650
+angle to target: -89.932493
+needs to face: -89.932493
+current angle: 359.643352
+adjusted robot theta: 179.643352
+distance error: 8.509645
+current error is: -90.424155
+sign is -1
+output: -265.044037
+turn out: -360.790818
+Target position is: 0.003066, -12.002299
+Current position is: 0.025681, -3.854165
+angle to target: -90.159023
+needs to face: -90.159023
+current angle: 359.673783
+adjusted robot theta: 179.673783
+distance error: 8.148038
+current error is: -90.167194
+sign is -1
+output: -253.505076
+turn out: -353.987775
+Target position is: 0.003066, -12.002299
+Current position is: 0.029879, -4.253232
+angle to target: -90.198249
+needs to face: -90.198249
+current angle: 359.702813
+adjusted robot theta: 179.702813
+distance error: 7.748951
+current error is: -90.098938
+sign is -1
+output: -239.984705
+turn out: -358.621098
+Target position is: 0.003066, -12.002299
+Current position is: 0.088989, -4.594518
+angle to target: -90.664546
+needs to face: -90.664546
+current angle: 359.712040
+adjusted robot theta: 179.712040
+distance error: 7.406889
+current error is: -89.623414
+sign is -1
+output: -230.179196
+turn out: -346.130046
+Target position is: 0.003066, -12.002299
+Current position is: 0.121004, -5.068937
+angle to target: -90.974520
+needs to face: -90.974520
+current angle: 359.731358
+adjusted robot theta: 179.731358
+distance error: 6.931881
+current error is: -89.294122
+sign is -1
+output: -212.320036
+turn out: -348.614890
+Target position is: 0.003066, -12.002299
+Current position is: 0.124263, -5.491366
+angle to target: -91.066407
+needs to face: -91.066407
+current angle: 359.750690
+adjusted robot theta: 179.750690
+distance error: 6.509492
+current error is: -89.182903
+sign is -1
+output: -199.855970
+turn out: -353.839926
+Target position is: 0.003066, -12.002299
+Current position is: 0.125043, -5.842537
+angle to target: -91.134435
+needs to face: -91.134435
+current angle: 359.739472
+adjusted robot theta: 179.739472
+distance error: 6.158390
+current error is: -89.126093
+sign is -1
+output: -190.046462
+turn out: -355.027298
+Target position is: 0.003066, -12.002299
+Current position is: 0.151936, -6.227262
+angle to target: -91.476662
+needs to face: -91.476662
+current angle: 359.691056
+adjusted robot theta: 179.691056
+distance error: 5.773146
+current error is: -88.832282
+sign is -1
+output: -177.035762
+turn out: -347.690047
+Target position is: 0.003066, -12.002299
+Current position is: 0.146801, -6.595947
+angle to target: -91.522923
+needs to face: -91.522923
+current angle: 359.584092
+adjusted robot theta: 179.584092
+distance error: 5.404684
+current error is: -88.892985
+sign is -1
+output: -165.580674
+turn out: -357.150227
+Target position is: 0.003066, -12.002299
+Current position is: 0.137886, -7.002016
+angle to target: -91.544465
+needs to face: -91.544465
+current angle: 359.405098
+adjusted robot theta: 179.405098
+distance error: 4.998896
+current error is: -89.050436
+sign is -1
+output: -151.848880
+turn out: -360.295467
+Target position is: 0.003066, -12.002299
+Current position is: 0.124792, -7.272632
+angle to target: -91.474278
+needs to face: -91.474278
+current angle: 359.169324
+adjusted robot theta: 179.169324
+distance error: 4.728570
+current error is: -89.356398
+sign is -1
+output: -145.907740
+turn out: -365.380593
+Target position is: 0.003066, -12.002299
+Current position is: 0.107690, -7.559224
+angle to target: -91.348931
+needs to face: -91.348931
+current angle: 358.853566
+adjusted robot theta: 178.853566
+distance error: 4.442286
+current error is: -89.797503
+sign is -1
+output: -136.427458
+turn out: -370.658746
+Target position is: 0.003066, -12.002299
+Current position is: 0.087905, -7.837445
+angle to target: -91.166961
+needs to face: -91.166961
+current angle: 358.477431
+adjusted robot theta: 178.477431
+distance error: 4.164344
+current error is: -90.355608
+sign is -1
+output: -127.700196
+turn out: -375.933171
+Target position is: 0.003066, -12.002299
+Current position is: 0.064114, -8.094223
+angle to target: -90.894955
+needs to face: -90.894955
+current angle: 358.024559
+adjusted robot theta: 178.024559
+distance error: 3.907810
+current error is: -91.080485
+sign is -1
+output: -119.919244
+turn out: -383.168750
+Target position is: 0.003066, -12.002299
+Current position is: 0.037089, -8.344242
+angle to target: -90.532880
+needs to face: -90.532880
+current angle: 357.497840
+adjusted robot theta: 177.497840
+distance error: 3.657968
+current error is: -91.969280
+sign is -1
+output: -112.058147
+turn out: -390.985777
+Target position is: 0.003066, -12.002299
+Current position is: 0.006886, -8.612068
+angle to target: -90.064555
+needs to face: -90.064555
+current angle: 356.877502
+adjusted robot theta: 176.877502
+distance error: 3.390227
+current error is: -93.057943
+sign is -1
+output: -103.132432
+turn out: -400.537018
+Target position is: 0.003066, -12.002299
+Current position is: -0.028395, -8.869743
+angle to target: -89.424586
+needs to face: -89.424586
+current angle: 356.148585
+adjusted robot theta: 176.148585
+distance error: 3.132515
+current error is: -94.426829
+sign is -1
+output: -95.086265
+turn out: -413.298331
+Target position is: 0.003066, -12.002299
+Current position is: -0.096085, -9.143634
+angle to target: -88.013524
+needs to face: -88.013524
+current angle: 355.295275
+adjusted robot theta: 175.295275
+distance error: 2.858177
+current error is: -96.691201
+sign is -1
+output: -85.974888
+turn out: -445.638487
+Target position is: 0.003066, -12.002299
+Current position is: -0.224160, -9.412868
+angle to target: -84.985073
+needs to face: -84.985073
+current angle: 354.338578
+adjusted robot theta: 174.338578
+distance error: 2.586798
+current error is: -100.676349
+sign is -1
+output: -77.349977
+turn out: -506.319248
+Target position is: 0.003066, -12.002299
+Current position is: -0.317301, -9.766918
+angle to target: -81.844115
+needs to face: -81.844115
+current angle: 353.277699
+adjusted robot theta: 173.277699
+distance error: 2.230277
+current error is: -104.878186
+sign is -1
+output: -64.238416
+turn out: -528.760519
+Target position is: 0.003066, -12.002299
+Current position is: -0.517944, -10.149721
+angle to target: -74.292145
+needs to face: -74.292145
+current angle: 352.169811
+adjusted robot theta: 172.169811
+distance error: 1.839446
+current error is: -113.538044
+sign is -1
+output: -51.045681
+turn out: -679.308456
+Target position is: 0.003066, -12.002299
+Current position is: -0.699382, -10.421702
+angle to target: -66.038695
+needs to face: -66.038695
+current angle: 351.061826
+adjusted robot theta: 171.061826
+distance error: 1.557254
+current error is: -122.899479
+sign is -1
+output: -44.188274
+turn out: -734.995231
+Target position is: 0.003066, -12.002299
+Current position is: -0.935830, -10.675802
+angle to target: -54.709088
+needs to face: -54.709088
+current angle: 349.965086
+adjusted robot theta: 169.965086
+distance error: 1.285684
+current error is: -135.325827
+sign is -1
+output: -35.710473
+turn out: -864.388350
+Target position is: 0.003066, -12.002299
+Current position is: -1.129632, -10.840059
+angle to target: -45.737498
+needs to face: -45.737498
+current angle: 348.834842
+adjusted robot theta: 168.834842
+distance error: 1.103687
+current error is: -145.427660
+sign is -1
+output: -31.678037
+turn out: -844.358313
+Target position is: 0.003066, -12.002299
+Current position is: -1.288286, -11.036593
+angle to target: -36.790063
+needs to face: -36.790063
+current angle: 347.661515
+adjusted robot theta: 167.661515
+distance error: 0.890933
+current error is: -155.548423
+sign is -1
+output: -24.254759
+turn out: -885.333515
+Target position is: 0.003066, -12.002299
+Current position is: -1.450995, -11.199454
+angle to target: -28.904807
+needs to face: -28.904807
+current angle: 346.493152
+adjusted robot theta: 166.493152
+distance error: 0.709419
+current error is: -164.602041
+sign is -1
+output: -19.071125
+turn out: -893.802234
+Target position is: 0.003066, -12.002299
+Current position is: -1.610045, -11.364701
+angle to target: -21.566888
+needs to face: -21.566888
+current angle: 345.332279
+adjusted robot theta: 165.332279
+distance error: 0.524309
+current error is: -173.100834
+sign is -1
+output: -13.075696
+turn out: -913.371952
+Target position is: 0.003066, -12.002299
+Current position is: -1.793558, -11.542118
+angle to target: -14.366649
+needs to face: -14.366649
+current angle: 344.158814
+adjusted robot theta: 164.158814
+distance error: 0.321867
+current error is: 178.525463
+sign is -1
+output: -6.250928
+turn out: 9856.385552
+Target position is: 0.003066, -12.002299
+Current position is: -2.073799, -11.682475
+angle to target: -8.754398
+needs to face: -8.754398
+current angle: 342.989918
+adjusted robot theta: 162.989918
+distance error: 0.137420
+current error is: 171.744315
+sign is -1
+output: -0.708507
+turn out: 510.667431
+Target position is: 0.003066, -12.002299
+Current position is: -2.318443, -11.829976
+angle to target: -4.245215
+needs to face: -4.245215
+current angle: 341.854892
+adjusted robot theta: 161.854892
+distance error: -0.052469
+current error is: 166.100107
+sign is -1
+output: 5.476772
+turn out: 517.651001
+Target position is: 0.003066, -12.002299
+Current position is: -2.539287, -11.947580
+angle to target: -1.232970
+needs to face: -1.232970
+current angle: 340.755937
+adjusted robot theta: 160.755937
+distance error: -0.211877
+current error is: 161.988907
+sign is -1
+output: 9.968217
+turn out: 541.064425
+Target position is: 0.003066, -12.002299
+Current position is: -2.768172, -12.042432
+angle to target: 0.829717
+needs to face: 0.829717
+current angle: 339.648443
+adjusted robot theta: 159.648443
+distance error: -0.353910
+current error is: 158.818726
+sign is -1
+output: 14.165804
+turn out: 552.850206
+Target position is: 0.003066, -12.002299
+Current position is: -2.968379, -12.130155
+angle to target: 2.463817
+needs to face: 2.463817
+current angle: 338.552328
+adjusted robot theta: 158.552328
+distance error: -0.485474
+current error is: 156.088511
+sign is -1
+output: 18.166421
+turn out: 553.368460
+Target position is: 0.003066, -12.002299
+Current position is: -3.218679, -12.238918
+angle to target: 4.200518
+needs to face: 4.200518
+current angle: 337.488242
+adjusted robot theta: 157.488242
+distance error: -0.652465
+current error is: 153.287723
+sign is -1
+output: 24.218693
+turn out: 540.330416
+Target position is: 0.003066, -12.002299
+Current position is: -3.376291, -12.342666
+angle to target: 5.751406
+needs to face: 5.751406
+current angle: 336.454142
+adjusted robot theta: 156.454142
+distance error: -0.793500
+current error is: 150.702737
+sign is -1
+output: 28.212694
+turn out: 535.601289
+Target position is: 0.003066, -12.002299
+Current position is: -3.558372, -12.382213
+angle to target: 6.088977
+needs to face: 6.088977
+current angle: 335.466449
+adjusted robot theta: 155.466449
+distance error: -0.880737
+current error is: 149.377471
+sign is -1
+output: 29.928317
+turn out: 563.052985
+Target position is: 0.003066, -12.002299
+Current position is: -3.748433, -12.461949
+angle to target: 6.985315
+needs to face: 6.985315
+current angle: 334.547609
+adjusted robot theta: 154.547609
+distance error: -1.010847
+current error is: 147.562294
+sign is -1
+output: 34.949290
+turn out: 543.054558
+Target position is: 0.003066, -12.002299
+Current position is: -3.897102, -12.547026
+angle to target: 7.950939
+needs to face: 7.950939
+current angle: 333.724758
+adjusted robot theta: 153.724758
+distance error: -1.135663
+current error is: 145.773820
+sign is -1
+output: 38.837528
+turn out: 536.594953
+Target position is: 0.003066, -12.002299
+Current position is: -4.000912, -12.641246
+angle to target: 9.066707
+needs to face: 9.066707
+current angle: 333.009312
+adjusted robot theta: 153.009312
+distance error: -1.256621
+current error is: 143.942605
+sign is -1
+output: 42.631050
+turn out: 528.158834
+Target position is: 0.003066, -12.002299
+Current position is: -4.106919, -12.776745
+angle to target: 10.671145
+needs to face: 10.671145
+current angle: 332.394853
+adjusted robot theta: 152.394853
+distance error: -1.417923
+current error is: 141.723708
+sign is -1
+output: 48.599549
+turn out: 509.203516
+Target position is: 0.003066, -12.002299
+Current position is: -4.185243, -12.887608
+angle to target: 11.935290
+needs to face: 11.935290
+current angle: 331.879581
+adjusted robot theta: 151.879581
+distance error: -1.547495
+current error is: 139.944290
+sign is -1
+output: 52.111292
+turn out: 513.512299
+Target position is: 0.003066, -12.002299
+Current position is: -4.257584, -12.988835
+angle to target: 13.036858
+needs to face: 13.036858
+current angle: 331.498407
+adjusted robot theta: 151.498407
+distance error: -1.666165
+current error is: 138.461549
+sign is -1
+output: 55.690696
+turn out: 515.294913
+Target position is: 0.003066, -12.002299
+Current position is: -4.299095, -13.062726
+angle to target: 13.846657
+needs to face: 13.846657
+current angle: 331.282094
+adjusted robot theta: 151.282094
+distance error: -1.749320
+current error is: 137.435437
+sign is -1
+output: 57.641317
+turn out: 523.062830
+Target position is: 0.003066, -12.002299
+Current position is: -4.285363, -13.095696
+angle to target: 14.303647
+needs to face: 14.303647
+current angle: 331.227433
+adjusted robot theta: 151.227433
+distance error: -1.776365
+current error is: 136.923786
+sign is -1
+output: 57.384608
+turn out: 534.392234
+Target position is: 0.003066, -12.002299
+Current position is: -4.259059, -13.126941
+angle to target: 14.781660
+needs to face: 14.781660
+current angle: 331.342853
+adjusted robot theta: 151.342853
+distance error: -1.797926
+current error is: 136.561193
+sign is -1
+output: 57.964823
+turn out: 536.817354
+Target position is: 0.003066, -12.002299
+Current position is: -4.244768, -13.106609
+angle to target: 14.572615
+needs to face: 14.572615
+current angle: 331.661710
+adjusted robot theta: 151.661710
+distance error: -1.774178
+current error is: 137.089095
+sign is -1
+output: 56.298725
+turn out: 562.081823
+Target position is: 0.003066, -12.002299
+Current position is: -4.217230, -13.079823
+angle to target: 14.322741
+needs to face: 14.322741
+current angle: 332.190314
+adjusted robot theta: 152.190314
+distance error: -1.740223
+current error is: 137.867573
+sign is -1
+output: 55.008034
+turn out: 571.710727
+Target position is: 0.003066, -12.002299
+Current position is: -4.180120, -13.044405
+angle to target: 13.988659
+needs to face: 13.988659
+current angle: 332.895927
+adjusted robot theta: 152.895927
+distance error: -1.695149
+current error is: 138.907268
+sign is -1
+output: 53.343281
+turn out: 582.661141
+Target position is: 0.003066, -12.002299
+Current position is: -4.133328, -13.002395
+angle to target: 13.592112
+needs to face: 13.592112
+current angle: 333.764966
+adjusted robot theta: 153.764966
+distance error: -1.640902
+current error is: 140.172854
+sign is -1
+output: 51.423941
+turn out: 593.596637
+Target position is: 0.003066, -12.002299
+Current position is: -4.067078, -12.976042
+angle to target: 13.454579
+needs to face: 13.454579
+current angle: 334.783736
+adjusted robot theta: 154.783736
+distance error: -1.595832
+current error is: 141.329158
+sign is -1
+output: 50.165213
+turn out: 595.380534
+Target position is: 0.003066, -12.002299
+Current position is: -3.977657, -12.906142
+angle to target: 12.792416
+needs to face: 12.792416
+current angle: 335.959098
+adjusted robot theta: 155.959098
+distance error: -1.502545
+current error is: 143.166682
+sign is -1
+output: 46.215721
+turn out: 620.442379
+Target position is: 0.003066, -12.002299
+Current position is: -3.842753, -12.843659
+angle to target: 12.340328
+needs to face: 12.340328
+current angle: 337.275510
+adjusted robot theta: 157.275510
+distance error: -1.403562
+current error is: 144.935181
+sign is -1
+output: 42.934335
+turn out: 625.721697
+Target position is: 0.003066, -12.002299
+Current position is: -3.663087, -12.793553
+angle to target: 12.179156
+needs to face: 12.179156
+current angle: 338.711791
+adjusted robot theta: 158.711791
+distance error: -1.305005
+current error is: 146.532635
+sign is -1
+output: 39.788988
+turn out: 627.664328
+Target position is: 0.003066, -12.002299
+Current position is: -3.489316, -12.706168
+angle to target: 11.394982
+needs to face: 11.394982
+current angle: 340.262992
+adjusted robot theta: 160.262992
+distance error: -1.173948
+current error is: 148.868010
+sign is -1
+output: 34.945228
+turn out: 656.191788
+Target position is: 0.003066, -12.002299
+Current position is: -3.273617, -12.630996
+angle to target: 10.861339
+needs to face: 10.861339
+current angle: 341.909978
+adjusted robot theta: 161.909978
+distance error: -1.045708
+current error is: 151.048640
+sign is -1
+output: 30.897865
+turn out: 660.890934
+Target position is: 0.003066, -12.002299
+Current position is: -3.080193, -12.561471
+angle to target: 10.279307
+needs to face: 10.279307
+current angle: 343.632578
+adjusted robot theta: 163.632578
+distance error: -0.931007
+current error is: 153.353271
+sign is -1
+output: 27.498222
+turn out: 673.333493
+Target position is: 0.003066, -12.002299
+Current position is: -2.856723, -12.475082
+angle to target: 9.387286
+needs to face: 9.387286
+current angle: 345.422808
+adjusted robot theta: 165.422808
+distance error: -0.795406
+current error is: 156.035522
+sign is -1
+output: 22.740944
+turn out: 693.880618
+Target position is: 0.003066, -12.002299
+Current position is: -2.651952, -12.409568
+angle to target: 8.720979
+needs to face: 8.720979
+current angle: 347.275935
+adjusted robot theta: 167.275935
+distance error: -0.687200
+current error is: 158.554955
+sign is -1
+output: 19.826284
+turn out: 699.725093
+Target position is: 0.003066, -12.002299
+Current position is: -2.419511, -12.317122
+angle to target: 7.404315
+needs to face: 7.404315
+current angle: 349.180684
+adjusted robot theta: 169.180684
+distance error: -0.549959
+current error is: 161.776369
+sign is -1
+output: 14.853882
+turn out: 730.862217
+Target position is: 0.003066, -12.002299
+Current position is: -2.179298, -12.252260
+angle to target: 6.534006
+needs to face: 6.534006
+current angle: 351.104911
+adjusted robot theta: 171.104911
+distance error: -0.442033
+current error is: 164.570905
+sign is -1
+output: 11.986543
+turn out: 730.941568
+Target position is: 0.003066, -12.002299
+Current position is: -1.935821, -12.202484
+angle to target: 5.894761
+needs to face: 5.894761
+current angle: 353.032656
+adjusted robot theta: 173.032656
+distance error: -0.352569
+current error is: 167.137895
+sign is -1
+output: 9.492944
+turn out: 735.293320
+Target position is: 0.003066, -12.002299
+Current position is: -1.749045, -12.152554
+angle to target: 4.901509
+needs to face: 4.901509
+current angle: 354.955789
+adjusted robot theta: 174.955789
+distance error: -0.275280
+current error is: 170.054280
+sign is -1
+output: 7.263148
+turn out: 756.043132
+Target position is: 0.003066, -12.002299
+Current position is: -1.534843, -12.086059
+angle to target: 3.117489
+needs to face: 3.117489
+current angle: 356.865526
+adjusted robot theta: 176.865526
+distance error: -0.180653
+current error is: 173.748037
+sign is -1
+output: 3.888344
+turn out: 791.029829
+Target position is: 0.003066, -12.002299
+Current position is: -1.290962, -12.050546
+angle to target: 2.135257
+needs to face: 2.135257
+current angle: 358.750908
+adjusted robot theta: 178.750908
+distance error: -0.117049
+current error is: 176.615651
+sign is -1
+output: 2.473483
+turn out: 781.020562
+Target position is: 0.003066, -12.002299
+Current position is: -1.163139, -11.855009
+angle to target: -7.198249
+needs to face: -7.198249
+current angle: 0.603970
+adjusted robot theta: 180.603970
+distance error: 0.090506
+current error is: -172.197781
+sign is -1
+output: -7.047281
+turn out: -9757.940350
+Target position is: 0.003066, -12.002299
+Current position is: -0.951055, -11.827642
+angle to target: -10.373413
+needs to face: -10.373413
+current angle: 2.411852
+adjusted robot theta: 182.411852
+distance error: 0.136597
+current error is: -167.214735
+sign is -1
+output: -5.292940
+turn out: -539.299734
+Target position is: 0.003066, -12.002299
+Current position is: -0.742732, -11.833487
+angle to target: -12.753973
+needs to face: -12.753973
+current angle: 4.177119
+adjusted robot theta: 184.177119
+distance error: 0.145617
+current error is: -163.068908
+sign is -1
+output: -4.840161
+turn out: -544.484146
+Target position is: 0.003066, -12.002299
+Current position is: -0.534736, -11.812727
+angle to target: -19.417236
+needs to face: -19.417236
+current angle: 5.900171
+adjusted robot theta: 185.900171
+distance error: 0.177542
+current error is: -154.682593
+sign is -1
+output: -6.319859
+turn out: -400.686179
+Target position is: 0.003066, -12.002299
+Current position is: -0.333911, -11.832649
+angle to target: -26.722827
+needs to face: -26.722827
+current angle: 7.571741
+adjusted robot theta: 187.571741
+distance error: 0.164983
+current error is: -145.705432
+sign is -1
+output: -5.028242
+turn out: -349.415552
+Target position is: 0.003066, -12.002299
+Current position is: -0.135517, -11.847976
+angle to target: -48.075881
+needs to face: -48.075881
+current angle: 9.196513
+adjusted robot theta: 189.196513
+distance error: 0.153565
+current error is: -122.727605
+sign is -1
+output: -4.685750
+turn out: 106.513077
+Target position is: 0.003066, -12.002299
+Current position is: 0.033659, -11.846789
+angle to target: -101.129625
+needs to face: -101.129625
+current angle: 10.767724
+adjusted robot theta: 190.767724
+distance error: 0.155458
+current error is: -68.102651
+sign is -1
+output: -5.012520
+turn out: 1147.838200
+Target position is: 0.003066, -12.002299
+Current position is: 0.231741, -11.825561
+angle to target: -142.300462
+needs to face: -142.300462
+current angle: 12.268510
+adjusted robot theta: 192.268510
+distance error: 0.174437
+current error is: -25.431028
+sign is -1
+output: -5.961566
+turn out: 1007.738094
+Target position is: 0.003066, -12.002299
+Current position is: 0.368533, -11.802790
+angle to target: -151.369860
+needs to face: -151.369860
+current angle: 13.698338
+adjusted robot theta: 193.698338
+distance error: 0.193708
+current error is: -14.931802
+sign is -1
+output: -6.584090
+turn out: 213.252672
+Target position is: 0.003066, -12.002299
+Current position is: 0.560818, -11.775185
+angle to target: -157.844087
+needs to face: -157.844087
+current angle: 15.049544
+adjusted robot theta: 195.049544
+distance error: 0.213692
+current error is: -7.106369
+sign is -1
+output: -7.237798
+turn out: 175.035796
+Target position is: 0.003066, -12.002299
+Current position is: 0.702153, -11.701333
+angle to target: -156.707503
+needs to face: -156.707503
+current angle: 16.306614
+adjusted robot theta: 196.306614
+distance error: 0.279823
+current error is: -6.985884
+sign is -1
+output: -10.276959
+turn out: -24.810931
+Target position is: 0.003066, -12.002299
+Current position is: 0.886637, -11.662684
+angle to target: -158.974934
+needs to face: -158.974934
+current angle: 17.455814
+adjusted robot theta: 197.455814
+distance error: 0.305839
+current error is: -3.569252
+sign is -1
+output: -10.307154
+turn out: 74.555418
+Target position is: 0.003066, -12.002299
+Current position is: 0.983624, -11.585916
+angle to target: -156.992048
+needs to face: -156.992048
+current angle: 18.438621
+adjusted robot theta: 198.438621
+distance error: 0.374567
+current error is: -4.569330
+sign is -1
+output: -13.360693
+turn out: -44.279355
+Target position is: 0.003066, -12.002299
+Current position is: 1.082887, -11.555171
+angle to target: -157.506771
+needs to face: -157.506771
+current angle: 19.235879
+adjusted robot theta: 199.235879
+distance error: 0.396345
+current error is: -3.257349
+sign is -1
+output: -13.118590
+turn out: 21.082105
+Target position is: 0.003066, -12.002299
+Current position is: 1.122240, -11.572175
+angle to target: -158.977106
+needs to face: -158.977106
+current angle: 19.848565
+adjusted robot theta: 199.848565
+distance error: 0.375677
+current error is: -1.174329
+sign is -1
+output: -11.608327
+turn out: 49.461223
+Target position is: 0.003066, -12.002299
+Current position is: 1.155959, -11.562812
+angle to target: -159.132985
+needs to face: -159.132985
+current angle: 20.256294
+adjusted robot theta: 200.256294
+distance error: 0.381686
+current error is: -0.610721
+sign is -1
+output: -12.334100
+turn out: 12.210910
+Target position is: 0.003066, -12.002299
+Current position is: 1.155392, -11.609142
+angle to target: -161.161100
+needs to face: -161.161100
+current angle: 20.479654
+adjusted robot theta: 200.479654
+distance error: 0.335642
+current error is: 1.640754
+sign is -1
+output: -9.819651
+turn out: 65.101376
+Target position is: 0.003066, -12.002299
+Current position is: 1.156289, -11.623771
+angle to target: -161.828396
+needs to face: -161.828396
+current angle: 20.565152
+adjusted robot theta: 200.565152
+distance error: 0.320995
+current error is: 2.393548
+sign is -1
+output: -9.978905
+turn out: 29.146841
+Target position is: 0.003066, -12.002299
+Current position is: 1.152642, -11.626398
+angle to target: -161.892736
+needs to face: -161.892736
+current angle: 20.529444
+adjusted robot theta: 200.529444
+distance error: 0.318742
+current error is: 2.422181
+sign is -1
+output: -10.154698
+turn out: 10.433162
+Target position is: 0.003066, -12.002299
+Current position is: 1.138356, -11.636721
+angle to target: -162.150781
+needs to face: -162.150781
+current angle: 20.389400
+adjusted robot theta: 200.389400
+distance error: 0.309872
+current error is: 2.540181
+sign is -1
+output: -9.738477
+turn out: 13.228730
+Target position is: 0.003066, -12.002299
+Current position is: 1.114409, -11.654143
+angle to target: -162.605576
+needs to face: -162.605576
+current angle: 20.154102
+adjusted robot theta: 200.154102
+distance error: 0.294839
+current error is: 2.759678
+sign is -1
+output: -9.134202
+turn out: 16.745625
+Target position is: 0.003066, -12.002299
+Current position is: 1.082881, -11.677312
+angle to target: -163.250073
+needs to face: -163.250073
+current angle: 19.843229
+adjusted robot theta: 199.843229
+distance error: 0.274733
+current error is: 3.093301
+sign is -1
+output: -8.389346
+turn out: 21.047425
+Target position is: 0.003066, -12.002299
+Current position is: 1.019781, -11.694843
+angle to target: -163.174640
+needs to face: -163.174640
+current angle: 19.482829
+adjusted robot theta: 199.482829
+distance error: 0.262937
+current error is: 2.657469
+sign is -1
+output: -8.178040
+turn out: -0.701775
+Target position is: 0.003066, -12.002299
+Current position is: 0.979496, -11.725230
+angle to target: -164.158365
+needs to face: -164.158365
+current angle: 19.081898
+adjusted robot theta: 199.081898
+distance error: 0.236093
+current error is: 3.240263
+sign is -1
+output: -7.018079
+turn out: 28.113696
+Target position is: 0.003066, -12.002299
+Current position is: 0.936933, -11.757820
+angle to target: -165.329688
+needs to face: -165.329688
+current angle: 18.655964
+adjusted robot theta: 198.655964
+distance error: 0.207079
+current error is: 3.985652
+sign is -1
+output: -6.046265
+turn out: 35.322714
+Target position is: 0.003066, -12.002299
+Current position is: 0.894407, -11.790887
+angle to target: -166.656971
+needs to face: -166.656971
+current angle: 18.227943
+adjusted robot theta: 198.227943
+distance error: 0.177415
+current error is: 4.884914
+sign is -1
+output: -5.083997
+turn out: 42.920484
+Target position is: 0.003066, -12.002299
+Current position is: 0.799030, -11.806056
+angle to target: -166.150144
+needs to face: -166.150144
+current angle: 17.808469
+adjusted robot theta: 197.808469
+distance error: 0.169126
+current error is: 3.958612
+sign is -1
+output: -5.246249
+turn out: -8.249396
+Target position is: 0.003066, -12.002299
+Current position is: 0.732451, -11.829163
+angle to target: -166.646726
+needs to face: -166.646726
+current angle: 17.405839
+adjusted robot theta: 197.405839
+distance error: 0.150383
+current error is: 4.052565
+sign is -1
+output: -4.437383
+turn out: 18.653019
+Target position is: 0.003066, -12.002299
+Current position is: 0.668337, -11.850849
+angle to target: -167.175177
+needs to face: -167.175177
+current angle: 17.026813
+adjusted robot theta: 197.026813
+distance error: 0.132529
+current error is: 4.201991
+sign is -1
+output: -3.883864
+turn out: 20.693037
+Target position is: 0.003066, -12.002299
+Current position is: 0.635611, -11.877780
+angle to target: -168.863573
+needs to face: -168.863573
+current angle: 16.690062
+adjusted robot theta: 196.690062
+distance error: 0.107439
+current error is: 5.553635
+sign is -1
+output: -2.936258
+turn out: 57.357283
+Target position is: 0.003066, -12.002299
+Current position is: 0.580473, -11.892962
+angle to target: -169.277523
+needs to face: -169.277523
+current angle: 16.401150
+adjusted robot theta: 196.401150
+distance error: 0.095103
+current error is: 5.678673
+sign is -1
+output: -2.796552
+turn out: 25.965685
+Target position is: 0.003066, -12.002299
+Current position is: 0.524352, -11.925462
+angle to target: -171.615142
+needs to face: -171.615142
+current angle: 16.166306
+adjusted robot theta: 196.166306
+distance error: 0.065245
+current error is: 7.781448
+sign is -1
+output: -1.490701
+turn out: 85.797952
+Target position is: 0.003066, -12.002299
+Current position is: 0.507998, -11.939297
+angle to target: -172.887825
+needs to face: -172.887825
+current angle: 15.996106
+adjusted robot theta: 195.996106
+distance error: 0.052133
+current error is: 8.883930
+sign is -1
+output: -1.405997
+turn out: 64.200254
+Target position is: 0.003066, -12.002299
+Current position is: 0.469307, -11.941219
+angle to target: -172.536493
+needs to face: -172.536493
+current angle: 15.877014
+adjusted robot theta: 195.877014
+distance error: 0.051800
+current error is: 8.413507
+sign is -1
+output: -1.650941
+turn out: 21.423032
+Target position is: 0.003066, -12.002299
+Current position is: 0.463430, -11.946232
+angle to target: -173.056312
+needs to face: -173.056312
+current angle: 15.815632
+adjusted robot theta: 195.815632
+distance error: 0.047020
+current error is: 8.871944
+sign is -1
+output: -1.409064
+turn out: 47.407138
+Target position is: 0.003066, -12.002299
+Current position is: 0.462141, -11.947333
+angle to target: -173.172425
+needs to face: -173.172425
+current angle: 15.802165
+adjusted robot theta: 195.802165
+distance error: 0.045971
+current error is: 8.974590
+sign is -1
+output: -1.450059
+turn out: 38.567162
+Target position is: 0.003066, -12.002299
+Current position is: 0.464447, -11.945364
+angle to target: -172.965238
+needs to face: -172.965238
+current angle: 15.826257
+adjusted robot theta: 195.826257
+distance error: 0.047848
+current error is: 8.791495
+sign is -1
+output: -1.568707
+turn out: 30.405508
+Target position is: 0.003066, -12.002299
+Current position is: 0.468250, -11.942120
+angle to target: -172.628838
+needs to face: -172.628838
+current angle: 15.865977
+adjusted robot theta: 195.865977
+distance error: 0.050941
+current error is: 8.494814
+sign is -1
+output: -1.691975
+turn out: 26.265552
+Target position is: 0.003066, -12.002299
+Current position is: 0.472848, -11.938204
+angle to target: -172.230788
+needs to face: -172.230788
+current angle: 15.913967
+adjusted robot theta: 195.913967
+distance error: 0.054673
+current error is: 8.144755
+sign is -1
+output: -1.824155
+turn out: 23.477480
+Target position is: 0.003066, -12.002299
+Current position is: 0.477344, -11.934381
+angle to target: -171.850578
+needs to face: -171.850578
+current angle: 15.960850
+adjusted robot theta: 195.960850
+distance error: 0.058312
+current error is: 7.811429
+sign is -1
+output: -1.938790
+turn out: 22.579229
+Target position is: 0.003066, -12.002299
+Current position is: 0.481673, -11.930706
+angle to target: -171.492513
+needs to face: -171.492513
+current angle: 16.005974
+adjusted robot theta: 196.005974
+distance error: 0.061810
+current error is: 7.498487
+sign is -1
+output: -2.047883
+turn out: 21.857460
+Target position is: 0.003066, -12.002299
+Current position is: 0.485336, -11.927601
+angle to target: -171.195632
+needs to face: -171.195632
+current angle: 16.044126
+adjusted robot theta: 196.044126
+distance error: 0.064764
+current error is: 7.239758
+sign is -1
+output: -2.131498
+turn out: 22.232066
+Target position is: 0.003066, -12.002299
+Current position is: 0.482047, -11.946623
+angle to target: -173.369817
+needs to face: -173.369817
+current angle: 16.074217
+adjusted robot theta: 196.074217
+distance error: 0.045891
+current error is: 9.444035
+sign is -1
+output: -1.091086
+turn out: 95.087347
+Target position is: 0.003066, -12.002299
+Current position is: 0.484349, -11.944675
+angle to target: -173.172589
+needs to face: -173.172589
+current angle: 16.098178
+adjusted robot theta: 196.098178
+distance error: 0.047744
+current error is: 9.270767
+sign is -1
+output: -1.564855
+turn out: 32.578109
+Target position is: 0.003066, -12.002299
+Current position is: 0.485848, -11.943409
+angle to target: -173.045438
+needs to face: -173.045438
+current angle: 16.113766
+adjusted robot theta: 196.113766
+distance error: 0.048948
+current error is: 9.159204
+sign is -1
+output: -1.590432
+turn out: 33.736185
+Target position is: 0.003066, -12.002299
+Current position is: 0.482368, -11.957164
+angle to target: -174.620466
+needs to face: -174.620466
+current angle: 16.120577
+adjusted robot theta: 196.120577
+distance error: 0.035346
+current error is: 10.741043
+sign is -1
+output: -0.859030
+turn out: 84.091991
+Target position is: 0.003066, -12.002299
+Current position is: 0.478409, -11.971323
+angle to target: -176.271582
+needs to face: -176.271582
+current angle: 16.122411
+adjusted robot theta: 196.122411
+distance error: 0.021358
+current error is: 12.393993
+sign is -1
+output: -0.403695
+turn out: 92.552655
+Target position is: 0.003066, -12.002299
+Current position is: 0.473869, -11.985972
+angle to target: -178.013923
+needs to face: -178.013923
+current angle: 16.118204
+adjusted robot theta: 196.118204
+distance error: 0.006901
+current error is: 14.132127
+sign is -1
+output: 0.068304
+turn out: 101.719996
+Target position is: 0.003066, -12.002299
+Current position is: 0.460827, -12.029438
+angle to target: 176.607081
+needs to face: 176.607081
+current angle: 16.111547
+adjusted robot theta: 196.111547
+distance error: -0.036022
+current error is: 19.504466
+sign is -1
+output: 2.011186
+turn out: 217.698677
+Target position is: 0.003066, -12.002299
+Current position is: 0.460320, -12.029867
+angle to target: 176.549762
+needs to face: 176.549762
+current angle: 16.106267
+adjusted robot theta: 196.106267
+distance error: -0.036432
+current error is: 19.556504
+sign is -1
+output: 1.173993
+turn out: 79.579017
+Target position is: 0.003066, -12.002299
+Current position is: 0.460259, -12.029918
+angle to target: 176.542918
+needs to face: 176.542918
+current angle: 16.105637
+adjusted robot theta: 196.105637
+distance error: -0.036480
+current error is: 19.562719
+sign is -1
+output: 1.168347
+turn out: 78.412445
+Target position is: 0.003066, -12.002299
+Current position is: 0.460490, -12.029723
+angle to target: 176.569023
+needs to face: 176.569023
+current angle: 16.108040
+adjusted robot theta: 196.108040
+distance error: -0.036294
+current error is: 19.539017
+sign is -1
+output: 1.157687
+turn out: 77.539824
+Target position is: 0.003066, -12.002299
+Current position is: 0.460899, -12.029377
+angle to target: 176.615182
+needs to face: 176.615182
+current angle: 16.112294
+adjusted robot theta: 196.112294
+distance error: -0.035965
+current error is: 19.497112
+sign is -1
+output: 1.144272
+turn out: 76.898933
+Target position is: 0.003066, -12.002299
+Current position is: 0.467599, -12.007493
+angle to target: 179.359320
+needs to face: 179.359320
+current angle: 16.117485
+adjusted robot theta: 196.117485
+distance error: -0.014356
+current error is: 16.758165
+sign is -1
+output: 0.027245
+turn out: -4.179972
+Target position is: 0.003066, -12.002299
+Current position is: 0.455706, -12.049984
+angle to target: 173.986119
+needs to face: 173.986119
+current angle: 16.122816
+adjusted robot theta: 196.122816
+distance error: -0.056358
+current error is: 22.136697
+sign is -1
+output: 2.643480
+turn out: 228.388630
+Target position is: 0.003066, -12.002299
+Current position is: 0.449927, -12.071086
+angle to target: 171.248866
+needs to face: 171.248866
+current angle: 16.127238
+adjusted robot theta: 196.127238
+distance error: -0.077228
+current error is: 24.878372
+sign is -1
+output: 2.888674
+turn out: 170.797024
+Target position is: 0.003066, -12.002299
+Current position is: 0.456483, -12.049330
+angle to target: 174.078122
+needs to face: 174.078122
+current angle: 16.130877
+adjusted robot theta: 196.130877
+distance error: -0.055734
+current error is: 22.052755
+sign is -1
+output: 1.353601
+turn out: 14.744989
+Target position is: 0.003066, -12.002299
+Current position is: 0.452479, -12.063523
+angle to target: 172.242235
+needs to face: 172.242235
+current angle: 16.132277
+adjusted robot theta: 196.132277
+distance error: -0.069766
+current error is: 23.890042
+sign is -1
+output: 2.513137
+turn out: 143.329611
+Target position is: 0.003066, -12.002299
+Current position is: 0.450629, -12.070492
+angle to target: 171.336716
+needs to face: 171.336716
+current angle: 16.134552
+adjusted robot theta: 196.134552
+distance error: -0.076660
+current error is: 24.797836
+sign is -1
+output: 2.591005
+turn out: 122.794010
+Target position is: 0.003066, -12.002299
+Current position is: 0.446991, -12.084374
+angle to target: 169.525049
+needs to face: 169.525049
+current angle: 16.139774
+adjusted robot theta: 196.139774
+distance error: -0.090397
+current error is: 26.614724
+sign is -1
+output: 3.167470
+turn out: 153.697983
+Target position is: 0.003066, -12.002299
+Current position is: 0.445917, -12.090687
+angle to target: 168.712735
+needs to face: 168.712735
+current angle: 16.150133
+adjusted robot theta: 196.150133
+distance error: -0.096665
+current error is: 27.437398
+sign is -1
+output: 3.218653
+turn out: 131.139118
+Target position is: 0.003066, -12.002299
+Current position is: 0.447416, -12.089422
+angle to target: 168.906781
+needs to face: 168.906781
+current angle: 16.165715
+adjusted robot theta: 196.165715
+distance error: -0.095457
+current error is: 27.258935
+sign is -1
+output: 3.030470
+turn out: 104.395683
+Target position is: 0.003066, -12.002299
+Current position is: 0.449477, -12.087685
+angle to target: 169.171696
+needs to face: 169.171696
+current angle: 16.187132
+adjusted robot theta: 196.187132
+distance error: -0.093798
+current error is: 27.015436
+sign is -1
+output: 2.968336
+turn out: 101.730778
+Target position is: 0.003066, -12.002299
+Current position is: 0.445911, -12.106891
+angle to target: 166.711271
+needs to face: 166.711271
+current angle: 16.214844
+adjusted robot theta: 196.214844
+distance error: -0.112858
+current error is: 29.503573
+sign is -1
+output: 3.992676
+turn out: 182.705851
+Target position is: 0.003066, -12.002299
+Current position is: 0.449310, -12.104031
+angle to target: 167.157515
+needs to face: 167.157515
+current angle: 16.250138
+adjusted robot theta: 196.250138
+distance error: -0.110126
+current error is: 29.092623
+sign is -1
+output: 3.469408
+turn out: 105.685810
+Target position is: 0.003066, -12.002299
+Current position is: 0.447232, -12.121963
+angle to target: 164.921720
+needs to face: 164.921720
+current angle: 16.293529
+adjusted robot theta: 196.293529
+distance error: -0.127969
+current error is: 31.371809
+sign is -1
+output: 4.451867
+turn out: 184.746051
+Target position is: 0.003066, -12.002299
+Current position is: 0.452335, -12.117683
+angle to target: 165.596243
+needs to face: 165.596243
+current angle: 16.346451
+adjusted robot theta: 196.346451
+distance error: -0.123882
+current error is: 30.750208
+sign is -1
+output: 3.882459
+turn out: 106.839227
+Target position is: 0.003066, -12.002299
+Current position is: 0.458458, -12.112557
+angle to target: 166.389596
+needs to face: 166.389596
+current angle: 16.409898
+adjusted robot theta: 196.409898
+distance error: -0.118990
+current error is: 30.020302
+sign is -1
+output: 3.709874
+turn out: 101.103631
+Target position is: 0.003066, -12.002299
+Current position is: 0.459106, -12.128160
+angle to target: 164.571154
+needs to face: 164.571154
+current angle: 16.482083
+adjusted robot theta: 196.482083
+distance error: -0.134607
+current error is: 31.910929
+sign is -1
+output: 4.619749
+turn out: 176.800014
+Target position is: 0.003066, -12.002299
+Current position is: 0.467035, -12.121557
+angle to target: 165.584754
+needs to face: 165.584754
+current angle: 16.564065
+adjusted robot theta: 196.564065
+distance error: -0.128313
+current error is: 30.979311
+sign is -1
+output: 3.980113
+turn out: 99.695174
+Target position is: 0.003066, -12.002299
+Current position is: 0.463094, -12.157042
+angle to target: 161.408148
+needs to face: 161.408148
+current angle: 16.655255
+adjusted robot theta: 196.655255
+distance error: -0.163620
+current error is: 35.247107
+sign is -1
+output: 5.941982
+turn out: 251.951128
+Target position is: 0.003066, -12.002299
+Current position is: 0.472961, -12.148878
+angle to target: 162.675176
+needs to face: 162.675176
+current angle: 16.757014
+adjusted robot theta: 196.757014
+distance error: -0.155843
+current error is: 34.081838
+sign is -1
+output: 4.831427
+turn out: 106.030369
+Target position is: 0.003066, -12.002299
+Current position is: 0.471806, -12.181946
+angle to target: 159.030327
+needs to face: 159.030327
+current angle: 16.878215
+adjusted robot theta: 196.878215
+distance error: -0.188841
+current error is: 37.847888
+sign is -1
+output: 6.702876
+turn out: 249.308840
+Target position is: 0.003066, -12.002299
+Current position is: 0.487328, -12.163870
+angle to target: 161.549041
+needs to face: 161.549041
+current angle: 17.015433
+adjusted robot theta: 197.015433
+distance error: -0.171392
+current error is: 35.466392
+sign is -1
+output: 5.135549
+turn out: 79.946667
+Target position is: 0.003066, -12.002299
+Current position is: 0.495526, -12.173174
+angle to target: 160.864055
+needs to face: 160.864055
+current angle: 17.166845
+adjusted robot theta: 197.166845
+distance error: -0.181021
+current error is: 36.302790
+sign is -1
+output: 5.985237
+turn out: 166.957514
+Target position is: 0.003066, -12.002299
+Current position is: 0.503240, -12.188194
+angle to target: 159.611849
+needs to face: 159.611849
+current angle: 17.336161
+adjusted robot theta: 197.336161
+distance error: -0.196344
+current error is: 37.724311
+sign is -1
+output: 6.589493
+turn out: 187.856801
+Target position is: 0.003066, -12.002299
+Current position is: 0.524007, -12.166143
+angle to target: 162.540785
+needs to face: 162.540785
+current angle: 17.525355
+adjusted robot theta: 197.525355
+distance error: -0.175191
+current error is: 34.984570
+sign is -1
+output: 5.183055
+turn out: 68.705019
+Target position is: 0.003066, -12.002299
+Current position is: 0.528070, -12.199931
+angle to target: 159.371618
+needs to face: 159.371618
+current angle: 17.727374
+adjusted robot theta: 197.727374
+distance error: -0.209124
+current error is: 38.355756
+sign is -1
+output: 7.370611
+turn out: 241.073843
+Target position is: 0.003066, -12.002299
+Current position is: 0.551824, -12.175778
+angle to target: 162.456650
+needs to face: 162.456650
+current angle: 17.945305
+adjusted robot theta: 197.945305
+distance error: -0.186049
+current error is: 35.488655
+sign is -1
+output: 5.492056
+turn out: 67.409989
+Target position is: 0.003066, -12.002299
+Current position is: 0.586068, -12.215651
+angle to target: 159.899633
+needs to face: 159.899633
+current angle: 18.182485
+adjusted robot theta: 198.182485
+distance error: -0.227479
+current error is: 38.282852
+sign is -1
+output: 8.107921
+turn out: 225.780546
+Target position is: 0.003066, -12.002299
+Current position is: 0.609104, -12.202896
+angle to target: 161.685577
+needs to face: 161.685577
+current angle: 18.438344
+adjusted robot theta: 198.438344
+distance error: -0.215868
+current error is: 36.752767
+sign is -1
+output: 6.675553
+turn out: 107.228859
+Target position is: 0.003066, -12.002299
+Current position is: 0.678546, -12.234952
+angle to target: 160.994935
+needs to face: 160.994935
+current angle: 18.714989
+adjusted robot theta: 198.714989
+distance error: -0.251543
+current error is: 37.720053
+sign is -1
+output: 8.762855
+turn out: 176.029654
+Target position is: 0.003066, -12.002299
+Current position is: 0.720492, -12.263769
+angle to target: 159.975393
+needs to face: 159.975393
+current angle: 19.010748
+adjusted robot theta: 199.010748
+distance error: -0.282710
+current error is: 39.035355
+sign is -1
+output: 9.670061
+turn out: 190.339259
+Target position is: 0.003066, -12.002299
+Current position is: 0.753795, -12.233359
+angle to target: 162.892608
+needs to face: 162.892608
+current angle: 19.318341
+adjusted robot theta: 199.318341
+distance error: -0.254360
+current error is: 36.425733
+sign is -1
+output: 7.572514
+turn out: 77.852758
+Target position is: 0.003066, -12.002299
+Current position is: 0.795656, -12.267615
+angle to target: 161.492214
+needs to face: 161.492214
+current angle: 19.641023
+adjusted robot theta: 199.641023
+distance error: -0.291195
+current error is: 38.148809
+sign is -1
+output: 10.054964
+turn out: 197.395219
+Target position is: 0.003066, -12.002299
+Current position is: 0.867736, -12.303822
+angle to target: 160.775591
+needs to face: 160.775591
+current angle: 19.975654
+adjusted robot theta: 199.975654
+distance error: -0.332197
+current error is: 39.200064
+sign is -1
+output: 11.450327
+turn out: 184.132878
+Target position is: 0.003066, -12.002299
+Current position is: 0.926840, -12.294970
+angle to target: 162.420655
+needs to face: 162.420655
+current angle: 20.320523
+adjusted robot theta: 200.320523
+distance error: -0.327678
+current error is: 37.899867
+sign is -1
+output: 10.395298
+turn out: 117.794354
+Target position is: 0.003066, -12.002299
+Current position is: 0.968433, -12.334808
+angle to target: 160.994321
+needs to face: 160.994321
+current angle: 20.672145
+adjusted robot theta: 200.672145
+distance error: -0.370594
+current error is: 39.677825
+sign is -1
+output: 12.717356
+turn out: 204.938197
+Target position is: 0.003066, -12.002299
+Current position is: 1.050838, -12.349279
+angle to target: 161.677176
+needs to face: 161.677176
+current angle: 21.036478
+adjusted robot theta: 201.036478
+distance error: -0.391747
+current error is: 39.359302
+sign is -1
+output: 12.958961
+turn out: 149.155621
+Target position is: 0.003066, -12.002299
+Current position is: 1.099007, -12.374568
+angle to target: 161.238418
+needs to face: 161.238418
+current angle: 21.404526
+adjusted robot theta: 201.404526
+distance error: -0.421119
+current error is: 40.166108
+sign is -1
+output: 14.063267
+turn out: 181.641398
+Target position is: 0.003066, -12.002299
+Current position is: 1.121177, -12.389358
+angle to target: 160.905528
+needs to face: 160.905528
+current angle: 21.777765
+adjusted robot theta: 201.777765
+distance error: -0.437834
+current error is: 40.872237
+sign is -1
+output: 14.344963
+turn out: 181.848296
+Target position is: 0.003066, -12.002299
+Current position is: 1.196382, -12.425152
+angle to target: 160.488122
+needs to face: 160.488122
+current angle: 22.156081
+adjusted robot theta: 202.156081
+distance error: -0.480476
+current error is: 41.667959
+sign is -1
+output: 16.228062
+turn out: 187.360601
+Target position is: 0.003066, -12.002299
+Current position is: 1.254798, -12.429203
+angle to target: 161.168012
+needs to face: 161.168012
+current angle: 22.545773
+adjusted robot theta: 202.545773
+distance error: -0.490248
+current error is: 41.377761
+sign is -1
+output: 15.883364
+turn out: 157.965883
+Target position is: 0.003066, -12.002299
+Current position is: 1.315993, -12.426828
+angle to target: 162.081618
+needs to face: 162.081618
+current angle: 22.934803
+adjusted robot theta: 202.934803
+distance error: -0.494190
+current error is: 40.853185
+sign is -1
+output: 15.892922
+turn out: 149.773767
+Target position is: 0.003066, -12.002299
+Current position is: 1.362932, -12.458879
+angle to target: 161.440305
+needs to face: 161.440305
+current angle: 23.327197
+adjusted robot theta: 203.327197
+distance error: -0.531087
+current error is: 41.886892
+sign is -1
+output: 17.732729
+turn out: 194.423969
+Target position is: 0.003066, -12.002299
+Current position is: 1.438877, -12.495583
+angle to target: 161.039441
+needs to face: 161.039441
+current angle: 23.721971
+adjusted robot theta: 203.721971
+distance error: -0.576045
+current error is: 42.682530
+sign is -1
+output: 19.332591
+turn out: 191.416688
+Target position is: 0.003066, -12.002299
+Current position is: 1.487959, -12.521741
+angle to target: 160.719255
+needs to face: 160.719255
+current angle: 24.110304
+adjusted robot theta: 204.110304
+distance error: -0.607735
+current error is: 43.391049
+sign is -1
+output: 20.081345
+turn out: 191.985688
+Target position is: 0.003066, -12.002299
+Current position is: 1.546004, -12.527904
+angle to target: 161.188462
+needs to face: 161.188462
+current angle: 24.498131
+adjusted robot theta: 204.498131
+distance error: -0.620841
+current error is: 43.309669
+sign is -1
+output: 20.129043
+turn out: 171.122816
+Target position is: 0.003066, -12.002299
+Current position is: 1.629532, -12.546455
+angle to target: 161.501612
+needs to face: 161.501612
+current angle: 24.883698
+adjusted robot theta: 204.883698
+distance error: -0.649752
+current error is: 43.382085
+sign is -1
+output: 21.370261
+turn out: 175.411160
+Target position is: 0.003066, -12.002299
+Current position is: 1.677108, -12.574186
+angle to target: 161.138779
+needs to face: 161.138779
+current angle: 25.263046
+adjusted robot theta: 205.263046
+distance error: -0.683460
+current error is: 44.124267
+sign is -1
+output: 22.544891
+turn out: 195.793789
+Target position is: 0.003066, -12.002299
+Current position is: 1.724161, -12.602433
+angle to target: 160.776683
+needs to face: 160.776683
+current angle: 25.639242
+adjusted robot theta: 205.639242
+distance error: -0.717758
+current error is: 44.862559
+sign is -1
+output: 23.654226
+turn out: 198.645816
+Target position is: 0.003066, -12.002299
+Current position is: 1.805793, -12.623524
+angle to target: 160.985892
+needs to face: 160.985892
+current angle: 26.010869
+adjusted robot theta: 206.010869
+distance error: -0.749970
+current error is: 45.024977
+sign is -1
+output: 24.643265
+turn out: 184.322778
+Target position is: 0.003066, -12.002299
+Current position is: 1.860999, -12.633107
+angle to target: 161.246519
+needs to face: 161.246519
+current angle: 26.374773
+adjusted robot theta: 206.374773
+distance error: -0.767393
+current error is: 45.128255
+sign is -1
+output: 24.905062
+turn out: 183.198244
+Target position is: 0.003066, -12.002299
+Current position is: 1.905673, -12.663299
+angle to target: 160.841843
+needs to face: 160.841843
+current angle: 26.734264
+adjusted robot theta: 206.734264
+distance error: -0.803841
+current error is: 45.892420
+sign is -1
+output: 26.451847
+turn out: 203.437990
+Target position is: 0.003066, -12.002299
+Current position is: 1.995451, -12.666890
+angle to target: 161.553071
+needs to face: 161.553071
+current angle: 27.091739
+adjusted robot theta: 207.091739
+distance error: -0.821068
+current error is: 45.538668
+sign is -1
+output: 26.618725
+turn out: 172.957111
+Target position is: 0.003066, -12.002299
+Current position is: 2.039150, -12.697966
+angle to target: 161.136279
+needs to face: 161.136279
+current angle: 27.445817
+adjusted robot theta: 207.445817
+distance error: -0.858629
+current error is: 46.309538
+sign is -1
+output: 28.227338
+turn out: 205.280774
+Target position is: 0.003066, -12.002299
+Current position is: 2.106446, -12.683331
+angle to target: 162.059065
+needs to face: 162.059065
+current angle: 27.796468
+adjusted robot theta: 207.796468
+distance error: -0.855044
+current error is: 45.737403
+sign is -1
+output: 27.289691
+turn out: 168.074095
+Target position is: 0.003066, -12.002299
+Current position is: 2.171126, -12.734924
+angle to target: 161.328973
+needs to face: 161.328973
+current angle: 28.148834
+adjusted robot theta: 208.148834
+distance error: -0.916663
+current error is: 46.819862
+sign is -1
+output: 30.565600
+turn out: 215.423382
+Target position is: 0.003066, -12.002299
+Current position is: 2.225303, -12.746895
+angle to target: 161.475753
+needs to face: 161.475753
+current angle: 28.507042
+adjusted robot theta: 208.507042
+distance error: -0.937678
+current error is: 47.031289
+sign is -1
+output: 30.425973
+turn out: 193.622257
+Target position is: 0.003066, -12.002299
+Current position is: 2.280463, -12.758653
+angle to target: 161.627985
+needs to face: 161.627985
+current angle: 28.874763
+adjusted robot theta: 208.874763
+distance error: -0.958860
+current error is: 47.246778
+sign is -1
+output: 31.107174
+turn out: 194.589828
+Target position is: 0.003066, -12.002299
+Current position is: 2.360775, -12.784318
+angle to target: 161.650046
+needs to face: 161.650046
+current angle: 29.246389
+adjusted robot theta: 209.246389
+distance error: -0.998480
+current error is: 47.596343
+sign is -1
+output: 32.743766
+turn out: 199.474071
+Target position is: 0.003066, -12.002299
+Current position is: 2.417103, -12.796121
+angle to target: 161.797264
+needs to face: 161.797264
+current angle: 29.625903
+adjusted robot theta: 209.625903
+distance error: -1.020433
+current error is: 47.828639
+sign is -1
+output: 33.092906
+turn out: 197.354252
+Target position is: 0.003066, -12.002299
+Current position is: 2.513632, -12.796131
+angle to target: 162.453208
+needs to face: 162.453208
+current angle: 30.013086
+adjusted robot theta: 210.013086
+distance error: -1.038719
+current error is: 47.559878
+sign is -1
+output: 33.604717
+turn out: 183.251707
+Target position is: 0.003066, -12.002299
+Current position is: 2.581079, -12.847844
+angle to target: 161.841373
+needs to face: 161.841373
+current angle: 30.408197
+adjusted robot theta: 210.408197
+distance error: -1.102591
+current error is: 48.566824
+sign is -1
+output: 36.560363
+turn out: 220.447900
+Target position is: 0.003066, -12.002299
+Current position is: 2.631115, -12.819181
+angle to target: 162.733055
+needs to face: 162.733055
+current angle: 30.815960
+adjusted robot theta: 210.815960
+distance error: -1.084468
+current error is: 48.082905
+sign is -1
+output: 34.340498
+turn out: 179.749742
+Target position is: 0.003066, -12.002299
+Current position is: 2.739629, -12.859919
+angle to target: 162.599347
+needs to face: 162.599347
+current angle: 31.229977
+adjusted robot theta: 211.229977
+distance error: -1.146572
+current error is: 48.630630
+sign is -1
+output: 37.932401
+turn out: 208.763372
+Target position is: 0.003066, -12.002299
+Current position is: 2.796710, -12.877683
+angle to target: 162.601683
+needs to face: 162.601683
+current angle: 31.654030
+adjusted robot theta: 211.654030
+distance error: -1.175951
+current error is: 49.052347
+sign is -1
+output: 38.217990
+turn out: 207.174031
+Target position is: 0.003066, -12.002299
+Current position is: 2.862542, -12.882761
+angle to target: 162.885860
+needs to face: 162.885860
+current angle: 32.087002
+adjusted robot theta: 212.087002
+distance error: -1.195045
+current error is: 49.201142
+sign is -1
+output: 38.623344
+turn out: 200.673243
+Target position is: 0.003066, -12.002299
+Current position is: 2.945388, -12.915623
+angle to target: 162.755171
+needs to face: 162.755171
+current angle: 32.529054
+adjusted robot theta: 212.529054
+distance error: -1.245311
+current error is: 49.773883
+sign is -1
+output: 40.855270
+turn out: 213.986797
+Target position is: 0.003066, -12.002299
+Current position is: 3.020890, -12.908448
+angle to target: 163.286778
+needs to face: 163.286778
+current angle: 32.976743
+adjusted robot theta: 212.976743
+distance error: -1.255328
+current error is: 49.689965
+sign is -1
+output: 40.370816
+turn out: 196.577977
+Target position is: 0.003066, -12.002299
+Current position is: 3.084720, -12.920342
+angle to target: 163.410883
+needs to face: 163.410883
+current angle: 33.428822
+adjusted robot theta: 213.428822
+distance error: -1.281596
+current error is: 50.017939
+sign is -1
+output: 41.536432
+turn out: 208.599090
+Target position is: 0.003066, -12.002299
+Current position is: 3.195982, -12.964047
+angle to target: 163.237000
+needs to face: 163.237000
+current angle: 33.883592
+adjusted robot theta: 213.883592
+distance error: -1.350319
+current error is: 50.646592
+sign is -1
+output: 44.584649
+turn out: 218.931346
+Target position is: 0.003066, -12.002299
+Current position is: 3.273441, -12.957932
+angle to target: 163.711151
+needs to face: 163.711151
+current angle: 34.346796
+adjusted robot theta: 214.346796
+distance error: -1.363153
+current error is: 50.635645
+sign is -1
+output: 43.877591
+turn out: 202.257957
+Target position is: 0.003066, -12.002299
+Current position is: 3.385246, -13.002921
+angle to target: 163.519073
+needs to face: 163.519073
+current angle: 34.812364
+adjusted robot theta: 214.812364
+distance error: -1.434524
+current error is: 51.293291
+sign is -1
+output: 47.332176
+turn out: 222.271960
+Target position is: 0.003066, -12.002299
+Current position is: 3.450494, -13.016149
+angle to target: 163.611977
+needs to face: 163.611977
+current angle: 35.280072
+adjusted robot theta: 215.280072
+distance error: -1.463906
+current error is: 51.668095
+sign is -1
+output: 47.432640
+turn out: 216.417282
+Target position is: 0.003066, -12.002299
+Current position is: 3.552021, -13.028079
+angle to target: 163.878737
+needs to face: 163.878737
+current angle: 35.750557
+adjusted robot theta: 215.750557
+distance error: -1.501802
+current error is: 51.871820
+sign is -1
+output: 48.815592
+turn out: 212.784136
+Target position is: 0.003066, -12.002299
+Current position is: 3.640539, -13.058838
+angle to target: 163.803550
+needs to face: 163.803550
+current angle: 36.222906
+adjusted robot theta: 216.222906
+distance error: -1.554995
+current error is: 52.419356
+sign is -1
+output: 50.823693
+turn out: 223.913357
+Target position is: 0.003066, -12.002299
+Current position is: 3.728419, -13.090462
+angle to target: 163.717080
+needs to face: 163.717080
+current angle: 36.692021
+adjusted robot theta: 216.692021
+distance error: -1.609281
+current error is: 52.974941
+sign is -1
+output: 52.582733
+turn out: 226.344972
+Target position is: 0.003066, -12.002299
+Current position is: 3.806552, -13.087987
+angle to target: 164.068835
+needs to face: 164.068835
+current angle: 37.159165
+adjusted robot theta: 217.159165
+distance error: -1.628527
+current error is: 53.090331
+sign is -1
+output: 52.497755
+turn out: 215.361454
+Target position is: 0.003066, -12.002299
+Current position is: 3.883947, -13.086404
+angle to target: 164.392545
+needs to face: 164.392545
+current angle: 37.619964
+adjusted robot theta: 217.619964
+distance error: -1.648837
+current error is: 53.227419
+sign is -1
+output: 53.168999
+turn out: 216.473968
+Target position is: 0.003066, -12.002299
+Current position is: 3.996832, -13.085409
+angle to target: 164.826344
+needs to face: 164.826344
+current angle: 38.075537
+adjusted robot theta: 218.075537
+distance error: -1.680449
+current error is: 53.249193
+sign is -1
+output: 54.406602
+turn out: 213.562908
+Target position is: 0.003066, -12.002299
+Current position is: 4.086186, -13.068140
+angle to target: 165.370204
+needs to face: 165.370204
+current angle: 38.520442
+adjusted robot theta: 218.520442
+distance error: -1.690348
+current error is: 53.150238
+sign is -1
+output: 54.289099
+turn out: 210.028108
+Target position is: 0.003066, -12.002299
+Current position is: 4.204799, -13.104837
+angle to target: 165.297012
+needs to face: 165.297012
+current angle: 38.955882
+adjusted robot theta: 218.955882
+distance error: -1.761167
+current error is: 53.658870
+sign is -1
+output: 57.773736
+turn out: 227.859929
+Target position is: 0.003066, -12.002299
+Current position is: 4.278220, -13.106889
+angle to target: 165.513064
+needs to face: 165.513064
+current angle: 39.383536
+adjusted robot theta: 219.383536
+distance error: -1.785737
+current error is: 53.870472
+sign is -1
+output: 57.634966
+turn out: 220.983521
+Target position is: 0.003066, -12.002299
+Current position is: 4.350545, -13.109806
+angle to target: 165.708053
+needs to face: 165.708053
+current angle: 39.802244
+adjusted robot theta: 219.802244
+distance error: -1.811130
+current error is: 54.094191
+sign is -1
+output: 58.464022
+turn out: 222.193477
+Target position is: 0.003066, -12.002299
+Current position is: 4.444956, -13.131376
+angle to target: 165.738106
+needs to face: 165.738106
+current angle: 40.224155
+adjusted robot theta: 220.224155
+distance error: -1.861599
+current error is: 54.486049
+sign is -1
+output: 60.580538
+turn out: 228.132502
+Target position is: 0.003066, -12.002299
+Current position is: 4.517421, -13.135301
+angle to target: 165.911046
+needs to face: 165.911046
+current angle: 40.644432
+adjusted robot theta: 220.644432
+distance error: -1.888725
+current error is: 54.733386
+sign is -1
+output: 60.981726
+turn out: 225.364311
+Target position is: 0.003066, -12.002299
+Current position is: 4.590548, -13.139570
+angle to target: 166.076651
+needs to face: 166.076651
+current angle: 41.070427
+adjusted robot theta: 221.070427
+distance error: -1.916720
+current error is: 54.993776
+sign is -1
+output: 61.894917
+turn out: 226.745239
+Target position is: 0.003066, -12.002299
+Current position is: 4.685901, -13.162847
+angle to target: 166.080817
+needs to face: 166.080817
+current angle: 41.504222
+adjusted robot theta: 221.504222
+distance error: -1.970398
+current error is: 55.423405
+sign is -1
+output: 64.126326
+turn out: 232.863977
+Target position is: 0.003066, -12.002299
+Current position is: 4.760240, -13.167884
+angle to target: 166.232816
+needs to face: 166.232816
+current angle: 41.940765
+adjusted robot theta: 221.940765
+distance error: -2.000254
+current error is: 55.707949
+sign is -1
+output: 64.605223
+turn out: 230.229941
+Target position is: 0.003066, -12.002299
+Current position is: 4.834739, -13.173439
+angle to target: 166.374952
+needs to face: 166.374952
+current angle: 42.378948
+adjusted robot theta: 222.378948
+distance error: -2.030981
+current error is: 56.003996
+sign is -1
+output: 65.605953
+turn out: 231.713187
+Target position is: 0.003066, -12.002299
+Current position is: 4.930318, -13.198701
+angle to target: 166.351962
+needs to face: 166.351962
+current angle: 42.819159
+adjusted robot theta: 222.819159
+distance error: -2.087873
+current error is: 56.467197
+sign is -1
+output: 67.949757
+turn out: 237.912017
+Target position is: 0.003066, -12.002299
+Current position is: 5.026738, -13.224458
+angle to target: 166.326690
+needs to face: 166.326690
+current angle: 43.267852
+adjusted robot theta: 223.267852
+distance error: -2.145988
+current error is: 56.941161
+sign is -1
+output: 69.833936
+turn out: 240.087725
+Target position is: 0.003066, -12.002299
+Current position is: 5.123965, -13.250746
+angle to target: 166.298878
+needs to face: 166.298878
+current angle: 43.724813
+adjusted robot theta: 223.724813
+distance error: -2.205354
+current error is: 57.425935
+sign is -1
+output: 71.758618
+turn out: 242.307866
+Target position is: 0.003066, -12.002299
+Current position is: 5.218442, -13.241537
+angle to target: 166.633680
+needs to face: 166.633680
+current angle: 44.201068
+adjusted robot theta: 224.201068
+distance error: -2.231147
+current error is: 57.567388
+sign is -1
+output: 71.912581
+turn out: 233.947322
+Target position is: 0.003066, -12.002299
+Current position is: 5.298990, -13.248729
+angle to target: 166.756091
+needs to face: 166.756091
+current angle: 44.690649
+adjusted robot theta: 224.690649
+distance error: -2.267566
+current error is: 57.934558
+sign is -1
+output: 73.290490
+turn out: 241.284660
+Target position is: 0.003066, -12.002299
+Current position is: 5.436750, -13.280601
+angle to target: 166.761596
+needs to face: 166.761596
+current angle: 45.191129
+adjusted robot theta: 225.191129
+distance error: -2.348805
+current error is: 58.429533
+sign is -1
+output: 76.786532
+turn out: 246.587481
+Target position is: 0.003066, -12.002299
+Current position is: 5.519916, -13.288670
+angle to target: 166.874772
+needs to face: 166.874772
+current angle: 45.703002
+adjusted robot theta: 225.703002
+distance error: -2.387982
+current error is: 58.828230
+sign is -1
+output: 77.198989
+turn out: 245.679022
+Target position is: 0.003066, -12.002299
+Current position is: 5.623212, -13.317784
+angle to target: 166.826168
+needs to face: 166.826168
+current angle: 46.218835
+adjusted robot theta: 226.218835
+distance error: -2.454752
+current error is: 59.392666
+sign is -1
+output: 79.887481
+turn out: 252.246027
+Target position is: 0.003066, -12.002299
+Current position is: 5.707505, -13.327128
+angle to target: 166.925110
+needs to face: 166.925110
+current angle: 46.741077
+adjusted robot theta: 226.741077
+distance error: -2.496350
+current error is: 59.815967
+sign is -1
+output: 80.715156
+turn out: 250.269671
+Target position is: 0.003066, -12.002299
+Current position is: 5.830657, -13.378685
+angle to target: 166.711148
+needs to face: 166.711148
+current angle: 47.265458
+adjusted robot theta: 227.265458
+distance error: -2.592537
+current error is: 60.554310
+sign is -1
+output: 84.884920
+turn out: 261.414174
+Target position is: 0.003066, -12.002299
+Current position is: 5.915800, -13.389414
+angle to target: 166.797277
+needs to face: 166.797277
+current angle: 47.796025
+adjusted robot theta: 227.796025
+distance error: -2.636586
+current error is: 60.998748
+sign is -1
+output: 85.251755
+turn out: 255.550386
+Target position is: 0.003066, -12.002299
+Current position is: 6.040250, -13.442920
+angle to target: 166.578793
+needs to face: 166.578793
+current angle: 48.338681
+adjusted robot theta: 228.338681
+distance error: -2.736126
+current error is: 61.759889
+sign is -1
+output: 89.546818
+turn out: 266.829204
+Target position is: 0.003066, -12.002299
+Current position is: 6.144928, -13.440086
+angle to target: 166.824529
+needs to face: 166.824529
+current angle: 48.893240
+adjusted robot theta: 228.893240
+distance error: -2.776775
+current error is: 62.068711
+sign is -1
+output: 89.669782
+turn out: 256.304226
+Target position is: 0.003066, -12.002299
+Current position is: 6.253238, -13.474099
+angle to target: 166.749301
+needs to face: 166.749301
+current angle: 49.463611
+adjusted robot theta: 229.463611
+distance error: -2.852998
+current error is: 62.714310
+sign is -1
+output: 92.820370
+turn out: 267.642799
+Target position is: 0.003066, -12.002299
+Current position is: 6.379174, -13.494656
+angle to target: 166.826797
+needs to face: 166.826797
+current angle: 50.041350
+adjusted robot theta: 230.041350
+distance error: -2.925049
+current error is: 63.214554
+sign is -1
+output: 95.042620
+turn out: 265.864561
+Target position is: 0.003066, -12.002299
+Current position is: 6.487276, -13.494604
+angle to target: 167.039380
+needs to face: 167.039380
+current angle: 50.622958
+adjusted robot theta: 230.622958
+distance error: -2.971537
+current error is: 63.583579
+sign is -1
+output: 96.018921
+turn out: 263.928971
+Target position is: 0.003066, -12.002299
+Current position is: 6.612998, -13.517685
+angle to target: 167.087560
+needs to face: 167.087560
+current angle: 51.202516
+adjusted robot theta: 231.202516
+distance error: -3.047181
+current error is: 64.114957
+sign is -1
+output: 99.022688
+turn out: 270.275644
+Target position is: 0.003066, -12.002299
+Current position is: 6.737661, -13.542099
+angle to target: 167.121246
+needs to face: 167.121246
+current angle: 51.775526
+adjusted robot theta: 231.775526
+distance error: -3.124248
+current error is: 64.654279
+sign is -1
+output: 101.517293
+turn out: 272.639513
+Target position is: 0.003066, -12.002299
+Current position is: 6.827141, -13.523026
+angle to target: 167.437060
+needs to face: 167.437060
+current angle: 52.348075
+adjusted robot theta: 232.348075
+distance error: -3.147304
+current error is: 64.911015
+sign is -1
+output: 101.174857
+turn out: 266.319179
+Target position is: 0.003066, -12.002299
+Current position is: 6.898731, -13.518426
+angle to target: 167.599865
+needs to face: 167.599865
+current angle: 52.918065
+adjusted robot theta: 232.918065
+distance error: -3.175615
+current error is: 65.318200
+sign is -1
+output: 102.185899
+turn out: 271.859606
+Target position is: 0.003066, -12.002299
+Current position is: 7.024284, -13.510433
+angle to target: 167.877253
+needs to face: 167.877253
+current angle: 53.497245
+adjusted robot theta: 233.497245
+distance error: -3.226023
+current error is: 65.619992
+sign is -1
+output: 104.240889
+turn out: 270.326578
+Target position is: 0.003066, -12.002299
+Current position is: 7.166517, -13.562636
+angle to target: 167.711812
+needs to face: 167.711812
+current angle: 54.085348
+adjusted robot theta: 234.085348
+distance error: -3.338307
+current error is: 66.373537
+sign is -1
+output: 109.071486
+turn out: 285.086303
+Target position is: 0.003066, -12.002299
+Current position is: 7.276445, -13.570153
+angle to target: 167.835424
+needs to face: 167.835424
+current angle: 54.683596
+adjusted robot theta: 234.683596
+distance error: -3.396610
+current error is: 66.848172
+sign is -1
+output: 109.857584
+turn out: 279.733191
+Target position is: 0.003066, -12.002299
+Current position is: 7.385247, -13.578833
+angle to target: 167.945035
+needs to face: 167.945035
+current angle: 55.273557
+adjusted robot theta: 235.273557
+distance error: -3.455963
+current error is: 67.328521
+sign is -1
+output: 111.777852
+turn out: 281.803177
+Target position is: 0.003066, -12.002299
+Current position is: 7.543294, -13.622789
+angle to target: 167.870900
+needs to face: 167.870900
+current angle: 55.854282
+adjusted robot theta: 235.854282
+distance error: -3.570554
+current error is: 67.983382
+sign is -1
+output: 116.549554
+turn out: 288.959907
+Target position is: 0.003066, -12.002299
+Current position is: 7.650059, -13.633683
+angle to target: 167.957248
+needs to face: 167.957248
+current angle: 56.429636
+adjusted robot theta: 236.429636
+distance error: -3.632065
+current error is: 68.472389
+sign is -1
+output: 117.456296
+turn out: 286.603729
+Target position is: 0.003066, -12.002299
+Current position is: 7.791009, -13.657098
+angle to target: 168.004075
+needs to face: 168.004075
+current angle: 57.005474
+adjusted robot theta: 237.005474
+distance error: -3.721871
+current error is: 69.001398
+sign is -1
+output: 120.896003
+turn out: 289.759838
+Target position is: 0.003066, -12.002299
+Current position is: 7.916081, -13.658056
+angle to target: 168.181660
+needs to face: 168.181660
+current angle: 57.578834
+adjusted robot theta: 237.578834
+distance error: -3.785066
+current error is: 69.397173
+sign is -1
+output: 122.385988
+turn out: 287.878848
+Target position is: 0.003066, -12.002299
+Current position is: 8.026149, -13.636253
+angle to target: 168.488759
+needs to face: 168.488759
+current angle: 58.152969
+adjusted robot theta: 238.152969
+distance error: -3.821768
+current error is: 69.664210
+sign is -1
+output: 123.030635
+turn out: 285.599786
+Target position is: 0.003066, -12.002299
+Current position is: 8.152095, -13.639758
+angle to target: 168.638340
+needs to face: 168.638340
+current angle: 58.733636
+adjusted robot theta: 238.733636
+distance error: -3.889050
+current error is: 70.095295
+sign is -1
+output: 125.795227
+turn out: 291.589396
+Target position is: 0.003066, -12.002299
+Current position is: 8.291670, -13.668802
+angle to target: 168.631702
+needs to face: 168.631702
+current angle: 59.306921
+adjusted robot theta: 239.306921
+distance error: -3.985947
+current error is: 70.675219
+sign is -1
+output: 129.488260
+turn out: 297.778900
+Target position is: 0.003066, -12.002299
+Current position is: 8.417879, -13.674867
+angle to target: 168.758128
+needs to face: 168.758128
+current angle: 59.890445
+adjusted robot theta: 239.890445
+distance error: -4.056948
+current error is: 71.132317
+sign is -1
+output: 131.242359
+turn out: 296.413806
+Target position is: 0.003066, -12.002299
+Current position is: 8.543372, -13.682167
+angle to target: 168.872056
+needs to face: 168.872056
+current angle: 60.468809
+adjusted robot theta: 240.468809
+distance error: -4.129295
+current error is: 71.596753
+sign is -1
+output: 133.584373
+turn out: 298.462359
+Target position is: 0.003066, -12.002299
+Current position is: 8.703042, -13.704648
+angle to target: 168.928651
+needs to face: 168.928651
+current angle: 61.054431
+adjusted robot theta: 241.054431
+distance error: -4.233421
+current error is: 72.125780
+sign is -1
+output: 137.552004
+turn out: 302.257819
+Target position is: 0.003066, -12.002299
+Current position is: 8.816280, -13.689754
+angle to target: 169.160836
+needs to face: 169.160836
+current angle: 61.644912
+adjusted robot theta: 241.644912
+distance error: -4.281899
+current error is: 72.484075
+sign is -1
+output: 137.990310
+turn out: 299.251983
+Target position is: 0.003066, -12.002299
+Current position is: 8.944157, -13.701179
+angle to target: 169.241583
+needs to face: 169.241583
+current angle: 62.244580
+adjusted robot theta: 242.244580
+distance error: -4.361071
+current error is: 73.002997
+sign is -1
+output: 141.137741
+turn out: 305.503954
+Target position is: 0.003066, -12.002299
+Current position is: 9.099298, -13.668273
+angle to target: 169.621314
+needs to face: 169.621314
+current angle: 62.850782
+adjusted robot theta: 242.850782
+distance error: -4.419011
+current error is: 73.229468
+sign is -1
+output: 142.567166
+turn out: 298.806112
+Target position is: 0.003066, -12.002299
+Current position is: 9.208802, -13.692710
+angle to target: 169.594922
+needs to face: 169.594922
+current angle: 63.465102
+adjusted robot theta: 243.465102
+distance error: -4.500230
+current error is: 73.870180
+sign is -1
+output: 145.631746
+turn out: 312.139243
+Target position is: 0.003066, -12.002299
+Current position is: 9.368252, -13.663632
+angle to target: 169.940680
+needs to face: 169.940680
+current angle: 64.100444
+adjusted robot theta: 244.100444
+distance error: -4.565774
+current error is: 74.159764
+sign is -1
+output: 147.415666
+turn out: 304.168242
+Target position is: 0.003066, -12.002299
+Current position is: 9.513374, -13.706958
+angle to target: 169.838022
+needs to face: 169.838022
+current angle: 64.745171
+adjusted robot theta: 244.745171
+distance error: -4.683858
+current error is: 74.907149
+sign is -1
+output: 152.245128
+turn out: 319.060592
+Target position is: 0.003066, -12.002299
+Current position is: 9.675429, -13.681779
+angle to target: 170.149547
+needs to face: 170.149547
+current angle: 65.396519
+adjusted robot theta: 245.396519
+distance error: -4.756245
+current error is: 75.246971
+sign is -1
+output: 153.647570
+turn out: 309.823273
+Target position is: 0.003066, -12.002299
+Current position is: 9.798454, -13.677063
+angle to target: 170.297680
+needs to face: 170.297680
+current angle: 66.059329
+adjusted robot theta: 246.059329
+distance error: -4.823760
+current error is: 75.761649
+sign is -1
+output: 155.710603
+turn out: 316.428202
+Target position is: 0.003066, -12.002299
+Current position is: 9.943966, -13.665193
+angle to target: 170.503597
+needs to face: 170.503597
+current angle: 66.738027
+adjusted robot theta: 246.738027
+distance error: -4.899337
+current error is: 76.234430
+sign is -1
+output: 158.290350
+turn out: 317.230040
+Target position is: 0.003066, -12.002299
+Current position is: 10.092241, -13.655575
+angle to target: 170.693859
+needs to face: 170.693859
+current angle: 67.438002
+adjusted robot theta: 247.438002
+distance error: -4.979288
+current error is: 76.744143
+sign is -1
+output: 160.936214
+turn out: 320.229111
+Target position is: 0.003066, -12.002299
+Current position is: 10.273231, -13.665842
+angle to target: 170.799248
+needs to face: 170.799248
+current angle: 68.147751
+adjusted robot theta: 248.147751
+distance error: -5.095706
+current error is: 77.348503
+sign is -1
+output: 165.390942
+turn out: 325.107361
+Target position is: 0.003066, -12.002299
+Current position is: 10.423514, -13.660286
+angle to target: 170.959498
+needs to face: 170.959498
+current angle: 68.862482
+adjusted robot theta: 248.862482
+distance error: -5.182031
+current error is: 77.902983
+sign is -1
+output: 167.551505
+turn out: 326.028433
+Target position is: 0.003066, -12.002299
+Current position is: 10.574046, -13.656652
+angle to target: 171.105391
+needs to face: 171.105391
+current angle: 69.578779
+adjusted robot theta: 249.578779
+distance error: -5.270907
+current error is: 78.473388
+sign is -1
+output: 170.446518
+turn out: 328.724074
+Target position is: 0.003066, -12.002299
+Current position is: 10.746694, -13.647515
+angle to target: 171.293686
+needs to face: 171.293686
+current angle: 70.304038
+adjusted robot theta: 250.304038
+distance error: -5.369982
+current error is: 79.010352
+sign is -1
+output: 173.820944
+turn out: 330.002462
+Target position is: 0.003066, -12.002299
+Current position is: 10.922044, -13.641263
+angle to target: 171.463498
+needs to face: 171.463498
+current angle: 71.050619
+adjusted robot theta: 251.050619
+distance error: -5.474148
+current error is: 79.587121
+sign is -1
+output: 177.256036
+turn out: 333.344483
+Target position is: 0.003066, -12.002299
+Current position is: 11.077619, -13.644788
+angle to target: 171.563847
+needs to face: 171.563847
+current angle: 71.808185
+adjusted robot theta: 251.808185
+distance error: -5.574557
+current error is: 80.244338
+sign is -1
+output: 180.394036
+turn out: 338.064993
+Target position is: 0.003066, -12.002299
+Current position is: 11.254375, -13.643527
+angle to target: 171.700792
+needs to face: 171.700792
+current angle: 72.565529
+adjusted robot theta: 252.565529
+distance error: -5.685546
+current error is: 80.864737
+sign is -1
+output: 184.157263
+turn out: 339.589315
+Target position is: 0.003066, -12.002299
+Current position is: 11.431899, -13.644842
+angle to target: 171.821496
+needs to face: 171.821496
+current angle: 73.329226
+adjusted robot theta: 253.329226
+distance error: -5.800065
+current error is: 81.507731
+sign is -1
+output: 187.892463
+turn out: 342.748767
+Target position is: 0.003066, -12.002299
+Current position is: 11.620115, -13.676653
+angle to target: 171.798491
+needs to face: 171.798491
+current angle: 74.116041
+adjusted robot theta: 254.116041
+distance error: -5.945769
+current error is: 82.317549
+sign is -1
+output: 193.178701
+turn out: 350.325477
+Target position is: 0.003066, -12.002299
+Current position is: 11.802388, -13.684430
+angle to target: 171.886492
+needs to face: 171.886492
+current angle: 74.920320
+adjusted robot theta: 254.920320
+distance error: -6.070230
+current error is: 83.033829
+sign is -1
+output: 196.736584
+turn out: 350.758584
+Target position is: 0.003066, -12.002299
+Current position is: 11.984532, -13.694764
+angle to target: 171.959766
+needs to face: 171.959766
+current angle: 75.724589
+adjusted robot theta: 255.724589
+distance error: -6.197509
+current error is: 83.764823
+sign is -1
+output: 200.865838
+turn out: 354.065142
+Target position is: 0.003066, -12.002299
+Current position is: 12.166049, -13.707479
+angle to target: 172.019475
+needs to face: 172.019475
+current angle: 76.524931
+adjusted robot theta: 256.524931
+distance error: -6.327084
+current error is: 84.505456
+sign is -1
+output: 205.058179
+turn out: 357.278277
+Target position is: 0.003066, -12.002299
+Current position is: 12.348272, -13.723081
+angle to target: 172.064746
+needs to face: 172.064746
+current angle: 77.332934
+adjusted robot theta: 257.332934
+distance error: -6.460160
+current error is: 85.268188
+sign is -1
+output: 209.386659
+turn out: 360.903798
+Target position is: 0.003066, -12.002299
+Current position is: 12.532688, -13.742239
+angle to target: 172.094116
+needs to face: 172.094116
+current angle: 78.161716
+adjusted robot theta: 258.161716
+distance error: -6.598189
+current error is: 86.067600
+sign is -1
+output: 213.902614
+turn out: 365.055109
+Target position is: 0.003066, -12.002299
+Current position is: 12.723373, -13.792266
+angle to target: 171.990078
+needs to face: 171.990078
+current angle: 78.998672
+adjusted robot theta: 258.998672
+distance error: -6.763966
+current error is: 87.008593
+sign is -1
+output: 219.762431
+turn out: 372.500195
+Target position is: 0.003066, -12.002299
+Current position is: 12.933189, -13.840047
+angle to target: 171.910780
+needs to face: 171.910780
+current angle: 79.817611
+adjusted robot theta: 259.817611
+distance error: -6.941760
+current error is: 87.906831
+sign is -1
+output: 225.692233
+turn out: 374.981503
+Target position is: 0.003066, -12.002299
+Current position is: 13.114796, -13.866355
+angle to target: 171.908649
+needs to face: 171.908649
+current angle: 80.630665
+adjusted robot theta: 260.630665
+distance error: -7.085337
+current error is: 88.722017
+sign is -1
+output: 229.602321
+turn out: 376.082893
+Target position is: 0.003066, -12.002299
+Current position is: 13.319812, -13.892584
+angle to target: 171.920957
+needs to face: 171.920957
+current angle: 81.458926
+adjusted robot theta: 261.458926
+distance error: -7.245733
+current error is: 89.537969
+sign is -1
+output: 235.071364
+turn out: 379.366632
+Target position is: 0.003066, -12.002299
+Current position is: 13.524723, -13.921921
+angle to target: 171.919919
+needs to face: 171.919919
+current angle: 82.289793
+adjusted robot theta: 262.289793
+distance error: -7.409159
+current error is: 90.369874
+sign is -1
+output: 240.361611
+turn out: 383.109042
+Target position is: 0.003066, -12.002299
+Current position is: 13.727299, -13.953256
+angle to target: 171.909373
+needs to face: 171.909373
+current angle: 83.103866
+adjusted robot theta: 263.103866
+distance error: -7.573196
+current error is: 91.194493
+sign is -1
+output: 245.623021
+turn out: 386.218069
+Target position is: 0.003066, -12.002299
+Current position is: 13.950233, -13.984210
+angle to target: 171.912337
+needs to face: 171.912337
+current angle: 83.905641
+adjusted robot theta: 263.905641
+distance error: -7.752103
+current error is: 91.993304
+sign is -1
+output: 251.645450
+turn out: 388.742284
+Target position is: 0.003066, -12.002299
+Current position is: 14.151647, -14.021137
+angle to target: 171.879375
+needs to face: 171.879375
+current angle: 84.717931
+adjusted robot theta: 264.717931
+distance error: -7.920851
+current error is: 92.838556
+sign is -1
+output: 256.842170
+turn out: 393.330796
+Target position is: 0.003066, -12.002299
+Current position is: 14.372566, -14.030872
+angle to target: 171.964533
+needs to face: 171.964533
+current angle: 85.532044
+adjusted robot theta: 265.532044
+distance error: -8.085208
+current error is: 93.567511
+sign is -1
+output: 262.013785
+turn out: 393.222854
+Target position is: 0.003066, -12.002299
+Current position is: 14.594677, -14.071648
+angle to target: 171.928265
+needs to face: 171.928265
+current angle: 86.340131
+adjusted robot theta: 266.340131
+distance error: -8.273034
+current error is: 94.411866
+sign is -1
+output: 268.493612
+turn out: 399.600698
+Target position is: 0.003066, -12.002299
+Current position is: 14.839673, -14.142337
+angle to target: 171.792249
+needs to face: 171.792249
+current angle: 87.144220
+adjusted robot theta: 267.144220
+distance error: -8.498830
+current error is: 95.351971
+sign is -1
+output: 276.478496
+turn out: 405.850624
+Target position is: 0.003066, -12.002299
+Current position is: 15.058454, -14.188033
+angle to target: 171.739533
+needs to face: 171.739533
+current angle: 87.932770
+adjusted robot theta: 267.932770
+distance error: -8.689085
+current error is: 96.193237
+sign is -1
+output: 281.855823
+turn out: 406.645855
+Target position is: 0.003066, -12.002299
+Current position is: 15.290148, -14.230416
+angle to target: 171.707445
+needs to face: 171.707445
+current angle: 88.638862
+adjusted robot theta: 268.638862
+distance error: -8.887191
+current error is: 96.931416
+sign is -1
+output: 288.352252
+turn out: 406.918335
+Target position is: 0.003066, -12.002299
+Current position is: 15.480283, -14.268766
+angle to target: 171.668882
+needs to face: 171.668882
+current angle: 89.238545
+adjusted robot theta: 269.238545
+distance error: -9.052759
+current error is: 97.569663
+sign is -1
+output: 292.999659
+turn out: 406.873076
+Target position is: 0.003066, -12.002299
+Current position is: 15.698631, -14.302993
+angle to target: 171.660836
+needs to face: 171.660836
+current angle: 89.756234
+adjusted robot theta: 269.756234
+distance error: -9.236878
+current error is: 98.095398
+sign is -1
+output: 299.262468
+turn out: 406.050682
+Target position is: 0.003066, -12.002299
+Current position is: 15.890859, -14.331719
+angle to target: 171.658896
+needs to face: 171.658896
+current angle: 90.169481
+adjusted robot theta: 270.169481
+distance error: -9.398607
+current error is: 98.510585
+sign is -1
+output: 303.990003
+turn out: 404.837213
+Target position is: 0.003066, -12.002299
+Current position is: 16.085073, -14.296183
+angle to target: 171.882271
+needs to face: 171.882271
+current angle: 90.457753
+adjusted robot theta: 270.457753
+distance error: -9.519618
+current error is: 98.575482
+sign is -1
+output: 307.048022
+turn out: 395.989253
+Target position is: 0.003066, -12.002299
+Current position is: 16.260556, -14.282140
+angle to target: 172.017276
+needs to face: 172.017276
+current angle: 90.638802
+adjusted robot theta: 270.638802
+distance error: -9.641843
+current error is: 98.621526
+sign is -1
+output: 310.983461
+turn out: 395.683251
+Target position is: 0.003066, -12.002299
+Current position is: 16.404801, -14.290737
+angle to target: 172.057137
+needs to face: 172.057137
+current angle: 90.737127
+adjusted robot theta: 270.737127
+distance error: -9.756085
+current error is: 98.679990
+sign is -1
+output: 314.479544
+turn out: 396.240016
+Target position is: 0.003066, -12.002299
+Current position is: 16.544724, -14.267948
+angle to target: 172.200940
+needs to face: 172.200940
+current angle: 90.790270
+adjusted robot theta: 270.790270
+distance error: -9.846907
+current error is: 98.589331
+sign is -1
+output: 316.917448
+turn out: 392.000180
+Target position is: 0.003066, -12.002299
+Current position is: 16.725701, -14.272009
+angle to target: 172.270649
+needs to face: 172.270649
+current angle: 90.812182
+adjusted robot theta: 270.812182
+distance error: -9.986927
+current error is: 98.541534
+sign is -1
+output: 322.382060
+turn out: 392.923411
+Target position is: 0.003066, -12.002299
+Current position is: 16.848254, -14.270993
+angle to target: 172.329607
+needs to face: 172.329607
+current angle: 90.773341
+adjusted robot theta: 270.773341
+distance error: -10.079649
+current error is: 98.443734
+sign is -1
+output: 324.403223
+turn out: 391.232141
+Target position is: 0.003066, -12.002299
+Current position is: 16.957287, -14.265577
+angle to target: 172.396338
+needs to face: 172.396338
+current angle: 90.676017
+adjusted robot theta: 270.676017
+distance error: -10.159482
+current error is: 98.279679
+sign is -1
+output: 326.700085
+turn out: 388.853296
+Target position is: 0.003066, -12.002299
+Current position is: 17.030442, -14.284028
+angle to target: 172.367624
+needs to face: 172.367624
+current angle: 90.523068
+adjusted robot theta: 270.523068
+distance error: -10.227368
+current error is: 98.155444
+sign is -1
+output: 328.633514
+turn out: 389.391671
+Target position is: 0.003066, -12.002299
+Current position is: 17.099309, -14.270809
+angle to target: 172.441540
+needs to face: 172.441540
+current angle: 90.326412
+adjusted robot theta: 270.326412
+distance error: -10.271711
+current error is: 97.884872
+sign is -1
+output: 329.581617
+turn out: 384.504608
+Target position is: 0.003066, -12.002299
+Current position is: 17.103412, -14.258633
+angle to target: 172.483423
+needs to face: 172.483423
+current angle: 90.151771
+adjusted robot theta: 270.151771
+distance error: -10.267064
+current error is: 97.668348
+sign is -1
+output: 328.453127
+turn out: 385.043769
+Target position is: 0.003066, -12.002299
+Current position is: 17.138470, -14.252276
+angle to target: 172.519527
+needs to face: 172.519527
+current angle: 90.059777
+adjusted robot theta: 270.059777
+distance error: -10.289942
+current error is: 97.540250
+sign is -1
+output: 329.735686
+turn out: 386.830441
+Target position is: 0.003066, -12.002299
+Current position is: 17.135831, -14.250513
+angle to target: 172.524185
+needs to face: 172.524185
+current angle: 90.034564
+adjusted robot theta: 270.034564
+distance error: -10.286786
+current error is: 97.510378
+sign is -1
+output: 329.114035
+turn out: 389.264864
+Target position is: 0.003066, -12.002299
+Current position is: 17.134275, -14.249474
+angle to target: 172.526931
+needs to face: 172.526931
+current angle: 90.019693
+adjusted robot theta: 270.019693
+distance error: -10.284925
+current error is: 97.492762
+sign is -1
+output: 329.080364
+turn out: 389.513013
+Target position is: 0.003066, -12.002299
+Current position is: 17.133935, -14.249247
+angle to target: 172.527532
+needs to face: 172.527532
+current angle: 90.016446
+adjusted robot theta: 270.016446
+distance error: -10.284518
+current error is: 97.488914
+sign is -1
+output: 329.096456
+turn out: 389.855599
+Target position is: 0.003066, -12.002299
+Current position is: 17.134308, -14.249496
+angle to target: 172.526876
+needs to face: 172.526876
+current angle: 90.020010
+adjusted robot theta: 270.020010
+distance error: -10.284964
+current error is: 97.493133
+sign is -1
+output: 329.127781
+turn out: 390.082249
+Target position is: 0.003066, -12.002299
+Current position is: 17.134339, -14.249517
+angle to target: 172.526822
+needs to face: 172.526822
+current angle: 90.020304
+adjusted robot theta: 270.020304
+distance error: -10.285001
+current error is: 97.493482
+sign is -1
+output: 329.120774
+turn out: 389.982996
+Target position is: 0.003066, -12.002299
+Current position is: 17.134257, -14.249463
+angle to target: 172.526958
+needs to face: 172.526958
+current angle: 90.019529
+adjusted robot theta: 270.019529
+distance error: -10.284904
+current error is: 97.492570
+sign is -1
+output: 329.114993
+turn out: 389.946579
+Target position is: 0.003066, -12.002299
+Current position is: 17.134288, -14.249483
+angle to target: 172.526904
+needs to face: 172.526904
+current angle: 90.019820
+adjusted robot theta: 270.019820
+distance error: -10.284941
+current error is: 97.492916
+sign is -1
+output: 329.118830
+turn out: 389.980662
+Target position is: 0.003066, -12.002299
+Current position is: 17.134750, -14.249791
+angle to target: 172.526084
+needs to face: 172.526084
+current angle: 90.024234
+adjusted robot theta: 270.024234
+distance error: -10.285493
+current error is: 97.498150
+sign is -1
+output: 329.146826
+turn out: 390.128663
+Target position is: 0.003066, -12.002299
+Current position is: 17.135571, -14.250340
+angle to target: 172.524636
+needs to face: 172.524636
+current angle: 90.032080
+adjusted robot theta: 270.032080
+distance error: -10.286475
+current error is: 97.507444
+sign is -1
+output: 329.186843
+turn out: 390.271420
+Target position is: 0.003066, -12.002299
+Current position is: 17.136951, -14.251261
+angle to target: 172.522205
+needs to face: 172.522205
+current angle: 90.045263
+adjusted robot theta: 270.045263
+distance error: -10.288125
+current error is: 97.523058
+sign is -1
+output: 329.253003
+turn out: 390.498201
+Target position is: 0.003066, -12.002299
+Current position is: 17.138329, -14.252181
+angle to target: 172.519773
+needs to face: 172.519773
+current angle: 90.058429
+adjusted robot theta: 270.058429
+distance error: -10.289773
+current error is: 97.538656
+sign is -1
+output: 329.305701
+turn out: 390.560177
+Target position is: 0.003066, -12.002299
+Current position is: 17.139252, -14.252798
+angle to target: 172.518147
+needs to face: 172.518147
+current angle: 90.067244
+adjusted robot theta: 270.067244
+distance error: -10.290877
+current error is: 97.549097
+sign is -1
+output: 329.330118
+turn out: 390.467852
+Target position is: 0.003066, -12.002299
+Current position is: 17.139541, -14.252992
+angle to target: 172.517642
+needs to face: 172.517642
+current angle: 90.070014
+adjusted robot theta: 270.070014
+distance error: -10.291223
+current error is: 97.552372
+sign is -1
+output: 329.326079
+turn out: 390.294645
+Target position is: 0.003066, -12.002299
+Current position is: 17.138784, -14.252485
+angle to target: 172.518981
+needs to face: 172.518981
+current angle: 90.062773
+adjusted robot theta: 270.062773
+distance error: -10.290317
+current error is: 97.543792
+sign is -1
+output: 329.272009
+turn out: 389.952077
+Target position is: 0.003066, -12.002299
+Current position is: 17.137271, -14.251474
+angle to target: 172.521645
+needs to face: 172.521645
+current angle: 90.048316
+adjusted robot theta: 270.048316
+distance error: -10.288507
+current error is: 97.526672
+sign is -1
+output: 329.196043
+turn out: 389.661558
+Target position is: 0.003066, -12.002299
+Current position is: 17.135498, -14.250291
+angle to target: 172.524773
+needs to face: 172.524773
+current angle: 90.031384
+adjusted robot theta: 270.031384
+distance error: -10.286388
+current error is: 97.506611
+sign is -1
+output: 329.122029
+turn out: 389.504875
+Target position is: 0.003066, -12.002299
+Current position is: 17.133862, -14.249199
+angle to target: 172.527655
+needs to face: 172.527655
+current angle: 90.015753
+adjusted robot theta: 270.015753
+distance error: -10.284432
+current error is: 97.488098
+sign is -1
+output: 329.062680
+turn out: 389.471036
+Target position is: 0.003066, -12.002299
+Current position is: 17.132368, -14.248202
+angle to target: 172.530292
+needs to face: 172.530292
+current angle: 90.001481
+adjusted robot theta: 270.001481
+distance error: -10.282645
+current error is: 97.471189
+sign is -1
+output: 329.008924
+turn out: 389.445137
+Target position is: 0.003066, -12.002299
+Current position is: 17.131457, -14.247595
+angle to target: 172.531890
+needs to face: 172.531890
+current angle: 89.992781
+adjusted robot theta: 269.992781
+distance error: -10.281556
+current error is: 97.460891
+sign is -1
+output: 328.988031
+turn out: 389.575822
+Target position is: 0.003066, -12.002299
+Current position is: 17.131289, -14.247483
+angle to target: 172.532190
+needs to face: 172.532190
+current angle: 89.991177
+adjusted robot theta: 269.991177
+distance error: -10.281356
+current error is: 97.458986
+sign is -1
+output: 328.999365
+turn out: 389.786415
+Target position is: 0.003066, -12.002299
+Current position is: 17.131203, -14.247426
+angle to target: 172.532341
+needs to face: 172.532341
+current angle: 89.990364
+adjusted robot theta: 269.990364
+distance error: -10.281254
+current error is: 97.458024
+sign is -1
+output: 328.998094
+turn out: 389.807065
+Target position is: 0.003066, -12.002299
+Current position is: 17.131497, -14.247622
+angle to target: 172.531822
+needs to face: 172.531822
+current angle: 89.993167
+adjusted robot theta: 269.993167
+distance error: -10.281605
+current error is: 97.461346
+sign is -1
+output: 329.018371
+turn out: 389.931763
+Target position is: 0.003066, -12.002299
+Current position is: 17.132210, -14.248097
+angle to target: 172.530565
+needs to face: 172.530565
+current angle: 89.999973
+adjusted robot theta: 269.999973
+distance error: -10.282457
+current error is: 97.469408
+sign is -1
+output: 329.055646
+turn out: 390.087254
+Target position is: 0.003066, -12.002299
+Current position is: 17.132745, -14.248454
+angle to target: 172.529622
+needs to face: 172.529622
+current angle: 90.005083
+adjusted robot theta: 270.005083
+distance error: -10.283096
+current error is: 97.475461
+sign is -1
+output: 329.071866
+turn out: 390.059203
+Target position is: 0.003066, -12.002299
+Current position is: 17.133088, -14.248683
+angle to target: 172.529021
+needs to face: 172.529021
+current angle: 90.008360
+adjusted robot theta: 270.008360
+distance error: -10.283506
+current error is: 97.479339
+sign is -1
+output: 329.080404
+turn out: 390.018190
+Target position is: 0.003066, -12.002299
+Current position is: 17.133358, -14.248863
+angle to target: 172.528543
+needs to face: 172.528543
+current angle: 90.010940
+adjusted robot theta: 270.010940
+distance error: -10.283829
+current error is: 97.482397
+sign is -1
+output: 329.088992
+turn out: 390.009101
+Target position is: 0.003066, -12.002299
+Current position is: 17.133530, -14.248978
+angle to target: 172.528243
+needs to face: 172.528243
+current angle: 90.012584
+adjusted robot theta: 270.012584
+distance error: -10.284035
+current error is: 97.484342
+sign is -1
+output: 329.093236
+turn out: 389.987935
+Target position is: 0.003066, -12.002299
+Current position is: 17.133219, -14.248770
+angle to target: 172.528789
+needs to face: 172.528789
+current angle: 90.009607
+adjusted robot theta: 270.009607
+distance error: -10.283662
+current error is: 97.480818
+sign is -1
+output: 329.069744
+turn out: 389.831660
+Target position is: 0.003066, -12.002299
+Current position is: 17.132626, -14.248375
+angle to target: 172.529827
+needs to face: 172.529827
+current angle: 90.003949
+adjusted robot theta: 270.003949
+distance error: -10.282954
+current error is: 97.474122
+sign is -1
+output: 329.040369
+turn out: 389.722371
+Target position is: 0.003066, -12.002299
+Current position is: 17.131845, -14.247854
+angle to target: 172.531207
+needs to face: 172.531207
+current angle: 89.996487
+adjusted robot theta: 269.996487
+distance error: -10.282020
+current error is: 97.465280
+sign is -1
+output: 329.005969
+turn out: 389.631232
+Target position is: 0.003066, -12.002299
+Current position is: 17.130746, -14.247122
+angle to target: 172.533147
+needs to face: 172.533147
+current angle: 89.986001
+adjusted robot theta: 269.986001
+distance error: -10.280708
+current error is: 97.452854
+sign is -1
+output: 328.956408
+turn out: 389.488360
+Target position is: 0.003066, -12.002299
+Current position is: 17.129791, -14.246486
+angle to target: 172.534827
+needs to face: 172.534827
+current angle: 89.976883
+adjusted robot theta: 269.976883
+distance error: -10.279567
+current error is: 97.442057
+sign is -1
+output: 328.923318
+turn out: 389.487484
+Target position is: 0.003066, -12.002299
+Current position is: 17.129102, -14.246027
+angle to target: 172.536043
+needs to face: 172.536043
+current angle: 89.970302
+adjusted robot theta: 269.970302
+distance error: -10.278743
+current error is: 97.434260
+sign is -1
+output: 328.903310
+turn out: 389.534318
+Target position is: 0.003066, -12.002299
+Current position is: 17.128797, -14.245823
+angle to target: 172.536575
+needs to face: 172.536575
+current angle: 89.967389
+adjusted robot theta: 269.967389
+distance error: -10.278379
+current error is: 97.430814
+sign is -1
+output: 328.900826
+turn out: 389.633665
+Target position is: 0.003066, -12.002299
+Current position is: 17.128693, -14.245755
+angle to target: 172.536753
+needs to face: 172.536753
+current angle: 89.966402
+adjusted robot theta: 269.966402
+distance error: -10.278255
+current error is: 97.429649
+sign is -1
+output: 328.901694
+turn out: 389.688317
+Target position is: 0.003066, -12.002299
+Current position is: 17.128819, -14.245838
+angle to target: 172.536534
+needs to face: 172.536534
+current angle: 89.967604
+adjusted robot theta: 269.967604
+distance error: -10.278406
+current error is: 97.431070
+sign is -1
+output: 328.911988
+turn out: 389.761223
+Target position is: 0.003066, -12.002299
+Current position is: 17.129143, -14.246054
+angle to target: 172.535961
+needs to face: 172.535961
+current angle: 89.970691
+adjusted robot theta: 269.970691
+distance error: -10.278792
+current error is: 97.434730
+sign is -1
+output: 328.929062
+turn out: 389.834075
+Target position is: 0.003066, -12.002299
+Current position is: 17.129475, -14.246275
+angle to target: 172.535387
+needs to face: 172.535387
+current angle: 89.973859
+adjusted robot theta: 269.973859
+distance error: -10.279188
+current error is: 97.438472
+sign is -1
+output: 328.941958
+turn out: 389.851189
+Target position is: 0.003066, -12.002299
+Current position is: 17.129777, -14.246476
+angle to target: 172.534854
+needs to face: 172.534854
+current angle: 89.976742
+adjusted robot theta: 269.976742
+distance error: -10.279549
+current error is: 97.441888
+sign is -1
+output: 328.952788
+turn out: 389.856356
+Target position is: 0.003066, -12.002299
+Current position is: 17.130023, -14.246640
+angle to target: 172.534417
+needs to face: 172.534417
+current angle: 89.979091
+adjusted robot theta: 269.979091
+distance error: -10.279843
+current error is: 97.444674
+sign is -1
+output: 328.960858
+turn out: 389.851129
+Target position is: 0.003066, -12.002299
+Current position is: 17.130214, -14.246767
+angle to target: 172.534075
+needs to face: 172.534075
+current angle: 89.980916
+adjusted robot theta: 269.980916
+distance error: -10.280071
+current error is: 97.446840
+sign is -1
+output: 328.966856
+turn out: 389.843690
+Target position is: 0.003066, -12.002299
+Current position is: 17.130184, -14.246747
+angle to target: 172.534130
+needs to face: 172.534130
+current angle: 89.980631
+adjusted robot theta: 269.980631
+distance error: -10.280036
+current error is: 97.446501
+sign is -1
+output: 328.960438
+turn out: 389.777194
+Target position is: 0.003066, -12.002299
+Current position is: 17.129826, -14.246509
+angle to target: 172.534759
+needs to face: 172.534759
+current angle: 89.977216
+adjusted robot theta: 269.977216
+distance error: -10.279608
+current error is: 97.442457
+sign is -1
+output: 328.938922
+turn out: 389.664689
+Target position is: 0.003066, -12.002299
+Current position is: 17.129413, -14.246234
+angle to target: 172.535483
+needs to face: 172.535483
+current angle: 89.973273
+adjusted robot theta: 269.973273
+distance error: -10.279115
+current error is: 97.437790
+sign is -1
+output: 328.921809
+turn out: 389.629811
+Target position is: 0.003066, -12.002299
+Current position is: 17.128655, -14.245729
+angle to target: 172.536821
+needs to face: 172.536821
+current angle: 89.966037
+adjusted robot theta: 269.966037
+distance error: -10.278209
+current error is: 97.429216
+sign is -1
+output: 328.884594
+turn out: 389.493942
+Target position is: 0.003066, -12.002299
+Current position is: 17.127954, -14.245262
+angle to target: 172.538051
+needs to face: 172.538051
+current angle: 89.959344
+adjusted robot theta: 269.959344
+distance error: -10.277372
+current error is: 97.421293
+sign is -1
+output: 328.859145
+turn out: 389.479182
+Target position is: 0.003066, -12.002299
+Current position is: 17.127373, -14.244875
+angle to target: 172.539075
+needs to face: 172.539075
+current angle: 89.953796
+adjusted robot theta: 269.953796
+distance error: -10.276678
+current error is: 97.414721
+sign is -1
+output: 328.839796
+turn out: 389.488004
+Target position is: 0.003066, -12.002299
+Current position is: 17.127041, -14.244655
+angle to target: 172.539663
+needs to face: 172.539663
+current angle: 89.950633
+adjusted robot theta: 269.950633
+distance error: -10.276282
+current error is: 97.410971
+sign is -1
+output: 328.833099
+turn out: 389.546375
+Target position is: 0.003066, -12.002299
+Current position is: 17.126886, -14.244551
+angle to target: 172.539936
+needs to face: 172.539936
+current angle: 89.949150
+adjusted robot theta: 269.949150
+distance error: -10.276096
+current error is: 97.409214
+sign is -1
+output: 328.831360
+turn out: 389.591177
+Target position is: 0.003066, -12.002299
+Current position is: 17.126962, -14.244602
+angle to target: 172.539799
+needs to face: 172.539799
+current angle: 89.949873
+adjusted robot theta: 269.949873
+distance error: -10.276187
+current error is: 97.410074
+sign is -1
+output: 328.839779
+turn out: 389.662644
+Target position is: 0.003066, -12.002299
+Current position is: 17.127237, -14.244785
+angle to target: 172.539321
+needs to face: 172.539321
+current angle: 89.952502
+adjusted robot theta: 269.952502
+distance error: -10.276516
+current error is: 97.413181
+sign is -1
+output: 328.855079
+turn out: 389.733514
+Target position is: 0.003066, -12.002299
+Current position is: 17.127511, -14.244967
+angle to target: 172.538829
+needs to face: 172.538829
+current angle: 89.955114
+adjusted robot theta: 269.955114
+distance error: -10.276843
+current error is: 97.416285
+sign is -1
+output: 328.865499
+turn out: 389.745853
+Target position is: 0.003066, -12.002299
+Current position is: 17.127768, -14.245138
+angle to target: 172.538379
+needs to face: 172.538379
+current angle: 89.957566
+adjusted robot theta: 269.957566
+distance error: -10.277149
+current error is: 97.419188
+sign is -1
+output: 328.874914
+turn out: 389.752213
+Target position is: 0.003066, -12.002299
+Current position is: 17.127998, -14.245292
+angle to target: 172.537982
+needs to face: 172.537982
+current angle: 89.959765
+adjusted robot theta: 269.959765
+distance error: -10.277425
+current error is: 97.421783
+sign is -1
+output: 328.883089
+turn out: 389.754609
+Target position is: 0.003066, -12.002299
+Current position is: 17.128195, -14.245423
+angle to target: 172.537627
+needs to face: 172.537627
+current angle: 89.961643
+adjusted robot theta: 269.961643
+distance error: -10.277660
+current error is: 97.424016
+sign is -1
+output: 328.889807
+turn out: 389.754129
+Target position is: 0.003066, -12.002299
+Current position is: 17.128221, -14.245440
+angle to target: 172.537586
+needs to face: 172.537586
+current angle: 89.961887
+adjusted robot theta: 269.961887
+distance error: -10.277690
+current error is: 97.424301
+sign is -1
+output: 328.886695
+turn out: 389.704618
+Target position is: 0.003066, -12.002299
+Current position is: 17.128000, -14.245293
+angle to target: 172.537969
+needs to face: 172.537969
+current angle: 89.959783
+adjusted robot theta: 269.959783
+distance error: -10.277427
+current error is: 97.421814
+sign is -1
+output: 328.872389
+turn out: 389.622597
+Target position is: 0.003066, -12.002299
+Current position is: 17.127632, -14.245048
+angle to target: 172.538624
+needs to face: 172.538624
+current angle: 89.956268
+adjusted robot theta: 269.956268
+distance error: -10.276987
+current error is: 97.417644
+sign is -1
+output: 328.854785
+turn out: 389.562149
+Target position is: 0.003066, -12.002299
+Current position is: 17.127049, -14.244660
+angle to target: 172.539649
+needs to face: 172.539649
+current angle: 89.950706
+adjusted robot theta: 269.950706
+distance error: -10.276291
+current error is: 97.411057
+sign is -1
+output: 328.827381
+turn out: 389.472953
+Target position is: 0.003066, -12.002299
+Current position is: 17.126473, -14.244276
+angle to target: 172.540660
+needs to face: 172.540660
+current angle: 89.945205
+adjusted robot theta: 269.945205
+distance error: -10.275602
+current error is: 97.404545
+sign is -1
+output: 328.805510
+turn out: 389.448887
+Target position is: 0.003066, -12.002299
+Current position is: 17.126085, -14.244018
+angle to target: 172.541343
+needs to face: 172.541343
+current angle: 89.941503
+adjusted robot theta: 269.941503
+distance error: -10.275139
+current error is: 97.400160
+sign is -1
+output: 328.795187
+turn out: 389.486632
+Target position is: 0.003066, -12.002299
+Current position is: 17.125889, -14.243888
+angle to target: 172.541684
+needs to face: 172.541684
+current angle: 89.939635
+adjusted robot theta: 269.939635
+distance error: -10.274905
+current error is: 97.397951
+sign is -1
+output: 328.792296
+turn out: 389.534355
+Target position is: 0.003066, -12.002299
+Current position is: 17.125704, -14.243765
+angle to target: 172.542012
+needs to face: 172.542012
+current angle: 89.937866
+adjusted robot theta: 269.937866
+distance error: -10.274684
+current error is: 97.395854
+sign is -1
+output: 328.785458
+turn out: 389.528889
+Target position is: 0.003066, -12.002299
+Current position is: 17.125916, -14.243906
+angle to target: 172.541643
+needs to face: 172.541643
+current angle: 89.939892
+adjusted robot theta: 269.939892
+distance error: -10.274938
+current error is: 97.398249
+sign is -1
+output: 328.803075
+turn out: 389.655280
+Target position is: 0.003066, -12.002299
+Current position is: 17.126175, -14.244078
+angle to target: 172.541179
+needs to face: 172.541179
+current angle: 89.942361
+adjusted robot theta: 269.942361
+distance error: -10.275246
+current error is: 97.401182
+sign is -1
+output: 328.814065
+turn out: 389.680979
+Target position is: 0.003066, -12.002299
+Current position is: 17.126426, -14.244246
+angle to target: 172.540742
+needs to face: 172.540742
+current angle: 89.944763
+adjusted robot theta: 269.944763
+distance error: -10.275547
+current error is: 97.404022
+sign is -1
+output: 328.823522
+turn out: 389.689920
+Target position is: 0.003066, -12.002299
+Current position is: 17.126663, -14.244403
+angle to target: 172.540332
+needs to face: 172.540332
+current angle: 89.947023
+adjusted robot theta: 269.947023
+distance error: -10.275830
+current error is: 97.406691
+sign is -1
+output: 328.832215
+turn out: 389.696180
+Target position is: 0.003066, -12.002299
+Current position is: 17.126880, -14.244548
+angle to target: 172.539949
+needs to face: 172.539949
+current angle: 89.949094
+adjusted robot theta: 269.949094
+distance error: -10.276089
+current error is: 97.409144
+sign is -1
+output: 328.840032
+turn out: 389.700354
+Target position is: 0.003066, -12.002299
+Current position is: 17.127071, -14.244675
+angle to target: 172.539608
+needs to face: 172.539608
+current angle: 89.950917
+adjusted robot theta: 269.950917
+distance error: -10.276317
+current error is: 97.411309
+sign is -1
+output: 328.846715
+turn out: 389.701522
+Target position is: 0.003066, -12.002299
+Current position is: 17.127250, -14.244794
+angle to target: 172.539294
+needs to face: 172.539294
+current angle: 89.952623
+adjusted robot theta: 269.952623
+distance error: -10.276531
+current error is: 97.413329
+sign is -1
+output: 328.853249
+turn out: 389.705824
+Target position is: 0.003066, -12.002299
+Current position is: 17.127246, -14.244791
+angle to target: 172.539307
+needs to face: 172.539307
+current angle: 89.952586
+adjusted robot theta: 269.952586
+distance error: -10.276526
+current error is: 97.413279
+sign is -1
+output: 328.848746
+turn out: 389.651822
+Target position is: 0.003066, -12.002299
+Current position is: 17.126763, -14.244470
+angle to target: 172.540154
+needs to face: 172.540154
+current angle: 89.947978
+adjusted robot theta: 269.947978
+distance error: -10.275949
+current error is: 97.407824
+sign is -1
+output: 328.818848
+turn out: 389.489459
+Target position is: 0.003066, -12.002299
+Current position is: 17.126269, -14.244141
+angle to target: 172.541015
+needs to face: 172.541015
+current angle: 89.943261
+adjusted robot theta: 269.943261
+distance error: -10.275359
+current error is: 97.402246
+sign is -1
+output: 328.799686
+turn out: 389.463967
+Target position is: 0.003066, -12.002299
+Current position is: 17.125813, -14.243838
+angle to target: 172.541821
+needs to face: 172.541821
+current angle: 89.938912
+adjusted robot theta: 269.938912
+distance error: -10.274815
+current error is: 97.397091
+sign is -1
+output: 328.783190
+turn out: 389.454329
+Target position is: 0.003066, -12.002299
+Current position is: 17.125629, -14.243715
+angle to target: 172.542149
+needs to face: 172.542149
+current angle: 89.937151
+adjusted robot theta: 269.937151
+distance error: -10.274595
+current error is: 97.395003
+sign is -1
+output: 328.782620
+turn out: 389.525714
+Target position is: 0.003066, -12.002299
+Current position is: 17.125444, -14.243592
+angle to target: 172.542463
+needs to face: 172.542463
+current angle: 89.935391
+adjusted robot theta: 269.935391
+distance error: -10.274374
+current error is: 97.392928
+sign is -1
+output: 328.775573
+turn out: 389.517785
+Target position is: 0.003066, -12.002299
+Current position is: 17.125284, -14.243486
+angle to target: 172.542750
+needs to face: 172.542750
+current angle: 89.933858
+adjusted robot theta: 269.933858
+distance error: -10.274182
+current error is: 97.391108
+sign is -1
+output: 328.770000
+turn out: 389.517106
+Target position is: 0.003066, -12.002299
+Current position is: 17.125383, -14.243551
+angle to target: 172.542572
+needs to face: 172.542572
+current angle: 89.934804
+adjusted robot theta: 269.934804
+distance error: -10.274301
+current error is: 97.392232
+sign is -1
+output: 328.779994
+turn out: 389.598143
+Target position is: 0.003066, -12.002299
+Current position is: 17.125608, -14.243702
+angle to target: 172.542176
+needs to face: 172.542176
+current angle: 89.936959
+adjusted robot theta: 269.936959
+distance error: -10.274570
+current error is: 97.394782
+sign is -1
+output: 328.791645
+turn out: 389.645444
+Target position is: 0.003066, -12.002299
+Current position is: 17.125829, -14.243848
+angle to target: 172.541794
+needs to face: 172.541794
+current angle: 89.939065
+adjusted robot theta: 269.939065
+distance error: -10.274834
+current error is: 97.397271
+sign is -1
+output: 328.799958
+turn out: 389.653786
+Target position is: 0.003066, -12.002299
+Current position is: 17.126037, -14.243987
+angle to target: 172.541425
+needs to face: 172.541425
+current angle: 89.941050
+adjusted robot theta: 269.941050
+distance error: -10.275082
+current error is: 97.399625
+sign is -1
+output: 328.807604
+turn out: 389.659696
+Target position is: 0.003066, -12.002299
+Current position is: 17.126224, -14.244111
+angle to target: 172.541097
+needs to face: 172.541097
+current angle: 89.942832
+adjusted robot theta: 269.942832
+distance error: -10.275305
+current error is: 97.401735
+sign is -1
+output: 328.814234
+turn out: 389.661805
+Target position is: 0.003066, -12.002299
+Current position is: 17.126245, -14.244125
+angle to target: 172.541056
+needs to face: 172.541056
+current angle: 89.943037
+adjusted robot theta: 269.943037
+distance error: -10.275331
+current error is: 97.401981
+sign is -1
+output: 328.811108
+turn out: 389.614323
+Target position is: 0.003066, -12.002299
+Current position is: 17.125713, -14.243771
+angle to target: 172.541999
+needs to face: 172.541999
+current angle: 89.937954
+adjusted robot theta: 269.937954
+distance error: -10.274695
+current error is: 97.395956
+sign is -1
+output: 328.777518
+turn out: 389.427158
+Target position is: 0.003066, -12.002299
+Current position is: 17.125458, -14.243601
+angle to target: 172.542449
+needs to face: 172.542449
+current angle: 89.935521
+adjusted robot theta: 269.935521
+distance error: -10.274390
+current error is: 97.393071
+sign is -1
+output: 328.774406
+turn out: 389.497302
+Target position is: 0.003066, -12.002299
+Current position is: 17.125053, -14.243332
+angle to target: 172.543160
+needs to face: 172.543160
+current angle: 89.931659
+adjusted robot theta: 269.931659
+distance error: -10.273907
+current error is: 97.388499
+sign is -1
+output: 328.755363
+turn out: 389.435108
+Target position is: 0.003066, -12.002299
+Current position is: 17.124458, -14.242937
+angle to target: 172.544198
+needs to face: 172.544198
+current angle: 89.925982
+adjusted robot theta: 269.925982
+distance error: -10.273197
+current error is: 97.381784
+sign is -1
+output: 328.728091
+turn out: 389.352556
+Target position is: 0.003066, -12.002299
+Current position is: 17.123790, -14.242493
+angle to target: 172.545373
+needs to face: 172.545373
+current angle: 89.919612
+adjusted robot theta: 269.919612
+distance error: -10.272400
+current error is: 97.374239
+sign is -1
+output: 328.700845
+turn out: 389.300780
+Target position is: 0.003066, -12.002299
+Current position is: 17.145126, -14.241792
+angle to target: 172.556847
+needs to face: 172.556847
+current angle: 89.910031
+adjusted robot theta: 269.910031
+distance error: -10.288361
+current error is: 97.353183
+sign is -1
+output: 329.546803
+turn out: 388.865286
+Target position is: 0.003066, -12.002299
+Current position is: 17.143215, -14.240523
+angle to target: 172.560208
+needs to face: 172.560208
+current angle: 89.891804
+adjusted robot theta: 269.891804
+distance error: -10.286081
+current error is: 97.331596
+sign is -1
+output: 329.108960
+turn out: 388.765123
+Target position is: 0.003066, -12.002299
+Current position is: 17.142114, -14.239792
+angle to target: 172.562134
+needs to face: 172.562134
+current angle: 89.881298
+adjusted robot theta: 269.881298
+distance error: -10.284766
+current error is: 97.319164
+sign is -1
+output: 329.086212
+turn out: 388.953411
+Target position is: 0.003066, -12.002299
+Current position is: 17.141995, -14.239713
+angle to target: 172.562339
+needs to face: 172.562339
+current angle: 89.880167
+adjusted robot theta: 269.880167
+distance error: -10.284624
+current error is: 97.317828
+sign is -1
+output: 329.105149
+turn out: 389.236589
+Target position is: 0.003066, -12.002299
+Current position is: 17.141907, -14.239655
+angle to target: 172.562489
+needs to face: 172.562489
+current angle: 89.879331
+adjusted robot theta: 269.879331
+distance error: -10.284520
+current error is: 97.316842
+sign is -1
+output: 329.102536
+turn out: 389.241710
+Target position is: 0.003066, -12.002299
+Current position is: 17.142258, -14.239888
+angle to target: 172.561874
+needs to face: 172.561874
+current angle: 89.882676
+adjusted robot theta: 269.882676
+distance error: -10.284938
+current error is: 97.320802
+sign is -1
+output: 329.126399
+turn out: 389.386175
+Target position is: 0.003066, -12.002299
+Current position is: 17.142318, -14.239928
+angle to target: 172.561779
+needs to face: 172.561779
+current angle: 89.883250
+adjusted robot theta: 269.883250
+distance error: -10.285010
+current error is: 97.321472
+sign is -1
+output: 329.121763
+turn out: 389.303303
+Target position is: 0.003066, -12.002299
+Current position is: 17.142293, -14.239911
+angle to target: 172.561820
+needs to face: 172.561820
+current angle: 89.883012
+adjusted robot theta: 269.883012
+distance error: -10.284980
+current error is: 97.321192
+sign is -1
+output: 329.118775
+turn out: 389.277507
+Target position is: 0.003066, -12.002299
+Current position is: 17.142412, -14.239990
+angle to target: 172.561615
+needs to face: 172.561615
+current angle: 89.884147
+adjusted robot theta: 269.884147
+distance error: -10.285122
+current error is: 97.322532
+sign is -1
+output: 329.126756
+turn out: 389.324965
+Target position is: 0.003066, -12.002299
+Current position is: 17.142590, -14.240108
+angle to target: 172.561301
+needs to face: 172.561301
+current angle: 89.885836
+adjusted robot theta: 269.885836
+distance error: -10.285334
+current error is: 97.324535
+sign is -1
+output: 329.134906
+turn out: 389.350222
+Target position is: 0.003066, -12.002299
+Current position is: 17.142709, -14.240187
+angle to target: 172.561082
+needs to face: 172.561082
+current angle: 89.886975
+adjusted robot theta: 269.886975
+distance error: -10.285476
+current error is: 97.325892
+sign is -1
+output: 329.138088
+turn out: 389.338856
+Target position is: 0.003066, -12.002299
+Current position is: 17.142531, -14.240069
+angle to target: 172.561396
+needs to face: 172.561396
+current angle: 89.885274
+adjusted robot theta: 269.885274
+distance error: -10.285263
+current error is: 97.323878
+sign is -1
+output: 329.124172
+turn out: 389.243127
+Target position is: 0.003066, -12.002299
+Current position is: 17.142323, -14.239931
+angle to target: 172.561765
+needs to face: 172.561765
+current angle: 89.883292
+adjusted robot theta: 269.883292
+distance error: -10.285015
+current error is: 97.321527
+sign is -1
+output: 329.115531
+turn out: 389.224986
+Target position is: 0.003066, -12.002299
+Current position is: 17.142147, -14.239814
+angle to target: 172.562079
+needs to face: 172.562079
+current angle: 89.881618
+adjusted robot theta: 269.881618
+distance error: -10.284806
+current error is: 97.319539
+sign is -1
+output: 329.109599
+turn out: 389.226460
+Target position is: 0.003066, -12.002299
+Current position is: 17.141963, -14.239692
+angle to target: 172.562393
+needs to face: 172.562393
+current angle: 89.879862
+adjusted robot theta: 269.879862
+distance error: -10.284586
+current error is: 97.317469
+sign is -1
+output: 329.102365
+turn out: 389.216065
+Target position is: 0.003066, -12.002299
+Current position is: 17.141798, -14.239582
+angle to target: 172.562680
+needs to face: 172.562680
+current angle: 89.878286
+adjusted robot theta: 269.878286
+distance error: -10.284389
+current error is: 97.315606
+sign is -1
+output: 329.096503
+turn out: 389.213985
+Target position is: 0.003066, -12.002299
+Current position is: 17.141989, -14.239709
+angle to target: 172.562352
+needs to face: 172.562352
+current angle: 89.880108
+adjusted robot theta: 269.880108
+distance error: -10.284617
+current error is: 97.317756
+sign is -1
+output: 329.112302
+turn out: 389.326914
+Target position is: 0.003066, -12.002299
+Current position is: 17.141828, -14.239602
+angle to target: 172.562626
+needs to face: 172.562626
+current angle: 89.878578
+adjusted robot theta: 269.878578
+distance error: -10.284425
+current error is: 97.315952
+sign is -1
+output: 329.097783
+turn out: 389.216911
+Target position is: 0.003066, -12.002299
+Current position is: 17.142015, -14.239726
+angle to target: 172.562311
+needs to face: 172.562311
+current angle: 89.880357
+adjusted robot theta: 269.880357
+distance error: -10.284648
+current error is: 97.318046
+sign is -1
+output: 329.113193
+turn out: 389.326619
+Target position is: 0.003066, -12.002299
+Current position is: 17.142146, -14.239813
+angle to target: 172.562079
+needs to face: 172.562079
+current angle: 89.881608
+adjusted robot theta: 269.881608
+distance error: -10.284805
+current error is: 97.319529
+sign is -1
+output: 329.116881
+turn out: 389.316683
+Target position is: 0.003066, -12.002299
+Current position is: 17.142352, -14.239950
+angle to target: 172.561710
+needs to face: 172.561710
+current angle: 89.883571
+adjusted robot theta: 269.883571
+distance error: -10.285050
+current error is: 97.321860
+sign is -1
+output: 329.126520
+turn out: 389.348055
+Target position is: 0.003066, -12.002299
+Current position is: 17.142542, -14.240076
+angle to target: 172.561383
+needs to face: 172.561383
+current angle: 89.885383
+adjusted robot theta: 269.885383
+distance error: -10.285277
+current error is: 97.324001
+sign is -1
+output: 329.133404
+turn out: 389.351660
+Target position is: 0.003066, -12.002299
+Current position is: 17.142642, -14.240142
+angle to target: 172.561205
+needs to face: 172.561205
+current angle: 89.886333
+adjusted robot theta: 269.886333
+distance error: -10.285396
+current error is: 97.325128
+sign is -1
+output: 329.135044
+turn out: 389.329811
+Target position is: 0.003066, -12.002299
+Current position is: 17.142606, -14.240119
+angle to target: 172.561273
+needs to face: 172.561273
+current angle: 89.885994
+adjusted robot theta: 269.885994
+distance error: -10.285353
+current error is: 97.324720
+sign is -1
+output: 329.130462
+turn out: 389.288288
+Target position is: 0.003066, -12.002299
+Current position is: 17.142475, -14.240031
+angle to target: 172.561506
+needs to face: 172.561506
+current angle: 89.884740
+adjusted robot theta: 269.884740
+distance error: -10.285197
+current error is: 97.323234
+sign is -1
+output: 329.123150
+turn out: 389.254291
+Target position is: 0.003066, -12.002299
+Current position is: 17.142355, -14.239952
+angle to target: 172.561710
+needs to face: 172.561710
+current angle: 89.883601
+adjusted robot theta: 269.883601
+distance error: -10.285054
+current error is: 97.321890
+sign is -1
+output: 329.118877
+turn out: 389.252621
+Target position is: 0.003066, -12.002299
+Current position is: 17.142288, -14.239907
+angle to target: 172.561833
+needs to face: 172.561833
+current angle: 89.882957
+adjusted robot theta: 269.882957
+distance error: -10.284973
+current error is: 97.321124
+sign is -1
+output: 329.117541
+turn out: 389.264569
+Target position is: 0.003066, -12.002299
+Current position is: 17.142121, -14.239796
+angle to target: 172.562120
+needs to face: 172.562120
+current angle: 89.881365
+adjusted robot theta: 269.881365
+distance error: -10.284774
+current error is: 97.319245
+sign is -1
+output: 329.108791
+turn out: 389.228126
+Target position is: 0.003066, -12.002299
+Current position is: 17.141965, -14.239693
+angle to target: 172.562393
+needs to face: 172.562393
+current angle: 89.879880
+adjusted robot theta: 269.879880
+distance error: -10.284588
+current error is: 97.317487
+sign is -1
+output: 329.103113
+turn out: 389.224234
+Target position is: 0.003066, -12.002299
+Current position is: 17.141804, -14.239586
+angle to target: 172.562680
+needs to face: 172.562680
+current angle: 89.878346
+adjusted robot theta: 269.878346
+distance error: -10.284396
+current error is: 97.315665
+sign is -1
+output: 329.096845
+turn out: 389.215310
+Target position is: 0.003066, -12.002299
+Current position is: 17.141980, -14.239703
+angle to target: 172.562366
+needs to face: 172.562366
+current angle: 89.880024
+adjusted robot theta: 269.880024
+distance error: -10.284606
+current error is: 97.317657
+sign is -1
+output: 329.111603
+turn out: 389.322423
+Target position is: 0.003066, -12.002299
+Current position is: 17.142151, -14.239816
+angle to target: 172.562066
+needs to face: 172.562066
+current angle: 89.881651
+adjusted robot theta: 269.881651
+distance error: -10.284810
+current error is: 97.319585
+sign is -1
+output: 329.117993
+turn out: 389.328464
+Target position is: 0.003066, -12.002299
+Current position is: 17.142245, -14.239879
+angle to target: 172.561902
+needs to face: 172.561902
+current angle: 89.882551
+adjusted robot theta: 269.882551
+distance error: -10.284923
+current error is: 97.320649
+sign is -1
+output: 329.119778
+turn out: 389.310267
+Target position is: 0.003066, -12.002299
+Current position is: 17.142423, -14.239997
+angle to target: 172.561587
+needs to face: 172.561587
+current angle: 89.884248
+adjusted robot theta: 269.884248
+distance error: -10.285135
+current error is: 97.322661
+sign is -1
+output: 329.128570
+turn out: 389.342943
+Target position is: 0.003066, -12.002299
+Current position is: 17.142587, -14.240106
+angle to target: 172.561301
+needs to face: 172.561301
+current angle: 89.885810
+adjusted robot theta: 269.885810
+distance error: -10.285330
+current error is: 97.324510
+sign is -1
+output: 329.134485
+turn out: 389.346103
+Target position is: 0.003066, -12.002299
+Current position is: 17.142638, -14.240140
+angle to target: 172.561219
+needs to face: 172.561219
+current angle: 89.886298
+adjusted robot theta: 269.886298
+distance error: -10.285391
+current error is: 97.325079
+sign is -1
+output: 329.133748
+turn out: 389.315120
+Target position is: 0.003066, -12.002299
+Current position is: 17.142533, -14.240070
+angle to target: 172.561396
+needs to face: 172.561396
+current angle: 89.885295
+adjusted robot theta: 269.885295
+distance error: -10.285266
+current error is: 97.323899
+sign is -1
+output: 329.126003
+turn out: 389.264906
+Target position is: 0.003066, -12.002299
+Current position is: 17.142559, -14.240087
+angle to target: 172.561355
+needs to face: 172.561355
+current angle: 89.885542
+adjusted robot theta: 269.885542
+distance error: -10.285297
+current error is: 97.324187
+sign is -1
+output: 329.130122
+turn out: 389.304245
+Target position is: 0.003066, -12.002299
+Current position is: 17.142439, -14.240007
+angle to target: 172.561560
+needs to face: 172.561560
+current angle: 89.884396
+adjusted robot theta: 269.884396
+distance error: -10.285154
+current error is: 97.322836
+sign is -1
+output: 329.122047
+turn out: 389.256227
+Target position is: 0.003066, -12.002299
+Current position is: 17.142272, -14.239897
+angle to target: 172.561861
+needs to face: 172.561861
+current angle: 89.882809
+adjusted robot theta: 269.882809
+distance error: -10.284955
+current error is: 97.320948
+sign is -1
+output: 329.114585
+turn out: 389.234705
+Target position is: 0.003066, -12.002299
+Current position is: 17.142092, -14.239778
+angle to target: 172.562175
+needs to face: 172.562175
+current angle: 89.881093
+adjusted robot theta: 269.881093
+distance error: -10.284740
+current error is: 97.318918
+sign is -1
+output: 329.107392
+turn out: 389.222888
+Target position is: 0.003066, -12.002299
+Current position is: 17.142244, -14.239878
+angle to target: 172.561902
+needs to face: 172.561902
+current angle: 89.882542
+adjusted robot theta: 269.882542
+distance error: -10.284921
+current error is: 97.320640
+sign is -1
+output: 329.121113
+turn out: 389.327329
+Target position is: 0.003066, -12.002299
+Current position is: 17.142165, -14.239826
+angle to target: 172.562038
+needs to face: 172.562038
+current angle: 89.881788
+adjusted robot theta: 269.881788
+distance error: -10.284827
+current error is: 97.319749
+sign is -1
+output: 329.112581
+turn out: 389.255841
+Target position is: 0.003066, -12.002299
+Current position is: 17.142021, -14.239730
+angle to target: 172.562298
+needs to face: 172.562298
+current angle: 89.880412
+adjusted robot theta: 269.880412
+distance error: -10.284655
+current error is: 97.318114
+sign is -1
+output: 329.105518
+turn out: 389.229950
+Target position is: 0.003066, -12.002299
+Current position is: 17.142189, -14.239842
+angle to target: 172.561997
+needs to face: 172.561997
+current angle: 89.882016
+adjusted robot theta: 269.882016
+distance error: -10.284856
+current error is: 97.320019
+sign is -1
+output: 329.119399
+turn out: 389.329599
+Target position is: 0.003066, -12.002299
+Current position is: 17.142307, -14.239920
+angle to target: 172.561792
+needs to face: 172.561792
+current angle: 89.883138
+adjusted robot theta: 269.883138
+distance error: -10.284996
+current error is: 97.321346
+sign is -1
+output: 329.122684
+turn out: 389.319877
+Target position is: 0.003066, -12.002299
+Current position is: 17.142396, -14.239979
+angle to target: 172.561642
+needs to face: 172.561642
+current angle: 89.883986
+adjusted robot theta: 269.883986
+distance error: -10.285102
+current error is: 97.322344
+sign is -1
+output: 329.125391
+turn out: 389.315318
+Target position is: 0.003066, -12.002299
+Current position is: 17.142441, -14.240009
+angle to target: 172.561560
+needs to face: 172.561560
+current angle: 89.884418
+adjusted robot theta: 269.884418
+distance error: -10.285156
+current error is: 97.322858
+sign is -1
+output: 329.126081
+turn out: 389.304794
+Target position is: 0.003066, -12.002299
+Current position is: 17.142584, -14.240104
+angle to target: 172.561301
+needs to face: 172.561301
+current angle: 89.885787
+adjusted robot theta: 269.885787
+distance error: -10.285328
+current error is: 97.324486
+sign is -1
+output: 329.133910
+turn out: 389.340296
+WARNING - pros.serial.terminal.terminal:stop - Stopping terminal - pros-cli version:3.4.3

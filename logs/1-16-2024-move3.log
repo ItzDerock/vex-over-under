@@ -1,0 +1,887 @@
+Established terminal connection
+
+
+
+         _+=+_
+      .-`  .  `-.          8888888b.  8888888b.   .d88888b.   .d8888b.
+   _+`     "     `+_       888   Y88b 888   Y88b d88P" "Y88b d88P  Y88b
+  \\\sssssssssssss///      888    888 888    888 888     888 Y88b.
+     .ss\  *  /ss.         888   d88P 888   d88P 888     888  "Y888b.
+ .+bm  .s  *  s.  md+.     8888888P"  8888888P"  888     888     "Y88b.
+.hMMMMs .  *  . sMMMMh.    888        888 T88b   888     888       "888
+ `\hMMMb \ | / dMMMh:      888        888  T88b  Y88b. .d88P Y88b  d88P
+   -SNMNo  -  oNMNs-       888        888   T88b  "Y88888P"   "Y8888P"
+     `+dMh\./dMd/
+        `:yNy:`                      Powered by PROS for VEX V5
+           "                Copyright (c) Purdue University ACM SIGBots
+Version:        4.0.6     Platform:  V1.1.2 (b34)     Uptime:    0.001 s
+Compiled:   Jan 16 2024 16:49:43     Directory:                        
+
+
+loaded path: /usd/skills/push-left.txt
+  size: 68
+loaded path: /usd/pathtest.txt
+  size: 30
+starting
+angle to target: 179.997068
+needs to face: 359.997068
+current angle: 90.002937
+current error is: 90.005868
+sign is -1
+angle to target: 179.995893
+needs to face: 359.995893
+current angle: 90.004687
+current error is: 90.008794
+sign is -1
+angle to target: 179.995579
+needs to face: 359.995579
+current angle: 90.005153
+current error is: 90.009574
+sign is -1
+angle to target: 179.995251
+needs to face: 359.995251
+current angle: 90.005654
+current error is: 90.010403
+sign is -1
+angle to target: 179.994896
+needs to face: 359.994896
+current angle: 90.006188
+current error is: 90.011292
+sign is -1
+angle to target: 179.994869
+needs to face: 359.994869
+current angle: 90.006232
+current error is: 90.011363
+sign is -1
+angle to target: 179.995060
+needs to face: 359.995060
+current angle: 90.005938
+current error is: 90.010878
+sign is -1
+angle to target: 179.994718
+needs to face: 359.994718
+current angle: 90.006456
+current error is: 90.011738
+sign is -1
+angle to target: 179.994677
+needs to face: 359.994677
+current angle: 90.006507
+current error is: 90.011829
+sign is -1
+angle to target: 179.994363
+needs to face: 359.994363
+current angle: 90.006988
+current error is: 90.012624
+sign is -1
+starting
+angle to target: 179.993120
+needs to face: 359.993120
+current angle: 90.006878
+current error is: 90.013758
+sign is -1
+angle to target: 179.993175
+needs to face: 359.993175
+current angle: 90.006797
+current error is: 90.013622
+sign is -1
+angle to target: 179.993120
+needs to face: 359.993120
+current angle: 90.006882
+current error is: 90.013762
+sign is -1
+angle to target: 179.993325
+needs to face: 359.993325
+current angle: 90.006575
+current error is: 90.013250
+sign is -1
+angle to target: 179.993366
+needs to face: 359.993366
+current angle: 90.006509
+current error is: 90.013143
+sign is -1
+angle to target: 179.993079
+needs to face: 359.993079
+current angle: 90.006942
+current error is: 90.013862
+sign is -1
+angle to target: 179.992956
+needs to face: 359.992956
+current angle: 90.007122
+current error is: 90.014166
+sign is -1
+angle to target: 179.993202
+needs to face: 359.993202
+current angle: 90.006763
+current error is: 90.013561
+sign is -1
+angle to target: 179.993243
+needs to face: 359.993243
+current angle: 90.006686
+current error is: 90.013443
+sign is -1
+angle to target: 179.993107
+needs to face: 359.993107
+current angle: 90.006898
+current error is: 90.013791
+sign is -1
+angle to target: 179.992984
+needs to face: 359.992984
+current angle: 90.007085
+current error is: 90.014102
+sign is -1
+angle to target: 179.993216
+needs to face: 359.993216
+current angle: 90.006743
+current error is: 90.013527
+sign is -1
+angle to target: 179.993216
+needs to face: 359.993216
+current angle: 90.006738
+current error is: 90.013522
+sign is -1
+angle to target: 179.993557
+needs to face: 359.993557
+current angle: 90.006231
+current error is: 90.012673
+sign is -1
+angle to target: 179.993270
+needs to face: 359.993270
+current angle: 90.006653
+current error is: 90.013382
+sign is -1
+angle to target: 179.993093
+needs to face: 359.993093
+current angle: 90.006926
+current error is: 90.013833
+sign is -1
+angle to target: 179.993134
+needs to face: 359.993134
+current angle: 90.006861
+current error is: 90.013727
+sign is -1
+angle to target: 179.993516
+needs to face: 359.993516
+current angle: 90.006293
+current error is: 90.012777
+sign is -1
+angle to target: 179.993243
+needs to face: 359.993243
+current angle: 90.006694
+current error is: 90.013451
+sign is -1
+angle to target: 179.993093
+needs to face: 359.993093
+current angle: 90.006915
+current error is: 90.013822
+sign is -1
+angle to target: 179.993216
+needs to face: 359.993216
+current angle: 90.006734
+current error is: 90.013518
+sign is -1
+angle to target: 179.993134
+needs to face: 359.993134
+current angle: 90.006864
+current error is: 90.013730
+sign is -1
+angle to target: 179.993188
+needs to face: 359.993188
+current angle: 90.006779
+current error is: 90.013590
+sign is -1
+angle to target: 179.993188
+needs to face: 359.993188
+current angle: 90.006779
+current error is: 90.013591
+sign is -1
+angle to target: 179.993038
+needs to face: 359.993038
+current angle: 90.006998
+current error is: 90.013960
+sign is -1
+angle to target: 179.993052
+needs to face: 359.993052
+current angle: 90.006989
+current error is: 90.013937
+sign is -1
+angle to target: 179.993134
+needs to face: 359.993134
+current angle: 90.006856
+current error is: 90.013722
+sign is -1
+angle to target: 179.993093
+needs to face: 359.993093
+current angle: 90.006916
+current error is: 90.013823
+sign is -1
+angle to target: 179.993161
+needs to face: 359.993161
+current angle: 90.006824
+current error is: 90.013663
+sign is -1
+angle to target: 179.992738
+needs to face: 359.992738
+current angle: 90.007462
+current error is: 90.014724
+sign is -1
+angle to target: 179.992929
+needs to face: 359.992929
+current angle: 90.007177
+current error is: 90.014248
+sign is -1
+angle to target: 179.993229
+needs to face: 359.993229
+current angle: 90.006725
+current error is: 90.013495
+sign is -1
+angle to target: 179.993216
+needs to face: 359.993216
+current angle: 90.006742
+current error is: 90.013526
+sign is -1
+angle to target: 179.993325
+needs to face: 359.993325
+current angle: 90.006572
+current error is: 90.013247
+sign is -1
+angle to target: 179.993298
+needs to face: 359.993298
+current angle: 90.006619
+current error is: 90.013321
+sign is -1
+angle to target: 179.992997
+needs to face: 359.992997
+current angle: 90.007056
+current error is: 90.014059
+sign is -1
+angle to target: 179.993079
+needs to face: 359.993079
+current angle: 90.006932
+current error is: 90.013853
+sign is -1
+angle to target: 179.993107
+needs to face: 359.993107
+current angle: 90.006906
+current error is: 90.013800
+sign is -1
+angle to target: 179.993175
+needs to face: 359.993175
+current angle: 90.006800
+current error is: 90.013625
+sign is -1
+angle to target: 179.993161
+needs to face: 359.993161
+current angle: 90.006815
+current error is: 90.013654
+sign is -1
+angle to target: 179.993257
+needs to face: 359.993257
+current angle: 90.006683
+current error is: 90.013426
+sign is -1
+angle to target: 179.993257
+needs to face: 359.993257
+current angle: 90.006683
+current error is: 90.013427
+sign is -1
+angle to target: 179.993352
+needs to face: 359.993352
+current angle: 90.006541
+current error is: 90.013188
+sign is -1
+angle to target: 179.993325
+needs to face: 359.993325
+current angle: 90.006575
+current error is: 90.013250
+sign is -1
+angle to target: 179.993352
+needs to face: 359.993352
+current angle: 90.006531
+current error is: 90.013179
+sign is -1
+angle to target: 179.993257
+needs to face: 359.993257
+current angle: 90.006679
+current error is: 90.013422
+sign is -1
+angle to target: 179.993284
+needs to face: 359.993284
+current angle: 90.006631
+current error is: 90.013347
+sign is -1
+angle to target: 179.993257
+needs to face: 359.993257
+current angle: 90.006679
+current error is: 90.013422
+sign is -1
+angle to target: 179.993093
+needs to face: 359.993093
+current angle: 90.006914
+current error is: 90.013821
+sign is -1
+angle to target: 179.992997
+needs to face: 359.992997
+current angle: 90.007061
+current error is: 90.014064
+sign is -1
+angle to target: 179.993311
+needs to face: 359.993311
+current angle: 90.006586
+current error is: 90.013275
+sign is -1
+angle to target: 179.993407
+needs to face: 359.993407
+current angle: 90.006449
+current error is: 90.013042
+sign is -1
+angle to target: 179.993216
+needs to face: 359.993216
+current angle: 90.006730
+current error is: 90.013514
+sign is -1
+angle to target: 179.993352
+needs to face: 359.993352
+current angle: 90.006533
+current error is: 90.013181
+sign is -1
+angle to target: 179.993366
+needs to face: 359.993366
+current angle: 90.006503
+current error is: 90.013137
+sign is -1
+angle to target: 179.993011
+needs to face: 359.993011
+current angle: 90.007050
+current error is: 90.014039
+sign is -1
+angle to target: 179.993298
+needs to face: 359.993298
+current angle: 90.006615
+current error is: 90.013317
+sign is -1
+angle to target: 179.993107
+needs to face: 359.993107
+current angle: 90.006898
+current error is: 90.013791
+sign is -1
+angle to target: 179.993052
+needs to face: 359.993052
+current angle: 90.006992
+current error is: 90.013940
+sign is -1
+angle to target: 179.993257
+needs to face: 359.993257
+current angle: 90.006676
+current error is: 90.013419
+sign is -1
+angle to target: 179.993229
+needs to face: 359.993229
+current angle: 90.006712
+current error is: 90.013482
+sign is -1
+angle to target: 179.992956
+needs to face: 359.992956
+current angle: 90.007119
+current error is: 90.014163
+sign is -1
+angle to target: 179.993161
+needs to face: 359.993161
+current angle: 90.006812
+current error is: 90.013651
+sign is -1
+angle to target: 179.993079
+needs to face: 359.993079
+current angle: 90.006944
+current error is: 90.013864
+sign is -1
+angle to target: 179.993393
+needs to face: 359.993393
+current angle: 90.006474
+current error is: 90.013081
+sign is -1
+angle to target: 179.993339
+needs to face: 359.993339
+current angle: 90.006545
+current error is: 90.013206
+sign is -1
+angle to target: 179.993243
+needs to face: 359.993243
+current angle: 90.006686
+current error is: 90.013443
+sign is -1
+angle to target: 179.993120
+needs to face: 359.993120
+current angle: 90.006882
+current error is: 90.013762
+sign is -1
+angle to target: 179.993380
+needs to face: 359.993380
+current angle: 90.006498
+current error is: 90.013119
+sign is -1
+angle to target: 179.993134
+needs to face: 359.993134
+current angle: 90.006869
+current error is: 90.013735
+sign is -1
+angle to target: 179.993393
+needs to face: 359.993393
+current angle: 90.006473
+current error is: 90.013080
+sign is -1
+angle to target: 179.992997
+needs to face: 359.992997
+current angle: 90.007063
+current error is: 90.014066
+sign is -1
+angle to target: 179.993311
+needs to face: 359.993311
+current angle: 90.006599
+current error is: 90.013288
+sign is -1
+angle to target: 179.993202
+needs to face: 359.993202
+current angle: 90.006751
+current error is: 90.013549
+sign is -1
+angle to target: 179.992888
+needs to face: 359.992888
+current angle: 90.007238
+current error is: 90.014350
+sign is -1
+angle to target: 179.992915
+needs to face: 359.992915
+current angle: 90.007195
+current error is: 90.014280
+sign is -1
+angle to target: 179.993243
+needs to face: 359.993243
+current angle: 90.006695
+current error is: 90.013451
+sign is -1
+angle to target: 179.993147
+needs to face: 359.993147
+current angle: 90.006830
+current error is: 90.013682
+sign is -1
+angle to target: 179.993202
+needs to face: 359.993202
+current angle: 90.006754
+current error is: 90.013552
+sign is -1
+angle to target: 179.992997
+needs to face: 359.992997
+current angle: 90.007055
+current error is: 90.014058
+sign is -1
+angle to target: 179.992997
+needs to face: 359.992997
+current angle: 90.007065
+current error is: 90.014068
+sign is -1
+angle to target: 179.993298
+needs to face: 359.993298
+current angle: 90.006608
+current error is: 90.013311
+sign is -1
+angle to target: 179.993202
+needs to face: 359.993202
+current angle: 90.006760
+current error is: 90.013558
+sign is -1
+angle to target: 179.993216
+needs to face: 359.993216
+current angle: 90.006732
+current error is: 90.013516
+sign is -1
+angle to target: 179.993025
+needs to face: 359.993025
+current angle: 90.007031
+current error is: 90.014007
+sign is -1
+angle to target: 179.993093
+needs to face: 359.993093
+current angle: 90.006932
+current error is: 90.013839
+sign is -1
+angle to target: 179.993216
+needs to face: 359.993216
+current angle: 90.006729
+current error is: 90.013513
+sign is -1
+angle to target: 179.993134
+needs to face: 359.993134
+current angle: 90.006855
+current error is: 90.013721
+sign is -1
+angle to target: 179.993079
+needs to face: 359.993079
+current angle: 90.006945
+current error is: 90.013865
+sign is -1
+angle to target: 179.993421
+needs to face: 359.993421
+current angle: 90.006432
+current error is: 90.013012
+sign is -1
+angle to target: 179.993161
+needs to face: 359.993161
+current angle: 90.006813
+current error is: 90.013652
+sign is -1
+angle to target: 179.993025
+needs to face: 359.993025
+current angle: 90.007025
+current error is: 90.014000
+sign is -1
+angle to target: 179.993229
+needs to face: 359.993229
+current angle: 90.006709
+current error is: 90.013479
+sign is -1
+angle to target: 179.993202
+needs to face: 359.993202
+current angle: 90.006754
+current error is: 90.013552
+sign is -1
+angle to target: 179.992861
+needs to face: 359.992861
+current angle: 90.007265
+current error is: 90.014404
+sign is -1
+angle to target: 179.992861
+needs to face: 359.992861
+current angle: 90.007266
+current error is: 90.014405
+sign is -1
+angle to target: 179.992847
+needs to face: 359.992847
+current angle: 90.007298
+current error is: 90.014451
+sign is -1
+angle to target: 179.992956
+needs to face: 359.992956
+current angle: 90.007136
+current error is: 90.014180
+sign is -1
+angle to target: 179.993175
+needs to face: 359.993175
+current angle: 90.006791
+current error is: 90.013617
+sign is -1
+angle to target: 179.993229
+needs to face: 359.993229
+current angle: 90.006721
+current error is: 90.013492
+sign is -1
+angle to target: 179.992956
+needs to face: 359.992956
+current angle: 90.007129
+current error is: 90.014173
+sign is -1
+angle to target: 179.993298
+needs to face: 359.993298
+current angle: 90.006606
+current error is: 90.013309
+sign is -1
+angle to target: 179.993093
+needs to face: 359.993093
+current angle: 90.006923
+current error is: 90.013830
+sign is -1
+angle to target: 179.992861
+needs to face: 359.992861
+current angle: 90.007270
+current error is: 90.014409
+sign is -1
+angle to target: 179.993038
+needs to face: 359.993038
+current angle: 90.007003
+current error is: 90.013965
+sign is -1
+angle to target: 179.992997
+needs to face: 359.992997
+current angle: 90.007065
+current error is: 90.014068
+sign is -1
+angle to target: 179.992833
+needs to face: 359.992833
+current angle: 90.007301
+current error is: 90.014468
+sign is -1
+angle to target: 179.992833
+needs to face: 359.992833
+current angle: 90.007311
+current error is: 90.014478
+sign is -1
+angle to target: 179.993161
+needs to face: 359.993161
+current angle: 90.006822
+current error is: 90.013661
+sign is -1
+angle to target: 179.993107
+needs to face: 359.993107
+current angle: 90.006899
+current error is: 90.013793
+sign is -1
+angle to target: 179.992956
+needs to face: 359.992956
+current angle: 90.007133
+current error is: 90.014176
+sign is -1
+angle to target: 179.993147
+needs to face: 359.993147
+current angle: 90.006841
+current error is: 90.013693
+sign is -1
+angle to target: 179.993120
+needs to face: 359.993120
+current angle: 90.006890
+current error is: 90.013770
+sign is -1
+angle to target: 179.993120
+needs to face: 359.993120
+current angle: 90.006881
+current error is: 90.013760
+sign is -1
+angle to target: 179.992902
+needs to face: 359.992902
+current angle: 90.007213
+current error is: 90.014312
+sign is -1
+angle to target: 179.993202
+needs to face: 359.993202
+current angle: 90.006756
+current error is: 90.013553
+sign is -1
+angle to target: 179.993134
+needs to face: 359.993134
+current angle: 90.006870
+current error is: 90.013736
+sign is -1
+angle to target: 179.993147
+needs to face: 359.993147
+current angle: 90.006833
+current error is: 90.013686
+sign is -1
+angle to target: 179.993079
+needs to face: 359.993079
+current angle: 90.006950
+current error is: 90.013871
+sign is -1
+angle to target: 179.993011
+needs to face: 359.993011
+current angle: 90.007035
+current error is: 90.014024
+sign is -1
+angle to target: 179.993025
+needs to face: 359.993025
+current angle: 90.007026
+current error is: 90.014002
+sign is -1
+angle to target: 179.993380
+needs to face: 359.993380
+current angle: 90.006496
+current error is: 90.013116
+sign is -1
+angle to target: 179.993038
+needs to face: 359.993038
+current angle: 90.007010
+current error is: 90.013972
+sign is -1
+angle to target: 179.992861
+needs to face: 359.992861
+current angle: 90.007272
+current error is: 90.014411
+sign is -1
+angle to target: 179.993038
+needs to face: 359.993038
+current angle: 90.007012
+current error is: 90.013974
+sign is -1
+angle to target: 179.993038
+needs to face: 359.993038
+current angle: 90.007011
+current error is: 90.013973
+sign is -1
+angle to target: 179.993025
+needs to face: 359.993025
+current angle: 90.007016
+current error is: 90.013992
+sign is -1
+angle to target: 179.993038
+needs to face: 359.993038
+current angle: 90.007010
+current error is: 90.013972
+sign is -1
+angle to target: 179.993134
+needs to face: 359.993134
+current angle: 90.006861
+current error is: 90.013727
+sign is -1
+angle to target: 179.993134
+needs to face: 359.993134
+current angle: 90.006857
+current error is: 90.013723
+sign is -1
+angle to target: 179.993257
+needs to face: 359.993257
+current angle: 90.006677
+current error is: 90.013420
+sign is -1
+angle to target: 179.992970
+needs to face: 359.992970
+current angle: 90.007115
+current error is: 90.014145
+sign is -1
+angle to target: 179.992943
+needs to face: 359.992943
+current angle: 90.007137
+current error is: 90.014194
+sign is -1
+angle to target: 179.993066
+needs to face: 359.993066
+current angle: 90.006960
+current error is: 90.013895
+sign is -1
+angle to target: 179.993134
+needs to face: 359.993134
+current angle: 90.006862
+current error is: 90.013729
+sign is -1
+angle to target: 179.993407
+needs to face: 359.993407
+current angle: 90.006456
+current error is: 90.013049
+sign is -1
+angle to target: 179.993120
+needs to face: 359.993120
+current angle: 90.006877
+current error is: 90.013757
+sign is -1
+angle to target: 179.993366
+needs to face: 359.993366
+current angle: 90.006515
+current error is: 90.013149
+sign is -1
+angle to target: 179.993229
+needs to face: 359.993229
+current angle: 90.006711
+current error is: 90.013482
+sign is -1
+angle to target: 179.993229
+needs to face: 359.993229
+current angle: 90.006722
+current error is: 90.013492
+sign is -1
+angle to target: 179.993134
+needs to face: 359.993134
+current angle: 90.006861
+current error is: 90.013727
+sign is -1
+angle to target: 179.992833
+needs to face: 359.992833
+current angle: 90.007306
+current error is: 90.014473
+sign is -1
+angle to target: 179.993175
+needs to face: 359.993175
+current angle: 90.006808
+current error is: 90.013633
+sign is -1
+angle to target: 179.993216
+needs to face: 359.993216
+current angle: 90.006744
+current error is: 90.013528
+sign is -1
+angle to target: 179.993202
+needs to face: 359.993202
+current angle: 90.006762
+current error is: 90.013560
+sign is -1
+angle to target: 179.993339
+needs to face: 359.993339
+current angle: 90.006556
+current error is: 90.013217
+sign is -1
+angle to target: 179.992943
+needs to face: 359.992943
+current angle: 90.007149
+current error is: 90.014206
+sign is -1
+angle to target: 179.993257
+needs to face: 359.993257
+current angle: 90.006671
+current error is: 90.013414
+sign is -1
+angle to target: 179.993352
+needs to face: 359.993352
+current angle: 90.006533
+current error is: 90.013180
+sign is -1
+angle to target: 179.993243
+needs to face: 359.993243
+current angle: 90.006698
+current error is: 90.013455
+sign is -1
+angle to target: 179.993025
+needs to face: 359.993025
+current angle: 90.007027
+current error is: 90.014002
+sign is -1
+angle to target: 179.992997
+needs to face: 359.992997
+current angle: 90.007074
+current error is: 90.014077
+sign is -1
+angle to target: 179.993298
+needs to face: 359.993298
+current angle: 90.006612
+current error is: 90.013314
+sign is -1
+angle to target: 179.992997
+needs to face: 359.992997
+current angle: 90.007072
+current error is: 90.014074
+sign is -1
+angle to target: 179.993393
+needs to face: 359.993393
+current angle: 90.006469
+current error is: 90.013075
+sign is -1
+angle to target: 179.993270
+needs to face: 359.993270
+current angle: 90.006661
+current error is: 90.013390
+sign is -1
+angle to target: 179.993270
+needs to face: 359.993270
+current angle: 90.006658
+current error is: 90.013388
+sign is -1
+angle to target: 179.993161
+needs to face: 359.993161
+current angle: 90.006828
+current error is: 90.013666
+sign is -1
+angle to target: 179.993366
+needs to face: 359.993366
+current angle: 90.006503
+current error is: 90.013137
+sign is -1
+angle to target: 179.993352
+needs to face: 359.993352
+current angle: 90.006536
+current error is: 90.013183
+sign is -1
+angle to target: 179.993298
+needs to face: 359.993298
+current angle: 90.006620
+current error is: 90.013322
+sign is -1
+angle to target: 179.993093
+needs to face: 359.993093
+current angle: 90.006912
+current error is: 90.013819
+sign is -1
+[AWARNING - pros.serial.terminal.terminal:stop - Stopping terminal - pros-cli version:3.4.3

@@ -1,0 +1,559 @@
+Established terminal connection
+
+
+
+         _+=+_
+      .-`  .  `-.          8888888b.  8888888b.   .d88888b.   .d8888b.
+   _+`     "     `+_       888   Y88b 888   Y88b d88P" "Y88b d88P  Y88b
+  \\\sssssssssssss///      888    888 888    888 888     888 Y88b.
+     .ss\  *  /ss.         888   d88P 888   d88P 888     888  "Y888b.
+ .+bm  .s  *  s.  md+.     8888888P"  8888888P"  888     888     "Y88b.
+.hMMMMs .  *  . sMMMMh.    888        888 T88b   888     888       "888
+ `\hMMMb \ | / dMMMh:      888        888  T88b  Y88b. .d88P Y88b  d88P
+   -SNMNo  -  oNMNs-       888        888   T88b  "Y88888P"   "Y8888P"
+     `+dMh\./dMd/
+        `:yNy:`                      Powered by PROS for VEX V5
+           "                Copyright (c) Purdue University ACM SIGBots
+Version:        4.0.6     Platform:  V1.1.2 (b34)     Uptime:    0.001 s
+Compiled:   Jan 16 2024 17:02:44     Directory:                        
+
+
+
+
+
+         _+=+_
+      .-`  .  `-.          8888888b.  8888888b.   .d88888b.   .d8888b.
+   _+`     "     `+_       888   Y88b 888   Y88b d88P" "Y88b d88P  Y88b
+  \\\sssssssssssss///      888    888 888    888 888     888 Y88b.
+     .ss\  *  /ss.         888   d88P 888   d88P 888     888  "Y888b.
+ .+bm  .s  *  s.  md+.     8888888P"  8888888P"  888     888     "Y88b.
+.hMMMMs .  *  . sMMMMh.    888        888 T88b   888     888       "888
+ `\hMMMb \ | / dMMMh:      888        888  T88b  Y88b. .d88P Y88b  d88P
+   -SNMNo  -  oNMNs-       888        888   T88b  "Y88888P"   "Y8888P"
+     `+dMh\./dMd/
+        `:yNy:`                      Powered by PROS for VEX V5
+           "                Copyright (c) Purdue University ACM SIGBots
+Version:        4.0.6     Platform:  V1.1.2 (b34)     Uptime:    0.001 s
+Compiled:   Jan 16 2024 17:02:44     Directory:                        
+
+
+FAILED TO RESET ODOMETRY!
+errorno: 11
+at: odom_imu
+loaded path: /usd/skills/push-left.txt
+  size: 68
+loaded path: /usd/pathtest.txt
+  size: 30
+starting
+angle to target: nan
+needs to face: nan
+current angle: 0.209522
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.211007
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.212753
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.214742
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.216825
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.218543
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.223780
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.223074
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.240663
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.251393
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.255040
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.249113
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.250131
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.257664
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.261100
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.251833
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.246884
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.255632
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.257270
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.249891
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.251347
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.257830
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.262132
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.263525
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.262481
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.257864
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.249316
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.254883
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.258746
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.255807
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.246800
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.249932
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.255902
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.257387
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.259846
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.263543
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.267492
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.267611
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.263982
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.262003
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.264219
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.267506
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.272647
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.275723
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.276097
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.273276
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.271749
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.273847
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.278559
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.281608
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.281913
+current error is: nan
+sign is -1
+starting
+angle to target: nan
+needs to face: nan
+current angle: 0.665037
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.666935
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.668366
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.670263
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.672159
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.673652
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.675663
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.677252
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.678988
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.680988
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.682932
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.684735
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.686442
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.688510
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.689948
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.691707
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.693812
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.695560
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.696784
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.698738
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.700719
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.702411
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.703933
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.705913
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.707803
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.709618
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.710954
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.713524
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.715304
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.717051
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.718737
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.720747
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.722071
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.723961
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.725516
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.727606
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.729267
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.731285
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.733011
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.734722
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.736358
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.737772
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.739875
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.741572
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.742984
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.745215
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.747386
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.748859
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.750264
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.752240
+current error is: nan
+sign is -1
+angle to target: nan
+needs to face: nan
+current angle: 0.753943
+current error is: nan
+sign is -1
+[AWARNING - pros.serial.terminal.terminal:stop - Stopping terminal - pros-cli version:3.4.3

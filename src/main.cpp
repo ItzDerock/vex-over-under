@@ -68,18 +68,58 @@ void autonomous() {
       // move to launch position
       // odom::moveTo(-44, -58, 145, 5'000,
       //              {.chasePower = 5, .lead = 0, .forwards = false}, false);
+      // odom::moveDistance(12);
+      // odom::moveDistance(-12);
+
       odom::moveDistance(-9, 5'000);
       odom::turnTo(52);
-      odom::moveDistance(-6, 2'500);
+      odom::moveDistance(-7.5, 2'500);
       // odom::moveTo(-52, -50.59, 52, 5'000, {.lead = 0, .forwards = false},
       //              false);
 
       // fire
-      pros::delay(5'000);
+      // pros::delay(5'000);
+      catapult::rapidFire = true;
+      catapult::fire();
+      pros::delay(30'000);
+      catapult::rapidFire = false;
 
       // move to other side
-      odom::moveTo(-33, -60, 90, 5'000, {.chasePower = 5, .lead = 0.65}, false);
-      odom::moveTo(25, -60, 90, 5'000, {.chasePower = 10, .lead = 0.1}, false);
+      odom::moveTo(-33, -65, 90, 2'500, {.chasePower = 5, .lead = 0.45}, false);
+      odom::moveTo(25, -65, 90, 5'000, {.chasePower = 10, .lead = 0.1}, false);
+      odom::moveTo(51.46, -28.219, 0, 2'500, {.chasePower = 15, .lead = 0.40},
+                   false);
+
+      odom::moveDistance(-8);
+      odom::turnTo(115);
+      odom::moveDistance(-40, 5'000);
+      blocker->toggle();
+      odom::turnTo(235);
+      odom::moveDistance(-30, 1'500);
+      odom::moveDistance(30, 2'500);
+      blocker->toggle();
+      odom::turnTo(180);
+      odom::moveDistance(-50, 2'500);
+      odom::turnTo(300);
+      blocker->toggle();
+      odom::moveDistance(-30, 1'500);
+      odom::moveDistance(30, 2'500);
+      blocker->toggle();
+      odom::turnTo(0);
+      odom::moveDistance(-30, 2'500);
+      odom::turnTo(270);
+      blocker->toggle();
+      odom::moveDistance(-30, 1'500);
+      odom::moveDistance(30, 2'500);
+      // odom::moveDistance(-25, 2'500);
+      // odom::turnTo(270);
+      // odom::moveDistance(-28, 2'500);
+      // odom::moveDistance(12, 1'000);
+      // odom::moveDistance(-12, 1'000);
+
+      // odom::moveTo(26.5, -6.5, 270, 5'000, {.chasePower = 15, .lead = 0.9},
+      //              false);
+      // odom::moveTo()
 
       // // move to launch position
       // odom::moveDistance(-9, 2'500);

@@ -8,7 +8,7 @@ odom::Autonomous odom::autonomous = odom::Autonomous::Skills;
 // TODO: switch to NONE for comp
 
 std::shared_ptr<PIDController> odom::turnPID =
-    std::make_shared<PIDController>(4, 0, 26);
+    std::make_shared<PIDController>(5, 0, 20);
 // std::make_shared<PIDController>(8, 0.08, 45);
 std::shared_ptr<PIDController> odom::drivePID =
     std::make_shared<PIDController>(32, 0, 20);
@@ -35,9 +35,8 @@ std::shared_ptr<ExitCondition> odom::angularSmallExit =
  */
 inline bool isSettled() {
   return odom::lateralLargeExit->getExit() &&
-         odom::angularLargeExit->getExit() &&
-         odom::lateralSmallExit->getExit() &&  //
-         odom::angularSmallExit->getExit();
+         odom::angularLargeExit->getExit() &&  //
+         odom::lateralSmallExit->getExit();
 }
 
 void odom::moveVelocity(double left, double right) {
@@ -83,58 +82,79 @@ void odom::moveDistance(double dist, double timeout) {
   double targetY = initialPosition.y + dist * sin(initialPosition.theta);
   RobotPosition targetPosition = {targetX, targetY, initialPosition.theta};
 
-  if (sign < 0) dist = dist * -1;
+  odom::moveTo(targetX, targetY,
+               utils::radToDeg(getPosition(false, false).theta), timeout,
+               {.maxSpeed = 127,
+                .minSpeed = 0,
+                .chasePower = 10,
+                .lead = 0,
+                .earlyExitRange = 0,
+                .slew = 5,
+                .forwards = sign > 0},
+               false);
 
-  // loop until we are settled
-  while (!timer.isUp() && !isSettled()) {
-    // get the current position
-    // note: RADIANS
-    RobotPosition position = getPosition(false, false);
+  // if (sign < 0) dist = dist * -1;
 
-    // figure out the target angle
-    double targetTheta = position.angle(targetPosition);
-    // sign > 0 ? position.angle(targetPosition)
-    //          : utils::angleSquish(position.angle(targetPosition) + M_PI);
+  // // loop until we are settled
+  // while (!timer.isUp() && !isSettled()) {
+  //   // get the current position
+  //   // note: RADIANS
+  //   RobotPosition position = getPosition(false, true);
 
-    printf("Target position is: %f, %f\n", targetPosition.x, targetPosition.y);
-    printf("Current position is: %f, %f\n", position.x, position.y);
-    printf("angle to target: %f\n",
-           utils::radToDeg(position.angle(targetPosition)));
-    printf("needs to face: %f\n", utils::radToDeg(targetTheta));
-    printf("current angle: %f\n", utils::radToDeg(position.theta));
+  //   // figure out the target angle
+  //   double targetTheta = position.angle(targetPosition);
 
-    double adjustedRobotTheta =
-        sign > 0 ? position.theta : utils::angleSquish(position.theta + M_PI);
+  //   printf("Target position is: %f, %f\n", targetPosition.x,
+  //   targetPosition.y); printf("Current position is: %f, %f\n", position.x,
+  //   position.y); printf("angle to target: %f\n",
+  //          utils::radToDeg(position.angle(targetPosition)));
+  //   printf("needs to face: %f\n", utils::radToDeg(targetTheta));
+  //   printf("current angle: %f\n", utils::radToDeg(position.theta));
 
-    printf("adjusted robot theta: %f\n", utils::radToDeg(adjustedRobotTheta));
+  //   double adjustedRobotTheta =
+  //       sign > 0 ? position.theta : utils::angleSquish(position.theta +
+  //       M_PI);
 
-    // calculate the error
-    // $$\text{Distance} = d_i - d_t$$
-    distanceError = dist - position.distance(initialPosition);
-    angularError = utils::radToDeg(
-        utils::angleError(adjustedRobotTheta, targetTheta, true));
+  //   printf("adjusted robot theta: %f\n",
+  //   utils::radToDeg(adjustedRobotTheta));
 
-    printf("current error is: %f\n", angularError);
-    printf("sign is %d\n", sign);
+  //   // calculate the error
+  //   // $$\text{Distance} = d_i - d_t$$
+  //   distanceError = dist - position.distance(initialPosition);
+  //   angularError = utils::radToDeg(
+  //       utils::angleError(adjustedRobotTheta, targetTheta, true));
 
-    // update the exit conditions
-    lateralSmallExit->update(distanceError);
-    lateralLargeExit->update(distanceError);
-    angularSmallExit->update(angularError);
-    angularLargeExit->update(angularError);
+  //   printf("distance error: %f\n", distanceError);
+  //   printf("current error is: %f\n", angularError);
+  //   printf("sign is %d\n", sign);
 
-    // calculate the output
-    double output = sign * drivePID->update(distanceError);
-    double angularOutput = turnPID->update(angularError);
+  //   // update the exit conditions
+  //   lateralSmallExit->update(distanceError);
+  //   lateralLargeExit->update(distanceError);
+  //   angularSmallExit->update(angularError);
+  //   angularLargeExit->update(angularError);
 
-    double left = output + angularError;
-    double right = output - angularError;
+  //   // calculate the output
+  //   double output = sign * drivePID->update(distanceError);
+  //   double angularOutput = sign * turnPID->update(angularError);
 
-    moveVelocity(left, right);
+  //   printf("output: %f\n", output);
+  //   printf("turn out: %f\n", angularOutput);
 
-    // wait 10 milliseconds
-    pros::delay(10);
-  }
+  //   double left = output + angularError;
+  //   double right = output - angularError;
+
+  //   // const float ratio = std::max(std::fabs(left), std::fabs(right)) / 127;
+  //   // if (ratio > 1) {
+  //   //   left /= ratio;
+  //   //   right /= ratio;
+  //   // }
+
+  //   moveVelocity(left, right);
+
+  //   // wait 10 milliseconds
+  //   pros::delay(10);
+  // }
 
   // stop the motors
   moveVelocity(0, 0);

@@ -7,12 +7,17 @@ import matplotlib.pyplot as plt
 def parse_dataset(data_lines):
     dataset = {}
     for line in data_lines:
-        key, value = line.strip().split(":")
+        try:
+            key, value = line.strip().split(":")
+            # match first number in value
+            value = value.split()[0]
 
-        if key in dataset:
-            dataset[key].append(float(value))
-        else:
-            dataset[key] = [float(value)]
+            if key in dataset:
+                dataset[key].append(float(value))
+            else:
+                dataset[key] = [float(value)]
+        except:
+            print("failed to parse " + line)
 
     if "output" in dataset:
         print("Total of {} outputs in dataset".format(len(dataset["output"])))
@@ -23,7 +28,7 @@ def parse_dataset(data_lines):
 # Function to plot a dataset
 def plot_dataset(dataset):
     # Plot distance and angular errors
-    fig, (error, output) = plt.subplots(2)
+    fig, (error, error2, output, output2) = plt.subplots(4)
     # plt.plot(dataset["distanceError"], label="Distance Error")
     # plt.plot(dataset["angularError"], label="Angular Error")
     # plt.legend()
@@ -36,7 +41,11 @@ def plot_dataset(dataset):
         error.plot(dataset["distanceError"], label="Distance Error")
         error.plot(dataset["angularError"], label="Angular Error")
     else:
-        error.plot(dataset["angular error"], label="Angular Error")
+        error.plot(dataset["distance error"], label="Distance Error")
+        error2.plot(dataset["current error is"], label="Angular Error")
+        error2.legend()
+        output2.plot(dataset["turn out"], label="Output")
+        output2.legend()
 
     error.legend()
     error.set_xlabel("Time")
