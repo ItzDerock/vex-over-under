@@ -14,14 +14,14 @@ std::shared_ptr<PIDController> odom::drivePID =
     std::make_shared<PIDController>(32, 0, 20);
 
 std::shared_ptr<ExitCondition> odom::lateralLargeExit =
-    std::make_shared<ExitCondition>(3, 500);
+    std::make_shared<ExitCondition>(4, 400);
 std::shared_ptr<ExitCondition> odom::lateralSmallExit =
     std::make_shared<ExitCondition>(1, 100);
 
 std::shared_ptr<ExitCondition> odom::angularLargeExit =
     std::make_shared<ExitCondition>(3, 500);
 std::shared_ptr<ExitCondition> odom::angularSmallExit =
-    std::make_shared<ExitCondition>(1, 200);
+    std::make_shared<ExitCondition>(1, 150);
 
 // /**
 //  * Returns the distance between two points

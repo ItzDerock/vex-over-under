@@ -72,7 +72,7 @@ void autonomous() {
       // odom::moveDistance(-12);
 
       odom::moveDistance(-9, 5'000);
-      odom::turnTo(52);
+      odom::turnTo(60);
       odom::moveDistance(-7.5, 2'500);
       // odom::moveTo(-52, -50.59, 52, 5'000, {.lead = 0, .forwards = false},
       //              false);
@@ -111,55 +111,9 @@ void autonomous() {
       blocker->toggle();
       odom::moveDistance(-30, 1'500);
       odom::moveDistance(30, 2'500);
-      // odom::moveDistance(-25, 2'500);
-      // odom::turnTo(270);
-      // odom::moveDistance(-28, 2'500);
-      // odom::moveDistance(12, 1'000);
-      // odom::moveDistance(-12, 1'000);
-
-      // odom::moveTo(26.5, -6.5, 270, 5'000, {.chasePower = 15, .lead = 0.9},
-      //              false);
-      // odom::moveTo()
-
-      // // move to launch position
-      // odom::moveDistance(-9, 2'500);
-      // odom::turnTo(45);
-      // pros::delay(100);
-      // odom::moveDistance(-6, 2'500);
-
-      // // catapult::rapidFire = true;
-      // // catapult::fire();
-      // // pros::delay(25'000);
-      // // catapult::rapidFire = false;
-
-      // // done firing, move to other side
-      // odom::moveDistance(6, 2'500);
-      // odom::turnTo(135);
-      // pros::delay(100);
-      // odom::moveDistance(9, 2'500);
-      // odom::turnTo(90);
-      // pros::delay(100);
-      // odom::moveTo(34, -57, 90, 5'000, {.chasePower = 5, .lead = 0}, false);
-
-      // // push
-      // odom::moveTo(58, -24, 0, 15'000, {.chasePower = 5, .lead = 0.6},
-      // false); odom::moveDistance(-5); odom::turnTo(270);
-      // odom::moveDistance(20);
-
-      // // front push
-      // odom::moveTo(45, 0, 90, 10'000, {.chasePower = 5, .lead = 0.6}, false);
-      // odom::moveDistance(-10);
-      // pros::delay(200);
-      // odom::moveDistance(10);
-      // pros::delay(200);
-
-      // // top push
-      // odom::moveTo(25, 0, 90, 10'000, {.chasePower = 2, .lead = 0}, false);
-      // odom::turnTo(0);
-      // odom::moveDistance(12);
-      // odom::moveTo(58, 24, 180, 10'000, {.chasePower = 2, .lead = 0.75},
-      // false);
       break;
+
+      // case odom::Autonomous::ScoreLeft:
 
       // case odom::Autonomous::ScoreLeft:
       //   // wings->toggle();
@@ -269,13 +223,13 @@ void opcontrol() {
                        master.get_digital(DIGITAL_R2) * 127);
 
     // wings
-    if (master.get_digital_new_press(DIGITAL_L1)) {
+    if (master.get_digital_new_press(DIGITAL_L2)) {
       wings->toggle();
       wings_2->toggle();
     }
 
     // blocker
-    if (master.get_digital_new_press(DIGITAL_L2)) {
+    if (master.get_digital_new_press(DIGITAL_L1)) {
       blocker->toggle();
     }
 
