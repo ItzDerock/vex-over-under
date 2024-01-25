@@ -66,28 +66,33 @@ void autonomous() {
   switch (odom::autonomous) {
     case odom::Autonomous::Skills:
       // move to launch position
-      // odom::moveTo(-44, -58, 145, 5'000,
-      //              {.chasePower = 5, .lead = 0, .forwards = false}, false);
-      // odom::moveDistance(12);
-      // odom::moveDistance(-12);
-
-      odom::moveDistance(-9, 5'000);
-      odom::turnTo(60);
-      odom::moveDistance(-7.5, 2'500);
-      // odom::moveTo(-52, -50.59, 52, 5'000, {.lead = 0, .forwards = false},
-      //              false);
+      odom::moveDistance(-40, 1'000);
+      odom::moveDistance(8, 1'000);
+      odom::turnTo(68);
+      odom::moveDistance(-8, 1'000);
+      // odom::moveDistance(-9, 5'000);
+      // odom::turnTo(60);
+      // odom::moveDistance(-7.5, 2'500);
 
       // fire
-      // pros::delay(5'000);
+      odom::move(-5, -5);
       catapult::rapidFire = true;
       catapult::fire();
       pros::delay(30'000);
       catapult::rapidFire = false;
+      odom::move(0, 0);
 
       // move to other side
       odom::moveTo(-33, -65, 90, 2'500, {.chasePower = 5, .lead = 0.45}, false);
+      wings->toggle();
+      wings_2->toggle();
+      pros::delay(300);
+      wings->toggle();
+      wings_2->toggle();
+
+      // toggle wings
       odom::moveTo(25, -65, 90, 5'000, {.chasePower = 10, .lead = 0.1}, false);
-      odom::moveTo(51.46, -28.219, 0, 2'500, {.chasePower = 15, .lead = 0.40},
+      odom::moveTo(53.46, -28.219, 0, 2'500, {.chasePower = 15, .lead = 0.40},
                    false);
 
       odom::moveDistance(-8);
@@ -113,30 +118,47 @@ void autonomous() {
       odom::moveDistance(30, 2'500);
       break;
 
-      // case odom::Autonomous::ScoreLeft:
+    case odom::Autonomous::ScoreLeft:
+      // activate intake
+      wings->toggle();
+      wings_2->toggle();
+      pros::delay(300);
+      intake_motor->move(127);
+      wings->toggle();
+      wings_2->toggle();
 
-      // case odom::Autonomous::ScoreLeft:
-      //   // wings->toggle();
-      //   odom::moveDistance(32, 3);
-      //   // odom::turnTo(start.theta - M_PI / 4);
-      //   for (int i = 0; i < 3; i++) {
-      //     odom::moveDistance(10, 10);
-      //     odom::moveDistance(-10, 10);
-      //   }
-      //   break;
-      //   // odom::turnTo(start.theta - M_PI / 2);
+      odom::moveDistance(12, 1'000);
+      odom::turnTo(270);
+      blocker->toggle();
+      odom::moveTo(28.8, -43.5, 180, 2'500,
+                   {.chasePower = 14, .lead = 0.4, .forwards = false}, false);
+      blocker->toggle();
 
-      // case odom::Autonomous::ScoreSimple:
-      //   odom::moveDistance(64, 5);
-      //   odom::moveDistance(-8, 5);
-      //   break;
+      odom::moveDistance(8, 1'000);
+      odom::turnTo(180);
+      odom::moveDistance(-8, 1'500);
 
-      // case odom::Autonomous::TouchBar:
-      //   blocker->toggle();
-      //   odom::moveDistance(-21, 5);
-      //   blocker->toggle();
-      //   break;
+      // // grab triball 1
+      // odom::turnTo(90 - 20);  // todo: change this? - face triball
+      // // todo: intake
+      // odom::moveDistance(-57);
+      // odom::turnTo(60);  // todo: face goal
+      // // todo: outtake
 
+      // // odom::moveDistance(-5, 1'000);
+      // // odom::moveDistance(5, 1'000);
+
+      // // grab triball 2
+      // odom::turnTo(180 - 20);  // face triball
+      // // todo: intake
+      // odom::moveDistance(-26, 1'000);
+      // odom::turnTo(90);  // face goal
+      // blocker->toggle();
+      // // todo: outtake
+      // odom::moveDistance(30, 1'500);
+      // odom::moveDistance(-10, 1'000);
+
+      // todo: touch bar
     default:
       break;
   }
@@ -177,6 +199,7 @@ double driveCurve(double input) {
 void opcontrol() {
   pros::Controller master(pros::E_CONTROLLER_MASTER);
   bool cataWasHeld = false;
+  bool dtReversed = false;
 
   while (true) {
     // get the joystick values
@@ -194,6 +217,14 @@ void opcontrol() {
 
       leftPower = driveCurve(leftPower);
       rightPower = driveCurve(rightPower);
+
+      if (dtReversed) {
+        double tmp = leftPower;
+        leftPower = -rightPower;
+        rightPower = -tmp;
+        // leftPower *= -1;
+        // rightPower *= -1;
+      }
 
       odom::move(leftPower, rightPower);
     }
@@ -231,6 +262,10 @@ void opcontrol() {
     // blocker
     if (master.get_digital_new_press(DIGITAL_L1)) {
       blocker->toggle();
+    }
+
+    if (master.get_digital_new_press(DIGITAL_LEFT)) {
+      dtReversed = !dtReversed;
     }
 
     // blocker

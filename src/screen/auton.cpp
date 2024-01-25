@@ -47,13 +47,18 @@ static void reset_position_event_cb(lv_event_t *event) {
 
   if (code == LV_EVENT_CLICKED) {
     switch (odom::autonomous) {
-      case odom::Autonomous::None:
-        odom::reset({0, 0, 0});
+      case odom::Autonomous::Skills:
+        odom::reset(
+            {-35, -70 + (double)DRIVE_TRACK_WIDTH / 2, utils::degToRad(90)});
+        break;
+
+      case odom::Autonomous::ScoreLeft:
+        odom::reset(
+            {-8, -70 + (double)DRIVE_TRACK_WIDTH / 2, utils::degToRad(90)});
         break;
 
       default:
-        odom::reset(
-            {-35, -70 + (double)DRIVE_TRACK_WIDTH / 2, utils::degToRad(90)});
+        odom::reset({0, 0, 0});
         break;
     }
   }
