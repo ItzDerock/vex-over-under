@@ -48,7 +48,7 @@ void turnTo(double degrees, double timeout = 5);
 /**
  * Drive a certain distance (in inches)
  */
-void moveDistance(double distance, double timeout = 10'000);
+void moveDistance(double distance, double timeout = 10'000, float slew = 5);
 
 struct MoveToPoseParams {
   float maxSpeed = 127;

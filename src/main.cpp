@@ -124,19 +124,79 @@ void autonomous() {
       wings_2->toggle();
       pros::delay(300);
       intake_motor->move(127);
+      pros::delay(300);
       wings->toggle();
       wings_2->toggle();
+      intake_motor->move(40);
 
-      odom::moveDistance(12, 1'000);
-      odom::turnTo(270);
+      // descore corner thingy
+      odom::moveDistance(33, 3'000, 10);
+      odom::turnTo(225);  // TODO: ensure only turns right
       blocker->toggle();
-      odom::moveTo(28.8, -43.5, 180, 2'500,
-                   {.chasePower = 14, .lead = 0.4, .forwards = false}, false);
-      blocker->toggle();
+      odom::moveDistance(-23, 1'000);
 
-      odom::moveDistance(8, 1'000);
+      // push goal
+      intake_motor->move(-127);
       odom::turnTo(180);
-      odom::moveDistance(-8, 1'500);
+      odom::moveDistance(-15, 1'000);
+
+      // push 2
+      blocker->retract();
+      odom::moveDistance(14, 1'000);
+      // odom::moveDistance(8, 1'000);
+      // odom::turnTo(20);
+      // odom::moveDistance(15, 1'000);
+      // odom::moveDistance(-14, 1'000);
+
+      // grab mid bot
+      odom::turnTo(116);
+      intake_motor->move(60);
+      odom::moveDistance(-45, 2'000);
+      pros::delay(100);
+      odom::turnTo(235);
+      intake_motor->move(-90);
+      odom::moveDistance(-5, 1'000);
+      pros::delay(100);
+
+      // ball 2
+      intake_motor->move(60);
+      odom::turnTo(151);
+      odom::moveDistance(-23, 1'000);
+      odom::turnTo(270);
+      intake_motor->move(-40);
+
+      // push
+      blocker->extend();
+      odom::moveDistance(-30, 1'000);
+      odom::moveDistance(10, 1'000);
+
+      // pros::delay(500);
+
+      // intake_motor->move(70);
+      // odom::turnTo(161);
+      // odom::moveTo(-29, -16, 161, 2'000,
+      //              {.chasePower = 10, .lead = 0.35, .forwards = false},
+      //              false);
+
+      // odom::turnTo(270);
+      // intake_motor->move(-40);
+      // odom::moveDistance(-20, 1'000);
+
+      // 200deg
+
+      // odom::moveTo(38.6, -34.7, 184, 2'000, {.chasePower = 10, .lead = 0.35},
+      //              false);
+
+      // odom::moveTo(30.8, -43.5, 180, 3'000,
+      //              {.chasePower = 14, .lead = 0.35, .forwards = false},
+      //              false);
+      // intake_motor->move(-127);
+      // odom::moveDistance(-16, 1'000);
+      // odom::moveDistance(8, 1'000);
+      // odom::turnTo(180);
+      // odom::moveDistance(-8, 1'500);
+
+      // blocker->toggle();
 
       // // grab triball 1
       // odom::turnTo(90 - 20);  // todo: change this? - face triball

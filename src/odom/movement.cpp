@@ -58,7 +58,8 @@ void odom::move(double left, double right) {
 }
 
 // void odom::moveToSimple(RobotPosition position, double timeout) {
-void odom::moveDistance(double dist, double timeout) {
+// TODO: struct to pass custom slew, max speed, etc
+void odom::moveDistance(double dist, double timeout, float slew) {
   int8_t sign = dist < 0 ? -1 : 1;
 
   double distanceError = infinity();
@@ -89,7 +90,7 @@ void odom::moveDistance(double dist, double timeout) {
                 .chasePower = 10,
                 .lead = 0,
                 .earlyExitRange = 0,
-                .slew = 5,
+                .slew = slew,
                 .forwards = sign > 0},
                false);
 
