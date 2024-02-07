@@ -43,7 +43,7 @@ void initalize();
 /**
  * turn to a given angle (in degrees)
  */
-void turnTo(double degrees, double timeout = 5);
+void turnTo(double degrees, double timeout = 5, double maxSpeed = 127.0);
 
 /**
  * Drive a certain distance (in inches)

@@ -4,22 +4,21 @@
 
 #define SETTLED_TIME 3000  // milliseconds
 
-odom::Autonomous odom::autonomous = odom::Autonomous::Skills;
+odom::Autonomous odom::autonomous = odom::Autonomous::None;
 // TODO: switch to NONE for comp
 
 std::shared_ptr<PIDController> odom::turnPID =
     std::make_shared<PIDController>(5, 0, 20);
-// std::make_shared<PIDController>(8, 0.08, 45);
 std::shared_ptr<PIDController> odom::drivePID =
     std::make_shared<PIDController>(32, 0, 20);
 
 std::shared_ptr<ExitCondition> odom::lateralLargeExit =
-    std::make_shared<ExitCondition>(4, 400);
+    std::make_shared<ExitCondition>(4, 300);
 std::shared_ptr<ExitCondition> odom::lateralSmallExit =
     std::make_shared<ExitCondition>(1, 100);
 
 std::shared_ptr<ExitCondition> odom::angularLargeExit =
-    std::make_shared<ExitCondition>(3, 500);
+    std::make_shared<ExitCondition>(3, 300);
 std::shared_ptr<ExitCondition> odom::angularSmallExit =
     std::make_shared<ExitCondition>(1, 150);
 
@@ -267,24 +266,24 @@ void odom::moveTo(float x, float y, float theta, int timeout,
 
     // DEBUG START
     // --------------------------------------------------------------------
-    printf("close: %d\n", close);
-    printf("angularError: %f\n", angularErrorDeg);
-    printf("robot theta: %f\n", utils::radToDeg(adjustedRobotTheta));
-    if (close)
-      printf("target theta: %f\n", utils::radToDeg(target.theta));
-    else
-      printf("carrot theta: %f\n",
-             utils::radToDeg(utils::angleSquish(pose.angle(carrot))));
+    // printf("close: %d\n", close);
+    // printf("angularError: %f\n", angularErrorDeg);
+    // printf("robot theta: %f\n", utils::radToDeg(adjustedRobotTheta));
+    // if (close)
+    //   printf("target theta: %f\n", utils::radToDeg(target.theta));
+    // else
+    //   printf("carrot theta: %f\n",
+    //          utils::radToDeg(utils::angleSquish(pose.angle(carrot))));
 
-    printf("angle to carrot: %f\n",
-           utils::radToDeg(utils::angleSquish(pose.angle(carrot))));
-    printf("angle to target: %f\n", utils::radToDeg(pose.angle(target)));
+    // printf("angle to carrot: %f\n",
+    //        utils::radToDeg(utils::angleSquish(pose.angle(carrot))));
+    // printf("angle to target: %f\n", utils::radToDeg(pose.angle(target)));
     // DEBUG END
     // --------------------------------------------------------------------
 
     float lateralError = pose.distance(carrot);
 
-    printf("distance: %f\n", lateralError);
+    // printf("distance: %f\n", lateralError);
 
     // only use cos when settling
     // otherwise just multiply by the sign of cos
@@ -368,7 +367,7 @@ void odom::moveTo(float x, float y, float theta, int timeout,
 /**
  * @brief Turns to a given angle
  */
-void odom::turnTo(double degrees, double timeout) {
+void odom::turnTo(double degrees, double timeout, double maxSpeed) {
   // reset angular controllers/exit conditions
   turnPID->reset();
   angularLargeExit->reset();
@@ -398,7 +397,7 @@ void odom::turnTo(double degrees, double timeout) {
     angularSmallExit->update(error);
 
     // constrain the output
-    power = std::clamp(power, -127.0, 127.0);
+    power = std::clamp(power, -maxSpeed, maxSpeed);
     printf("power: %f\n", power);
     move(-power, power);
 

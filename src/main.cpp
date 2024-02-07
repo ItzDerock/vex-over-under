@@ -7,6 +7,7 @@
 #include "robot/odom.hpp"
 #include "robot/screen.hpp"
 #include "robot/subsystems.hpp"
+#include "robot/utils.hpp"
 
 /**
  * Runs initialization code. This occurs as soon as the program is started.
@@ -64,7 +65,7 @@ void autonomous() {
 
   // SKILLS
   switch (odom::autonomous) {
-    case odom::Autonomous::Skills:
+    case odom::Autonomous::Skills: {
       // move to launch position
       odom::moveDistance(-40, 1'000);
       odom::moveDistance(8, 1'000);
@@ -83,16 +84,20 @@ void autonomous() {
       odom::move(0, 0);
 
       // move to other side
-      odom::moveTo(-33, -65, 90, 2'500, {.chasePower = 5, .lead = 0.45}, false);
-      wings->toggle();
-      wings_2->toggle();
-      pros::delay(300);
-      wings->toggle();
-      wings_2->toggle();
+      // temp task
+      pros::Task([]() {
+        pros::delay(200);
+        wings->toggle();
+        wings_2->toggle();
+        pros::delay(300);
+        wings->toggle();
+        wings_2->toggle();
+      });
+      odom::moveTo(-33, -69, 90, 2'500, {.chasePower = 5, .lead = 0.55}, false);
 
       // toggle wings
       odom::moveTo(25, -65, 90, 5'000, {.chasePower = 10, .lead = 0.1}, false);
-      odom::moveTo(53.46, -28.219, 0, 2'500, {.chasePower = 15, .lead = 0.40},
+      odom::moveTo(53.46, -24, 0, 2'500, {.chasePower = 15, .lead = 0.40},
                    false);
 
       odom::moveDistance(-8);
@@ -116,9 +121,9 @@ void autonomous() {
       blocker->toggle();
       odom::moveDistance(-30, 1'500);
       odom::moveDistance(30, 2'500);
-      break;
+    } break;
 
-    case odom::Autonomous::ScoreLeft:
+    case odom::Autonomous::ScoreLeft: {
       // activate intake
       wings->toggle();
       wings_2->toggle();
@@ -131,7 +136,7 @@ void autonomous() {
 
       // descore corner thingy
       odom::moveDistance(33, 3'000, 10);
-      odom::turnTo(225);  // TODO: ensure only turns right
+      odom::turnTo(225, 2'000, 70);  // TODO: ensure only turns right
       blocker->toggle();
       odom::moveDistance(-23, 1'000);
 
@@ -142,83 +147,63 @@ void autonomous() {
 
       // push 2
       blocker->retract();
-      odom::moveDistance(14, 1'000);
+      odom::moveDistance(18, 1'000);
       // odom::moveDistance(8, 1'000);
       // odom::turnTo(20);
       // odom::moveDistance(15, 1'000);
       // odom::moveDistance(-14, 1'000);
 
-      // grab mid bot
-      odom::turnTo(116);
-      intake_motor->move(60);
-      odom::moveDistance(-45, 2'000);
-      pros::delay(100);
-      odom::turnTo(235);
-      intake_motor->move(-90);
-      odom::moveDistance(-5, 1'000);
-      pros::delay(100);
+      // 17,-53
+      // 45,40
 
-      // ball 2
-      intake_motor->move(60);
-      odom::turnTo(151);
-      odom::moveDistance(-23, 1'000);
-      odom::turnTo(270);
-      intake_motor->move(-40);
+      // -25, -6
 
-      // push
+      double angleToBall1 = utils::radToDeg(utils::angleSquish(
+          odom::getPosition(false, false).angle({-25, -8, 0})));
+
+      odom::turnTo(angleToBall1, 2'000);
+      intake_motor->move(60);
+      odom::moveDistance(-63, 2'000);
       blocker->extend();
-      odom::moveDistance(-30, 1'000);
-      odom::moveDistance(10, 1'000);
+      odom::turnTo(270, 2'500, 60);
+      intake_motor->move(-40);
+      odom::moveDistance(-25, 1'000);
+      odom::moveDistance(5, 1'000);
 
-      // pros::delay(500);
+      // -22, -44
+      // double angleToPole = utils::radToDeg(utils::angleSquish(
+      //     odom::getPosition(false, false).angle({-22, -46, 0})));
 
-      // intake_motor->move(70);
-      // odom::turnTo(161);
-      // odom::moveTo(-29, -16, 161, 2'000,
-      //              {.chasePower = 10, .lead = 0.35, .forwards = false},
-      //              false);
+      intake_motor->move(0);
+      odom::turnTo(216, 2'000);
+      blocker->retract();
+      wings->extend();
+      wings_2->extend();
+      odom::moveDistance(50, 1'000);
 
+    } break;
+
+      // // grab mid bot
+      // odom::turnTo(116);
+      // intake_motor->move(60);
+      // odom::moveDistance(-45, 2'000);
+      // pros::delay(100);
+      // odom::turnTo(235);
+      // intake_motor->move(-90);
+      // odom::moveDistance(-5, 1'000);
+      // pros::delay(100);
+
+      // // ball 2
+      // intake_motor->move(60);
+      // odom::turnTo(151);
+      // odom::moveDistance(-23, 1'000);
       // odom::turnTo(270);
       // intake_motor->move(-40);
-      // odom::moveDistance(-20, 1'000);
 
-      // 200deg
-
-      // odom::moveTo(38.6, -34.7, 184, 2'000, {.chasePower = 10, .lead = 0.35},
-      //              false);
-
-      // odom::moveTo(30.8, -43.5, 180, 3'000,
-      //              {.chasePower = 14, .lead = 0.35, .forwards = false},
-      //              false);
-      // intake_motor->move(-127);
-      // odom::moveDistance(-16, 1'000);
-      // odom::moveDistance(8, 1'000);
-      // odom::turnTo(180);
-      // odom::moveDistance(-8, 1'500);
-
-      // blocker->toggle();
-
-      // // grab triball 1
-      // odom::turnTo(90 - 20);  // todo: change this? - face triball
-      // // todo: intake
-      // odom::moveDistance(-57);
-      // odom::turnTo(60);  // todo: face goal
-      // // todo: outtake
-
-      // // odom::moveDistance(-5, 1'000);
-      // // odom::moveDistance(5, 1'000);
-
-      // // grab triball 2
-      // odom::turnTo(180 - 20);  // face triball
-      // // todo: intake
-      // odom::moveDistance(-26, 1'000);
-      // odom::turnTo(90);  // face goal
-      // blocker->toggle();
-      // // todo: outtake
-      // odom::moveDistance(30, 1'500);
-      // odom::moveDistance(-10, 1'000);
-
-      // todo: touch bar
+      // // push
+      // blocker->extend();
+      // odom::moveDistance(-30, 1'000);
+      // odom::moveDistance(10, 1'000);
     default:
       break;
   }

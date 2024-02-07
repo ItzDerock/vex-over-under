@@ -89,6 +89,7 @@ void screen::initAutonSelector(MPEGPlayer *video) {
   // create dropdown for auton selector
   lv_obj_t *dropdown = lv_dropdown_create(screen::auton_selector_screen);
   lv_obj_set_pos(dropdown, 10, 10);
+  lv_dropdown_set_selected(dropdown, (uint16_t)odom::autonomous);
 
   // create the options for the dropdown
   lv_dropdown_set_options(dropdown,
