@@ -90,22 +90,22 @@ void odom::update() {
   // 1. Store the current encoder values
   double left = readDrivetrainSensor(drive_left);
   double right = readDrivetrainSensor(drive_right);
-  double center = (double)odom_middle.sensor->get_value();
+  // double center = (double)odom_middle.sensor->get_value();
 
   //  (1.1) Convert to distance of wheel travel (inches)
   left = normalizeSensorData(left, odom_left);
   right = normalizeSensorData(right, odom_right);
-  center = normalizeSensorData(center, odom_middle);
+  // center = normalizeSensorData(center, odom_middle);
 
   // 2. Calculate delta values
   double dL = left - prevSensors.left;
   double dR = right - prevSensors.right;
-  double dC = center - prevSensors.center;
+  // double dC = center - prevSensors.center;
 
   // 3. Update the previous values
   prevSensors.left = left;
   prevSensors.right = right;
-  prevSensors.center = center;
+  // prevSensors.center = center;
 
   // 4. total change since last reset
   // auto deltaLr = left - resetValues.left;
@@ -122,45 +122,51 @@ void odom::update() {
   double dTheta = newTheta - state.theta;
 
   // 7. Calculate local offset for dTheta = 0
-  RobotPosition localOffset = {0, 0, 0};
+  // RobotPosition localOffset = {0, 0, 0};
 
-  if (dTheta == 0) {
-    localOffset.x = dC;
-    localOffset.y = dR;
-  } else {
-    // 8. Otherwise, calculate local offset with formula.
-    localOffset.x = 2 * sin(dTheta / 2) * (dC / dTheta + (odom_middle.offset));
-    localOffset.y = 2 * sin(dTheta / 2) * (dR / dTheta + (odom_right.offset));
-  }
+  double d = (dL + dR) / 2;
+
+  state.y += d * cos(state.theta + dTheta / 2);
+  state.x += d * sin(state.theta + dTheta / 2);
+  state.theta = newTheta;
+
+  // if (dTheta == 0) {
+  //   localOffset.x = dC;
+  //   localOffset.y = dR;
+  // } else {
+  // 8. Otherwise, calculate local offset with formula.
+  // localOffset.x = 2 * sin(dTheta / 2) * (dC / dTheta + (odom_middle.offset));
+  // localOffset.y = 2 * sin(dTheta / 2) * (dR / dTheta + (odom_right.offset));
+  // }
 
   // 9. Calculate the average orientation
-  double thetam = state.theta + dTheta / 2;
+  // double thetam = state.theta + dTheta / 2;
 
-  // state.x += localOffset.y * sin(thetam);
-  // state.y += localOffset.y * cos(thetam);
-  // state.x += localOffset.x * -cos(thetam);
-  // state.y += localOffset.x * sin(thetam);
+  // // state.x += localOffset.y * sin(thetam);
+  // // state.y += localOffset.y * cos(thetam);
+  // // state.x += localOffset.x * -cos(thetam);
+  // // state.y += localOffset.x * sin(thetam);
+  // // state.theta = newTheta;
+
+  // // 10. Calculate the global offset
+  // RobotPosition globalOffset = {0, 0, 0};
+
+  // // convert local offset to polar coordinates
+  // double r =
+  //     sqrt(localOffset.x * localOffset.x + localOffset.y * localOffset.y);
+  // double theta = atan2(localOffset.y, localOffset.x);
+
+  // // subtract thetam from the angle component
+  // theta -= thetam;
+
+  // // convert back to Cartesian coordinates
+  // globalOffset.x = r * cos(theta);
+  // globalOffset.y = r * sin(theta);
+
+  // // 11. Update the global position
+  // state.x += globalOffset.x;
+  // state.y += globalOffset.y;
   // state.theta = newTheta;
-
-  // 10. Calculate the global offset
-  RobotPosition globalOffset = {0, 0, 0};
-
-  // convert local offset to polar coordinates
-  double r =
-      sqrt(localOffset.x * localOffset.x + localOffset.y * localOffset.y);
-  double theta = atan2(localOffset.y, localOffset.x);
-
-  // subtract thetam from the angle component
-  theta -= thetam;
-
-  // convert back to Cartesian coordinates
-  globalOffset.x = r * cos(theta);
-  globalOffset.y = r * sin(theta);
-
-  // 11. Update the global position
-  state.x += globalOffset.x;
-  state.y += globalOffset.y;
-  state.theta = newTheta;
 
 #if ODOM_DEBUG
   logger::log(logger::Route::RobotPosition, {state.x, state.y, state.theta});
