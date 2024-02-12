@@ -86,7 +86,7 @@ void autonomous() {
       // move to other side
       // temp task
       pros::Task([]() {
-        pros::delay(200);
+        pros::delay(400);
         wings->toggle();
         wings_2->toggle();
         pros::delay(300);
