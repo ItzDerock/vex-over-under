@@ -28,7 +28,7 @@ struct {
   double left, right, theta;
 } resetValues = {0, 0, 0};
 
-odom::RobotPosition state = {0, 0, 0};
+odom::RobotPosition* state = new odom::RobotPosition({0, 0, 0});
 
 /**
  * Since part of our odometry is based on internal sensors in the motors,
@@ -119,12 +119,12 @@ void odom::update() {
   //                   (left - right) / (odom_left.offset + odom_right.offset);
 
   // 6. Calculate change in orientation
-  double dTheta = newTheta - state.theta;
+  double dTheta = newTheta - state->theta;
   double d = (dL + dR) / 2;
 
-  state.y += d * cos(state.theta + dTheta / 2);
-  state.x += d * sin(state.theta + dTheta / 2);
-  state.theta = newTheta;
+  state->y += d * cos(state->theta + dTheta / 2);
+  state->x += d * sin(state->theta + dTheta / 2);
+  state->theta = newTheta;
 
   // The following is the legacy odometry algorithm
   // it has been replaced with the above code
@@ -145,7 +145,7 @@ void odom::update() {
     }
 
     // 9. Calculate the average orientation
-    double thetam = state.theta + dTheta / 2;
+    double thetam = state->theta + dTheta / 2;
 
     // 10. Calculate the global offset
     RobotPosition globalOffset = {0, 0, 0};
@@ -163,13 +163,13 @@ void odom::update() {
     globalOffset.y = r * sin(theta);
 
     // 11. Update the global position
-    state.x += globalOffset.x;
-    state.y += globalOffset.y;
-    state.theta = newTheta;
+    state->x += globalOffset.x;
+    state->y += globalOffset.y;
+    state->theta = newTheta;
   */
 
 #if ODOM_DEBUG
-  logger::log(logger::Route::RobotPosition, {state.x, state.y, state.theta});
+  logger::log(logger::Route::RobotPosition, {state->x, state->y, state->theta});
 
   // I wish there was a more elegant way to do this
   logger::log(logger::Route::RobotVelocity,
@@ -235,9 +235,9 @@ void odom::reset(odom::RobotPosition startState) {
 
   // reset state
   // state = startState;
-  state.x = startState.x;
-  state.y = startState.y;
-  state.theta = startState.theta;
+  state->x = startState.x;
+  state->y = startState.y;
+  state->theta = startState.theta;
   resetValues.theta = startState.theta;
 
   // reset prevSensors
@@ -256,22 +256,22 @@ void odom::reset(odom::RobotPosition startState) {
 void odom::reset() { reset({0, 0, 0}); }
 
 odom::RobotPosition odom::getPosition(bool degrees, bool standardPos) {
-  // aquire mutex
+  // take mutex to prevent reading while writing
+  // technically not necessary as the cpu is single threaded
+  // but it's good practice
   mutex.take();
 
   // get the state
   RobotPosition returnState =
-      degrees ? RobotPosition(state.x, state.y, state.theta * (180 / M_PI))
-              : state;
+      degrees ? RobotPosition(state->x, state->y, state->theta * (180 / M_PI))
+              : *state;
+
+  mutex.give();
 
   // bearing -> standard form
   if (standardPos) {
     returnState.theta = utils::angleSquish(M_PI_2 - returnState.theta);
   }
 
-  // release mutex
-  mutex.give();
-
-  // return the state
   return returnState;
 }
