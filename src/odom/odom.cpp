@@ -120,53 +120,53 @@ void odom::update() {
 
   // 6. Calculate change in orientation
   double dTheta = newTheta - state.theta;
-
-  // 7. Calculate local offset for dTheta = 0
-  // RobotPosition localOffset = {0, 0, 0};
-
   double d = (dL + dR) / 2;
 
   state.y += d * cos(state.theta + dTheta / 2);
   state.x += d * sin(state.theta + dTheta / 2);
   state.theta = newTheta;
 
-  // if (dTheta == 0) {
-  //   localOffset.x = dC;
-  //   localOffset.y = dR;
-  // } else {
-  // 8. Otherwise, calculate local offset with formula.
-  // localOffset.x = 2 * sin(dTheta / 2) * (dC / dTheta + (odom_middle.offset));
-  // localOffset.y = 2 * sin(dTheta / 2) * (dR / dTheta + (odom_right.offset));
-  // }
+  // The following is the legacy odometry algorithm
+  // it has been replaced with the above code
 
-  // 9. Calculate the average orientation
-  // double thetam = state.theta + dTheta / 2;
+  /*
+    // 7. Calculate local offset for dTheta = 0
+    RobotPosition localOffset = {0, 0, 0};
 
-  // // state.x += localOffset.y * sin(thetam);
-  // // state.y += localOffset.y * cos(thetam);
-  // // state.x += localOffset.x * -cos(thetam);
-  // // state.y += localOffset.x * sin(thetam);
-  // // state.theta = newTheta;
+    if (dTheta == 0) {
+      localOffset.x = dC;
+      localOffset.y = dR;
+    } else {
+      // 8. Otherwise, calculate local offset with formula.
+      localOffset.x = 2 * sin(dTheta / 2) * (dC / dTheta +
+    (odom_middle.offset));
 
-  // // 10. Calculate the global offset
-  // RobotPosition globalOffset = {0, 0, 0};
+      localOffset.y = 2 * sin(dTheta / 2) * (dR / dTheta + (odom_right.offset));
+    }
 
-  // // convert local offset to polar coordinates
-  // double r =
-  //     sqrt(localOffset.x * localOffset.x + localOffset.y * localOffset.y);
-  // double theta = atan2(localOffset.y, localOffset.x);
+    // 9. Calculate the average orientation
+    double thetam = state.theta + dTheta / 2;
 
-  // // subtract thetam from the angle component
-  // theta -= thetam;
+    // 10. Calculate the global offset
+    RobotPosition globalOffset = {0, 0, 0};
 
-  // // convert back to Cartesian coordinates
-  // globalOffset.x = r * cos(theta);
-  // globalOffset.y = r * sin(theta);
+    // convert local offset to polar coordinates
+    double r =
+        sqrt(localOffset.x * localOffset.x + localOffset.y * localOffset.y);
+    double theta = atan2(localOffset.y, localOffset.x);
 
-  // // 11. Update the global position
-  // state.x += globalOffset.x;
-  // state.y += globalOffset.y;
-  // state.theta = newTheta;
+    // subtract thetam from the angle component
+    theta -= thetam;
+
+    // convert back to Cartesian coordinates
+    globalOffset.x = r * cos(theta);
+    globalOffset.y = r * sin(theta);
+
+    // 11. Update the global position
+    state.x += globalOffset.x;
+    state.y += globalOffset.y;
+    state.theta = newTheta;
+  */
 
 #if ODOM_DEBUG
   logger::log(logger::Route::RobotPosition, {state.x, state.y, state.theta});
