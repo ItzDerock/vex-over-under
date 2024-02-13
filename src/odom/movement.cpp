@@ -58,7 +58,7 @@ void odom::move(double left, double right) {
 
 // void odom::moveToSimple(RobotPosition position, double timeout) {
 // TODO: struct to pass custom slew, max speed, etc
-void odom::moveDistance(double dist, double timeout, float slew) {
+void odom::moveDistance(double dist, double timeout, MoveToPoseParams params) {
   int8_t sign = dist < 0 ? -1 : 1;
 
   double distanceError = infinity();
@@ -82,16 +82,12 @@ void odom::moveDistance(double dist, double timeout, float slew) {
   double targetY = initialPosition.y + dist * sin(initialPosition.theta);
   RobotPosition targetPosition = {targetX, targetY, initialPosition.theta};
 
+  // fix params
+  params.forwards = sign > 0;
+
   odom::moveTo(targetX, targetY,
                utils::radToDeg(getPosition(false, false).theta), timeout,
-               {.maxSpeed = 127,
-                .minSpeed = 0,
-                .chasePower = 10,
-                .lead = 0,
-                .earlyExitRange = 0,
-                .slew = slew,
-                .forwards = sign > 0},
-               false);
+               params, false);
 
   // if (sign < 0) dist = dist * -1;
 
@@ -191,6 +187,10 @@ void odom::moveTo(float x, float y, float theta, int timeout,
   angularLargeExit->reset();
   angularSmallExit->reset();
 
+  // create stall condition
+  ExitCondition stallExit(params.stallThreshold, params.stallTime);
+  RobotPosition startingPosition = getPosition(false, true);
+
   // calculate target pose
   // note: This variable is in RADIANS and in STANDARD POSITION.
   RobotPosition target(x, y, M_PI_2 - utils::degToRad(theta));
@@ -215,6 +215,21 @@ void odom::moveTo(float x, float y, float theta, int timeout,
           !close)) {
     // note: This variable is in RADIANS and in STANDARD POSITION.
     RobotPosition pose = getPosition(false, true);
+
+    // stall detection
+    if (params.exitOnStall && distTravelled > 0) {
+      // require to be at least 50% of the way to the target
+      double distanceToTarget = pose.distance(target);
+      double distanceTravelled = pose.distance(startingPosition);
+
+      if (distanceTravelled > distanceToTarget) {
+        if (stallExit.getExit()) {
+          printf("stalled\n");
+          break;
+        }
+        stallExit.update(getVelocity());
+      }
+    }
 
     // update distance travelled
     distTravelled += pose.distance(lastPose);

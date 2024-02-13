@@ -120,7 +120,9 @@ void screen::initAutonSelector(MPEGPlayer *video) {
 
       std::string text = "x: " + std::to_string(position.x) +
                          "\ny: " + std::to_string(position.y) +
-                         "\ntheta: " + std::to_string(position.theta);
+                         "\ntheta: " + std::to_string(position.theta) +
+                         "\nvelocity: " + std::to_string(odom::getVelocity()) +
+                         " in/sec";
 
       lv_label_set_text(odom_text, text.c_str());
       pros::delay(50);

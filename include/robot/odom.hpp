@@ -24,6 +24,11 @@ extern std::shared_ptr<ExitCondition> angularSmallExit;
 RobotPosition getPosition(bool degrees = false, bool standardPos = false);
 
 /**
+ * Returns the current robot velocity in inches/sec.
+ */
+float getVelocity();
+
+/**
  * Updates the odoemtry position
  */
 void update();
@@ -45,11 +50,6 @@ void initalize();
  */
 void turnTo(double degrees, double timeout = 5, double maxSpeed = 127.0);
 
-/**
- * Drive a certain distance (in inches)
- */
-void moveDistance(double distance, double timeout = 10'000, float slew = 3.5);
-
 struct MoveToPoseParams {
   float maxSpeed = 127;
   float minSpeed = 0;
@@ -58,7 +58,18 @@ struct MoveToPoseParams {
   float earlyExitRange = 0;
   float slew = 3.5;
   bool forwards = true;
+
+  // stall detection (in ms)
+  bool exitOnStall = false;
+  float stallTime = 50;
+  float stallThreshold = 0.5;  // inches/sec
 };
+
+/**
+ * Drive a certain distance (in inches)
+ */
+void moveDistance(double distance, double timeout = 10'000,
+                  MoveToPoseParams params = {});
 
 /**
  * @brief Move the chassis towards the target pose
@@ -75,7 +86,7 @@ struct MoveToPoseParams {
  * default
  */
 void moveTo(float x, float y, float theta, int timeout, MoveToPoseParams params,
-            bool async);
+            bool async = false);
 /**
  * The odometry mutex. Use whenever you are reading values.
  */

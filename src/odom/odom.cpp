@@ -2,6 +2,8 @@
 
 #include <math.h>
 
+#include <atomic>
+
 #include "../config.hpp"
 #include "main.h"
 #include "robot/logger.hpp"
@@ -29,6 +31,7 @@ struct {
 } resetValues = {0, 0, 0};
 
 odom::RobotPosition* state = new odom::RobotPosition({0, 0, 0});
+std::atomic<double> velocity = 0;
 
 /**
  * Since part of our odometry is based on internal sensors in the motors,
@@ -122,9 +125,18 @@ void odom::update() {
   double dTheta = newTheta - state->theta;
   double d = (dL + dR) / 2;
 
+  // copy the state so we can calculate the velocity
+  RobotPosition prevState = *state;
+
+  // 7. Update the state
   state->y += d * cos(state->theta + dTheta / 2);
   state->x += d * sin(state->theta + dTheta / 2);
   state->theta = newTheta;
+
+  // calculate the velocity
+  // divide by 10 because this function is called every 10ms
+  // multiply by 1000 to get it in inches per second
+  velocity = (state->distance(prevState) / 10) * 1000;
 
   // The following is the legacy odometry algorithm
   // it has been replaced with the above code
@@ -274,4 +286,9 @@ odom::RobotPosition odom::getPosition(bool degrees, bool standardPos) {
   }
 
   return returnState;
+}
+
+float odom::getVelocity() {
+  // variable is atomic so no need to lock mutex
+  return velocity;
 }
