@@ -62,26 +62,31 @@ void autonomous() {
   odom::RobotPosition start = odom::getPosition();
 
   std::cout << "starting" << std::endl;
+  odom::MoveToPoseParams pushParams = {
+      .chasePower = 100, .slew = 127, .exitOnStall = true};
 
   // SKILLS
   switch (odom::autonomous) {
     case odom::Autonomous::Skills: {
       // move to launch position
-      odom::moveDistance(-40, 1'000);
-      odom::moveDistance(7, 1'000);
+      odom::moveDistance(-40, 1'000,
+                         {.chasePower = 500, .slew = 127, .exitOnStall = true});
+      odom::moveDistance(8, 1'000);
       odom::turnTo(63);
-      odom::moveDistance(-8, 1'000);
+      odom::moveDistance(-8.5, 1'000);
       // odom::moveDistance(-9, 5'000);
       // odom::turnTo(60);
       // odom::moveDistance(-7.5, 2'500);
 
       // fire
-      odom::move(-5, -5);
+      blocker->extend();
+      odom::move(-20, -20);
       catapult::rapidFire = true;
       catapult::fire();
       pros::delay(30'000);
       catapult::rapidFire = false;
       odom::move(0, 0);
+      blocker->retract();
 
       // move to other side
       // temp task
@@ -97,30 +102,31 @@ void autonomous() {
 
       // toggle wings
       odom::moveTo(25, -65, 90, 5'000, {.chasePower = 10, .lead = 0.1}, false);
-      odom::moveTo(56, -24, 0, 2'500,
-                   {.chasePower = 15, .lead = 0.43, .exitOnStall = true},
-                   false);
+      odom::moveTo(
+          60, -22, 0, 2'500,
+          {.chasePower = 20, .lead = 0.43, .slew = 127, .exitOnStall = true},
+          false);
 
       odom::moveDistance(-8);
       odom::turnTo(115);
       odom::moveDistance(-40, 5'000);
       blocker->toggle();
       odom::turnTo(235);
-      odom::moveDistance(-30, 1'500, {.exitOnStall = true});
+      odom::moveDistance(-30, 1'500, pushParams);
       odom::moveDistance(30, 2'500);
       blocker->toggle();
       odom::turnTo(180);
       odom::moveDistance(-50, 2'500);
       odom::turnTo(300);
       blocker->toggle();
-      odom::moveDistance(-30, 1'500, {.exitOnStall = true});
+      odom::moveDistance(-30, 1'500, pushParams);
       odom::moveDistance(30, 2'500);
       blocker->toggle();
       odom::turnTo(0);
       odom::moveDistance(-30, 2'500);
       odom::turnTo(270);
       blocker->toggle();
-      odom::moveDistance(-30, 1'500, {.exitOnStall = true});
+      odom::moveDistance(-30, 1'500, pushParams);
       odom::moveDistance(30, 2'500);
     } break;
 
@@ -140,23 +146,28 @@ void autonomous() {
       odom::moveTo(18.725, -63.547, 90, 3'000,
                    {.chasePower = 10, .lead = 0, .slew = 127});
       odom::turnTo(220, 2'000, 70);  // TODO: ensure only turns right
-      blocker->toggle();
+      blocker->extend();
+      odom::moveTo(
+          32, -52.38, 220, 3'000,
+          {.chasePower = 20, .lead = 0.3, .slew = 127, .forwards = false});
+      odom::turnTo(150);
+      blocker->retract();
+      intake_motor->move(-127);
       odom::moveTo(39, -30.38, 180, 3'000,
                    {.chasePower = 20,
-                    .lead = 0.3,
+                    .lead = 0,
                     .slew = 127,
                     .forwards = false,
                     .exitOnStall = true,
-                    .stallThreshold = 1});
+                    .stallThreshold = 2});
 
-      // push goal
-      intake_motor->move(-127);
-      odom::turnTo(180);
-      odom::moveDistance(-15, 1'000);
+      odom::moveDistance(5);
+      odom::moveDistance(-5, 1'000,
+                         {.chasePower = 500, .slew = 127, .exitOnStall = true});
 
       // push 2
       blocker->retract();
-      odom::moveDistance(18, 1'000);
+      odom::moveDistance(20, 1'000);
       // odom::moveDistance(8, 1'000);
       // odom::turnTo(20);
       // odom::moveDistance(15, 1'000);
@@ -168,17 +179,17 @@ void autonomous() {
       // -25, -6
 
       double angleToBall1 = utils::radToDeg(utils::angleSquish(
-          odom::getPosition(false, false).angle({-25, -8, 0})));
+          odom::getPosition(false, false).angle({-10, -8, 0})));
 
-      odom::turnTo(angleToBall1, 2'000);
+      // odom::turnTo(angleToBall1, 2'000);
       intake_motor->move(60);
       // odom::moveDistance(-63, 2'000);
-      odom::moveTo(-10, -11, angleToBall1, 2'000, {.chasePower = 10, .slew = 4},
-                   false);
-      blocker->extend();
+      odom::moveTo(-10, -8, angleToBall1, 2'000,
+                   {.chasePower = 10, .slew = 4, .forwards = false}, false);
       odom::turnTo(270, 2'500, 60);
-      intake_motor->move(-40);
-      odom::moveDistance(-25, 1'000);
+      blocker->extend();
+      intake_motor->move(-127);
+      odom::moveDistance(-30, 1'000, {.slew = 127, .exitOnStall = true});
       odom::moveDistance(5, 1'000);
 
       // -22, -44
@@ -192,6 +203,11 @@ void autonomous() {
       wings_2->extend();
       odom::moveDistance(50, 1'000);
 
+    } break;
+
+    case odom::Autonomous::TouchBar: {
+      odom::moveDistance(-12, 1'000,
+                         {.maxSpeed = 80, .chasePower = 5, .slew = 5});
     } break;
 
     default:
