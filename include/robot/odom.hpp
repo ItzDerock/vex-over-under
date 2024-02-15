@@ -48,7 +48,7 @@ void initalize();
 /**
  * turn to a given angle (in degrees)
  */
-void turnTo(double degrees, double timeout = 5, double maxSpeed = 127.0);
+void turnTo(double degrees, double timeout = 2.5, double maxSpeed = 127.0);
 
 struct MoveToPoseParams {
   float maxSpeed = 127;

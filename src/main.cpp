@@ -102,12 +102,16 @@ void autonomous() {
 
       // toggle wings
       odom::moveTo(25, -65, 90, 5'000, {.chasePower = 10, .lead = 0.1}, false);
-      odom::moveTo(
-          60, -22, 0, 2'500,
-          {.chasePower = 20, .lead = 0.43, .slew = 127, .exitOnStall = true},
-          false);
+      odom::turnTo(255);
+      odom::moveTo(60, -22, 180, 2'500,
+                   {.chasePower = 20,
+                    .lead = 0.43,
+                    .slew = 127,
+                    .forwards = false,
+                    .exitOnStall = true},
+                   false);
 
-      odom::moveDistance(-8);
+      odom::moveDistance(8);
       odom::turnTo(115);
       odom::moveDistance(-40, 5'000);
       blocker->toggle();
@@ -126,6 +130,7 @@ void autonomous() {
       odom::moveDistance(-30, 2'500);
       odom::turnTo(270);
       blocker->toggle();
+      intake_motor->move(-127);
       odom::moveDistance(-30, 1'500, pushParams);
       odom::moveDistance(30, 2'500);
     } break;
