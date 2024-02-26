@@ -19,7 +19,7 @@ ExitCondition::ExitCondition(const float range, const int time)
  * @return true exit condition met
  * @return false exit condition not met
  */
-bool ExitCondition::getExit() { return done; }
+bool ExitCondition::getExit() const { return done; }
 
 /**
  * @brief update the exit condition
@@ -46,4 +46,9 @@ bool ExitCondition::update(const float input) {
 void ExitCondition::reset() {
   startTime = -1;
   done = false;
+}
+
+void ExitCondition::setExit(const float range, const int time) {
+  this->range = range;
+  this->time = time;
 }

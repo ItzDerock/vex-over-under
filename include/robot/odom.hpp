@@ -4,6 +4,20 @@
 #include "main.h"
 #include "position.hpp"
 
+/****************
+ * CONSTANTS for settlement behavior
+ * Format: range, time
+ ****************/
+#define LATERAL_LARGE_EXIT 4, 300
+#define LATERAL_SMALL_EXIT 1, 100
+#define ANGULAR_LARGE_EXIT 3, 300
+#define ANGULAR_SMALL_EXIT 1, 150
+
+#define CHAINED_LATERAL_LARGE_EXIT 4, 100
+#define CHAINED_LATERAL_SMALL_EXIT 1, 50
+#define CHAINED_ANGULAR_LARGE_EXIT 3, 100
+#define CHAINED_ANGULAR_SMALL_EXIT 2, 50
+
 namespace odom {
 
 /**
@@ -87,6 +101,16 @@ void moveDistance(double distance, double timeout = 10'000,
  */
 void moveTo(float x, float y, float theta, int timeout, MoveToPoseParams params,
             bool async = false);
+
+/**
+ * Lowers the requirements for settlement for the next `amount` movement
+ * commands. This is useful for chaining movements together without having to
+ * wait for the robot to fully settle.
+ *
+ * @param amount the amount of movement commands to lower the requirements for
+ */
+void startChainedMovement(int amount);
+
 /**
  * The odometry mutex. Use whenever you are reading values.
  */

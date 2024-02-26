@@ -1,7 +1,6 @@
 #include "main.h"
 
 #include "config.hpp"
-#include "gif-pros/gifclass.hpp"
 #include "pros-mpeg/mpeg.hpp"
 #include "pros/misc.h"
 #include "robot/odom.hpp"
@@ -71,12 +70,9 @@ void autonomous() {
       // move to launch position
       odom::moveDistance(-40, 1'000,
                          {.chasePower = 500, .slew = 127, .exitOnStall = true});
-      odom::moveDistance(8, 1'000);
-      odom::turnTo(63);
+      odom::moveDistance(9, 1'000);
+      odom::turnTo(71.2);
       odom::moveDistance(-8.5, 1'000);
-      // odom::moveDistance(-9, 5'000);
-      // odom::turnTo(60);
-      // odom::moveDistance(-7.5, 2'500);
 
       // fire
       blocker->extend();
@@ -89,7 +85,6 @@ void autonomous() {
       blocker->retract();
 
       // move to other side
-      // temp task
       pros::Task([]() {
         pros::delay(400);
         wings->toggle();
@@ -98,6 +93,8 @@ void autonomous() {
         wings->toggle();
         wings_2->toggle();
       });
+      odom::startChainedMovement(255);  // chain for rest of time because
+                                        // accuracy not super important here.
       odom::moveTo(-33, -64, 90, 2'500, {.chasePower = 5, .lead = 0.55}, false);
 
       // toggle wings
@@ -109,7 +106,7 @@ void autonomous() {
                     .slew = 127,
                     .forwards = false,
                     .exitOnStall = true},
-                   false);
+                   false);  // left push
 
       odom::moveDistance(8);
       odom::turnTo(115);

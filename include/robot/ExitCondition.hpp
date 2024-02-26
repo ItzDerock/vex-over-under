@@ -16,7 +16,7 @@ class ExitCondition {
    * @return true exit condition met
    * @return false exit condition not met
    */
-  bool getExit();
+  bool getExit() const;
 
   /**
    * @brief update the exit condition
@@ -33,9 +33,17 @@ class ExitCondition {
    */
   void reset();
 
+  /**
+   * @brief sets the exit conditions
+   *
+   * @param range the range where the countdown is allowed to start
+   * @param time how much time to wait while in range before exiting
+   */
+  void setExit(const float range, const int time);
+
  private:
-  const float range;
-  const int time;
+  float range;
+  int time;
   int startTime = -1;
   bool done = false;
 };

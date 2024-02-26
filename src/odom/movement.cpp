@@ -2,10 +2,8 @@
 #include "robot/odom.hpp"
 #include "robot/utils.hpp"
 
-#define SETTLED_TIME 3000  // milliseconds
-
+int chainedMovementCount = 0;
 odom::Autonomous odom::autonomous = odom::Autonomous::None;
-// TODO: switch to NONE for comp
 
 std::shared_ptr<PIDController> odom::turnPID =
     std::make_shared<PIDController>(5, 0, 20);
@@ -13,21 +11,14 @@ std::shared_ptr<PIDController> odom::drivePID =
     std::make_shared<PIDController>(32, 0, 20);
 
 std::shared_ptr<ExitCondition> odom::lateralLargeExit =
-    std::make_shared<ExitCondition>(4, 300);
+    std::make_shared<ExitCondition>(LATERAL_LARGE_EXIT);
 std::shared_ptr<ExitCondition> odom::lateralSmallExit =
-    std::make_shared<ExitCondition>(1, 100);
+    std::make_shared<ExitCondition>(LATERAL_SMALL_EXIT);
 
 std::shared_ptr<ExitCondition> odom::angularLargeExit =
-    std::make_shared<ExitCondition>(3, 300);
+    std::make_shared<ExitCondition>(ANGULAR_LARGE_EXIT);
 std::shared_ptr<ExitCondition> odom::angularSmallExit =
-    std::make_shared<ExitCondition>(1, 150);
-
-// /**
-//  * Returns the distance between two points
-//  */
-// double distance(odom::RobotPosition a, odom::RobotPosition b) {
-//   return sqrt(pow(a.x - b.x, 2) + pow(a.y - b.y, 2));
-// }
+    std::make_shared<ExitCondition>(ANGULAR_SMALL_EXIT);
 
 /**
  * @brief Simple function to check if everything's settled
@@ -38,6 +29,27 @@ inline bool isSettled() {
          odom::lateralSmallExit->getExit();
 }
 
+/**
+ * @brief Updates the settlement requirements based on the current chained
+ * movement amount
+ */
+inline void updateSettlement() {
+  if (chainedMovementCount > 0) {
+    odom::lateralLargeExit->setExit(CHAINED_LATERAL_LARGE_EXIT);
+    odom::lateralSmallExit->setExit(CHAINED_LATERAL_SMALL_EXIT);
+    odom::angularLargeExit->setExit(CHAINED_ANGULAR_LARGE_EXIT);
+    odom::angularSmallExit->setExit(CHAINED_ANGULAR_SMALL_EXIT);
+  } else {
+    odom::lateralLargeExit->setExit(LATERAL_LARGE_EXIT);
+    odom::lateralSmallExit->setExit(LATERAL_SMALL_EXIT);
+    odom::angularLargeExit->setExit(ANGULAR_LARGE_EXIT);
+    odom::angularSmallExit->setExit(ANGULAR_SMALL_EXIT);
+  }
+}
+
+/**
+ * @brief Moves the drivetrain (velocity control)
+ */
 void odom::moveVelocity(double left, double right) {
   drive_left_back->move_velocity(left);
   drive_left_front->move_velocity(left);
@@ -47,6 +59,9 @@ void odom::moveVelocity(double left, double right) {
   drive_right_pto->move_velocity(right);
 }
 
+/**
+ * @brief Moves the drivetrain (power control)
+ */
 void odom::move(double left, double right) {
   drive_left_back->move(left);
   drive_left_front->move(left);
@@ -56,8 +71,6 @@ void odom::move(double left, double right) {
   drive_right_pto->move(right);
 }
 
-// void odom::moveToSimple(RobotPosition position, double timeout) {
-// TODO: struct to pass custom slew, max speed, etc
 void odom::moveDistance(double dist, double timeout, MoveToPoseParams params) {
   int8_t sign = dist < 0 ? -1 : 1;
 
@@ -89,69 +102,6 @@ void odom::moveDistance(double dist, double timeout, MoveToPoseParams params) {
                utils::radToDeg(getPosition(false, false).theta), timeout,
                params, false);
 
-  // if (sign < 0) dist = dist * -1;
-
-  // // loop until we are settled
-  // while (!timer.isUp() && !isSettled()) {
-  //   // get the current position
-  //   // note: RADIANS
-  //   RobotPosition position = getPosition(false, true);
-
-  //   // figure out the target angle
-  //   double targetTheta = position.angle(targetPosition);
-
-  //   printf("Target position is: %f, %f\n", targetPosition.x,
-  //   targetPosition.y); printf("Current position is: %f, %f\n", position.x,
-  //   position.y); printf("angle to target: %f\n",
-  //          utils::radToDeg(position.angle(targetPosition)));
-  //   printf("needs to face: %f\n", utils::radToDeg(targetTheta));
-  //   printf("current angle: %f\n", utils::radToDeg(position.theta));
-
-  //   double adjustedRobotTheta =
-  //       sign > 0 ? position.theta : utils::angleSquish(position.theta +
-  //       M_PI);
-
-  //   printf("adjusted robot theta: %f\n",
-  //   utils::radToDeg(adjustedRobotTheta));
-
-  //   // calculate the error
-  //   // $$\text{Distance} = d_i - d_t$$
-  //   distanceError = dist - position.distance(initialPosition);
-  //   angularError = utils::radToDeg(
-  //       utils::angleError(adjustedRobotTheta, targetTheta, true));
-
-  //   printf("distance error: %f\n", distanceError);
-  //   printf("current error is: %f\n", angularError);
-  //   printf("sign is %d\n", sign);
-
-  //   // update the exit conditions
-  //   lateralSmallExit->update(distanceError);
-  //   lateralLargeExit->update(distanceError);
-  //   angularSmallExit->update(angularError);
-  //   angularLargeExit->update(angularError);
-
-  //   // calculate the output
-  //   double output = sign * drivePID->update(distanceError);
-  //   double angularOutput = sign * turnPID->update(angularError);
-
-  //   printf("output: %f\n", output);
-  //   printf("turn out: %f\n", angularOutput);
-
-  //   double left = output + angularError;
-  //   double right = output - angularError;
-
-  //   // const float ratio = std::max(std::fabs(left), std::fabs(right)) / 127;
-  //   // if (ratio > 1) {
-  //   //   left /= ratio;
-  //   //   right /= ratio;
-  //   // }
-
-  //   moveVelocity(left, right);
-
-  //   // wait 10 milliseconds
-  //   pros::delay(10);
-  // }
-
   // stop the motors
   moveVelocity(0, 0);
 }
@@ -177,6 +127,11 @@ void odom::moveTo(float x, float y, float theta, int timeout,
     pros::Task task([&]() { moveTo(x, y, theta, timeout, params, false); });
     pros::delay(10);  // delay to give the task time to start
     return;
+  }
+
+  updateSettlement();
+  if (chainedMovementCount > 0) {
+    chainedMovementCount--;
   }
 
   // reset PIDs and exit conditions
@@ -421,4 +376,9 @@ void odom::turnTo(double degrees, double timeout, double maxSpeed) {
 
   // stop the drivetrain
   move(0, 0);
+}
+
+void odom::startChainedMovement(int amount) {
+  chainedMovementCount = amount;
+  updateSettlement();
 }
