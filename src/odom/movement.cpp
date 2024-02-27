@@ -71,6 +71,19 @@ void odom::move(double left, double right) {
   drive_right_pto->move(right);
 }
 
+/**
+ * @brief Sets the drivetrain brake mode
+ */
+void odom::setChassisBrake(pros::motor_brake_mode_e_t mode) {
+  // use array to set all motors at once
+  std::shared_ptr<pros::Motor> motors[] = {drive_left_back,   drive_left_front,
+                                           drive_left_pto,    drive_right_back,
+                                           drive_right_front, drive_right_pto};
+  for (auto motor : motors) {
+    motor->set_brake_mode(mode);
+  }
+}
+
 void odom::moveDistance(double dist, double timeout, MoveToPoseParams params) {
   int8_t sign = dist < 0 ? -1 : 1;
 

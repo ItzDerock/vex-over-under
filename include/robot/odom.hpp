@@ -118,6 +118,7 @@ extern pros::Mutex mutex;
 
 void moveVelocity(double left, double right);
 void move(double left, double right);
+void setChassisBrake(pros::motor_brake_mode_e_t mode);
 
 /**
  * Autonomous enum

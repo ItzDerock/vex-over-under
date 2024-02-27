@@ -63,6 +63,11 @@ void autonomous() {
   std::cout << "starting" << std::endl;
   odom::MoveToPoseParams pushParams = {
       .chasePower = 100, .slew = 127, .exitOnStall = true};
+  odom::MoveToPoseParams pushParamsWithCurve = {.chasePower = 100,
+                                                .lead = 1,
+                                                .slew = 127,
+                                                .forwards = false,
+                                                .exitOnStall = true};
 
   // SKILLS
   switch (odom::autonomous) {
@@ -70,18 +75,24 @@ void autonomous() {
       // move to launch position
       odom::moveDistance(-40, 1'000,
                          {.chasePower = 500, .slew = 127, .exitOnStall = true});
-      odom::moveDistance(9, 1'000);
+      odom::moveDistance(11, 1'000);
       odom::turnTo(71.2);
-      odom::moveDistance(-8.5, 1'000);
+      odom::moveDistance(-7, 1'000);
 
       // fire
       blocker->extend();
+      odom::setChassisBrake(
+          pros::E_MOTOR_BRAKE_HOLD);  // HOLD doesn't work perfectly, maybe we
+                                      // need to run a PID in background to hold
+                                      // the position (TODO)
       odom::move(-20, -20);
       catapult::rapidFire = true;
       catapult::fire();
-      pros::delay(30'000);
+      // pros::delay(30'000);
+      pros::delay(5'000);
       catapult::rapidFire = false;
       odom::move(0, 0);
+      odom::setChassisBrake(pros::E_MOTOR_BRAKE_COAST);
       blocker->retract();
 
       // move to other side
@@ -95,10 +106,10 @@ void autonomous() {
       });
       odom::startChainedMovement(255);  // chain for rest of time because
                                         // accuracy not super important here.
-      odom::moveTo(-33, -64, 90, 2'500, {.chasePower = 5, .lead = 0.55}, false);
+      odom::moveTo(-33, -63, 90, 2'500, {.chasePower = 5, .lead = 0.55}, false);
 
       // toggle wings
-      odom::moveTo(25, -65, 90, 5'000, {.chasePower = 10, .lead = 0.1}, false);
+      odom::moveTo(25, -63, 90, 5'000, {.chasePower = 10, .lead = 0.1}, false);
       odom::turnTo(255);
       odom::moveTo(60, -22, 180, 2'500,
                    {.chasePower = 20,
@@ -108,12 +119,13 @@ void autonomous() {
                     .exitOnStall = true},
                    false);  // left push
 
-      odom::moveDistance(8);
-      odom::turnTo(115);
-      odom::moveDistance(-40, 5'000);
+      odom::moveDistance(12);
+      odom::turnTo(120);
+      odom::moveDistance(-20);
       blocker->toggle();
-      odom::turnTo(235);
-      odom::moveDistance(-30, 1'500, pushParams);
+
+      odom::moveTo(50, -1.3, 270, 3'000, pushParamsWithCurve);
+      // odom::moveTo(1, 40, )
       odom::moveDistance(30, 2'500);
       blocker->toggle();
       odom::turnTo(180);
