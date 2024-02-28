@@ -80,7 +80,7 @@ void autonomous() {
       odom::moveDistance(-7, 1'000);
 
       // fire
-      blocker->extend();
+      wings_left->extend();
       odom::setChassisBrake(pros::E_MOTOR_BRAKE_HOLD);
       odom::holdAngle(71.2);
       odom::move(-20, -20);
@@ -95,13 +95,13 @@ void autonomous() {
 
       // move to other side
       pros::Task([]() {
-        blocker->retract();
+        wings_left->retract();
         pros::delay(400);
-        wings->toggle();
-        wings_2->toggle();
+        blocker_1->toggle();
+        blocker_2->toggle();
         pros::delay(300);
-        wings->toggle();
-        wings_2->toggle();
+        blocker_1->toggle();
+        blocker_2->toggle();
       });
       odom::startChainedMovement(255);  // chain for rest of time because
                                         // accuracy not super important here.
@@ -121,23 +121,23 @@ void autonomous() {
       odom::moveDistance(12);
       odom::turnTo(120);
       odom::moveDistance(-20);
-      blocker->toggle();
+      wings_left->toggle();
 
       odom::moveTo(50, -1.3, 270, 3'000, pushParamsWithCurve);
       // odom::moveTo(1, 40, )
       odom::moveDistance(30, 2'500);
-      blocker->toggle();
+      wings_left->toggle();
       odom::turnTo(180);
       odom::moveDistance(-50, 2'500);
       odom::turnTo(300);
-      blocker->toggle();
+      wings_left->toggle();
       odom::moveDistance(-30, 1'500, pushParams);
       odom::moveDistance(30, 2'500);
-      blocker->toggle();
+      wings_left->toggle();
       odom::turnTo(0);
       odom::moveDistance(-30, 2'500);
       odom::turnTo(270);
-      blocker->toggle();
+      wings_left->toggle();
       intake_motor->move(-127);
       odom::moveDistance(-30, 1'500, pushParams);
       odom::moveDistance(30, 2'500);
@@ -145,13 +145,13 @@ void autonomous() {
 
     case odom::Autonomous::SixBall: {
       // activate intake
-      wings->toggle();
-      wings_2->toggle();
+      blocker_1->toggle();
+      blocker_2->toggle();
       pros::delay(300);
       intake_motor->move(127);
       pros::delay(300);
-      wings->toggle();
-      wings_2->toggle();
+      blocker_1->toggle();
+      blocker_2->toggle();
       intake_motor->move(40);
 
       // descore corner thingy
@@ -159,12 +159,12 @@ void autonomous() {
       odom::moveTo(18.725, -63.547, 90, 3'000,
                    {.chasePower = 10, .lead = 0, .slew = 127});
       odom::turnTo(220, 2'000, 70);  // TODO: ensure only turns right
-      blocker->extend();
+      wings_left->extend();
       odom::moveTo(
           32, -52.38, 220, 3'000,
           {.chasePower = 20, .lead = 0.3, .slew = 127, .forwards = false});
       odom::turnTo(150);
-      blocker->retract();
+      wings_left->retract();
       intake_motor->move(-127);
       odom::moveTo(39, -30.38, 180, 3'000,
                    {.chasePower = 20,
@@ -179,7 +179,7 @@ void autonomous() {
                          {.chasePower = 500, .slew = 127, .exitOnStall = true});
 
       // push 2
-      blocker->retract();
+      wings_left->retract();
       odom::moveDistance(20, 1'000);
       // odom::moveDistance(8, 1'000);
       // odom::turnTo(20);
@@ -200,7 +200,7 @@ void autonomous() {
       odom::moveTo(-10, -8, angleToBall1, 2'000,
                    {.chasePower = 10, .slew = 4, .forwards = false}, false);
       odom::turnTo(270, 2'500, 60);
-      blocker->extend();
+      wings_left->extend();
       intake_motor->move(-127);
       odom::moveDistance(-30, 1'000, {.slew = 127, .exitOnStall = true});
       odom::moveDistance(5, 1'000);
@@ -211,9 +211,9 @@ void autonomous() {
 
       intake_motor->move(0);
       odom::turnTo(216, 2'000);
-      blocker->retract();
-      wings->extend();
-      wings_2->extend();
+      wings_left->retract();
+      blocker_1->extend();
+      blocker_2->extend();
       odom::moveDistance(50, 1'000);
 
     } break;
@@ -312,13 +312,13 @@ void opcontrol() {
 
     // wings
     if (master.get_digital_new_press(DIGITAL_L2)) {
-      wings->toggle();
-      wings_2->toggle();
+      blocker_1->toggle();
+      blocker_2->toggle();
     }
 
     // blocker
     if (master.get_digital_new_press(DIGITAL_L1)) {
-      blocker->toggle();
+      wings_left->toggle();
     }
 
     if (master.get_digital_new_press(DIGITAL_LEFT)) {

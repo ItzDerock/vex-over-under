@@ -88,11 +88,12 @@ extern SHARED(pros::Motor, catapult_motor);
 extern SHARED(pros::Rotation, catapult_position);
 
 ///// Wings
-extern SHARED(pros::adi::Pneumatics, wings);
-extern SHARED(pros::adi::Pneumatics, wings_2);
+extern SHARED(pros::adi::Pneumatics, wings_left);
+// todo: separate wings
 
 ///// Blocker
-extern SHARED(pros::adi::Pneumatics, blocker);
+extern SHARED(pros::adi::Pneumatics, blocker_1);
+extern SHARED(pros::adi::Pneumatics, blocker_2);
 
 ///// Intake
 extern SHARED(pros::Motor, intake_motor);
