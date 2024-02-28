@@ -144,7 +144,7 @@ void autonomous() {
       odom::moveDistance(30, 2'500);
     } break;
 
-    case odom::Autonomous::ScoreLeft: {
+    case odom::Autonomous::SixBall: {
       // activate intake
       wings->toggle();
       wings_2->toggle();

@@ -52,7 +52,7 @@ static void reset_position_event_cb(lv_event_t *event) {
             {-35, -70 + (double)DRIVE_TRACK_WIDTH / 2, utils::degToRad(90)});
         break;
 
-      case odom::Autonomous::ScoreLeft:
+      case odom::Autonomous::SixBall:
         odom::reset(
             {-8, -70 + (double)DRIVE_TRACK_WIDTH / 2, utils::degToRad(90)});
         break;
@@ -93,7 +93,7 @@ void screen::initAutonSelector(MPEGPlayer *video) {
 
   // create the options for the dropdown
   lv_dropdown_set_options(dropdown,
-                          "Score Left\nScore Simple\nTouch Bar\nSkills\nNone");
+                          "None\nSkills\nSix Ball\nTouch Bar\nDefense");
   lv_obj_add_event_cb(dropdown, auto_dropdown_select, LV_EVENT_VALUE_CHANGED,
                       NULL);
 

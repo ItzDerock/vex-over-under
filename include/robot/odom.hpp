@@ -123,7 +123,8 @@ void setChassisBrake(pros::motor_brake_mode_e_t mode);
 /**
  * Autonomous enum
  */
-enum class Autonomous { ScoreLeft, ScoreSimple, TouchBar, Skills, None };
+// enum class Autonomous { ScoreLeft, ScoreSimple, TouchBar, Skills, None };
+enum class Autonomous { None, Skills, SixBall, TouchBar, Defense };
 
 /**
  * follow pure pursuit path
