@@ -81,10 +81,8 @@ void autonomous() {
 
       // fire
       blocker->extend();
-      odom::setChassisBrake(
-          pros::E_MOTOR_BRAKE_HOLD);  // HOLD doesn't work perfectly, maybe we
-                                      // need to run a PID in background to hold
-                                      // the position (TODO)
+      odom::setChassisBrake(pros::E_MOTOR_BRAKE_HOLD);
+      odom::holdAngle(71.2);
       odom::move(-20, -20);
       catapult::rapidFire = true;
       catapult::fire();
@@ -93,10 +91,11 @@ void autonomous() {
       catapult::rapidFire = false;
       odom::move(0, 0);
       odom::setChassisBrake(pros::E_MOTOR_BRAKE_COAST);
-      blocker->retract();
+      odom::holdAngle(-1);
 
       // move to other side
       pros::Task([]() {
+        blocker->retract();
         pros::delay(400);
         wings->toggle();
         wings_2->toggle();
@@ -222,6 +221,10 @@ void autonomous() {
     case odom::Autonomous::TouchBar: {
       odom::moveDistance(-12, 1'000,
                          {.maxSpeed = 80, .chasePower = 5, .slew = 5});
+    } break;
+
+    case odom::Autonomous::Defense: {
+      // TODO
     } break;
 
     default:

@@ -121,6 +121,12 @@ void move(double left, double right);
 void setChassisBrake(pros::motor_brake_mode_e_t mode);
 
 /**
+ * Holds the robot facing a certain angle.
+ * @param angle the angle to hold the robot at (-1 to disable)
+ */
+void holdAngle(double angle);
+
+/**
  * Autonomous enum
  */
 // enum class Autonomous { ScoreLeft, ScoreSimple, TouchBar, Skills, None };

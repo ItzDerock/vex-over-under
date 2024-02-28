@@ -370,10 +370,6 @@ void odom::turnTo(double degrees, double timeout, double maxSpeed) {
     RobotPosition pose = getPosition(true);
     double error = utils::angleError(pose.theta, degrees);
 
-    printf("pose: %f\n", pose.theta);
-    printf("target: %f\n", degrees);
-    printf("error: %f\n", error);
-
     // calculate the output from the PID
     double power = turnPID->update(error);
     angularLargeExit->update(error);
