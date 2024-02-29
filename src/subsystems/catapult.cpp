@@ -11,6 +11,8 @@ catapult::CatapultState catapult::catapultState = RELOADING;
 pros::Task *catapult::catapultTask = nullptr;
 bool catapult::rapidFire = false;
 
+#define FIRE_SPEED 127
+
 /**
  * A simple state machine-like function to handle catapult control.
  * NOTE: The rotational sensor is BACKWARDS, catapult DOWN = DECREASED ANGLE!
@@ -30,9 +32,9 @@ void catapult::update() {
   if (catapultState == READY) {
     if (position > CATAPULT_READY_STATE + CATAPULT_ALLOWED_ERROR) {
       catapultState = RELOADING;
-      catapult_motor->move(127);
+      catapult_motor->move(FIRE_SPEED);
     } else {
-      catapult_motor->move_velocity(0);
+      catapult_motor->move(0);
       return;
     }
   }
@@ -41,20 +43,20 @@ void catapult::update() {
   // rapidFire needs to be false
   if (error < CATAPULT_ALLOWED_ERROR && catapultState != FIRING && !rapidFire) {
     catapultState = READY;
-    catapult_motor->move_velocity(0);
+    catapult_motor->move(0);
     return;
   }
 
   // reload if error > 20deg
   if (error > 30 && catapultState == FIRING) catapultState = RELOADING;
 
-  catapult_motor->move(127);
+  catapult_motor->move(FIRE_SPEED);
 }
 
 void catapult::fire() {
   // if we're ready, fire
   if (catapultState == READY) {
-    catapult_motor->move_velocity(100);
+    catapult_motor->move(FIRE_SPEED);
 
     pros::Task([] {
       pros::delay(300);
