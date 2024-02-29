@@ -42,9 +42,10 @@ SHARED(pros::Imu, inertial, ODOM_INERTIAL);
 
 SHARED(pros::Motor, catapult_motor, CATAPULT_PORT, pros::v5::MotorGear::red);
 SHARED(pros::Rotation, catapult_position, CATAPULT_ROT_PORT);
-SHARED(pros::adi::Pneumatics, blocker_1, WINGS_PORT, false);
-SHARED(pros::adi::Pneumatics, blocker_2, WINGS_PORT_2, false);
-SHARED(pros::adi::Pneumatics, wings_left, BLOCKER_PORT, false);
+SHARED(pros::adi::Pneumatics, blocker_1, BLOCKER_1, false);
+SHARED(pros::adi::Pneumatics, blocker_2, BLOCKER_2, false);
+SHARED(pros::adi::Pneumatics, wings_left, WINGS_LEFT, false);
+SHARED(pros::adi::Pneumatics, wings_right, WINGS_RIGHT, false);
 SHARED(pros::Motor, intake_motor, INTAKE_PORT, pros::v5::MotorGear::blue);
 
 #undef SHARED

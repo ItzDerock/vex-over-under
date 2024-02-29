@@ -27,11 +27,12 @@
 #define INTAKE_PORT 9
 
 // WINGS
-#define WINGS_PORT 'g'
-#define WINGS_PORT_2 'h'
+#define BLOCKER_1 'g'
+#define BLOCKER_2 'h'
 
 // BLOCKER
-#define BLOCKER_PORT 'a'
+#define WINGS_LEFT 'a'
+#define WINGS_RIGHT 'b'
 
 /*************************
  * VARIABLE DECLARATIONS *
@@ -89,6 +90,7 @@ extern SHARED(pros::Rotation, catapult_position);
 
 ///// Wings
 extern SHARED(pros::adi::Pneumatics, wings_left);
+extern SHARED(pros::adi::Pneumatics, wings_right);
 // todo: separate wings
 
 ///// Blocker

@@ -159,12 +159,12 @@ void autonomous() {
       odom::moveTo(18.725, -63.547, 90, 3'000,
                    {.chasePower = 10, .lead = 0, .slew = 127});
       odom::turnTo(220, 2'000, 70);  // TODO: ensure only turns right
-      wings_left->extend();
+      wings_right->extend();
       odom::moveTo(
           32, -52.38, 220, 3'000,
           {.chasePower = 20, .lead = 0.3, .slew = 127, .forwards = false});
       odom::turnTo(150);
-      wings_left->retract();
+      wings_right->retract();
       intake_motor->move(-127);
       odom::moveTo(39, -30.38, 180, 3'000,
                    {.chasePower = 20,
@@ -179,7 +179,7 @@ void autonomous() {
                          {.chasePower = 500, .slew = 127, .exitOnStall = true});
 
       // push 2
-      wings_left->retract();
+      // wings_left->retract();
       odom::moveDistance(20, 1'000);
       // odom::moveDistance(8, 1'000);
       // odom::turnTo(20);
@@ -201,6 +201,7 @@ void autonomous() {
                    {.chasePower = 10, .slew = 4, .forwards = false}, false);
       odom::turnTo(270, 2'500, 60);
       wings_left->extend();
+      wings_right->extend();
       intake_motor->move(-127);
       odom::moveDistance(-30, 1'000, {.slew = 127, .exitOnStall = true});
       odom::moveDistance(5, 1'000);
@@ -212,6 +213,7 @@ void autonomous() {
       intake_motor->move(0);
       odom::turnTo(216, 2'000);
       wings_left->retract();
+      wings_right->retract();
       blocker_1->extend();
       blocker_2->extend();
       odom::moveDistance(50, 1'000);
@@ -266,7 +268,7 @@ void opcontrol() {
     double turn = master.get_analog(ANALOG_LEFT_X);
 
     // small deadzone
-    if (fabs(throttle) < 2) {
+    if (fabs(throttle) < 4) {
       double leftPower = driveCurve(turn);
 
       odom::move(leftPower, -leftPower);
@@ -308,17 +310,21 @@ void opcontrol() {
 
     // intake
     intake_motor->move(master.get_digital(DIGITAL_R1) * 127 -
-                       master.get_digital(DIGITAL_R2) * 127);
+                       master.get_digital(DIGITAL_L1) * 127);
 
     // wings
+    if (master.get_digital_new_press(DIGITAL_R2)) {
+      wings_right->toggle();
+    }
+
     if (master.get_digital_new_press(DIGITAL_L2)) {
-      blocker_1->toggle();
-      blocker_2->toggle();
+      wings_left->toggle();
     }
 
     // blocker
-    if (master.get_digital_new_press(DIGITAL_L1)) {
-      wings_left->toggle();
+    if (master.get_digital_new_press(DIGITAL_UP)) {
+      blocker_1->toggle();
+      blocker_2->toggle();
     }
 
     if (master.get_digital_new_press(DIGITAL_LEFT)) {
