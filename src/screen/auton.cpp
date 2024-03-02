@@ -57,6 +57,10 @@ static void reset_position_event_cb(lv_event_t *event) {
             {-8, -70 + (double)DRIVE_TRACK_WIDTH / 2, utils::degToRad(90)});
         break;
 
+      case odom::Autonomous::Defense:
+        odom::reset({-60, -40, M_PI});
+        break;
+
       default:
         odom::reset({0, 0, 0});
         break;

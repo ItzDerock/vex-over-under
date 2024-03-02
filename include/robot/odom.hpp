@@ -127,6 +127,16 @@ void setChassisBrake(pros::motor_brake_mode_e_t mode);
 void holdAngle(double angle);
 
 /**
+ * Waits until the robot is settled
+ */
+void waitUntilSettled(uint timeout = 10'000);
+
+/**
+ * Waits until a certain distance is reached
+ */
+void waitUntilDistance(double distance, uint timeout = 10'000);
+
+/**
  * Autonomous enum
  */
 // enum class Autonomous { ScoreLeft, ScoreSimple, TouchBar, Skills, None };

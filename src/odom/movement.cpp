@@ -3,10 +3,11 @@
 #include "robot/utils.hpp"
 
 int chainedMovementCount = 0;
+float distanceTravelled = -1;
 odom::Autonomous odom::autonomous = odom::Autonomous::None;
 
 std::shared_ptr<PIDController> odom::turnPID =
-    std::make_shared<PIDController>(5, 0, 20);
+    std::make_shared<PIDController>(5, 0, 25);
 std::shared_ptr<PIDController> odom::drivePID =
     std::make_shared<PIDController>(32, 0, 20);
 
@@ -142,10 +143,14 @@ void odom::moveTo(float x, float y, float theta, int timeout,
     return;
   }
 
+  // update settlement behavior for chained PID movement
   updateSettlement();
   if (chainedMovementCount > 0) {
     chainedMovementCount--;
   }
+
+  // set initial distance travelled
+  distanceTravelled = 0;
 
   // reset PIDs and exit conditions
   drivePID->reset();
@@ -167,7 +172,6 @@ void odom::moveTo(float x, float y, float theta, int timeout,
 
   // initialize vars used between iterations
   RobotPosition lastPose = getPosition();
-  int distTravelled = 0;
   utils::Timer timer(timeout);
   bool close = false;
   bool lateralSettled = false;
@@ -185,7 +189,7 @@ void odom::moveTo(float x, float y, float theta, int timeout,
     RobotPosition pose = getPosition(false, true);
 
     // stall detection
-    if (params.exitOnStall && distTravelled > 0) {
+    if (params.exitOnStall && distanceTravelled > 0) {
       // require to be at least 50% of the way to the target
       double distanceToTarget = pose.distance(target);
       double distanceTravelled = pose.distance(startingPosition);
@@ -200,7 +204,7 @@ void odom::moveTo(float x, float y, float theta, int timeout,
     }
 
     // update distance travelled
-    distTravelled += pose.distance(lastPose);
+    distanceTravelled += pose.distance(lastPose);
     lastPose = pose;
 
     // calculate distance to the target point
@@ -220,7 +224,6 @@ void odom::moveTo(float x, float y, float theta, int timeout,
     RobotPosition carrot =
         target - RobotPosition(cos(target.theta), sin(target.theta), 0) *
                      params.lead * distTarget;
-    printf("carrot: %f, %f\n", carrot.x, carrot.y);
 
     if (close) carrot = target;  // settling behavior
 
@@ -266,8 +269,6 @@ void odom::moveTo(float x, float y, float theta, int timeout,
 
     float lateralError = pose.distance(carrot);
 
-    // printf("distance: %f\n", lateralError);
-
     // only use cos when settling
     // otherwise just multiply by the sign of cos
     // maxSlipSpeed takes care of lateralOut
@@ -276,8 +277,6 @@ void odom::moveTo(float x, float y, float theta, int timeout,
       lateralError *= cosTheta;
     else
       lateralError *= utils::sgn(cosTheta);
-
-    printf("lateralError: %f\n", lateralError);
 
     // update exit conditions
     lateralSmallExit->update(lateralError);
@@ -345,12 +344,21 @@ void odom::moveTo(float x, float y, float theta, int timeout,
 
   // stop the drivetrain
   move(0, 0);
+
+  // reset distancedTravelled to indicate we are done
+  distanceTravelled = -1;
 }
 
 /**
  * @brief Turns to a given angle
  */
 void odom::turnTo(double degrees, double timeout, double maxSpeed) {
+  // check chained movement
+  updateSettlement();
+  if (chainedMovementCount > 0) {
+    chainedMovementCount--;
+  }
+
   // reset angular controllers/exit conditions
   turnPID->reset();
   angularLargeExit->reset();
@@ -390,4 +398,21 @@ void odom::turnTo(double degrees, double timeout, double maxSpeed) {
 void odom::startChainedMovement(int amount) {
   chainedMovementCount = amount;
   updateSettlement();
+}
+
+void odom::waitUntilSettled(uint timeout) {
+  utils::Timer timer(timeout);
+
+  while (distanceTravelled != -1 && !timer.isUp()) {
+    pros::delay(20);
+  }
+}
+
+void odom::waitUntilDistance(double distance, uint timeout) {
+  utils::Timer timer(timeout);
+
+  while (distanceTravelled < distance && distanceTravelled != -1 &&
+         !timer.isUp()) {
+    pros::delay(20);
+  }
 }

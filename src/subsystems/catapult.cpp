@@ -11,7 +11,7 @@ catapult::CatapultState catapult::catapultState = RELOADING;
 pros::Task *catapult::catapultTask = nullptr;
 bool catapult::rapidFire = false;
 
-#define FIRE_SPEED 127
+#define FIRE_SPEED 140
 
 /**
  * A simple state machine-like function to handle catapult control.

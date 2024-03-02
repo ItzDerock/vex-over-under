@@ -60,34 +60,38 @@ void competition_initialize() {}
 void autonomous() {
   odom::RobotPosition start = odom::getPosition();
 
-  std::cout << "starting" << std::endl;
-  odom::MoveToPoseParams pushParams = {
+  const odom::MoveToPoseParams pushParams = {
       .chasePower = 100, .slew = 127, .exitOnStall = true};
-  odom::MoveToPoseParams pushParamsWithCurve = {.chasePower = 100,
-                                                .lead = 1,
-                                                .slew = 127,
-                                                .forwards = false,
-                                                .exitOnStall = true};
+  const odom::MoveToPoseParams pushParamsWithCurve = {.chasePower = 100,
+                                                      .lead = 0.3,
+                                                      .slew = 127,
+                                                      .forwards = false,
+                                                      .exitOnStall = true};
 
   // SKILLS
   switch (odom::autonomous) {
     case odom::Autonomous::Skills: {
       // move to launch position
-      odom::moveDistance(-40, 1'000,
-                         {.chasePower = 500, .slew = 127, .exitOnStall = true});
+      odom::moveTo(-54, -30, 180, 2'000,
+                   {.chasePower = 127,
+                    .lead = 0.3,
+                    .slew = 127,
+                    .forwards = false,
+                    .exitOnStall = true});
       odom::moveDistance(11, 1'000);
-      odom::turnTo(71.2);
+      odom::turnTo(69.2);
+      odom::startChainedMovement(1);
       odom::moveDistance(-7, 1'000);
+      wings_left->extend();
 
       // fire
-      wings_left->extend();
       odom::setChassisBrake(pros::E_MOTOR_BRAKE_HOLD);
-      odom::holdAngle(71.2);
+      odom::holdAngle(69.2);
       odom::move(-20, -20);
       catapult::rapidFire = true;
       catapult::fire();
-      // pros::delay(30'000);
-      pros::delay(5'000);
+      pros::delay(30'000);
+      // pros::delay(5'000);
       catapult::rapidFire = false;
       odom::move(0, 0);
       odom::setChassisBrake(pros::E_MOTOR_BRAKE_COAST);
@@ -103,14 +107,14 @@ void autonomous() {
         blocker_1->toggle();
         blocker_2->toggle();
       });
-      odom::startChainedMovement(255);  // chain for rest of time because
-                                        // accuracy not super important here.
+
       odom::moveTo(-33, -63, 90, 2'500, {.chasePower = 5, .lead = 0.55}, false);
 
       // toggle wings
       odom::moveTo(25, -63, 90, 5'000, {.chasePower = 10, .lead = 0.1}, false);
       odom::turnTo(255);
-      odom::moveTo(60, -22, 180, 2'500,
+      wings_left->extend();
+      odom::moveTo(62, -22, 180, 2'500,
                    {.chasePower = 20,
                     .lead = 0.43,
                     .slew = 127,
@@ -118,33 +122,55 @@ void autonomous() {
                     .exitOnStall = true},
                    false);  // left push
 
-      odom::moveDistance(12);
-      odom::turnTo(120);
-      odom::moveDistance(-20);
-      wings_left->toggle();
-
-      odom::moveTo(50, -1.3, 270, 3'000, pushParamsWithCurve);
-      // odom::moveTo(1, 40, )
-      odom::moveDistance(30, 2'500);
-      wings_left->toggle();
-      odom::turnTo(180);
-      odom::moveDistance(-50, 2'500);
-      odom::turnTo(300);
-      wings_left->toggle();
-      odom::moveDistance(-30, 1'500, pushParams);
-      odom::moveDistance(30, 2'500);
-      wings_left->toggle();
-      odom::turnTo(0);
-      odom::moveDistance(-30, 2'500);
+      odom::moveDistance(6);
+      wings_left->retract();
       odom::turnTo(270);
-      wings_left->toggle();
-      intake_motor->move(-127);
-      odom::moveDistance(-30, 1'500, pushParams);
-      odom::moveDistance(30, 2'500);
+      odom::startChainedMovement(255);  // chain for rest of time because
+                                        // accuracy not super important here.
+      odom::moveTo(12, -28, 270, 2'500, {.chasePower = 10, .lead = 0}, false);
+      odom::turnTo(210);
+      wings_left->extend();
+      wings_right->extend();
+      odom::moveTo(42, -6, 270, 2'500, pushParamsWithCurve, false);
+
+      // back up for push 2
+      odom::moveDistance(5, 1'000);
+      wings_left->retract();
+      wings_right->retract();
+      odom::moveDistance(10, 1'000);
+
+      // position for push 2
+      odom::moveTo(10, 40, 0, 5'000,
+                   {.chasePower = 20, .lead = 0.3, .exitOnStall = true}, false);
+      odom::turnTo(325);
+
+      // push!
+      wings_left->extend();
+      wings_right->extend();
+      odom::moveTo(45, 4, 270, 5'000, pushParamsWithCurve, false);
+      odom::moveDistance(5, 1'000);
+      wings_left->retract();
+      wings_right->retract();
+
+      // last stretch
+      odom::moveTo(12, 10, 270, 2'000,
+                   {.chasePower = 20, .lead = 0.3, .forwards = false}, false);
+      odom::turnTo(212);
+      wings_left->extend();
+      wings_right->extend();
+      odom::moveTo(39, 43, 250, 5'000,
+                   {.chasePower = 20, .lead = 0.4, .forwards = false}, false);
+      wings_right->retract();
+      odom::moveTo(60, 40, 0, 5'000,
+                   {.chasePower = 20, .lead = 0.3, .forwards = false}, false);
+      odom::moveDistance(-20, 1'000, pushParams);
+      odom::moveDistance(5, 1'000);
+      wings_left->retract();
+
     } break;
 
     case odom::Autonomous::SixBall: {
-      // activate intake
+      // Gets the ball under the intake and releases intake from stored position
       blocker_1->toggle();
       blocker_2->toggle();
       pros::delay(300);
@@ -153,18 +179,30 @@ void autonomous() {
       blocker_1->toggle();
       blocker_2->toggle();
       intake_motor->move(40);
+      // ---
 
-      // descore corner thingy
-      // odom::moveDistance(33, 3'000, {.slew = 10});
+      // Lines up to descore corner ball
       odom::moveTo(18.725, -63.547, 90, 3'000,
                    {.chasePower = 10, .lead = 0, .slew = 127});
       odom::turnTo(220, 2'000, 70);  // TODO: ensure only turns right
+      // ----
+
+      // Descores corner ball
       wings_right->extend();
-      odom::moveTo(
-          32, -52.38, 220, 3'000,
-          {.chasePower = 20, .lead = 0.3, .slew = 127, .forwards = false});
-      odom::turnTo(150);
+      odom::startChainedMovement(5);
+      odom::moveTo(32.5, -52.38, 220, 3'000,
+                   {.chasePower = 30,
+                    .lead = 0.3,
+                    .slew = 127,
+                    .forwards = false,
+                    .exitOnStall = true});  // CHAINED 1
+      // small turn to ensure descored
+      odom::turnTo(150);  // CHAINED 2
+      // ---
+
+      // Does a push to ensure all balls scored in goal
       wings_right->retract();
+      wings_left->extend();
       intake_motor->move(-127);
       odom::moveTo(39, -30.38, 180, 3'000,
                    {.chasePower = 20,
@@ -172,31 +210,21 @@ void autonomous() {
                     .slew = 127,
                     .forwards = false,
                     .exitOnStall = true,
-                    .stallThreshold = 2});
+                    .stallThreshold = 2});  // CHAINED 3
 
-      odom::moveDistance(5);
-      odom::moveDistance(-5, 1'000,
-                         {.chasePower = 500, .slew = 127, .exitOnStall = true});
+      odom::moveDistance(5);                      // CHAINED 4
+      odom::moveDistance(-5, 1'000, pushParams);  // CHAINED 5
+      wings_left->retract();
+      // ---
 
-      // push 2
-      // wings_left->retract();
+      // line up for middle ball
       odom::moveDistance(20, 1'000);
-      // odom::moveDistance(8, 1'000);
-      // odom::turnTo(20);
-      // odom::moveDistance(15, 1'000);
-      // odom::moveDistance(-14, 1'000);
 
-      // 17,-53
-      // 45,40
-
-      // -25, -6
-
+      // go to ball
       double angleToBall1 = utils::radToDeg(utils::angleSquish(
           odom::getPosition(false, false).angle({-10, -8, 0})));
 
-      // odom::turnTo(angleToBall1, 2'000);
       intake_motor->move(60);
-      // odom::moveDistance(-63, 2'000);
       odom::moveTo(-10, -8, angleToBall1, 2'000,
                    {.chasePower = 10, .slew = 4, .forwards = false}, false);
       odom::turnTo(270, 2'500, 60);
@@ -205,18 +233,15 @@ void autonomous() {
       intake_motor->move(-127);
       odom::moveDistance(-30, 1'000, {.slew = 127, .exitOnStall = true});
       odom::moveDistance(5, 1'000);
-
-      // -22, -44
-      // double angleToPole = utils::radToDeg(utils::angleSquish(
-      //     odom::getPosition(false, false).angle({-22, -46, 0})));
-
       intake_motor->move(0);
       odom::turnTo(216, 2'000);
       wings_left->retract();
       wings_right->retract();
+
+      // touch bar
       blocker_1->extend();
       blocker_2->extend();
-      odom::moveDistance(50, 1'000);
+      odom::moveDistance(50, 1'000);  // TODO: absolute
 
     } break;
 
@@ -226,7 +251,43 @@ void autonomous() {
     } break;
 
     case odom::Autonomous::Defense: {
-      // TODO
+      // nav to middle ball
+      odom::startChainedMovement(2);
+      odom::moveDistance(-6, 500);
+      odom::moveTo(
+          -55, 0, 196, 5'000,
+          {.chasePower = 5000, .lead = -0.15, .slew = 127, .forwards = false},
+          true);
+
+      // release intake
+      blocker_1->extend();
+      blocker_2->extend();
+      pros::delay(100);
+      intake_motor->move(127);
+      pros::delay(200);
+      blocker_1->retract();
+      blocker_2->retract();
+      odom::waitUntilSettled(5'000);
+      pros::delay(100);
+      // intake_motor->move(60 /);
+
+      // go back to start
+      odom::moveTo(-88, -28, 305, 2'000, {.lead = 0.3});
+      wings_right->extend();
+      odom::moveDistance(-16, 2'000);
+      odom::turnTo(270);
+      wings_right->retract();
+
+      intake_motor->move(-60);
+      odom::moveTo(-37, -39, 270, 5'000,
+                   {.chasePower = 8, .lead = 0.1, .forwards = false});
+      blocker_1->extend();
+      blocker_2->extend();
+      wings_left->extend();
+      pros::delay(500);
+      blocker_1->retract();
+      blocker_2->retract();
+
     } break;
 
     default:
@@ -313,12 +374,18 @@ void opcontrol() {
                        master.get_digital(DIGITAL_L1) * 127);
 
     // wings
-    if (master.get_digital_new_press(DIGITAL_R2)) {
-      wings_right->toggle();
-    }
+    if (master.get_digital_new_press(DIGITAL_R2) ||
+        master.get_digital_new_press(DIGITAL_L2)) {
+      bool extended = wings_left->is_extended() || wings_right->is_extended();
 
-    if (master.get_digital_new_press(DIGITAL_L2)) {
-      wings_left->toggle();
+      if (extended) {
+        // retract
+        wings_left->retract();
+        wings_right->retract();
+      } else {
+        wings_left->extend();
+        wings_right->extend();
+      }
     }
 
     // blocker
@@ -329,6 +396,7 @@ void opcontrol() {
 
     if (master.get_digital_new_press(DIGITAL_LEFT)) {
       dtReversed = !dtReversed;
+      master.rumble(dtReversed ? "-" : ".");
     }
 
     catapult::ensureTask();
