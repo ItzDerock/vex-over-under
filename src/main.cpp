@@ -162,8 +162,12 @@ void autonomous() {
                    {.chasePower = 20, .lead = 0.4, .forwards = false}, false);
       wings_right->retract();
       odom::moveTo(60, 40, 0, 5'000,
-                   {.chasePower = 20, .lead = 0.3, .forwards = false}, false);
-      odom::moveDistance(-20, 1'000, pushParams);
+                   {.chasePower = 20,
+                    .lead = 0.3,
+                    .forwards = false,
+                    .exitOnStall = true},
+                   false);
+      odom::moveDistance(-25, 1'000, pushParams);
       odom::moveDistance(5, 1'000);
       wings_left->retract();
 
@@ -173,9 +177,9 @@ void autonomous() {
       // Gets the ball under the intake and releases intake from stored position
       blocker_1->toggle();
       blocker_2->toggle();
-      pros::delay(300);
+      pros::delay(200);
       intake_motor->move(127);
-      pros::delay(300);
+      pros::delay(550);
       blocker_1->toggle();
       blocker_2->toggle();
       intake_motor->move(40);
@@ -274,12 +278,13 @@ void autonomous() {
       // go back to start
       odom::moveTo(-88, -28, 305, 2'000, {.lead = 0.3});
       wings_right->extend();
-      odom::moveDistance(-16, 2'000);
+      intake_motor->move(-30);
+      odom::moveDistance(-20, 2'000, {.exitOnStall = true});
       odom::turnTo(270);
       wings_right->retract();
 
       intake_motor->move(-60);
-      odom::moveTo(-37, -39, 270, 5'000,
+      odom::moveTo(-36, -41, 270, 5'000,
                    {.chasePower = 8, .lead = 0.1, .forwards = false});
       blocker_1->extend();
       blocker_2->extend();
@@ -287,6 +292,7 @@ void autonomous() {
       pros::delay(500);
       blocker_1->retract();
       blocker_2->retract();
+      odom::turnTo(285);
 
     } break;
 
@@ -370,12 +376,14 @@ void opcontrol() {
     }
 
     // intake
-    intake_motor->move(master.get_digital(DIGITAL_R1) * 127 -
-                       master.get_digital(DIGITAL_L1) * 127);
+    intake_motor->move(
+        master.get_digital(DIGITAL_R1) * 127 -
+        (master.get_digital(DIGITAL_L1) || master.get_digital(DIGITAL_R2)) *
+            127);
 
     // wings
-    if (master.get_digital_new_press(DIGITAL_R2) ||
-        master.get_digital_new_press(DIGITAL_L2)) {
+    // if (master.get_digital_new_press(DIGITAL_R2) ||
+    if (master.get_digital_new_press(DIGITAL_L2)) {
       bool extended = wings_left->is_extended() || wings_right->is_extended();
 
       if (extended) {

@@ -1,11 +1,16 @@
 # VEX 2023 - Over Under Code
 This repository holds the C++ code for KCD's VEX 2023 Over Under robot (95993A).
 
+## __Post Competition Update__
+This update was written after the Kentucky HS State Championship. Our 5 ball autonomous was highly successful, probably one of the best at the comp. We ended up 13th after qualis (6 wins, 2 losses, somehow being put after teams that had a 50% win ratio). We managed to get 7th in skills (tied for 3rd best prog score, 159 driver & 147 prog). 
+
+Unfortunately we got DQ'd during first elimination round because a very tinnny part of our robot touched the opponent elevation bar as we were driving underneath it during last 15 secs.
+
 ## Features:
 - Simple tank drive controls
 - 3 wheel odometry system
   - uses 2 internal encoders
-  - 1 exterior encoder for lateral movement
+  - 1 exterior encoder for lateral movement 
 - PID Control
 - Boomerang Control
   - For making curved turns
